@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (too large for git)
+Data/
+*.db
+*.db-journal
+*.jsonl
+*.json.gz
+*.csv.gz
+
+# Model files (too large for git)
+*.bin
+*.pt
+*.pth
+*.safetensors
+**/checkpoint-*/
+**/pytorch_model.bin
+
+# Results (can be regenerated)
+results/*.csv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Google Drive (symlinks)
+**/GoogleDrive*
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
