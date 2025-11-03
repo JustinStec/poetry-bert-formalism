@@ -80,16 +80,18 @@
 
 ---
 
-## Paper 2: Literary Studies Venue (Follow-up)
+## Paper 2: Poetics/Literary Theory Venue (Follow-up)
 
 ### Target Journals
-1. **PMLA** - Flagship, but competitive
-2. **Shakespeare Quarterly** - If Shakespeare-focused
-3. **ELH** - English Literary History
-4. **Studies in Philology** - Good for historical approach
+1. **Poetics Today** - PRIMARY TARGET (theory + computation, formalism focus)
+2. **New Literary History** - Theoretical/historical approaches
+3. **Modern Philology** - Historical + theoretical work
+4. **ELH** - English Literary History (backup)
 
 ### Article Title (Working)
-"Historical Semantics and Formal Constraint in Early Modern Poetry: Computational Evidence from Shakespeare and His Contemporaries"
+"Form as Semantic Constraint: Computational Evidence for Historical Poetics in Early Modern Verse"
+
+**Alternative:** "Historical Semantics and Formal Constraint in Early Modern Poetry: Computational Evidence from Shakespeare and His Contemporaries"
 
 ### Core Contribution
 - **Literary**: Deep interpretation of findings
@@ -243,10 +245,10 @@ Minimal overlap in actual prose, different audiences, different contributions.
 - **Impact**: Cited by computational humanities researchers
 - **Goal**: Establish trajectory tortuosity as viable method
 
-### Paper 2 (Literary)
-- **Success**: Acceptance at major literary journal (PMLA, ELH, SQ)
-- **Impact**: Cited by Shakespeare scholars, formalists
-- **Goal**: Bridge computational methods and literary studies
+### Paper 2 (Poetics/Literary Theory)
+- **Success**: Acceptance at Poetics Today or New Literary History
+- **Impact**: Cited by poetics scholars, new formalists, historical poetics researchers
+- **Goal**: Establish computational methods as critical tools for formalist interpretation
 
 ### Paper 3 (Comp Sci)
 - **Success**: Acceptance at ACL/EMNLP/CogSci

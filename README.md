@@ -93,8 +93,8 @@ Layer 3: +Prosody (meter, rhyme, position, couplet) ✓
   - Submit: December 2025
   - Publication: Mid 2026
 
-### Paper 2: Literary Studies (12 months)
-**Target**: PMLA / Shakespeare Quarterly / ELH
+### Paper 2: Poetics/Literary Theory (12 months)
+**Target**: Poetics Today / New Literary History / Modern Philology
 - **Contribution**: Deep literary interpretation + complete architecture
 - **Corpus**: Shakespeare + contemporaries (Donne, Spenser, Sidney)
 - **Findings**: Historical semantics, formal evolution, authorship patterns
