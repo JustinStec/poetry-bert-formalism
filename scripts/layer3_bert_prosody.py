@@ -27,8 +27,8 @@ import prosodic as p
 import argparse
 
 # Paths
-EEBO_BERT_PATH = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/Databases/Historical Embeddings/EEBO_1595-1700/eebo_bert_finetuned"
-POETRY_BERT_PATH = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/poetry_bert_trained"
+EEBO_BERT_PATH = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/EEBO_1595-1700/eebo_bert_finetuned"
+POETRY_BERT_PATH = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/poetry_bert_trained"
 SONNETS_PATH = "corpus_samples/shakespeare_sonnets_parsed.jsonl"
 OUTPUT_DIR = "results"
 

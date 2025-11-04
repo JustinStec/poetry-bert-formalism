@@ -20,8 +20,8 @@ import torch
 from tqdm import tqdm
 
 # Paths
-POETRY_BERT = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/poetry_bert_trained"
-EEBO_BERT = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/Databases/Historical Embeddings/EEBO_1595-1700/eebo_bert_finetuned"
+POETRY_BERT = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/poetry_bert_trained"
+EEBO_BERT = "/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive/AI and Poetry/EEBO_1595-1700/eebo_bert_finetuned"
 SONNETS_PATH = "Data/poetry_corpus/shakespeare_complete_works.jsonl"
 OUTPUT_DIR = "results"
 
