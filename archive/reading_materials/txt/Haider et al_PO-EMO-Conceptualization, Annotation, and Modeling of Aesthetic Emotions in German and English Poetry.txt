@@ -1,0 +1,870 @@
+                  PO-EMO: Conceptualization, Annotation, and Modeling of
+                     Aesthetic Emotions in German and English Poetry
+
+    Thomas Haider1,3 , Steffen Eger2 , Evgeny Kim3 , Roman Klinger3 , Winfried Menninghaus1
+                   1
+                       Department of Language and Literature, Max Planck Institute for Empirical Aesthetics
+                          2
+                            NLLG, Department of Computer Science, Technische Universitat Darmstadt
+                              3
+                                Institut für Maschinelle Sprachverarbeitung, University of Stuttgart
+                                 {thomas.haider, w.m}@ae.mpg.de, eger@aiphes.tu-darmstadt.de
+                                         {roman.klinger, evgeny.kim}@ims.uni-stuttgart.de
+
+                                                                 Abstract
+Most approaches to emotion analysis of social media, literature, news, and other domains focus exclusively on basic emotion categories as
+defined by Ekman or Plutchik. However, art (such as literature) enables engagement in a broader range of more complex and subtle emo-
+tions. These have been shown to also include mixed emotional responses. We consider emotions in poetry as they are elicited in the reader,
+rather than what is expressed in the text or intended by the author. Thus, we conceptualize a set of aesthetic emotions that are predictive of
+aesthetic appreciation in the reader, and allow the annotation of multiple labels per line to capture mixed emotions within their context. We
+evaluate this novel setting in an annotation experiment both with carefully trained experts and via crowdsourcing. Our annotation with
+experts leads to an acceptable agreement of κ = .70, resulting in a consistent dataset for future large scale analysis. Finally, we conduct
+first emotion classification experiments based on BERT, showing that identifying aesthetic emotions is challenging in our data, with up
+to .52 F1-micro on the German subset. Data and resources are available at https://github.com/tnhaider/poetry-emotion.
+
+Keywords: Emotion, Aesthetic Emotions, Literature, Poetry, Annotation, Corpora, Emotion Recognition, Multi-Label
+
+
+                       1.   Introduction                                 the same time, many overall positive aesthetic emotions
+                                                                         encompass negative or mixed emotional ingredients (Men-
+Emotions are central to human experience, creativity and
+                                                                         ninghaus et al., 2019), e.g., feelings of suspense include
+behavior. Models of affect and emotion, both in psychology
+                                                                         both hopeful and fearful anticipations.
+and natural language processing, commonly operate on pre-
+                                                                         For these reasons, we argue that the analysis of literature
+defined categories, designated either by continuous scales of,
+                                                                         (with a focus on poetry) should rely on specifically selected
+e.g., Valence, Arousal and Dominance (Mohammad, 2016)
+                                                                         emotion items rather than on the narrow range of basic
+or discrete emotion labels (which can also vary in intensity).
+                                                                         emotions only. Our selection is based on previous research
+Discrete sets of emotions often have been motivated by
+                                                                         on this issue in psychological studies on art reception and,
+theories of basic emotions, as proposed by Ekman (1992)—
+                                                                         specifically, on poetry. For instance, Knoop et al. (2016)
+Anger, Fear, Joy, Disgust, Surprise, Sadness—and Plutchik
+                                                                         found that Beauty is a major factor in poetry reception.
+(1991), who added Trust and Anticipation. These categories
+                                                                         We primarily adopt and adapt emotion terms that Schindler
+are likely to have evolved as they motivate behavior that is
+                                                                         et al. (2017) have identified as aesthetic emotions in their
+directly relevant for survival. However, art reception typi-
+                                                                         study on how to measure and categorize such particular af-
+cally presupposes a situation of safety and therefore offers
+                                                                         fective states. Further, we consider the aspect that, when
+special opportunities to engage in a broader range of more
+                                                                         selecting specific emotion labels, the perspective of anno-
+complex and subtle emotions. These differences between
+                                                                         tators plays a major role. Whether emotions are elicited
+real-life and art contexts have not been considered in natural
+                                                                         in the reader, expressed in the text, or intended by the au-
+language processing work so far.
+                                                                         thor largely changes the permissible labels. For example,
+To emotionally move readers is considered a prime goal of                feelings of Disgust or Love might be intended or expressed
+literature since Latin antiquity (Johnson-Laird and Oatley,              in the text, but the text might still fail to elicit correspond-
+2016; Menninghaus et al., 2019; Menninghaus et al., 2015).               ing feelings as these concepts presume a strong reaction
+Deeply moved readers shed tears or get chills and goose-                 in the reader. Our focus here was on the actual emotional
+bumps even in lab settings (Wassiliwizky et al., 2017). In               experience of the readers rather than on hypothetical inten-
+cases like these, the emotional response actually implies                tions of authors. We opted for this reader perspective based
+an aesthetic evaluation: narratives that have the capacity to            on previous research in NLP (Buechel and Hahn, 2017a;
+move readers are evaluated as good and powerful texts for                Buechel and Hahn, 2017b) and work in empirical aesthetics
+this very reason. Similarly, feelings of suspense experienced            (Menninghaus et al., 2017), that specifically measured the re-
+in narratives not only respond to the trajectory of the plot’s           ception of poetry. Our final set of emotion labels consists of
+content, but are also directly predictive of aesthetic liking            Beauty/Joy, Sadness, Uneasiness, Vitality/Energy, Suspense,
+(or disliking). Emotions that exhibit this dual capacity have            Awe/Sublime, Humor, Annoyance, and Nostalgia.1
+been defined as “aesthetic emotions” (Menninghaus et al.,
+2019). Contrary to the negativity bias of classical emotion                  1
+                                                                              The concepts Beauty and Awe/Sublime primarily define object-
+catalogues, emotion terms used for aesthetic evaluation pur-             based aesthetic virtues. Kant (2001) emphasized that such virtues
+poses include far more positive than negative emotions. At               are typically intuitively felt rather than rationally computed. Such
+In addition to selecting an adapted set of emotions, the anno-        (Krishna et al., 2019; Gopidi and Alam, 2019). Further-
+tation of poetry brings further challenges, one of which is the       more, poetry also lends itself well to semantic (change)
+choice of the appropriate unit of annotation. Previous work           analysis (Haider, 2019; Haider and Eger, 2019), as linguistic
+considers words2 (Mohammad and Turney, 2013; Strappar-                invention (Underwood and Sellers, 2012; Herbelot, 2014)
+ava and Valitutti, 2004), sentences (Alm et al., 2005; Aman           and succinctness (Roberts, 2000) are at the core of poetic
+and Szpakowicz, 2007), utterances (Cevher et al., 2019), sen-         production.
+tence triples (Kim and Klinger, 2018), or paragraphs (Liu et          Corpus-based analysis of emotions in poetry has been con-
+al., 2019) as the units of annotation. For poetry, reasonable         sidered, but there is no work on German, and little on
+units follow the logical document structure of poems, i.e.,           English. Kao and Jurafsky (2015) analyze English po-
+verse (line), stanza, and, owing to its relative shortness, the       ems with word associations from the Harvard Inquirer and
+complete text. The more coarse-grained the unit, the more             LIWC, within the categories positive/negative outlook, pos-
+difficult the annotation is likely to be, but the more it may         itive/negative emotion and phys./psych. well-being. Hou
+also enable the annotation of emotions in context. We find            and Frank (2015) examine the binary sentiment polarity of
+that annotating fine-grained units (lines) that are hierarchi-        Chinese poems with a weighted personalized PageRank al-
+cally ordered within a larger context (stanza, poem) caters to        gorithm. Barros et al. (2013) followed a tagging approach
+the specific structure of poems, where emotions are regularly         with a thesaurus to annotate words that are similar to the
+mixed and are more interpretable within the whole poem.               words ‘Joy’, ‘Anger’, ‘Fear’ and ‘Sadness’ (moreover trans-
+Consequently, we allow the mixing of emotions already at              lating these from English to Spanish). With these word
+line level through multi-label annotation.                            lists, they distinguish the categories ‘Love’, ‘Songs to Lisi’,
+The remainder of this paper includes (1) a report of the              ‘Satire’ and ‘Philosophical-Moral-Religious’ in Quevedo’s
+annotation process that takes these challenges into consid-           poetry. Similarly, Alsharif et al. (2013) classify unique
+eration, (2) a description of our annotated corpora, and (3)          Arabic ‘emotional text forms’ based on word unigrams.
+an implementation of baseline models for the novel task of
+aesthetic emotion annotation in poetry. In a first study, the         Mohanty et al. (2018) create a corpus of 788 poems in the
+annotators work on the annotations in a closely supervised            Indian Odia language, annotate it on text (poem) level with
+fashion, carefully reading each verse, stanza, and poem. In           binary negative and positive sentiment, and are able to distin-
+a second study, the annotations are performed via crowd-              guish these with moderate success. Sreeja and Mahalakshmi
+sourcing within relatively short time periods with annotators         (2019) construct a corpus of 736 Indian language poems
+not seeing the entire poem while reading the stanza. Using            and annotate the texts on Ekman’s six categories + Love +
+these two settings, we aim at obtaining a better understand-          Courage. They achieve a Fleiss Kappa of .48.
+ing of the advantages and disadvantages of an expert vs.              In contrast to our work, these studies focus on basic emo-
+crowdsourcing setting in this novel annotation task. Par-             tions and binary sentiment polarity only, rather than ad-
+ticularly, we are interested in estimating the potential of a         dressing aesthetic emotions. Moreover, they annotate on the
+crowdsourcing environment for the task of self-perceived              level of complete poems (instead of fine-grained verse and
+emotion annotation in poetry, given time and cost overhead            stanza-level).
+associated with in-house annotation process (that usually
+involve training and close supervision of the annotators).
+We provide the final datasets of German and En-                       2.2.   Emotion Annotation
+glish language poems annotated with reader emotions
+on verse level at https://github.com/tnhaider/                        Emotion corpora have been created for different tasks and
+poetry-emotion.                                                       with different annotation strategies, with different units of
+                                                                      analysis and different foci of emotion perspective (reader,
+                    2.    Related Work                                writer, text). Examples include the ISEAR dataset (Scherer
+                                                                      and Wallbott, 1994) (document-level); emotion annotation
+2.1.   Poetry in Natural Language Processing
+                                                                      in children stories (Alm et al., 2005) and news headlines
+Natural language understanding research on poetry has in-             (Strapparava and Mihalcea, 2007) (sentence-level); and fine-
+vestigated stylistic variation (Kaplan and Blei, 2007; Kao            grained emotion annotation in literature by Kim and Klinger
+and Jurafsky, 2015; Voigt and Jurafsky, 2013), with a focus           (2018) (phrase- and word-level). We refer the interested
+on broadly accepted formal features such as meter (Greene et          reader to an overview paper on existing corpora (Bostan and
+al., 2010; Agirrezabal et al., 2016; Estes and Hench, 2016)           Klinger, 2018).
+and rhyme (Reddy and Knight, 2011; Haider and Kuhn,
+2018), as well as enjambement (Ruiz et al., 2017; Baumann             We are only aware of a limited number of publications which
+et al., 2018) and metaphor (Kesarwani et al., 2017; Reinig            look in more depth into the emotion perspective. Buechel
+and Rehbein, 2019). Recent work has also explored the                 and Hahn (2017a) report on an annotation study that focuses
+relationship of poetry and prose, mainly on a syntactic level         both on writer’s and reader’s emotions associated with En-
+                                                                      glish sentences. The results show that the reader perspective
+feelings of Beauty and Sublime have therefore come to be subsumed     yields better inter-annotator agreement. Yang et al. (2009)
+under the rubrique of aesthetic emotions in recent psychological      also study the difference between writer and reader emo-
+research (Menninghaus et al., 2019). For this reason, we refer to     tions, but not with a modeling perspective. The authors find
+the whole set of category labels as emotions throughout this paper.   that positive reader emotions tend to be linked to positive
+    2
+      to create emotion dictionaries                                  writer emotions in online blogs.
+            ������                                                        3.1.   German
+                      ������
+            ������                                                        The German corpus contains poems available from the web-
+                       �������
+            ������
+                                                                          site lyrik.antikoerperchen.de (ANTI-K), which
+  �������
+
+
+
+
+            ������
+                                                                          provides a platform for students to upload essays about po-
+            ������
+                                                                          ems. The data was available in the Hypertext Markup Lan-
+            ������
+                                                                          guage, with clean line and stanza segmentation, which we
+            ������
+                                                                          transformed into TEI P5. ANTI-K also has extensive meta-
+                 ��
+                  ����� ����� ����� ����� ����� ����� ����� ����� �����
+                                                                          data, including author names, years of publication, numbers
+                     ������������������������������������������������     of sentences, poetic genres, and literary periods, that enable
+                                                                          us to gauge the distribution of poems according to periods.
+Figure 1: Temporal distribution of poetry corpora (Kernel                 The 158 poems we consider (731 stanzas) are dispersed over
+Density Plots with bandwidth = 0.2).                                      51 authors and the New High German timeline (1575–1936
+                                                                          A.D.). This data has been annotated, besides emotions, for
+                                   German       English                   meter, rhythm, and rhyme in other studies (Haider and Kuhn,
+                                                                          2018; Haider et al., 2020).
+                     # tokens        20403         8082
+                     # lines          3650         1240                   3.2.   English
+                     # stanzas         731          174                   The English corpus contains 64 poems of popular English
+                     # poems           158           64                   writers. It was partly collected from Project Gutenberg with
+                     # authors          51           22                   the GutenTag tool,4 and, in addition, includes a number of
+                                                                          hand selected poems from the modern period and represents
+Table 1: Statistics on our poetry corpora PO-EMO.                         a cross section of popular English poets. We took care to
+Tokens without punctuation.                                               include a number of female authors, who would have been
+                                                                          underrepresented in a uniform sample. Time stamps in the
+2.3.            Emotion Classification                                    corpus are organized by the birth year of the author, as
+The task of emotion classification has been tackled before                assigned in Project Gutenberg.
+using rule-based and machine learning approaches. Rule-
+based emotion classification typically relies on lexical re-                             4.    Expert Annotation
+sources of emotionally charged words (Strapparava and Val-                In the following, we will explain how we compiled and an-
+itutti, 2004; Esuli and Sebastiani, 2006; Mohammad and                    notated three data subsets, namely, (1) 48 German poems
+Turney, 2013) and offers a straightforward and transparent                with gold annotation. These were originally annotated by
+way to detect emotions in text.                                           three annotators. The labels were then aggregated with ma-
+In contrast to rule-based approaches, current models for                  jority voting and based on discussions among the annotators.
+emotion classification are often based on neural networks                 Finally, they were curated to only include one gold annota-
+and commonly use word embeddings as features. Schuff                      tion. (2) The remaining 110 German poems that are used to
+et al. (2017) applied models from the classes of CNN, Bi-                 compute the agreement in table 3 and (3) 64 English poems
+LSTM, and LSTM and compare them to linear classifiers                     contain the raw annotation from two annotators.
+(SVM and MaxEnt), where the BiLSTM shows best results                     We report the genesis of our annotation guidelines including
+with the most balanced precision and recall. Abdul-Mageed                 the emotion classes. With the intention to provide a lan-
+and Ungar (2017) claim the highest F1 with gated recurrent                guage resource for the computational analysis of emotion
+unit networks (Chung et al., 2015) for Plutchik’s emotion                 in poetry, we aimed at maximizing the consistency of our
+model. More recently, shared tasks on emotion analysis                    annotation, while doing justice to the diversity of poetry.
+(Mohammad et al., 2018; Klinger et al., 2018) triggered                   We iteratively improved the guidelines and the annotation
+a set of more advanced deep learning approaches, includ-                  workflow by annotating in batches, cleaning the class set,
+ing BERT (Devlin et al., 2019) and other transfer learning                and the compilation of a gold standard. The final overall
+methods (Dankers et al., 2019).                                           cost of producing this expert annotated dataset amounts to
+                                                                          approximately A C3,500.
+                        3.    Data Collection
+For our annotation and modeling studies, we build on top                  4.1.   Workflow
+of two poetry corpora (in English and German), which we                   The annotation process was initially conducted by three
+refer to as PO-EMO. This collection represents important                  female university students majoring in linguistics and/or
+contributions to the literary canon over the last 400 years.              literary studies, which we refer to as our “expert annotators”.
+We make this resource available in TEI P5 XML3 and an                     We used the INCePTION platform for annotation5 (Klie et
+easy-to-use tab separated format. Table 1 shows a size                    al., 2018). Starting with the German poems, we annotated
+overview of these data sets. Figure 1 shows the distribution              in batches of about 16 (and later in some cases 32) poems.
+of our data over time via density plots. Note that both
+corpora show a relative underrepresentation before the onset                 4
+                                                                             https://gutentag.sdsu.edu/
+of the romantic period (around 1750).                                        5
+                                                                             https://www.informatik.tu-darmstadt.de/
+                                                                          ukp/research_6/current_projects/inception/
+     3
+         https://tei-c.org/guidelines/p5/                                 index.en.jsp
+ Factor                          Items                                                           κ         Ann. 1 %      Ann. 2 %
+ Negative emotions               anger/distasteful                                         en        de    en     de      en   de
+ Prototypical Aesthetic          beauty/sublime/being moved
+                                                                       Beauty / Joy        .77       .74   .31    .30    .26   .30
+ Emotions
+                                                                       Sadness             .72       .77   .21    .20    .20   .18
+ Epistemic Emotions              interest/insight
+                                                                       Uneasiness          .84       .77   .15    .19    .15   .18
+ Animation                       motivation/inspiration
+                                                                       Vitality / Energy   .50       .63   .12    .11    .18   .13
+ Nostalgia / Relaxation          nostalgic/calmed
+                                                                       Awe / Sublime       .71       .61   .07    .06    .07   .06
+ Sadness                         sad/melancholic
+                                                                       Suspense            .58       .65   .04    .07    .07   .08
+ Amusement                       funny/cheerful
+                                                                       Humor               .81       .68   .04    .05    .04   .05
+                                                                       Nostalgia           .81        —    .03     —     .03    —
+Table 2: Aesthetic Emotion Factors (Schindler et al., 2017).           Annoyance           .62       .65   .03    .04    .02   .02
+
+
+After each batch, we computed agreement statistics includ-        Table 3: Cohen’s kappa agreement levels and normalized
+ing heatmaps, and provided this feedback to the annotators.       line-level emotion frequencies for expert annotators (Nostal-
+For the first three batches, the three annotators produced a      gia is not available in the German data).
+gold standard using a majority vote for each line. Where
+this was inconclusive, they developed an adjudicated annota-                                         English     German
+tion based on discussion. Where necessary, we encouraged                         avg. κ               0.707      0.688
+the annotators to aim for more consistency, as most of the
+                                                                                 F1                   0.775      0.774
+frequent switching of emotions within a stanza could not be
+reconstructed or justified.                                                      F1 Majority          0.323      0.323
+In poems, emotions are regularly mixed (already on line                          F1 Random            0.108      0.119
+level) and are more interpretable within the whole poem.
+We therefore annotate lines hierarchically within the larger      Table 4: Top: averaged kappa scores and micro-F1 agree-
+context of stanzas and the whole poem. Hence, we instruct         ment scores, taking one annotator as gold. Bottom: Base-
+the annotators to read a complete stanza or full poem, and        lines.
+then annotate each line in the context of its stanza. To
+reflect on the emotional complexity of poetry, we allow a
+                                                                  of Schindler et al. (2017) who proposed 43 items that were
+maximum of two labels per line while avoiding heavy label
+                                                                  then grouped by a factor analysis based on self-evaluations
+fluctuations by encouraging annotators to reflect on their
+                                                                  of participants. The resulting factors are shown in Table 2.
+feelings to avoid ‘empty’ annotations. Rather, they were
+                                                                  We attempt to cover all identified factors and supplement
+advised to use fewer labels and more consistent annotation.
+                                                                  with basic emotions (Ekman, 1992; Plutchik, 1991), where
+This additional constraint is necessary to avoid “wild”, non-
+                                                                  possible.
+reconstructable or non-justified annotations.
+All subsequent batches (all except the first three) were only     We started with a larger set of labels to then delete and
+annotated by two out of the three initial annotators, coinci-     substitute (tone down) labels during the initial annotation
+dentally those two who had the lowest initial agreement with      process to avoid infrequent classes and inconsistencies. Fur-
+each other. We asked these two experts to use the generated       ther, we conflate labels if they show considerable confusion
+gold standard (48 poems; majority votes of 3 annotators           with each other. These iterative improvements particularly
+plus manual curation) as a reference (“if in doubt, annotate      affected Confusion, Boredom and Other that were very in-
+according to the gold standard”). This eliminated some sys-       frequently annotated and had little agreement among anno-
+tematic differences between them6 and markedly improved           tators (κ < .2). For German, we also removed Nostalgia
+the agreement levels, roughly from 0.3–0.5 Cohen’s κ in           (κ = .218) after gold standard creation, but after considera-
+the first three batches to around 0.6–0.8 κ for all subsequent    tion, added it back for English, then achieving agreement.
+batches. This annotation procedure relaxes the reader per-        Nostalgia is still available in the gold standard (then with
+spective, as we encourage annotators (if in doubt) to annotate    a second label Beauty/Joy or Sadness to keep consistency).
+how they think the other annotators would annotate. How-          However, Confusion, Boredom and Other are not available
+ever, we found that this formulation improves the usability       in any sub-corpus.
+of the data and leads to a more consistent annotation.            Our final set consists of nine classes, i.e., (in order of fre-
+                                                                  quency) Beauty/Joy, Sadness, Uneasiness, Vitality/Energy,
+4.2.   Emotion Labels                                             Suspense, Awe/Sublime, Humor, Annoyance, and Nostalgia.
+We opt for measuring the reader perspective rather than the       In the following, we describe the labels and give further
+text surface or author’s intent. To closer define and support     details on the aggregation process.
+conceptualizing our labels, we use particular ‘items’, as         Annoyance (annoys me/angers me/felt frustrated): Annoy-
+they are used in psychological self-evaluations. These items      ance implies feeling annoyed, frustrated or even angry while
+consist of adjectives, verbs or short phrases. We build on top    reading the line/stanza. We include the class Anger here, as
+                                                                  this was found to be too strong in intensity.
+   6
+   One person labeled lines with more negative emotions such as   Awe/Sublime (found it overwhelming/sense of greatness):
+Uneasiness and Annoyance and the person labeled more positive     Awe/Sublime implies being overwhelmed by the line/stanza,
+emotions such as Vitality/Energy and Beauty/Joy.                  i.e., if one gets the impression of facing something sublime
+                                                          German, Expert                                                                                            English, Expert                                                                                 English, Crowdsourcing
+                                                                                                                                                                                                                                                                                                                                                       250
+               Vitality     2           2           73 20                  0          7        10           3 239                   0           0           28            0        0          10             8         12 146 25 38 64 26 43 61 50 27 62
+
+           Uneasiness 11                8           35 17                  0         27 50 437 15                                   0           0             0           0        0          33 19 219 34                                     45 71 56 32 25 143 115 98 27
+                                                                                                                                                                                                                                                                                                                                                       200
+            Suspense        0           0           30 11                  0          8 144 13                          8           0           0             9           5        0           2            60           9           0         46 99 77 40 49 113 158 115 50
+
+             Sadness        8         45 50                       4        0 446 15 29 39                                           6           8           14            4        4 269 4                             31 32                   82 73 105 67 62 536 113 143 61                                                                          150
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                             Weight
+             Nostalgia      0           0             0           0        0          0         0           0           0           0           0             6           0      41            4             0           0           0         20 26 68 25 24 62 49 25 43
+
+               Humor        0           0           26 102 0                          9        12           2          10           0           7             0          56        0           0            27           3           8         27 22 25 60 25 67 40 32 26                                                                              100
+
+           Beauty/Joy       0         20 720 21                            0 101 14 15 44                                           0         17 411 13                            8          28 18                      2          80         49 82 230 25 68 105 77 56 64
+                                                                                                                                                                                                                                                                                                                                                       50
+          Awe/Sublime       0 117 48                              0        0          5        12           0          28           0         86 28                       0        0          23             0           0          22         31 80 82 22 26 73 99 71 38
+
+           Annoyance 60                 0             4           0        0          2         2         47 22                   24            0             0           0        0           3             0         10 15                   44 31 49 27 20 82 46 45 25
+                                                                                                                                                                                                                                                                                                                                                       0
+                                                                 Humor
+                          Annoyance
+
+
+
+
+                                                                         Nostalgia
+                                                                                     Sadness
+                                                                                               Suspense
+                                                                                                          Uneasiness
+
+
+
+
+                                                                                                                                                                         Humor
+                                                                                                                                  Annoyance
+
+
+
+
+                                                                                                                                                                                 Nostalgia
+
+
+                                                                                                                                                                                                            Suspense
+                                                                                                                                                                                                                       Uneasiness
+
+
+
+
+                                                                                                                                                                                                                                                                                      Humor
+                                                                                                                       Vitality
+
+
+
+
+                                                                                                                                                                                              Sadness
+
+
+
+
+                                                                                                                                                                                                                                    Vitality
+
+                                                                                                                                                                                                                                               Annoyance
+
+
+
+
+                                                                                                                                                                                                                                                                                              Nostalgia
+                                                                                                                                                                                                                                                                                                          Sadness
+                                                                                                                                                                                                                                                                                                                    Suspense
+                                                                                                                                                                                                                                                                                                                               Uneasiness
+                                                                                                                                                            Beauty/Joy
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                            Vitality
+                                      Awe/Sublime
+                                                    Beauty/Joy
+
+
+
+
+                                                                                                                                              Awe/Sublime
+
+
+
+
+                                                                                                                                                                                                                                                           Awe/Sublime
+                                                                                                                                                                                                                                                                         Beauty/Joy
+Figure 2: Emotion cooccurrence matrices for the German and English expert annotation experiments and the English
+crowdsourcing experiment.
+
+
+or if the line/stanza inspires one with awe (or that the expres-                                                                                                                         felt in poetry (being inadequate/too strong/high in arousal),
+sion itself is sublime). Such emotions are often associated                                                                                                                              and typically lead to Uneasiness.
+with subjects like god, death, life, truth, etc. The term Sub-                                                                                                                           Vitality/Energy (found it invigorating/spurs me on/inspires
+lime originated with Kant (2001) as one of the first aesthetic                                                                                                                           me): This label is meant for a line/stanza that has an inciting,
+emotion terms. Awe is a more common English term.                                                                                                                                        encouraging effect (if it conveys a feeling of movement,
+Beauty/Joy (found it beautiful/pleasing/makes me                                                                                                                                         energy and vitality which animates to action). Other terms:
+happy/joyful): Kant (2001) already spoke of a “feeling                                                                                                                                   Animated, Inspiration, Stimulation and Activation.7
+of beauty”, and it should be noted that it is not a ‘merely
+pleasing emotion’. Therefore, in our pilot annotations,                                                                                                                                      4.3.                      Agreement
+Beauty and Joy were separate labels. However, Schindler                                                                                                                                  Table 3 shows the Cohen’s κ agreement scores among our
+et al. (2017) found that items for Beauty and Joy load                                                                                                                                   two expert annotators for each emotion category e as follows.
+into the same factors. Furthermore, our pilot annotations                                                                                                                                We assign each instance (a line in a poem) a binary label
+revealed, while Beauty is the more dominant and frequent                                                                                                                                 indicating whether or not the annotator has annotated the
+feeling, both labels regularly accompany each other, and                                                                                                                                 emotion category e in question. From this, we obtain vectors
+they often get confused across annotators. Therefore, we                                                                                                                                 vie , for annotators i = 0, 1, where each entry of vie holds
+add Joy to form an inclusive label Beauty/Joy that increases                                                                                                                             the binary value for the corresponding line. We then apply
+consistency.                                                                                                                                                                             the κ statistics to the two binary vectors vie . Additionally to
+Humor (found it funny/amusing): Implies feeling amused                                                                                                                                   averaged κ, we report micro-F1 values in Table 4 between
+by the line/stanza or if it makes one laugh.                                                                                                                                             the multi-label annotations of both expert annotators as well
+Nostalgia (makes me nostalgic): Nostalgia is defined as                                                                                                                                  as the micro-F1 score of a random baseline as well as of
+a sentimental longing for things, persons or situations in                                                                                                                               the majority emotion baseline (which labels each line as
+the past. It often carries both positive and negative feel-                                                                                                                              Beauty/Joy).
+ings. However, since this label is quite infrequent, and not                                                                                                                             We find that Cohen κ agreement ranges from .84 for Un-
+available in all subsets of the data, we annotated it with an                                                                                                                            easiness in the English data, .81 for Humor and Nostalgia,
+additional Beauty/Joy or Sadness label to ensure annotation                                                                                                                              down to German Suspense (.65), Awe/Sublime (.61) and Vi-
+consistency.                                                                                                                                                                             tality/Energy for both languages (.50 English, .63 German).
+Sadness (makes me sad/touches me): If the line/stanza                                                                                                                                    Both annotators have a similar emotion frequency profile,
+makes one feel sad. It also includes a more general ‘be-                                                                                                                                 where the ranking is almost identical, especially for Ger-
+ing touched / moved’.                                                                                                                                                                    man. However, for English, Annotator 2 annotates more
+Suspense (found it gripping/sparked my interest): Choose                                                                                                                                 Vitality/Energy than Uneasiness. Figure 2 shows the con-
+Suspense if the line/stanza keeps one in suspense (if it excites                                                                                                                         fusion matrices of labels between annotators as heatmaps.
+one or triggers one’s curiosity). We removed Anticipation                                                                                                                                Notably, Beauty/Joy and Sadness are confused across anno-
+from the earlier Suspense/Anticipation label, as Anticipation                                                                                                                            tators more often than other labels. This is topical for poetry,
+appeared to us as being a more cognitive prediction whereas                                                                                                                              and therefore not surprising: One might argue that the beauty
+Suspense is a far more straightforward emotion item.                                                                                                                                     of beings and situations is only beautiful because it is not
+Uneasiness (found it ugly/unsettling/disturbing / frighten-                                                                                                                              enduring and therefore not to divorce from the sadness of
+ing/distasteful): This label covers situations when one feels                                                                                                                            the vanishing of beauty (Benjamin, 2016). We also find
+discomfort, when the line/stanza feels distasteful/ugly, un-                                                                                                                             considerable confusion of Sadness with Awe/Sublime and
+settling/disturbing or frightens one. The labels Ugliness and
+                                                                                                                                                                                                        7
+Disgust were conflated into Uneasiness, as both are seldom                                                                                                                                                  Activation appears stable across cultures (Jackson et al., 2019)
+Figure 3: Distribution of number of distinct emotion labels per logical document level in the expert-based annotation. No
+whole poem has more than 6 emotions. No stanza has more than 4 emotions.
+
+
+Vitality/Energy, while the latter is also regularly confused    The answers to both questions correspond to the emotion
+with Beauty/Joy.                                                labels we defined to use in our annotation, as described in
+Furthermore, as shown in Figure 3, we find that no single       Section 4.2. We add an additional answer choice “None” to
+poem aggregates to more than six emotion labels, while no       Question 2 to allow annotators to say that a stanza does not
+stanza aggregates to more than four emotion labels. How-        evoke any additional emotions.
+ever, most lines and stanzas prefer one or two labels. Ger-     Each instance is annotated by ten people. We restrict the
+man poems seem more emotionally diverse where more              task geographically to the United Kingdom and Ireland and
+poems have three labels than two labels, while the majority     set the parameters on Figure Eight to only have the highest
+of English poems have only two labels. This is however          quality annotators join the task. We pay A
+                                                                                                         C0.09 per instance.
+attributable to the generally shorter English texts.            The final cost of the crowdsourcing experiment is AC74.
+
+          5.   Crowdsourcing Annotation                         5.2.   Results
+After concluding the expert annotation, we performed a fo-
+                                                                In the following, we determine the best aggregation strategy
+cused crowdsourcing experiment, based on the final label
+                                                                regarding the 10 annotators with bootstrap resampling. For
+set and items as they are listed in Table 5 and Section 4.2.
+                                                                instance, one could assign the label of a specific emotion
+With this experiment, we aim to understand whether it is
+                                                                to an instance if just one annotators picks it, or one could
+possible to collect reliable judgements for aesthetic percep-
+                                                                assign the label only if all annotators agree on this emotion.
+tion of poetry from a crowdsourcing platform. A second
+                                                                To evaluate this, we repeatedly pick two sets of 5 annotators
+goal is to see whether we can replicate the expensive expert
+                                                                each out of the 10 annotators for each of the 59 stanzas, 1000
+annotations with less costly crowd annotations.
+                                                                times overall (i.e., 1000×59 times, bootstrap resampling).
+We opted for a maximally simple annotation environment,
+                                                                For each of these repetitions, we compare the agreement of
+where we asked participants to annotate English 4-line stan-
+                                                                these two groups of 5 annotators. Each group gets assigned
+zas with self-perceived reader emotions. We choose English
+                                                                with an adjudicated emotion which is accepted if at least
+due to the higher availability of English language annota-
+                                                                one annotator picks it, at least two annotators pick it, etc. up
+tors on crowdsourcing platforms. Each annotator rates each
+                                                                to all five pick it.
+stanza independently of surrounding context.
+                                                                We show the results in Table 5. The κ scores show the av-
+5.1.     Data and Setup                                         erage agreement between the two groups of five annotators,
+For consistency and to simplify the task for the annotators,    when the adjudicated class is picked based on the particular
+we opt for a trade-off between completeness and granularity     threshold of annotators with the same label choice. We see
+of the annotation. Specifically, we subselect stanzas com-      that some emotions tend to have higher agreement scores
+posed of four verses from the corpus of 64 hand selected        than others, namely Annoyance (.66), Sadness (up to .52),
+English poems. The resulting selection of 59 stanzas is         and Awe/Sublime, Beauty/Joy, Humor (all .46). The maxi-
+uploaded to Figure Eight8 for annotation.                       mum agreement is reached mostly with a threshold of 2 (4
+The annotators are asked to answer the following questions      times) or 3 (3 times).
+for each instance.                                              We further show in the same table the average numbers
+Question 1 (single-choice): Read the following stanza and       of labels from each strategy. Obviously, a lower threshold
+decide for yourself which emotions it evokes.                   leads to higher numbers (corresponding to a disjunction of
+Question 2 (multiple-choice): Which additional emotions         annotations for each emotion). The drop in label counts
+does the stanza evoke?                                          is comparably drastic, with on average 18 labels per class.
+                                                                Overall, the best average κ agreement (.32) is less than
+   8
+       https://www.figure-eight.com/                            half of what we saw for the expert annotators (roughly .70).
+                                                     κ                                           Counts
+             Threshold           ≥1      ≥2       ≥3       ≥4        ≥5          ≥1       ≥2       ≥3     ≥4      ≥5
+             Beauty / Joy         .21     .41     .46      .28          –       34.58    15.98     7.51   3.23    1.43
+             Sadness              .43     .47     .52      .02       −.04       43.34    28.99    17.77   9.52    2.82
+             Uneasiness           .18     .25     .08     −.01          –       36.47    16.33     5.49   1.54    1.04
+             Vitality             .15     .26     .19        –          –       25.62     7.34     2.02   1.05    1.00
+             Awe / Sublime        .31     .17     .37      .46          –        29.8    11.36      3.4   1.31    1.00
+             Suspense             .11     .29     .21      .26          –       39.12     17.8     6.54   1.97    1.04
+             Humor                .19     .46     .39      ≈0           –       19.26     5.36      2.1   1.22    1.07
+             Nostalgia            .23     .01    −.02        –          –       30.52    10.16     1.95   1.00    1.00
+             Annoyance            .01     .07     .66        0          –       26.54     6.17     1.35   1.00    1.00
+             Average             0.20    0.27     0.32     0.14      −0.04      31.69    13.28     5.35   2.43    1.27
+
+Table 5: Results obtained via boostrapping for annotation aggregation. The row Threshold shows how many people within a
+group of five annotators should agree on a particular emotion. The column labeled Counts shows the average number of
+times certain emotion was assigned to a stanza given the threshold. Cells with ‘–’ mean that neither of two groups satisfied
+the threshold.
+
+
+Crowds especially disagree on many more intricate emotion
+labels (Uneasiness, Vitality/Energy, Nostalgia, Suspense).
+We visualize how often two emotions are used to label an
+instance in a confusion table in Figure 2. Sadness is used
+most often to annotate a stanza, and it is often confused with
+Suspense, Uneasiness, and Nostalgia. Further, Beauty/Joy
+partially overlaps with Awe/Sublime, Nostalgia, and Sad-
+ness.
+On average, each crowd annotator uses two emotion labels
+per stanza (56% of cases); only in 36% of the cases the an-
+notators use one label, and in 6% and 1% of the cases three
+and four labels, respectively. This contrasts with the expert
+annotators, who use one label in about 70% of the cases and
+two labels in 30% of the cases for the same 59 four-liners.
+Concerning frequency distribution for emotion labels, both
+experts and crowds name Sadness and Beauty/Joy as the                  Figure 4: Agreement between experts and crowds as a func-
+most frequent emotions (for the ‘best’ threshold of 3) and             tion of the number N of crowd workers.
+Nostalgia as one of the least frequent emotions. The Spear-
+man rank correlation between experts and crowds is about
+                                                                       emotion, we then compute Cohen’s κ as before. Note that,
+0.55 with respect to the label frequency distribution, indicat-
+                                                                       compared to our previous experiments in Section 5.2 with a
+ing that crowds could replace experts to a moderate degree
+                                                                       threshold, each stanza now receives an emotion annotation
+when it comes to extracting, e.g., emotion distributions for
+                                                                       (exactly one or two emotion labels), both by the experts and
+an author or time period. Now, we further compare crowds
+                                                                       the crowd-workers.
+and experts in terms of whether crowds could replicate ex-
+                                                                       In Figure 4, we plot agreement between experts and crowds
+pert annotations also on a finer stanza level (rather than only
+                                                                       on stanza level as we vary the number N of crowd work-
+on a distributional level).
+                                                                       ers involved. On average, there is roughly a steady linear
+5.3.   Comparing Experts with Crowds                                   increase in agreement as N grows, which may indicate that
+To gauge the quality of the crowd annotations in comparison            N = 20 or N = 30 would still lead to better agreement.
+with our experts, we calculate agreement on the emotions               Concerning individual emotions, Nostalgia is the emotion
+between experts and an increasing group size from the crowd.           with the least agreement, as opposed to Sadness (in our sam-
+For each stanza instance s, we pick N crowd workers, where             ple of 59 four-liners): the agreement for this emotion grows
+N ∈ {4, 6, 8, 10}, then pick their majority emotion for s,             from .47 κ with N = 4 to .65 κ with N = 10. Sadness is
+and additionally pick their second ranked majority emotion             also the most frequent emotion, both according to experts
+if at least N2 −1 workers have chosen it.9 For the experts, we         and crowds. Other emotions for which a reasonable agree-
+aggregate their emotion labels on stanza level, then perform           ment is achieved are Annoyance, Awe/Sublime, Beauty/Joy,
+the same strategy for selection of emotion labels. Thus, for           Humor (κ > 0.2). Emotions with little agreement are Vital-
+s, both crowds and experts have 1 or 2 emotions. For each              ity/Energy, Uneasiness, Suspense, Nostalgia (κ < 0.2).
+                                                                       By and large, we note from Figure 2 that expert annotation
+   9
+     For workers, we additionally require that an emotion has been     is more restrictive, with experts agreeing more often on
+chosen by at least 2 workers.                                          particular emotion labels (seen in the darker diagonal).
+The results of the crowdsourcing experiment, on the other                                             German       Multiling.
+hand, are a mixed bag as evidenced by a much sparser distri-
+                                                                                  Model            dev     test    dev    test
+bution of emotion labels. However, we note that these differ-
+ences can be caused by 1) the disparate training procedure                        Majority         .212   .167     .176   .150
+for the experts and crowds, and 2) the lack of opportunities                      MULTILING        .409   .341     .461   .384
+                                                                                  BASE             .500   .439       –      –
+for close supervision and on-going training of the crowds,
+                                                                                  BASETUNED        .477   .514       –      –
+as opposed to the in-house expert annotators.
+                                                                                  DBMDZ            .520   .520       –      –
+In general, however, we find that substituting experts with
+crowds is possible to a certain degree. Even though the
+                                                                        Table 6: BERT-based multi-label classification on stanza-
+crowds’ labels look inconsistent at first view, there appears
+                                                                        level.
+to be a good signal in their aggregated annotations, help-
+ing to approximate expert annotations to a certain degree.
+                                                                          Label              Precision    Recall    F1           Support
+The average κ agreement (with the experts) we get from
+N = 10 crowd workers (0.24) is still considerably below                   Beauty/Joy         0.5000       0.5556    0.5263           18
+the agreement among the experts (0.70).                                   Sadness            0.5833       0.4667    0.5185           15
+                                                                          Uneasiness         0.6923       0.5625    0.6207           16
+                        6.    Modeling                                    Vitality/Energy    1.0000       0.5333    0.6957           15
+                                                                          Annoyance          1.0000       0.4000    0.5714           10
+To estimate the difficulty of automatic classification of our             Awe/Sublime        0.5000       0.3000    0.3750           10
+data set, we perform multi-label10 document classification                Suspense           0.6667       0.1667    0.2667           12
+(of stanzas) with BERT (Devlin et al., 2019). For this ex-                Humor              1.0000       0.2500    0.4000           12
+periment we aggregate all labels for a stanza and sort them
+                                                                          micro avg          0.6667       0.4259    0.5198          108
+by frequency, both for the gold standard and the raw expert
+                                                                          macro avg          0.7428       0.4043    0.4968          108
+annotations. As can be seen in Figure 3, a stanza bears a                 weighted avg       0.7299       0.4259    0.5100          108
+minimum of one and a maximum of four emotions. Unfor-                     samples avg        0.5804       0.4464    0.4827          108
+tunately, the label Nostalgia is only available 16 times in
+the German data (the gold standard) as a second label (as               Table 7: Recall and precision scores of the best model (db-
+discussed in Section 4.2). None of our models was able to               mdz) for each emotion on the test set. ‘Support’: number of
+learn this label for German. Therefore we omit it, leaving              instances with this label.
+us with eight proper labels.
+We use the code and the pre-trained BERT models
+of FARM,11 provided by deepset.ai. We test the                          higher than recall. The labels Awe/Sublime, Suspense and
+multilingual-uncased model (M ULTILING), the german-                    Humor are harder to predict than the other labels.
+base-cased model (BASE),12 the german-dbmdz-uncased                     The BASE and BASE TUNED models perform slightly worse
+model (D BMDZ),13 and we tune the BASE model on 80k                     than DBMDZ. The effect of tuning of the BASE model is
+stanzas of the German Poetry Corpus DLK (Haider and                     questionable, probably because of the restricted vocabulary
+Eger, 2019) for 2 epochs, both on token (masked words) and              (30k). We found that tuning on poetry does not show obvious
+sequence (next line) prediction (BASE T UNED ).                         improvements. Lastly, we find that models that were trained
+We split the randomized German dataset so that each label               on lines (instead of stanzas) do not achieve the same F1
+is at least 10 times in the validation set (63 instances, 113           (~.42 for the German models).
+labels), and at least 10 times in the test set (56 instances, 108
+labels) and leave the rest for training (617 instances, 946                           7.    Concluding Remarks
+labels).14 We train BERT for 10 epochs (with a batch size               In this paper, we presented a dataset of German and English
+of 8), optimize with entropy loss, and report F1-micro on               poetry annotated with reader response to reading poetry. We
+the test set. See Table 6 for the results.                              argued that basic emotions as proposed by psychologists
+We find that the multilingual model cannot handle infre-                (such as Ekman and Plutchik) that are often used in emotion
+quent categories, i.e., Awe/Sublime, Suspense and Humor.                analysis from text are of little use for the annotation of poetry
+However, increasing the dataset with English data improves              reception. We instead conceptualized aesthetic emotion
+the results, suggesting that the classification would largely           labels and showed that a closely supervised annotation task
+benefit from more annotated data. The best model overall                results in substantial agreement—in terms of κ score—on
+is DBMDZ (.520), showing a balanced response on both                    the final dataset.
+validation and test set. See Table 7 for a breakdown of all
+                                                                        The task of collecting reader-perceived emotion response to
+emotions as predicted by the this model. Precision is mostly
+                                                                        poetry in a crowdsourcing setting is not straightforward. In
+  10                                                                    contrast to expert annotators, who were closely supervised
+      We found that single-label classification had only marginally
+                                                                        and reflected upon the task, the annotators on crowdsourc-
+better performance, even though the task is simpler.
+   11
+      https://github.com/deepset-ai/FARM                                ing platforms are difficult to control and may lack necessary
+   12
+      There was no uncased model available.                             background knowledge to perform the task at hand. How-
+   13
+      https://github.com/dbmdz a model by the Bavarian                  ever, using a larger number of crowd annotators may lead
+state library that was also trained on literature.                      to finding an aggregation strategy with a better trade-off be-
+   14                                                                   tween quality and quantity of adjudicated labels. For future
+      We do the same for the English data (at least 5 labels) and add
+the stanzas to the respective sets.                                     work, we thus propose to repeat the experiment with larger
+number of crowdworkers, and develop an improved training          Georg Trakl: In den Nachmittag geflüstert (1912)
+strategy that would suit the crowdsourcing environment.           Sonne, herbstlich dünn und zag,    [Beauty/Joy] [Nostalgia]
+The dataset presented in this paper can be of use for different   Und das Obst fällt von den Bäumen. [Beauty/Joy] [Nostalgia]
+                                                                  Stille wohnt in blauen Räumen      [Beauty/Joy]
+application scenarios, including multi-label emotion classi-      Einen langen Nachmittag.           [Beauty/Joy]
+fication, style-conditioned poetry generation, investigating
+                                                                  Sterbeklänge von Metall;              [Sadness] [Uneasiness]
+the influence of rhythm/prosodic features on emotion, or          Und ein weißes Tier bricht nieder.    [Sadness] [Uneasiness]
+analysis of authors, genres and diachronic variation (e.g.,       Brauner Mädchen rauhe Lieder          [Sadness] [Nostalgia]
+                                                                  Sind verweht im Blätterfall.          [Sadness] [Nostalgia]
+how emotions are represented differently in certain periods).
+Further, though our modeling experiments are still rudimen-       Stirne Gottes Farben träumt,          [Uneasiness] [Awe/Sublime]
+                                                                  Spürt des Wahnsinns sanfte Flügel.    [Uneasiness] [Awe/Sublime]
+tary, we propose that this data set can be used to investigate    Schatten drehen sich am Hügel         [Uneasiness] [Awe/Sublime]
+the intra-poem relations either through multi-task learning       Von Verwesung schwarz umsäumt.        [Uneasiness] [Awe/Sublime]
+(Schulz et al., 2018) and/or with the help of hierarchical        Dämmerung voll Ruh und Wein;          [Beauty/Joy]
+sequence classification approaches.                               Traurige Guitarren rinnen.            [Beauty/Joy]
+                                                                  Und zur milden Lampe drinnen          [Beauty/Joy]
+                                                                  Kehrst du wie im Traume ein.          [Beauty/Joy]
+                       Acknowledgements
+A special thanks goes to Gesine Fuhrmann, who cre-                Walt Whitman: O Captain! My Captain! (1865)
+ated the guidelines and tirelessly documented the an-             O Captain! my Captain! our fearful trip is done,                  [Beauty/Joy]
+notation progress. Also thanks to Annika Palm and                 The ship has weather’d every rack, the prize we sought is won,    [Beauty/Joy]
+                                                                  The port is near, the bells I hear, the people all exulting,      [Beauty/Joy]
+Debby Trzeciak who annotated and gave lively feedback.            While follow eyes the steady keel, the vessel grim and daring;    [Beauty/Joy]
+For help with the conceptualization of labels we thank            But O heart! heart! heart!                                        [Sadness]
+                                                                  O the bleeding drops of red,                                      [Sadness]
+Ines Schindler. This research has been partially con-             Where on the deck my Captain lies,                                [Sadness]
+ducted within the CRETA center (http://www.creta.                 Fallen cold and dead.                                             [Sadness]
+uni-stuttgart.de/) which is funded by the German                  O Captain! my Captain! rise up and hear the bells;                [Vitality]
+Ministry for Education and Research (BMBF) and partially          Rise up – for you the flag is flung – for you the bugle trills,   [Vitality]
+                                                                  For you bouquets and ribbon’d wreaths –
+funded by the German Research Council (DFG), projects                                              for you the shores a-crowding,   [Vitality]
+SEAT (Structured Multi-Domain Emotion Analysis from               For you they call, the swaying mass, their eager faces turning;   [Vitality]
+                                                                  Here Captain! dear father!                                        [Vitality]
+Text, KL 2869/1-1). This work has also been supported by          This arm beneath your head!                                       [Vitality]
+the German Research Foundation as part of the Research            It is some dream that on the deck,                                [Sadness]
+                                                                  You’ve fallen cold and dead.                                      [Sadness]
+Training Group Adaptive Preparation of Information from
+Heterogeneous Sources (AIPHES) at the Technische Uni-             My Captain does not answer, his lips are pale and still,         [Sadness]
+                                                                  My father does not feel my arm, he has no pulse nor will,        [Sadness]
+versität Darmstadt under grant No. GRK 1994/1.                    The ship is anchor’d safe and sound, its voyage closed and done, [Vitality] [Sadn.]
+                                                                  From fearful trip the victor ship comes in with object won;      [Vitality] [Sadn.]
+                                                                  Exult O shores, and ring O bells!                                [Vitality] [Sadn.]
+                                                                  But I with mournful tread,                                       [Sadness]
+                                                                  Walk the deck my Captain lies,                                   [Sadness]
+                                                                  Fallen cold and dead.                                            [Sadness]
+
+                              Appendix
+We illustrate two examples of our German gold standard                         8.     Bibliographical References
+annotation, a poem each by Friedrich Hölderlin and Georg
+Trakl, and an English poem by Walt Whitman. Hölder-               Abdul-Mageed, M. and Ungar, L. (2017). EmoNet: Fine-
+lin’s text stands out, because the mood changes starkly             grained emotion detection with gated recurrent neural
+from the first stanza to the second, from Beauty/Joy to             networks. In Proceedings of the 55th Annual Meeting of
+Sadness. Trakl’s text is a bit more complex with bits of            the Association for Computational Linguistics (Volume 1:
+Nostalgia and, most importantly, a mixture of Uneasiness            Long Papers), pages 718–728, Vancouver, Canada, July.
+with Awe/Sublime. Whitman’s poem is an example of Vi-               Association for Computational Linguistics.
+tality and its mixing with Sadness. The English annotation        Agirrezabal, M., Alegria, I., and Hulden, M. (2016). Ma-
+was unified by us for space constraints. For the full anno-         chine learning for metrical analysis of English poetry.
+tation please see https://github.com/tnhaider/                      In Proceedings of COLING 2016, the 26th International
+poetry-emotion/                                                     Conference on Computational Linguistics: Technical Pa-
+                                                                    pers, pages 772–781, Osaka, Japan, December. The COL-
+Friedrich Hölderlin: Hälfte des Lebens (1804)                       ING 2016 Organizing Committee.
+Mit gelben Birnen hänget         [Beauty/Joy]                     Alm, C. O., Roth, D., and Sproat, R. (2005). Emotions from
+Und voll mit wilden Rosen        [Beauty/Joy]
+Das Land in den See,             [Beauty/Joy]
+                                                                    text: Machine learning for text-based emotion prediction.
+Ihr holden Schwäne,              [Beauty/Joy]                       In Proceedings of Human Language Technology Confer-
+Und trunken von Küssen           [Beauty/Joy]
+Tunkt ihr das Haupt              [Beauty/Joy]
+                                                                    ence and Conference on Empirical Methods in Natural
+Ins heilignüchterne Wasser.      [Beauty/Joy]                       Language Processing, pages 579–586, Vancouver, British
+Weh mir, wo nehm’ ich, wenn       [Sadness]
+                                                                    Columbia, Canada, October. Association for Computa-
+Es Winter ist, die Blumen, und wo [Sadness]                         tional Linguistics.
+Den Sonnenschein,                 [Sadness]
+Und Schatten der Erde?            [Sadness]                       Alsharif, O., Alshamaa, D., and Ghneim, N. (2013). Emo-
+Die Mauern stehn                  [Sadness]                         tion classification in arabic poetry using machine learning.
+Sprachlos und kalt, im Winde      [Sadness]
+Klirren die Fahnen.               [Sadness]                         International Journal of Computer Applications, 65(16).
+Aman, S. and Szpakowicz, S. (2007). Identifying expres-       Ekman, P. (1992). An argument for basic emotions. Cogni-
+  sions of emotion in text. In Václav Matoušek et al., edi-     tion & emotion, 6(3-4):169–200.
+  tors, Text, Speech and Dialogue, pages 196–205, Berlin,     Estes, A. and Hench, C. (2016). Supervised machine learn-
+  Heidelberg. Springer Berlin Heidelberg.                       ing for hybrid meter. In Proceedings of the Fifth Work-
+Barros, L., Rodriguez, P., and Ortigosa, A. (2013). Auto-       shop on Computational Linguistics for Literature, pages
+  matic classification of literature pieces by emotion de-      1–8.
+  tection: A study on quevedo’s poetry. In 2013 Humaine       Esuli, A. and Sebastiani, F. (2006). Sentiwordnet: A pub-
+  Association Conference on Affective Computing and In-         licly available lexical resource for opinion mining. In Pro-
+  telligent Interaction, pages 141–146. IEEE.                   ceedings of the 5th Conference on Language Resources
+Baumann, T., Hussein, H., and Meyer-Sickendiek, B.              and Evaluation (LREC’06, pages 417–422.
+  (2018). Style detection for free verse poetry from text     Gopidi, A. and Alam, A. (2019). Computational analysis of
+  and speech. In Proceedings of the 27th International Con-     the historical changes in poetry and prose. In Proceedings
+  ference on Computational Linguistics, pages 1929–1940.        of the 1st International Workshop on Computational Ap-
+Benjamin, W. (2016). Goethes Wahlverwandtschaften.              proaches to Historical Language Change, pages 14–22.
+  BoD–Books on Demand.                                        Greene, E., Bodrumlu, T., and Knight, K. (2010). Auto-
+Bostan, L.-A.-M. and Klinger, R. (2018). An analysis of         matic analysis of rhythmic poetry with applications to
+  annotated corpora for emotion classification in text. In      generation and translation. In Proceedings of the 2010
+  Proceedings of the 27th International Conference on Com-      conference on empirical methods in natural language
+  putational Linguistics, pages 2104–2119, Santa Fe, New        processing, pages 524–533.
+  Mexico, USA, aug. Association for Computational Lin-        Haider, T. and Eger, S. (2019). Semantic change and emerg-
+  guistics.                                                     ing tropes in a large corpus of new high german poetry. In
+Buechel, S. and Hahn, U. (2017a). EmoBank: Studying             Proceedings of the 1st International Workshop on Com-
+  the impact of annotation perspective and representation       putational Approaches to Historical Language Change,
+  format on dimensional emotion analysis. In Proceedings        pages 216–222.
+  of the 15th Conference of the European Chapter of the As-   Haider, T. and Kuhn, J. (2018). Supervised rhyme detec-
+  sociation for Computational Linguistics: Volume 2, Short      tion with siamese recurrent networks. In Proceedings of
+  Papers, pages 578–585, Valencia, Spain, April. Associa-       the Second Joint SIGHUM Workshop on Computational
+  tion for Computational Linguistics.                           Linguistics for Cultural Heritage, Social Sciences, Hu-
+Buechel, S. and Hahn, U. (2017b). Readers vs. writers           manities and Literature at COLING 2018, Santa Fe New
+  vs. texts: Coping with different perspectives of text un-     Mexico, pages 81–86.
+  derstanding in emotion annotation. In Proceedings of        Haider, T., Trzeciak, D., and Kentner, G. (2020). Speech
+  the 11th Linguistic Annotation Workshop, pages 1–12,          rhythm and syntax in poetry and prose. In In Proceed-
+  Valencia, Spain, April. Association for Computational         ings of the International Digital Humanities Conference
+  Linguistics.                                                  DH2020, Ottawa. accepted.
+Cevher, D., Zepf, S., and Klinger, R. (2019). Towards         Haider, T. (2019). Diachronic topics in new high german
+  multimodal emotion recognition in german speech events        poetry. In In Proceedings of the International Digital
+  in cars using transfer learning. In Conference on Natural     Humanities Conference DH2019, Utrecht.
+  Language Processing (KONVENS).                              Herbelot, A. (2014). The semantics of poetry: a distribu-
+Chung, J., Gulcehre, C., Cho, K., and Bengio, Y. (2015).        tional reading. Digital Scholarship in the Humanities,
+  Gated feedback recurrent neural networks. In Proceed-         30(4):516–531.
+  ings of the 32Nd International Conference on Interna-       Hou, Y. and Frank, A. (2015). Analyzing sentiment in clas-
+  tional Conference on Machine Learning - Volume 37,            sical Chinese poetry. In Proceedings of the 9th SIGHUM
+  ICML’15, pages 2067–2075. JMLR.org.                           Workshop on Language Technology for Cultural Heritage,
+Dankers, V., Rei, M., Lewis, M., and Shutova, E. (2019).        Social Sciences, and Humanities (LaTeCH), pages 15–
+  Modelling the interplay of metaphor and emotion through       24, Beijing, China, July. Association for Computational
+  multitask learning. In Proceedings of the 2019 Confer-        Linguistics.
+  ence on Empirical Methods in Natural Language Pro-          Jackson, J. C., Watts, J., Henry, T. R., List, J.-M., Forkel, R.,
+  cessing and the 9th International Joint Conference on         Mucha, P. J., Greenhill, S. J., Gray, R. D., and Lindquist,
+  Natural Language Processing (EMNLP-IJCNLP), pages             K. A. (2019). Emotion semantics show both cultural vari-
+  2218–2229, Hong Kong, China, November. Association            ation and universal structure. Science, 366(6472):1517–
+  for Computational Linguistics.                                1522.
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K.          Johnson-Laird, P. N. and Oatley, K., (2016). Handbook
+  (2019). BERT: Pre-training of deep bidirectional trans-       of emotions, chapter Emotions in Music, Literature, and
+  formers for language understanding. In Proceedings of         Film, pages 82–97. Guilford Publications.
+  the 2019 Conference of the North American Chapter of        Kant, I. (2001). Critique of the Power of Judgment.
+  the Association for Computational Linguistics: Human          (P.Guyer & E. Matthews, Trans.). Cambridge, England:
+  Language Technologies, Volume 1 (Long and Short Pa-           Cambridge University Press (Original work published
+  pers), pages 4171–4186, Minneapolis, Minnesota, June.         1790).
+  Association for Computational Linguistics.                  Kao, J. T. and Jurafsky, D. (2015). A computational analy-
+  sis of poetic style. LiLT (Linguistic Issues in Language       Mohammad, S., Bravo-Marquez, F., Salameh, M., and Kir-
+  Technology), 12.                                                 itchenko, S. (2018). SemEval-2018 task 1: Affect in
+Kaplan, D. M. and Blei, D. M. (2007). A computational              tweets. In Proceedings of The 12th International Work-
+  approach to style in american poetry. In Seventh IEEE            shop on Semantic Evaluation, pages 1–17, New Orleans,
+  International Conference on Data Mining (ICDM 2007),             Louisiana, June. Association for Computational Linguis-
+  pages 553–558. IEEE.                                             tics.
+Kesarwani, V., Inkpen, D., Szpakowicz, S., and Tanasescu,        Mohammad, S. M. (2016). Sentiment analysis: Detecting
+  C. (2017). Metaphor detection in a poetry corpus. In             valence, emotions, and other affectual states from text. In
+  Proceedings of the Joint SIGHUM Workshop on Compu-               Emotion measurement, pages 201–237. Elsevier.
+  tational Linguistics for Cultural Heritage, Social Sciences,   Mohanty, G., Mishra, P., and Mamidi, R. (2018). Kabithaa:
+  Humanities and Literature, pages 1–9.                            An annotated corpus of odia poems with sentiment po-
+Kim, E. and Klinger, R. (2018). Who feels what and why?            larity information. In Girish Nath Jha, et al., editors,
+  annotation of a literature corpus with semantic roles of         Proceedings of the Eleventh International Conference on
+  emotions. In Proceedings of the 27th International Con-          Language Resources and Evaluation (LREC 2018), Paris,
+  ference on Computational Linguistics, pages 1345–1359,           France, may. European Language Resources Association
+  Santa Fe, New Mexico, USA, August. Association for               (ELRA).
+  Computational Linguistics.                                     Plutchik, R. (1991). The Emotions. University Press of
+Klie, J.-C., Bugert, M., Boullosa, B., de Castilho, R. E.,         America.
+  and Gurevych, I. (2018). The INCEpTION platform:               Reddy, S. and Knight, K. (2011). Unsupervised discovery
+  Machine-assisted and knowledge-oriented interactive an-          of rhyme schemes. In Proceedings of the 49th Annual
+  notation. In Proceedings of the 27th International Confer-       Meeting of the Association for Computational Linguistics:
+  ence on Computational Linguistics: System Demonstra-             Human Language Technologies, pages 77–82.
+  tions, pages 5–9.                                              Reinig, I. and Rehbein, I. (2019). Metaphor detection for
+Klinger, R., De Clercq, O., Mohammad, S., and Balahur,             german poetry. Proceedings of the 15th Conference on
+  A. (2018). IEST: WASSA-2018 implicit emotions shared             Natural Language Processing (KONVENS 2019).
+  task. In Proceedings of the 9th Workshop on Computa-           Roberts, P. (2000). How Poetry Works. Penguin UK.
+  tional Approaches to Subjectivity, Sentiment and Social        Ruiz, P., Cantón, C. M., Poibeau, T., and González-Blanco,
+  Media Analysis, pages 31–42, Brussels, Belgium, October.         E. (2017). Enjambment detection in a large diachronic
+  Association for Computational Linguistics.                       corpus of spanish sonnets. In Proceedings of the Joint
+Knoop, C. A., Wagner, V., Jacobsen, T., and Menninghaus,           SIGHUM Workshop on Computational Linguistics for
+  W. (2016). Mapping the aesthetic space of literature             Cultural Heritage, Social Sciences, Humanities and Liter-
+  “from below”. Poetics, 56:35–49.                                 ature, pages 27–32.
+Krishna, A., Sharma, V. D., Santra, B., Chakraborty, A., Sat-    Scherer, K. R. and Wallbott, H. G. (1994). Evidence for
+  uluri, P., and Goyal, P. (2019). Poetry to prose conversion      universality and cultural variation of differential emotion
+  in sanskrit as a linearisation task: A case for low-resource     response patterning. Journal of personality and social
+  languages. In Proceedings of the 57th Annual Meeting             psychology, 66(2):310.
+  of the Association for Computational Linguistics, pages        Schindler, I., Hosoya, G., Menninghaus, W., Beermann, U.,
+  1160–1166.                                                       Wagner, V., Eid, M., and Scherer, K. R. (2017). Measur-
+Liu, C., Osama, M., and De Andrade, A. (2019). DENS: A             ing aesthetic emotions: A review of the literature and a
+  dataset for multi-class emotion analysis. In Proceedings         new assessment tool. PloS one, 12(6):e0178899.
+  of the 2019 Conference on Empirical Methods in Natu-           Schuff, H., Barnes, J., Mohme, J., Padó, S., and Klinger,
+  ral Language Processing and the 9th International Joint          R. (2017). Annotation, modelling and analysis of fine-
+  Conference on Natural Language Processing (EMNLP-                grained emotions on a stance and sentiment detection
+  IJCNLP), pages 6294–6299, Hong Kong, China, Novem-               corpus. In Proceedings of the 8th Workshop on Computa-
+  ber. Association for Computational Linguistics.                  tional Approaches to Subjectivity, Sentiment and Social
+Menninghaus, W., Wagner, V., Hanich, J., Wassiliwizky,             Media Analysis, pages 13–23, Copenhagen, Denmark,
+  E., Kuehnast, M., and Jacobsen, T. (2015). Towards               September. Association for Computational Linguistics.
+  a psychological construct of being moved. PloS one,            Schulz, C., Eger, S., Daxenberger, J., Kahse, T., and
+  10(6):e0128451.                                                  Gurevych, I. (2018). Multi-task learning for argumenta-
+Menninghaus, W., Wagner, V., Wassiliwizky, E., Jacobsen,           tion mining in low-resource settings. In Proceedings of
+  T., and Knoop, C. A. (2017). The emotional and aesthetic         the 2018 Conference of the North American Chapter of
+  powers of parallelistic diction. Poetics, 63:47–59.              the Association for Computational Linguistics: Human
+Menninghaus, W., Wagner, V., Wassiliwizky, E., Schindler,          Language Technologies, Volume 2 (Short Papers), pages
+  I., Hanich, J., Jacobsen, T., and Koelsch, S. (2019).            35–41, New Orleans, Louisiana, June. Association for
+  What are aesthetic emotions? Psychological review,               Computational Linguistics.
+  126(2):171.                                                    Sreeja, S. P. and Mahalakshmi, G. S. (2019). Perc-an emo-
+Mohammad, S. M. and Turney, P. D. (2013). Crowdsourc-              tion recognition corpus for cognitive poems. In 2019
+  ing a word–emotion association lexicon. Computational            International Conference on Communication and Signal
+  Intelligence, 29(3):436–465.                                     Processing (ICCSP), pages 0200–0207, April.
+Strapparava, C. and Mihalcea, R. (2007). Semeval-2007
+  task 14: Affective text. In Proceedings of the Fourth In-
+  ternational Workshop on Semantic Evaluations (SemEval-
+  2007), pages 70–74. Association for Computational Lin-
+  guistics.
+Strapparava, C. and Valitutti, A. (2004). WordNet affect:
+  an affective extension of WordNet. In Proceedings of
+  the Fourth International Conference on Language Re-
+  sources and Evaluation (LREC’04). European Language
+  Resources Association (ELRA).
+Underwood, T. and Sellers, J. (2012). The emergence
+  of literary diction. The Journal of Digital Humanities,
+  1(2), pages http://journalofdigitalhumanities.org/1–
+  2/theemergence–of–literary–diction–by–ted–
+  underwoodand–jordan–sellers/.
+Voigt, R. and Jurafsky, D. (2013). Tradition and modernity
+  in 20th century chinese poetry. In Proceedings of the
+  Workshop on Computational Linguistics for Literature,
+  pages 17–22.
+Wassiliwizky, E., Jacobsen, T., Heinrich, J., Schneiderbauer,
+  M., and Menninghaus, W. (2017). Tears falling on goose-
+  bumps: Co-occurrence of emotional lacrimation and emo-
+  tional piloerection indicates a psychophysiological climax
+  in emotional arousal. Frontiers in Psychology, 8:41.
+Yang, C., Lin, K. H., and Chen, H. (2009). Writer
+  meets reader: Emotion analysis of social media from
+  both the writer’s and reader’s perspectives. In 2009
+  IEEE/WIC/ACM International Joint Conference on Web
+  Intelligence and Intelligent Agent Technology, volume 1,
+  pages 287–290, Sep.

@@ -1,0 +1,632 @@
+                  ARTICLE
+                  https://doi.org/10.1057/s41599-024-02933-6               OPEN
+
+                  Computational thematics: comparing algorithms
+                  for clustering the genres of literary ﬁction
+                  Oleg Sobchuk1 ✉ & Artjoms Šeļa                  2
+
+
+
+
+                  What are the best methods of capturing thematic similarity between literary texts? Knowing
+                  the answer to this question would be useful for automatic clustering of book genres, or any
+1234567890():,;
+
+
+
+
+                  other thematic grouping. This paper compares a variety of algorithms for unsupervised
+                  learning of thematic similarities between texts, which we call “computational thematics”.
+                  These algorithms belong to three steps of analysis: text pre-processing, extraction of text
+                  features, and measuring distances between the lists of features. Each of these steps includes
+                  a variety of options. We test all the possible combinations of these options. Every combi-
+                  nation of algorithms is given a task to cluster a corpus of books belonging to four pre-tagged
+                  genres of ﬁction. This clustering is then validated against the “ground truth” genre labels.
+                  Such comparison of algorithms allows us to learn the best and the worst combinations for
+                  computational thematic analysis. To illustrate the difference between the best and the worst
+                  methods, we then cluster 5000 random novels from the HathiTrust corpus of ﬁction.
+
+
+
+
+                  1 Department of Human Behavior, Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany. 2 Institute of Polish Language,
+
+                  Polish Academy of Sciences, Kraków, Poland. ✉email: oleg_sobchuk@eva.mpg.de
+
+                  HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                               1
+ARTICLE                                   HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+
+
+C
+Introduction
+         omputational literary studies have rapidly grown in pro-             manual tagging: supervised machine learning of book genres using
+         minence over the recent years. One of the most successful            a training dataset with manually tagged genres (Piper et al., 2021;
+         directions of inquiry within this domain, in terms of both           Underwood, 2019). This approach has important strengths: it is
+methodological advances and empirical ﬁndings, has been com-                  easily scalable and it provides not qualitative but quantitative
+putational stylometry, or computational stylistics: a discipline that         estimates of a book’s belongingness to a genre. Still, it has a pro-
+develops algorithmic techniques for learning stylistic similarities           blem: it can only assign genre tags included in the training dataset,
+between texts (Bories et al., 2023; Burrows, 1987; Eder et al.,               and it cannot ﬁnd new, unexpected book populations—which is an
+2016). For this purpose, computational stylometrists extract lin-             important component of the historical study of literature. The third
+guistic features speciﬁcally associated with authorial style or               approach is unsupervised clustering of genres: algorithmic detection
+individual authorial habits. Often, these features are the most               of book populations based on their similarity to each other (Calvo
+frequent words from the analyzed literary texts—they tend to be               Tello, 2021; Schöch, 2017). This approach is easily scalable, allows
+function words (“a”, “the”, “on”, etc.)—to which various measures             quantitative characterization of book genres, and does not require a
+of similarity (e.g., Euclidean distance) are applied. The most                training dataset with manually assigned tags, thus allowing to
+common goal of computational stylistics is attributing the                    detection of previously unknown book populations. All these fea-
+authorship of texts where it is disputed like the authorship of               tures of unsupervised clustering make it highly suitable for his-
+Molière’s plays (Caﬁero and Camps, 2019), the Nobel Prize-                    torical research, and this is why we will focus on it in this paper.
+winning novel And Quiet Flows the Don (Iosifyan and Vlasov,                      Unsupervised clustering can be conducted in a variety of ways.
+2020), or Shakespeare and Fletcher’s play Henry VIII (Plecháč,                For example, texts can be lemmatized or not lemmatized; as text
+2021). Thanks to numerous systematic comparisons of various                   features, simple word frequencies can be used or some higher-level
+approaches to computational stylometry, we now have a fairly                  units, such as topics of a topic model; to measure the similarity
+good idea of which procedures and textual features are the most               between texts, a host of distance metrics can be applied. Hence, the
+effective ones—depending on the goal of stylometric analysis, the             question is: what are the best computational methods for detecting
+language of texts, or their genre (Evert et al., 2017; Neal et al.,           thematic similarities in literary texts? This is the main question of
+2017; Plecháč et al., 2018).                                                  this paper. To answer it, we will compare various combinations of
+    At the same time, we lack such systematic comparisons in the              (1) pre-processing (which, in this study, we will also call “thematic
+research area that might be called “computational thematics”: the             foregrounding”), (2) text features, and (3) the metrics used for
+study of thematic similarities between texts. (Thematic simila-               measuring the distance between features. To assess the effective-
+rities: say, that novels A and B both tell a love story or have a             ness of these combinations, we use a tightly controlled corpus of
+“fantasy” setting.) Why is learning about thematic similarities               four well-known genres—detective ﬁction, science ﬁction, fantasy,
+important? Genre—a group of texts united by broad thematic                    and romance—as our “ground truth” dataset. To illustrate the
+similarities (e.g., fantasy, romance, or science ﬁction) is a central         signiﬁcant difference between the best and the worst combinations
+concept in literary studies, necessary not only for categorizing and          of algorithms for genre detection, we later cluster genres in a much
+cataloging books but also for the historical scholarship of litera-           larger corpus, containing 5000 works of ﬁction.
+ture. The deﬁnition of genres used in this study is more speciﬁc:
+following a long tradition of evolutionary thinking in the
+humanities (Fowler, 1971; Moretti, 2005), we understand genres                Materials and methods
+as evolving populations of texts that emerge at certain moments               Data: The “ground truth” genres. Systematic research on com-
+of time, spread across the ﬁeld of literary production, and then              putational stylistics is common, while research on computational
+disappear in their original form—usually becoming stepping                    thematics is still rare (Allison et al., 2011; Schöch, 2017; Šeļa et al.,
+stones for subsequent genres (Fowler, 1971). For example, the                 2022; Underwood, 2016; Wilkens, 2016). Why? Computational
+genre of “classical” detective ﬁction crystallized in the 1890–1930s          stylistics has clear “ground truth” data against which various
+and then gave birth to multiple other genres of crime ﬁction, such            methods of text analysis can be compared: authorship. The methods
+as “hardboiled crime ﬁction”, “police procedural”, “historical                of text analysis in computational stylistics (e.g., Delta distance or
+detective”, and others (Symons, 1985). This understanding of                  Cosine distance) can be compared as to how well they perform in
+cultural phenomena as populations, consisting of items (in our                the task of classifying texts by their authorship. We write “ground
+case, books) similar to each other due to common descent (that is,            truth” in quotes, as authorship is no more than a convenient proxy
+shared inﬂuences) is also common in the research on cultural                  for stylistic similarity, and, as any proxy, it is imprecise. It assumes
+evolution (Baraghith, 2020; Houkes, 2012).                                    that texts written by the same author should be more similar to each
+    Studying the historical dynamics of genres—not only in literature,        other than texts written by different authors. However, we know
+but also in music or visual arts—is an important task of art history          many cases when the writing style of an author would evolve sig-
+and sociology, and digital archives allow doing so on a much larger           niﬁcantly over the span of their career or would be deliberately
+scale (Allison et al., 2011; Klimek et al., 2019; Sigaki et al., 2018). But   manipulated (Brennan et al., 2012). Authorship as a proxy for
+to gain the most from this larger scale, we must identify the best,           “ground truth” is a simpliﬁcation—but a very useful one.
+most reliable algorithms for detecting the thematic signal in books—             The lack of a widely accepted “ground truth” proxy for thematic
+similarly to how computational stylometrists have learned the most            analysis leads to the comparisons of algorithms that are based on
+effective algorithms for detecting the signal of authorship.                  nothing more than subjective judgment (Egger and Yu, 2022).
+    Quantitative analysis of genres usually takes one of these forms.         Such subjective judgment cannot lead us far: we need quantitative
+The ﬁrst one is the manual tagging of books by genre—often,                   metrics of the performance of different algorithms. For this, an
+through large-scale crowdsourced efforts, like the Goodreads                  imperfect “ground truth” is better than none at all. What could
+website (Thelwall, 2019). This approach is prone to human bias, it            become such an imperfect, but still useful, ground truth in
+is laborious and also based on the idea that the differences between          computational thematics? At the moment, these are genre
+genre populations are qualitative, not quantitative (e.g., a certain          categories. They capture, to a different degree, the thematic
+book is either a “detective” or “romance”, or both, but not 0.78              similarities between texts. To a different degree, as genres can be
+detectives and 0.22 romance, which, we think, would be a more                 organized according to several principles, or “axes of categoriza-
+informative description). The second approach is an extension of              tion”: e.g., they can be based on the similarity of storylines
+
+2                           HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6                                         ARTICLE
+
+ Table 1 Examples of books in each genre corpus (full list in                century science ﬁction). Third, each genre corpus has a similar
+ Supplementary materials).                                                   number of authors (29–31 authors), each represented by 1–3
+                                                                             texts. Several examples of books in each genre are shown in
+                                                                             Table 1. The complete list of books is in Supplementary Materials.
+ Genre                Examples
+                                                                             Before starting our analysis, we pre-registered this list on Open
+ Detective ﬁction     Josephine Tey, The Daughter of Time, 1951              Science Framework’s website (https://osf.io/rce2w).
+                      Agatha Christie, At Bertram’s Hotel, 1965
+                      Colin Dexter, Last Bus to Woodstock, 1975
+                      Peter Lovesey, The False Inspector Dew, 1982
+                      Sue Grafton, M is for Malice, 1996
+                                                                             Analysis: The race of algorithms. To compare the methods of
+ Fantasy ﬁction       J. R. R. Tolkien, The Fellowship of the Ring, 1954     detecting thematic signals, we developed a workﬂow consisting of
+                      Michael Moorcock, Stormbringer, 1965                   four steps—see Fig. 1. Same as our corpus, all the detailed steps of
+                      Ursula K. Le Guin, The Tombs of Atuan, 1970            the workﬂow were pre-registered.
+                      Terry Pratchett, The Color of Magic, 1983
+                      J. K. Rowling, Harry Potter and the Philosopher’s      Step 1. Choosing a combination of thematic foregrounding, fea-
+                      Stone, 1997                                            tures, and distance. As a ﬁrst step, we choose a combination of (a)
+ Romance ﬁction       Barbara Cartland, Love is the Enemy, 1952              the level of thematic foregrounding, (b) the features of analysis,
+                      Jackie Collins, The World is Full of Married Men,      and (c) the measure of distance.
+                      1968                                                      By thematic foregrounding (Step 1a on Fig. 1) we mean the
+                      Gordon Merrick, The Lord Won’t Mind, 1970              extent to which the thematic aspects of a text are highlighted (and
+                      Danielle Steel, A Perfect Stranger, 1981
+                                                                             the stylistic aspects—backdropped). With weak thematic fore-
+                      Diana Gabaldon, Outlander, 1991
+ Science ﬁction       Robert A. Heinlein, Double Star, 1956
+                                                                             grounding, only the most basic text pre-processing is done:
+                      Arthur C. Clarke, 2001: A Space Odyssey, 1968          lemmatizing words and removing 100 most frequent words
+                      Frank Herbert, Children of Dune, 1976                  (MFWs)—the most obvious carriers of strong stylistic signal. 100
+                      C. J. Cherryh, Downbelow Station, 1981                 MFWs roughly correspond to function words (or closed-class
+                      Kim Stanley Robinson, Red Mars, 1992                   words) in English, routinely used in authorship attribution (Chung
+                                                                             and Pennebaker, 2007; Stamatatos, 2009) beginning with the
+                                                                             classical study of Federalist Papers (Mosteller and Wallace, 1963).
+(adventure novel, crime novel, etc.), settings (historical novel,            With medium thematic foregrounding, in addition to lemmatizing,
+dystopian novel, etc.), emotions they evoke in readers (horror               we also remove entities (named entities, proper names, etc.) using
+novel, humorous novel, etc.), or their target audience (e.g., young          SpaCy tagger (https://spacy.io/). Additionally, we perform part-of-
+adult novels). It does seem that these various “axes of categoriza-          speech tagging and remove all the words that are not nouns, verbs,
+tion” correlate: say, “young adult” novels are appreciated by young          adjectives, or adverbs, which are the most content-bearing parts of
+adults because they often have particular topics or storylines. Or,          speech. With strong thematic foregrounding, in addition to all the
+horror novels usually have a broad, but consistent, arsenal of               steps of the medium foregrounding, we also apply lexical
+themes and settings that are efﬁcient at evoking pleasant fear in            simpliﬁcation. We simplify the vocabulary by replacing less
+readers (like the classical haunted house). Still, some axes of genre        frequent words with their more frequent synonyms—namely, we
+categorization are probably better for comparing the methods of              replace all words outside of 1000 MFWs with their more common
+computational thematics than others. Genres deﬁned by their plots            semantic neighbors (out of 10 closest neighbors), with the help of
+or settings may provide a clearer thematic signal than genres                pre-trained FastText model that includes 2 million words and is
+deﬁned by their target audience or evoked emotions.                          trained on English Wikipedia (Grave et al., 2018).
+   We have assembled a tightly controlled corpus of four genres                 Then, we transform our pre-processed texts into lists of features
+(50 texts in each) based on their plots and settings:                        (Step 1b on Fig. 1). We vary both the type of features and the length
+                                                                             of lists. We consider four types of features. The simplest features are
+  ●    Detective ﬁction (recurrent themes: murder, detective,
+                                                                             the most frequent words as used in the bag-of-words approach
+       suspects, investigation).
+                                                                             (1000, 5000, or 10,000 of them)—a common choice for thematic
+  ●    Fantasy ﬁction (recurrent themes: magic, imaginary
+                                                                             analysis in computational literary studies (Hughes et al., 2012;
+       creatures, quasi-medieval setting).
+                                                                             Underwood, 2019). The second type of feature is topic probabilities
+  ●    Romance ﬁction (recurrent themes: affection, erotic scenes,
+                                                                             generated with the Latent Dirichlet Allocation (LDA) algorithm
+       love triangle plot).
+                                                                             (Blei et al., 2003)—another common choice (Jockers, 2013; Liu
+  ●    Science ﬁction (recurrent themes: space, future,
+                                                                             et al., 2021). LDA has several parameters that can inﬂuence results,
+       technology).
+                                                                             such as the predeﬁned k of topics or the number of most frequent
+   Our goal was to include books that would be rather                        words used. Plus, a long text like a novel is too large for meaningful
+uncontroversial members of their genres. Thus, we picked                     LDA topic modeling, and the typical solution is dividing the text
+canonical representatives of each genre, winners of genre-based              into smaller chunks. We use an arbitrary chunk size of 1000 words.
+prizes (e.g., Hugo and Nebula awards for science ﬁction, the Gold            The third type of feature is modules generated with weighted
+Dagger award for detective ﬁction), and books with the largest               correlation network analysis, also known as weighted gene co-
+numbers of ratings in respective genres on the Goodreads website             expression network analysis (WGCNA)—a method of dimension-
+(www.goodreads.com). We took several precautions to remove                   ality reduction that detects clusters (or “modules”) in networks
+potential confounds. First, these genres are situated on a similar           (Langfelder and Horvath, 2008). WGCNA is widely used in genetics
+level of abstraction: we are not comparing rough-grain categories            (Bailey et al., 2016; Ramírez-González et al., 2018), but also showed
+(say, romance or science ﬁction) to ﬁne-grain ones (historical               promising results as a tool for topic modeling of ﬁction (Elliott,
+romance or cyberpunk science ﬁction). Second, we limited the                 2017). We used it with either 1000 or 5000 most frequent words.
+time span of the book publication year to a rather short period of           Typically, WGCNA is used without chunking data, but, since
+1950–1999: to make sure that our analysis is not affected too                chunking leads to better results in LDA, we decided to try using
+much by language change (which would inevitably happen if we                 WGCNA with and without chunking, with the chunk size of 1000
+compared, for example, 19th-century gothic novels to 20th-                   words. All the parameters of WGCNA were kept at defaults. Finally,
+
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                         3
+ARTICLE                                   HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+
+
+Fig. 1 Four steps of the analysis. The workﬂow includes two loops. Big loop goes through various combinations of thematic foregrounding (Step 1a),
+feature type (1b), and distance metric (1c). For each such combination, a smaller loop is run: it randomly draws a genre-stratiﬁed sample of 120 novels
+(Step 2), clusters the novels using the Ward algorithm (Step 3), and validates the clusters on the dendrogram using the Adjusted Rand Index (Step 4). As a
+result, each combination receives an ARI score: a score of its performance in detecting genres.
+
+
+as the fourth type of feature, we use document-level embeddings               probability distributions (in our case, this can be done for LDA
+doc2vec (Lau and Baldwin, 2016; Le and Mikolov, 2014) that                    topics and bag-of-words features).
+directly position documents in a latent semantic space deﬁned by a              Variants of Step 1a, 1b, and 1c, can be assembled in numerous
+pre-trained distributional language model—FastText (Grave et al.,             combinations. In our “race of algorithms”, each combination is a
+2018). Document representations in doc2vec depend on the features             competitor—and a potential winner. Say, we could choose a
+of the underlying model: in our study, each document is embedded              combination of weak thematic foregrounding, LDA topics with
+in 300 dimensions of the original model. Doc2vec and similar word             50 topics on 5000 most frequent words, and Euclidean distance.
+embedding methods are increasingly used for assessing the                     Or, medium thematic foregrounding, simple bag-of-words with
+similarity of documents (Dynomant et al., 2019; Kim et al., 2019;             10,000 most frequent words, and Jensen–Shannon divergence.
+Pranjic et al., 2020). As a result of Step 1b, we obtain a document-          Some of these combinations are researchers’ favorites, while
+term matrix formed of texts (rows) and features (columns).                    others are underdogs—used rarely, or not at all. Our goal is to
+   Finally, we must learn the similarity between the texts                    map out the space of possible combinations—to empirically test
+represented with the chosen lists of features—by using some                   how each combination performs in the task of detecting the
+metric of distance (Step 1c on Fig. 1). There exist a variety of              thematic signal. In total, there are 291 competing combinations.
+metrics for this purpose: Euclidean, Manhattan, Delta, Cosine,
+Cosine Delta distances and Jensen–Shannon divergence (symme-                  Step 2. Sampling for robust results. A potential problem with our
+trized Kullback–Leibler divergence) for features that are                     experiment is that some combinations might perform better or
+
+4                            HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6                                           ARTICLE
+
+worse simply because they are more suitable to our speciﬁc cor-              does larger thematic foregrounding improve genre clustering? As
+pus—for whatever reason. To reduce the impact of individual                  expected, we have found that low thematic foregrounding shows the
+novels in our corpus, we use cross-validation: instead of analyzing          worst performance across all four feature types (see Fig. 3). For
+the corpus as a whole, we analyze smaller samples from it multiple           LDA and bag-of-words, it leads to drastically worse performance.
+times. Each sample contains 120 novels: 30 books from each                   At the same time, we do not see a large difference between the
+genre. Altogether, we perform the analysis for each combination              medium and the strong levels of thematic foregrounding. The major
+on 100 samples. For each sample, all the models that require                 difference in the strong level of thematic foregrounding is the use of
+training—LDA, WGCNA, and doc2vec—are trained anew.                           lexical simpliﬁcation. However, lexical simpliﬁcation has not led to
+                                                                             a noticeable improvement in genre recognition. The gains of using
+Step 3. Clustering. As a result of Step 2, we obtain a matrix of text        strong thematic foregrounding for document embeddings, LDA,
+distances. Then, we need to cluster the texts into groups—our                and bag-of-words are marginal and inconsistent.
+automatically generated genre clusters, which we will later com-
+pare to the “true” clusters. For this, we could have used a variety          Conclusion 2. Various feature types show similarly good per-
+of algorithms (e.g., k-means). We use hierarchical clustering with           formance. Does the choice of feature type matter for the per-
+Ward’s linkage (Ward, 1963): it clusters two items when the                  formance of genre clustering? We have found that almost all
+resulting clusters maximize variance across the distance matrix.             feature types can perform well. As shown in Fig. 2, three out of
+Despite being originally deﬁned only for Euclidean distances, it             four feature types—doc2vec, LDA, and bags of words—when
+was empirically shown that Ward’s algorithm outperforms other                used in certain combinations, can lead to almost equally good
+linkage strategies in text-clustering tasks (Ochab et al., 2019). We         results. But how good are they on average? Fig. 4 shows the
+assume that novels from four deﬁned genres should roughly form               posterior distributions of ARI for each type of feature—in each
+four distinct clusters (as the similarity of texts within the genre is       case, for a high level of thematic foregrounding.
+greater than the similarity of texts across genres). To obtain the              As we see, doc2vec shows the best average performance, but this
+groupings from a resulting tree we cut it vertically by the number           study has not experimented enough with other parameters of this
+of assumed clusters (which is 4).                                            feature type. It might be that another number of dimensions (e.g.,
+                                                                             100 instead of 300) would worsen its performance. More research
+Step 4. Cluster validation. How similar are our generated clusters           is needed to better understand the performance of doc2vec. LDA
+to the “true” genre populations? To learn this, we compare the               is the second-best approach—and interestingly, the variation of
+clusters generated by each chosen combination to the original                parameters in LDA (such as k of topics or n of MFWs) does not
+genre labels. For this, we use a measure of cluster validation called        increase the variance compared to doc2vec. The bag-of-words
+the adjusted Rand index (ARI) (Hubert and Arabie, 1985). The                 approach, despite being simplest, proves to be surprisingly good. It
+ARI score of a particular combination shows how well this                    does not demonstrate the best performance, but it is not far
+combination performs in the task of detecting genres—and thus,               behind LDA. At the same time, bags of words have a powerful
+in picking the thematic signal. Steps 1–4 are performed for every            advantage: simplicity. They are simpler to use and require fewer
+combination so that every combination receives its ARI score. At             computational resources, meaning that in many cases they can still
+the end of the analysis, we obtained a dataset of 29,100 rows (291           be a suitable choice for thematic analysis. Finally, WGCNA shows
+combinations, each tested on 100 random samples).                            the worst ARI scores on average.
+
+Results                                                                      Conclusion 3. The performance of LDA does not seem to
+Figure 2 shows the average performance of all the combinations               depend on k of topics and n of most frequent words. LDA
+of thematic foregrounding, features, and distance metrics. Our               modeling depends on parameters, namely k of topics and n of
+ﬁrst observation: the average ARI of the best-performing algo-               most frequent words, which should be decided, somewhat arbi-
+rithms ranges from 0.66 to 0.7, which is rather high for the                 trarily, before modeling. There exist algorithms for estimating the
+complicated, noisy data that is literary ﬁction. This gives addi-            “good” number of topics, which help assess how many topics are
+tional support to the idea that unsupervised clustering of ﬁction            “too few” and how many are “too many” (Sbalchiero and Eder,
+genres is possible. Even a cursory look at the 10 best-performing            2020). In our study, however, we ﬁnd no meaningful inﬂuence of
+combinations immediately reveals several trends. First, none of              either of these choices on learning the thematic signal (Fig. 5).
+the top combinations have weak thematic foregrounding. Second,               The single most important factor making a massive inﬂuence on
+6 out of 10 best-performing features are LDA topics. Third, 8 out            the effectiveness of thematic classiﬁcation is thematic fore-
+of 10 distances on this list are Jensen–Shannon divergence.                  grounding. Weak thematic foregrounding (in our case, only
+   But how generalizable are these initial observations? How shall           lemmatizing words and removing the 100 most frequent words)
+we learn the average “goodness” of a particular kind of thematic             proves to be a terrible choice that noticeably reduces ARI scores.
+foregrounding, feature type, or distance metric? To learn this, we           Our study points towards the need for further systematic com-
+need to control for their inﬂuence on each other, as well as for             parisons of various approaches to thematic foregrounding, as it
+additional parameters, such as the number of most frequent                   plays a key role in the solid performance of LDA.
+words and chunking. Hence, we have constructed ﬁve Bayesian
+linear regression models (see Supplement 5.1). They answer
+                                                                             Conclusion 4. Bag-of-words approach requires a balance of
+questions about the performance of various combinations of
+                                                                             thematic foregrounding and n of most frequent words. Bags of
+thematic foregrounding, features, and distances, helping us reach
+                                                                             words are the simplest type of feature in thematic analysis, but still an
+conclusions about the performance of individual steps of thematic
+                                                                             effective one, as we have demonstrated. But how does one maximize
+analysis. All the results of this study are described in detail in
+                                                                             the chances that bags of words perform well? We have varied two
+Supplement 5.1. Below, we focus only on key ﬁndings.
+                                                                             parameters in the bag-of-words approach: the level of thematic
+                                                                             foregrounding and the number of MFWs used. Figure 6 illustrates
+Conclusion 1. Thematic foregrounding improves genre clus-                    our ﬁndings: both these parameters inﬂuence performance. Using
+tering. The goal of thematic foregrounding was to highlight the              5000, instead of 1000, MFWs drastically improve ARI scores. Simi-
+contentful parts of the texts and to backdrop the stylistic parts. So,       larly, using medium, instead of weak, thematic foregrounding, makes
+
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                           5
+ARTICLE                                   HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+
+
+                        Rank                             Combination                             Median ARI    Median absolute
+                                                                                                                  deviation
+
+                       1         Strong foregr.   doc2vec (300 dimensions)        cosine        0.703         0.095
+
+                       2         Strong foregr.    LDA (k=50, 5000 MFWs)      Jensen-Shannon    0.677         0.104
+
+                       3         Strong foregr.   LDA (k=100, 1000 MFWs)      Jensen-Shannon    0.670         0.085
+
+                       4        Medium foregr.    doc2vec (300 dimensions)        cosine        0.668         0.084
+
+                       5         Strong foregr.     bag-of-words (10,000      Jensen-Shannon    0.665         0.107
+                                                           MFWs)
+
+                       6        Medium foregr.     LDA (k=50, 5000 MFWs)      Jensen-Shannon    0.661         0.092
+
+                       7         Strong foregr.   bag-of-words (5000 MFWs)    Jensen-Shannon    0.657         0.089
+
+                       8         Strong foregr.   LDA (k=20, 10,000 MFWs)     Jensen-Shannon    0.657         0.121
+
+                       9         Strong foregr.    LDA (k=20, 5000 MFWs)      Jensen-Shannon    0.656         0.120
+
+                       10        Strong foregr.   LDA (k=100, 5000 MFWs)      Jensen-Shannon    0.656         0.076
+
+
+Fig. 2 Raw distributions of ARI scores for all the combinations of thematic foregrounding, feature type, and distance metric. Boxplots are colored by
+feature type. Numbers on the horizontal axis correspond to the names of combinations in the table to the right, showing 10 best-performing combinations
+(see all the combinations in Supplement, Table S7).
+
+a big difference. At the same time, pushing these two parameters             suggests that this distance should be avoided in computational
+further—using 10,000 MFWs and strong thematic foregrounding—                 thematic analysis. Cosine distance is known to be useful for
+brings only marginal, if any, improvement in ARI scores.                     authorship attribution when combined with bag-of-words as a
+                                                                             feature type. At the same time, cosine distance is sometimes used
+                                                                             to measure the distances between LDA topic probabilities, and our
+Conclusion 5. Jensen–Shannon divergence is the best distance                 study shows that it is not the best combination.
+metric for genre recognition, Euclidean—the worst. Choosing
+the right distance metric is crucial for improving genre clustering.
+Figure 7 shows the performance of various distances for each type            Comparison of algorithms on a larger dataset. How well does
+of feature (note that Jensen–Shannon divergence, which was for-              this advice apply to clustering other corpora, not just our corpus
+mulated for probability distributions, could not be applied to               of 200 novels? A common problem in statistics and machine
+doc2vec dimensions and WGCNA module weights). For LDA and                    learning is overﬁtting: tailoring one’s methods to a particular
+bag-of-words, Jensen–Shannon divergence is the best distance,                “sandbox” dataset, without making sure that these methods work
+with Delta and Manhattan distances being highly suitable too. For            “in the wild”. In our case, this means: would the same combi-
+doc2vec, the choice of distance matters less. Interestingly, Eucli-          nations of methods work well/poorly on other genres and other
+dean distance is the worst-performing distance for LDA, bag-of-              books than those included in our analysis? One precaution that
+words, and WGCNA. This is good to know, as this distance is                  we took to deal with overﬁtting was sampling from our genre
+often used in text analysis, also in combination with LDA (Jockers,          corpus: instead of analyzing the full corpus just once, we analyzed
+2013; Schöch, 2017; Underwood et al., 2022), while our study                 smaller samples from it. But, additionally, it would be useful to
+
+6                           HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6                                         ARTICLE
+
+
+
+
+Fig. 3 The effect of thematic foregrounding (weak, medium, or strong) on clustering genres, stratiﬁed by feature type.
+
+
+
+
+Fig. 4 Posterior distributions of ARI scores for four feature types, at a high level of thematic foregrounding.
+
+
+compare the best-performing and the worst-performing methods                   Discussion
+against a much larger corpus of texts.                                         This study aimed to answer the question: how good are various
+   For this purpose, we use a sample of 5000 books of the NovelTM              techniques of learning thematic similarities between works of
+dataset of ﬁction, built from HathiTrust corpus (Underwood et al.,             ﬁction? In particular, how good are they at detecting genres—and
+2020). Unlike our small corpus of four genres, these books do not              are they good at all? For this, we tested various techniques of text
+have reliable genre tags, so we could not simply repeat our study on           mining, belonging to three consecutive steps of analysis: pre-
+this corpus. Instead, we decided to inspect how a larger sample of             processing, extraction of features, and measuring distances
+our four genres (detective, fantasy, science ﬁction, and romance)              between the lists of features. We used four common genres of
+would cluster within the HathiTrust corpus. For this, we included              ﬁction as our “ground truth” data, including a tightly controlled
+all the books in these four genres that we could easily identify and           corpus of books. Our main ﬁnding is that unsupervised learning
+seeded them into a random sample of 5000 works of ﬁction. Then                 can be effectively used for detecting thematic similarities, but
+we clustered all these books using one of the best combinations of             algorithms differ in their performance. Interestingly, the algo-
+methods for identifying genres (medium thematic foregrounding,                 rithms that are good for computational stylometry (and its most
+LDA on 1000 words with 100 topics, clustered with Delta distance).             common task, authorship attribution) are not the same as those
+The result, visualized with a UMAP projection (McInnes et al.,                 good for computational thematics. To give an example, one
+2018), is shown in Fig. 8. This is just an illustration of the possible        common approach to authorship attribution—using limited pre-
+ﬁrst step toward further testing various algorithms of computa-                processing, with a small number of most frequent words as fea-
+tional thematics “in the wild”. The assessment of the accuracy of              tures, and cosine distance—is one of the least accurate approaches
+clustering of this larger corpus, and the comparison of it with the            for learning thematic similarities. How important are these dif-
+clustering using one of the worst-performing combinations of                   ferences in the real-world scenario, not limited to our small
+methods, are given in the Supplement (section 5.2).                            sample of books? To test this, we have contrasted one of the
+
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                        7
+ARTICLE                                  HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+
+
+Fig. 5 Posterior probabilities of the effects of k of topics on ARI, stratiﬁed by the level of thematic foregrounding and n of most frequent words used
+in LDA. Error bars show 95% credible intervals.
+
+
+
+
+Fig. 6 The inﬂuence of the number of most frequent words, used as text features, on learning the thematic signal, measured with ARI. There is a
+positive relationship between the n of words and ARI, as well as between the level of thematic foregrounding and ARI. However, the middle parameter
+values of both (5000 MFWs and medium foregrounding) should be enough for most analyses.
+
+
+worst-performing combinations of algorithms, and one of the                  of which approaches work and which do not—a requirement for
+best-performing combinations, using a large sample of the                    assuring reliable results in the growing research area which we
+HathiTrust corpus of books.                                                  suggest calling “computational thematics”. Using a reliable set of
+  Systematic comparisons between various algorithms for com-                 algorithms for thematic analysis would allow tackling several large
+putational thematic analysis will be key for a better understanding          problems that remain not solved in the large-scale analysis of
+
+8                           HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6                                       ARTICLE
+
+
+
+
+Fig. 7 The inﬂuence of distance metrics on ARI scores, separately for each feature type. Note that Jensen–Shannon divergence could not be combined
+with WGCNA and doc2vec.
+
+
+
+
+Fig. 8 A UMAP projection of 5000 novels, randomly sampled from the NovelTM HathiTrust corpus and all the novels by the authors included in the
+original corpus of four genres, found in NovelTM. The ﬁgure is based on one of the best-performing combinations.
+
+
+books. One such problem is creating better genre tags for sys-               computational model of literary macroevolution, similar to phy-
+tematizing large digital libraries of digitized texts. Manual genre          logenetic trees (Bouckaert et al., 2012; Tehrani, 2013) or rooted
+tags in corpora such as HathiTrust are often missing or are highly           phylogenetic networks (Neureiter et al., 2022; Youngblood et al.,
+inconsistent, which leads to attempts to use supervised machine              2021) used in cultural evolution research of languages, music, or
+learning, trained on manually tagged texts, to automatically learn           technologies. Having reliable unsupervised algorithms for mea-
+the genres of books in the corpus overall. However, this approach,           suring thematic similarities would be crucial for any historical
+by design, allows capturing only the genres we already know about,           models of this sort. Also, measuring thematic similarities may
+not the genres we do not know exist: “latent” genres. Unsupervised           prove useful for creating book recommendation systems. Currently,
+thematic analysis can be used for this task. Another important               book recommendation algorithms are mostly based on the analysis
+problem that unsupervised approaches to computational thematics              of user behavior: ratings or other forms of interaction (Duchen,
+may be good at is the historical analysis of literary evolution. So far,     2022). Such methods are highly effective in cases when user-
+we are lacking a comprehensive “map” of literary inﬂuences, based            generated data is abundant, like songs or brief videos. However, for
+on the similarity of books. Such a map would allow creation of a             longer content types, which take more time to consume, the
+
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                       9
+ARTICLE                                HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+amount of user-generated data is much smaller. Improving the              other computational approaches. Such a communal effort will be key
+tools for content-based similarity detection in books would allow         for assuring robust results in the area of computational thematics.
+recommending books based on their content—as it is already
+happening to songs: projects such as Spotify’s Every Noise at Once
+(https://everynoise.com/) combine user behavior data with the             Data availability
+acoustic features of songs themselves to learn the similarity             R scripts used in our analysis, together with pre-registration
+between songs and recommend them to listeners.                            documents, can be found on Open Science Framework’s website
+   This study is a preliminary attempt at systematizing various           https://osf.io/rtvb6/. Due to copyright law, we cannot share the
+approaches to computational thematics. More work is needed to             corpus of books used in this study, instead, we share the
+further test the ﬁndings of this paper and to overcome its lim-           document-term matrices based on the samples of this corpus.
+itations. First, any clustering approach, be it a dendrogram or a
+projection, is a simpliﬁcation of the relationships described by a        Received: 27 March 2023; Accepted: 4 March 2024;
+distance matrix, which, in turn, is based on aggregating infor-
+mation from imperfect proxies (e.g., words and topics). This
+poses two major limitations to the unsupervised analysis of ﬁc-
+tion: (1) the ability to generalize over an observed clustering that
+arises from a very speciﬁc set of choices and parameters, (2) the
+lack of control over textual features and the representation of           References
+                                                                          Allison S, Heuser R, Jockers M, Moretti F, Witmore M (2011) Quantitative
+novels. Clustering limitations are often overcome by using                       formalism: an experiment. Stanford Literary Lab, Pamphlet 1. https://litlab.
+bootstrap approaches (Eder, 2017), or meta-analysis of clusters                  stanford.edu/LiteraryLabPamphlet1.pdf
+(‘clustering of clusters’) for the detection of stable, previously        Angelov D (2020) Top2Vec: distributed representations of topics. arXiv. https://
+unidentiﬁable subgroups (Calvo Tello, 2021); in recent years,                    doi.org/10.48550/arXiv.2008.09470
+                                                                          Bailey P, Chang DK, Nones K, Johns AL, Patch A-M, Gingras M-C, Miller DK,
+there were major advances in Bayesian clustering methods that                    Christ AN, Bruxner TJC, Quinn MC, Nourse C, Murtaugh LC, Harliwong I,
+provide non-parametric solutions to data partitioning and allow                  Idrisoglu S, Manning S, Nourbakhsh E, Wani S, Fink L, Holmes O, Grim-
+to associate uncertainty with data membership in clusters, or with               mond SM (2016) Genomic analyses identify molecular subtypes of pancreatic
+number of clusters in a dataset (Wade and Ghahramani, 2018).                     cancer. Nature 531(7592):47–52. https://doi.org/10.1038/nature16965
+These appear particularly suitable to cultural data, yet come with        Baraghith K (2020) Investigating populations in generalized Darwinism. Biol Philos
+                                                                                 35(1):19. https://doi.org/10.1007/s10539-020-9735-6
+their own challenges in presentation and reporting.                       Blei DM, Ng AY, Jordan MI (2003) Latent Dirichlet allocation. J Mach Learn Res
+   Another limitation of our study is its inability to distinguish               3:993–1022
+between thematic and formal elements of texts. A narrative can be         Bories A-S, Plecháč P, Ruiz Fabo P (eds.) (2023) Computational stylistics in poetry,
+told from the ﬁrst-person perspective or from the standpoint of                  prose, and drama. De Gruyter. https://doi.org/10.1515/9783110781502
+the omniscient narrator; events in a story can follow the chron-          Bouckaert R, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ,
+                                                                                 Gray RD, Suchard MA, Atkinson QD (2012) Mapping the origins and
+ological order or may be re-ordered, with ﬂashbacks, ﬂashfor-                    expansion of the Indo-European language family. Science 337(6097):957–960.
+wards, and various other temporal patterns. Formal structures like               https://doi.org/10.1126/science.1219669
+these are not really “thematic” and require separate examination.         Brennan M, Afroz S, Greenstadt R (2012) Adversarial stylometry: circumventing
+Ideally, one would have to extract them as a separate set of textual             authorship recognition to preserve privacy and anonymity. ACM Trans Inf
+features and use them in the analysis alongside themes. Unfor-                   Syst Secur 15(3):12:1–12:22. https://doi.org/10.1145/2382448.2382450
+                                                                          Burrows JF (1987) Computation into criticism: a study of Jane Austen’s novels and
+tunately, we only have a limited set of tools for ﬁnding such formal             an experiment in method. Clarendon Press
+patterns—though novel computational methods offer a promise of            Caﬁero F, Camps J-B (2019) Why Molière most likely did write his plays. Sci Adv
+capturing some of them (Langlais, 2023; Piper and Toubia, 2023).                 5(11):eaax5489
+Also, one may argue, that the methods of feature extraction used          Calvo Tello J (2021) The novel in the Spanish Silver Age: a digital analysis of genre
+in this paper do capture not only topics as such but also some of                using machine learning. Bielefeld University Press. https://doi.org/10.1515/
+                                                                                 9783839459256
+the formal variation in texts, even though it is not clear where the      Chung C, Pennebaker J (2007) The psychological functions of function words. In:
+line between forms and themes should be drawn. For example, the                  Social communication. Psychology Press. pp. 343–359
+narrative perspective is partly captured by the distribution of           Duchen H (2022) A comparative study of various book recommendation algo-
+pronouns and verb forms, pushing the ﬁrst-person and third-                      rithms for public libraries. Tech Serv Q 39(4):369–380. https://doi.org/10.
+person books to form different groups.                                           1080/07317131.2022.2125676
+                                                                          Dynomant E, Lelong R, Dahamna B, Massonnaud C, Kerdelhué G, Grosjean J,
+   Yet another limitation is the concept of “ground truth” genres.               Canu S, Darmoni SJ (2019) Word embedding for French natural language in
+It may be noted—rightly—that there are no “true” genres and                      healthcare: a comparative study. In: L Ohno-Machado & B Séroussi (eds.)
+that genre tags overall may not be the best approach for testing                 MEDINFO 2019: Health and Wellbeing e-Networks for All—Proceedings of
+thematic similarities. As further steps, we see using large-scale                the 17th World Congress on Medical and Health Informatics, Lyon, France,
+user-generated tags from Goodreads and similar websites as a                     25–30 August 2019 (vol. 264). IOS Press. pp. 118–122
+                                                                          Eder M (2017) Visualization in stylometry: cluster analysis using networks. Digit
+proxy for “ground truth” similarity.                                             Scholarsh Humanit 32(1):50–64
+   Finally, this study has certainly not exhausted all the possible       Eder M, Rybicki J, Kestemont M (2016) Stylometry with R: a package for com-
+techniques for text analysis that can be used for computational                  putational text. Anal R J 8(1):107
+thematics. For example, much wider testing of vector models, like         Egger R, Yu J (2022) A topic modeling comparison between LDA, NMF, Top2Vec,
+doc2vec, but also BERTopic (Grootendorst, 2022) or Top2Vec                       and BERTopic to Demystify Twitter Posts. Front Sociol 7. https://doi.org/10.
+                                                                                 3389/fsoc.2022.886498
+(Angelov, 2020) is an obvious next step, as well as testing other         Elliott J (2017) Whole genre sequencing. Digital Scholarsh Humanit 32(1):65–79
+network-based methods for community detection (Gerlach et al.,            Evert S, Proisl T, Jannidis F, Reger I, Pielström S, Schöch C, Vitt T (2017)
+2018). Text simpliﬁcation could have a large potential for thematic              Understanding and explaining Delta measures for authorship attribution.
+analysis—it must be explored further. Possibly, the most straight-               Digital Scholarsh Humanit 32:ii4–ii16
+forward way to test our ﬁndings would be to attempt to replicate          Fowler A (1971) The life and death of literary forms. N Lit Hist 2(2):199–216.
+                                                                                 https://doi.org/10.2307/468599
+them on other genre corpora, containing more books or other               Gerlach M, Peixoto TP, Altmann EG (2018) A network approach to topic models.
+genres. Testing these methods on books in other languages is also                Sci Adv 4(7):eaaq1360. https://doi.org/10.1126/sciadv.aaq1360
+critical. The approach taken in this paper offers a simple analytical     Grave E, Bojanowski P, Gupta P, Joulin A, Mikolov T (2018) Learning word vectors
+pipeline—and we encourage other researchers to use it for testing                for 157 languages. Proceedings of the Eleventh International Conference on
+
+10                        HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6                                                                  ARTICLE
+
+      Language Resources and Evaluation (LREC 2018). LREC 2018, Miyazaki,               Schöch C (2017) Topic modeling genre: an exploration of French classical and
+      Japan, https://aclanthology.org/L18-1550                                                enlightenment drama. Digit Humanit Q 011:2
+Grootendorst M (2022) BERTopic: neural topic modeling with a class-based TF-            Šeļa A, Plecháč P, Lassche A (2022) Semantics of European poetry is shaped by
+      IDF procedure. https://doi.org/10.48550/arXiv.2203.05794                                conservative forces: the relationship between poetic meter and meaning in
+Houkes W (2012) Population thinking and natural selection in dual-inheritance                 accentual-syllabic verse. PLoS ONE 17(4):e0266556. https://doi.org/10.1371/
+      theory. Biol Philos 27(3):401–417. https://doi.org/10.1007/s10539-012-9307-5            journal.pone.0266556
+Hubert L, Arabie P (1985) Comparing partitions. J Classif 2(1):193–218. https://        Sigaki HYD, Perc M, Ribeiro HV (2018) History of art paintings through the lens
+      doi.org/10.1007/BF01908075                                                              of entropy and complexity. Proc Natl Acad Sci USA 115(37):E8585–E8594.
+Hughes JM, Foti NJ, Krakauer DC, Rockmore DN (2012) Quantitative patterns of                  https://doi.org/10.1073/pnas.1800083115
+      stylistic inﬂuence in the evolution of literature. Proc Natl Acad Sci USA         Stamatatos E (2009) A survey of modern authorship attribution methods. J Am Soc
+      109(20):7682–7686                                                                       Inf Sci Technol 60(3):538–556. https://doi.org/10.1002/asi.21001
+Iosifyan M, Vlasov I (2020) And quiet ﬂows the Don: the Sholokhov-Kryukov               Symons J (1985) Bloody murder: from the detective story to the crime novel: a
+      authorship debate. Digit Scholarsh Humanit 35(2):307–318. https://doi.org/              history. Viking
+      10.1093/llc/fqz017                                                                Tehrani JJ (2013) The phylogeny of Little Red Riding Hood. PLoS ONE
+Jockers ML (2013) Macroanalysis: digital methods and literary history. University             8(11):e78871
+      of Illinois Press                                                                 Thelwall M (2019) Reader and author gender and genre in Goodreads. J Librar-
+Kim D, Seo D, Cho S, Kang P (2019) Multi-co-training for document classiﬁcation               iansh Inf Sci 51(2):403–430. https://doi.org/10.1177/0961000617709061
+      using various document representations: TF–IDF, LDA, and Doc2Vec. Inf Sci         Underwood T (2016) The life cycles of genres. Journal of Cultural Analytics, 2(2).
+      477:15–29. https://doi.org/10.1016/j.ins.2018.10.006                                    https://doi.org/10.22148/16.005
+Klimek P, Kreuzbauer R, Thurner S (2019) Fashion and art cycles are driven by           Underwood T (2019) Distant horizons. The University of Chicago Press
+      counter-dominance signals of elite competition: quantitative evidence from        Underwood T, Kiley K, Shang W, Vaisey S (2022) Cohort succession explains
+      music styles. J R Soc Interface 16(151):20180731. https://doi.org/10.1098/rsif.         most change in literary culture. Sociol Sci 9:184–205. https://doi.org/10.
+      2018.0731                                                                               15195/v9.a8
+Langfelder P, Horvath S (2008) WGCNA: An R package for weighted correlation             Underwood T, Kimutis P, Witte J (2020) NovelTM datasets for English-language
+      network analysis. BMC Bioinforma 9(1):559                                               ﬁction, 1700-2009. J Cult Analyt 5(2). https://doi.org/10.22148/001c.13147
+Lau JH, Baldwin T (2016) An empirical evaluation of doc2vec with practical              Wade S, Ghahramani Z (2018) Bayesian cluster analysis: point estimation and
+      insights into document embedding generation. Proceedings of the 1st                     credible balls (with discussion). Bayesian Anal 13(2):559–626. https://doi.org/
+      Workshop on Representation Learning for NLP, pp. 78–86. https://doi.org/                10.1214/17-BA1073
+      10.18653/v1/W16-1609                                                              Ward JH (1963) Hierarchical grouping to optimize an objective function. J Am Stat
+Le Q, Mikolov T (2014) Distributed representations of sentences and documents.                Assoc 58(301):236–244. https://doi.org/10.2307/2282967
+      Proceedings of the 31st International Conference on Machine Learning. pp.         Wilkens M (2016) Genre, computation, and the varieties of twentieth-Century U.S.
+      1188–1196. https://proceedings.mlr.press/v32/le14.html                                  ﬁction. J Cult Analyt 1(1):11065. https://doi.org/10.22148/16.009
+Liu L, Dehmamy N, Chown J, Giles CL, Wang D (2021) Understanding the onset              Youngblood M, Baraghith K, Savage PE (2021) Phylogenetic reconstruction of the
+      of hot streaks across artistic, cultural, and scientiﬁc careers. Nat Commun             cultural evolution of electronic music via dynamic community detection
+      12(1):5392. https://doi.org/10.1038/s41467-021-25477-8                                  (1975–1999). Evol Hum Behav 42(6):573–582. https://doi.org/10.1016/j.
+McInnes L, Healy J, Saul N, Großberger L (2018) UMAP: uniform manifold                        evolhumbehav.2021.06.002
+      approximation and projection. J Open Source Softw 3(29):861. https://doi.
+      org/10.21105/joss.00861
+Moretti F (2005) Graphs, maps, trees: abstract models for literary history. Verso       Acknowledgements
+Mosteller F, Wallace DL (1963) Inference in an authorship problem. J Am Stat            OS and AŠ were supported by the project “Phylogenies of Literature” from the Cultural
+      Assoc 58(302):275–309                                                             Evolution Society Transformation Fund granted by the John Templeton Foundation
+Neal T, Sundararajan K, Fatima A, Yan Y, Xiang Y, Woodard D (2017) Surveying            (grant #61913). AŠ was supported by the project “Large-Scale Text Analysis and
+      stylometry techniques and applications. ACM Comput Surv 50(6):86:1–86:36.         Methodological Foundations of Computational Stylistics” (SONATA-BIS 2017/26/E/
+      https://doi.org/10.1145/3132039                                                   HS2/01019).
+Neureiter N, Ranacher P, Efrat-Kowalsky N, Kaiping GA, Weibel R, Widmer P,
+      Bouckaert RR (2022) Detecting contact in language trees: a Bayesian phy-          Author contributions
+      logenetic model with horizontal transfer. Humanit Soc Sci Commun 9(1):1.          OS conceived the study. OS and AŠ jointly prepared the data and conducted the analysis.
+      https://doi.org/10.1057/s41599-022-01211-7                                        OS wrote the manuscript and reviewed the supplement. AŠ wrote the supplement and
+Ochab J, Byszuk J, Pielström S, Eder M (2019) (2019) Identifying similarities in text   reviewed the manuscript. Both authors have read and agreed to the published version of
+      analysis: hierarchical clustering (linkage) versus network clustering (com-       the paper.
+      munity detection). ADHO 2019, Utrecht, https://dh-abstracts.library.cmu.
+      edu/works/10014
+Langlais P-C (2023) Brahe. Hugging Face. https://huggingface.co/Pclanglais/Brahe        Funding
+Piper A, Bagga S, Monteiro L, Yang A, Labrosse M, Liu, YL (2021) Detecting              Open Access funding enabled and organized by Projekt DEAL.
+      narrativity across long time scales. CHR 2021: Computational Humanities
+      Research Conference. CEUR Workshop Proceedings, pp. 319–332. https://
+      ceur-ws.org/Vol-2989/long_paper49.pdf
+                                                                                        Competing interests
+                                                                                        The authors declare no competing interests.
+Piper A, Toubia O (2023) A quantitative study of non-linearity in storytelling.
+      Poetics 98:101793. https://doi.org/10.1016/j.poetic.2023.101793
+Plecháč P (2021) Relative contributions of Shakespeare and Fletcher in Henry VIII:      Ethical approval
+      An analysis based on most frequent words and most frequent rhythmic               The study included no human or non-human participants and thus required no ethical
+      patterns. Digital Scholarsh Humanit 36(2):430–438. https://doi.org/10.1093/       approval.
+      llc/fqaa032
+Plecháč P, Bobenhausen K, Hammerich B (2018) Veriﬁcation and authorship
+      attribution. A pilot study on Czech, German, Spanish, and English poetry.         Informed consent
+      Stud Metret Poetica 5(2):29–54                                                    Since secondary data were used in the study, informed consent was not required.
+Pranjic M, Podpečan V, Robnik-Sikonja M, Pollak S (2020) Evaluation of related
+      news recommendations using document similarity methods. Conference on             Additional information
+      Language Technologies & Digital Humanities. pp. 81–86                             Supplementary information The online version contains supplementary material
+Ramírez-González RH, Borrill P, Lang D, Harrington SA, Brinton J, Venturini L,          available at https://doi.org/10.1057/s41599-024-02933-6.
+      Davey M, Jacobs J, van Ex F, Pasha A, Khedikar Y, Robinson SJ, Cory AT,
+      Florio T, Concia L, Juery C, Schoonbeek H, Steuernagel B, Xiang D, Uauy C         Correspondence and requests for materials should be addressed to Oleg Sobchuk.
+      (2018) The transcriptional landscape of polyploid wheat. Science
+      361(6403):eaar6089. https://doi.org/10.1126/science.aar6089                       Reprints and permission information is available at http://www.nature.com/reprints
+Sbalchiero S, Eder M (2020) Topic modeling, long texts and the best number of
+      topics. Some problems and solutions. Qual Quant 54(4):1095–1108. https://         Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+      doi.org/10.1007/s11135-020-00976-w                                                published maps and institutional afﬁliations.
+
+
+
+
+HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6                                                                    11
+ARTICLE                                            HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | https://doi.org/10.1057/s41599-024-02933-6
+
+
+                  Open Access This article is licensed under a Creative Commons
+                  Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party
+material in this article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+
+
+© The Author(s) 2024
+
+
+
+
+12                                 HUMANITIES AND SOCIAL SCIENCES COMMUNICATIONS | (2024)11:438 | https://doi.org/10.1057/s41599-024-02933-6

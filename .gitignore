@@ -30,9 +30,12 @@ ENV/
 Data/
 *.db
 *.db-journal
-*.jsonl
 *.json.gz
 *.csv.gz
+
+# Keep specific corpus files but ignore large data
+!corpus_samples/*.jsonl
+!corpus_samples/*.txt
 
 # Model files (too large for git)
 *.bin
@@ -49,6 +52,8 @@ results/*.csv
 .DS_Store
 .AppleDouble
 .LSOverride
+Icon
+Icon?
 
 # Google Drive (symlinks)
 **/GoogleDrive*

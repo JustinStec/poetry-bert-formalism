@@ -1,0 +1,1011 @@
+it - Information Technology 2023; 65(4–5): 200–217
+
+
+
+Contribution to a thematic issue
+
+Hans Ole Hatzel*, Haimo Stiemer, Chris Biemann and Evelyn Gius
+
+Machine learning in computational literary
+studies
+https://doi.org/10.1515/itit-2023-0041
+Received May 21, 2023; accepted August 8, 2023;
+                                                                           1 Introduction
+published online August 25, 2023
+                                                                           Literary studies is the academic ﬁeld concerned with the
+Abstract: In this article, we provide an overview of machine               analysis of literary texts and literature related artifacts. The
+learning as it is applied in computational literary studies,               focus is often on texts that were written with artistic intent,
+the ﬁeld of computational analysis of literary texts and lit-              i.e. that deviate more or less from everyday language. In
+erature related phenomena. We survey a number of scien-                    a broader sense, the subject of the discipline is also the
+tiﬁc publications for the machine learning methodology the                 reception of literature, the analysis of general trends in texts
+scholars used and explain concepts of machine learning and                 as well as the conditions of literary production. As such the
+natural language processing while discussing our ﬁndings.                  ﬁeld covers a wide range of text forms, from dramas to
+We establish that besides transformer-based language mod-                  novels and poetry and can also rely on additional data. Com-
+els, researchers still make frequent use of more traditional,              putational literary studies (henceforth CLS) is the discipline
+feature-based machine learning approaches; possible rea-                   of using computational methods for this analysis; this is by
+sons for this are to be found in the challenging application               no means limited to machine-learning-based methods but
+of modern methods to the literature domain and in the more                 can, for example, start from relatively simple word-count
+transparent nature of traditional approaches. We shed light                statistics or be based mainly on manual annotation.
+on how machine learning-based approaches are integrated
+                                                                                 In this survey, we will approach the current state of the
+into a research process, which often proceeds primarily
+                                                                           discipline of CLS from a methodological perspective, focus-
+from the non-quantitative, interpretative approaches of
+                                                                           ing on machine learning. Before us, Helling et al. [1] have
+non-digital literary studies. Finally, we conclude that the
+                                                                           characterized the methodology used in CLS on the basis of
+application of large language models in the computational
+                                                                           researcher interviews. Recently a survey approaching the
+literary studies domain may simplify the application of
+                                                                           discipline from the perspective of basic concepts in literary
+machine learning methodology going forward, if adequate
+                                                                           studies, rather than the methodology, was released [2].
+approaches for the analysis of literary texts are found.
+                                                                                 CLS can be considered a subﬁeld of Digital Humanities,
+Keywords: computational literary studies; language mod-                    in this paper we focus exclusively on CLS, which focus on a
+els; machine learning; natural language processing; trans-                 comparatively narrow domain. The ﬁeld of CLS has gained
+formers                                                                    traction in the recent past. For example, in the most recent
+                                                                           installment of the Computational Humanities Research Con-
+ACM CCS: Artiﬁcial intelligence → Natural language pro-
+                                                                           ference (CHR) that has been running since 2020, around
+cessing
+                                                                           half of the contributions dealt with literary texts and can
+                                                                           therefore be considered CLS. In the German-speaking area,
+                                                                           CLS has received a large push due to a priority program (SPP
+                                                                           2207) by the German Research Foundation (DFG). Further,
+*Corresponding author: Hans Ole Hatzel, Department of Informatics,
+                                                                           in 2022 the JCLS was created as the ﬁrst CLS journal since
+Universität Hamburg, Vogt-Kölln-Straße 30, 22527 Hamburg, Germany,
+E-mail: hans.ole.hatzel@uni-hamburg.de                                     DLS (digital literary studies), which only published one issue
+Haimo Stiemer and Evelyn Gius, Technical University of Darmstadt,          overall, in 2016.
+Institute of Linguistics and Literary Studies, Residenzschloss 1, 64283          While not without contention [3–5], CLS has potentially
+Darmstadt, Germany, E-mail: stiemer@linglit.tu-darmstadt.de                much to contribute to literary studies. It can enable literary
+(H. Stiemer), evelyn.gius@tu-darmstadt.de (E. Gius)
+                                                                           scholars to view their work from a new perspective, opening
+Chris Biemann, Department of Informatics, Universität Hamburg, Vogt-
+Kölln-Straße 30, 22527 Hamburg, Germany,                                   up new potential avenues of research. With the use of auto-
+E-mail: chris.biemann@uni-hamburg.de                                       mated methods it is possible to scale the subject of research
+
+ Open Access. © 2023 the author(s), published by De Gruyter.      This work is licensed under the Creative Commons Attribution 4.0 International License.
+                                                                                   H. O. Hatzel et al.: Machine learning in CLS   — 201
+
+to a large corpus of literary works. This has received rather      context of literary histography. He was able to, among other
+little attention so far, simply because literary researchers       things, show with a metadata analysis that the state of
+traditionally focus on a limited well-researched set of so-        research on Irish-American ﬁction had made false conclu-
+called canonical texts [6]. The vast body of literary works,       sions on the basis of arbitrarily selected examples [13]. Jock-
+also referred to as “the great unread”, can help inform            ers compiled an extensive collection of novels by Irish-born
+concepts of literary theory as well as put them to empirical       authors published in the US and supplemented this dataset
+veriﬁcation. In the ﬁeld of CLS, automated methods are             with information on the authors’ gender and the stories’
+used to extract speciﬁc information from individual texts.         geographical settings. Using visualizations and statistics, he
+From a macro perspective, salient features, patterns, and          was able to show that where previous research had seen the
+trends can then be explored in large text corpora, which           focus of settings in these authors to lie on the metropolitan
+often is referred to as “distant reading”, a term coined,          US East Coast, there was a large number of female authors
+even though originally with a different meaning referring          publishing novels set in rural West Coast areas.
+to a kind of meta-analysis, by Moretti [7]. From the macro
+level, it is also possible to zoom in on individual texts in
+                                                                   1.1 Needs of CLS
+order to analyze them on a reading-based level, called “close
+reading”. The application of “distant” and “close reading” in      As with all subject-speciﬁc research interests in the broader
+conjunction, varying the level of analysis is in turn called       ﬁeld of digital humanities, a key challenge of CLS is to oper-
+“scalable reading” [8, 9].                                         ationalize conventional literary studies categories and the-
+      Due to the application of scalable reading, balancing        ories for computational analysis. It is therefore necessary to
+formalization and interpretation present a major challenge         model categories that may, at ﬁrst glance, seem abstract in
+for CLS [10]. The upsides of CLS despite these challenges,         such a way that they can be automatically inferred from the
+especially in comparison to traditional literary studies, are      text surface. At the same time, many CLS approaches need to
+perhaps best exempliﬁed by the application of stylome-             make the results of studies supported by machine language
+try. Namely, these advantages are the ability to include a         processing available for interpretation in literary studies. In
+much larger amount of text in the analysis, to provide a           line with C. P. Snow’s thesis of the two diametrically opposed
+new perspective on the text data, e.g. the opportunity to          scientiﬁc cultures [14], it can be claimed that the inter-
+discover patterns that are not easily picked up by humans          pretation of numerical, quantitative results brings together
+due to the sheer size of the data. To illustrate this, we can      “explaining” as the central goal of the natural sciences and
+consider the study of style, which has always been a con-          “understanding” as the goal of the humanities. The ques-
+tested ﬁeld in non-computational literary studies, as it is        tion of interpretability can, accordingly, also be understood
+primarily concerned with aesthetic value judgements. Com-          more broadly as a question about the “translatability” of the
+putational stylometry, by contrast, compares texts or text         results generated by computational methods into the ﬁeld
+passages stylistically on the basis of statistical distributions   of traditional, non-computational literary theory. To bridge
+of tokens or token sequences (for details see Section 3.7). Sty-   the gap between the two cultures of research, not only do the
+                                                                   results have to be understandable but so does the process by
+lometry can be used in questions of authorship attribution.
+                                                                   which they were obtained. Here we see an interesting link
+For example, with the help of stylometric analysis, Joanne
+                                                                   to the ﬁeld of machine learning, where explaining, under-
+K. Rowling was revealed as the author of “The Cuckoo’s
+                                                                   standing, and interpreting model outputs are all current
+Calling”, a novel published under the pseudonym Robert
+                                                                   ﬁelds of research.
+Galbraith [11]. Stylometry has also been used to approach
+the difficult question of literary quality; van Cranenburgh
+et al. [12], for example, compared the texts of the bestselling    1.2 CLS as applied NLP
+author Stephen King, who is classiﬁed as light literature          The computational text analysis in CLS can be considered an
+according to conventional opinion, with texts from National        application domain of natural language processing (NLP).
+Book Award-winning authors (usually labeled “high brow             Traditionally NLP, in conjunction with adjacent ﬁelds like
+literatur”). Their results give King’s “Dark Tower” books          computational linguistics, has been focused on analyzing
+a high literariness and thus offer a differentiated view of        all aspects of texts from the small-scale linguistic phenom-
+the author’s work. At the same time, the results show the          ena such as parts of speech1 to semantics of entire works.
+effectiveness of a stylometry in quantifying literariness.
+      Work by Matthew Lee Jockers can help provide an
+another example of the value of CLS, speciﬁcally in the            1 The word class of individual tokens, e.g. verb or noun.
+202    — H. O. Hatzel et al.: Machine learning in CLS
+
+Literature presents a very challenging domain due to the                                  corpus linguistics, a wide range of automated processing
+complexity and in the case of prose and drama often                                       techniques from the ﬁeld of NLP, often involving machine
+also length of such texts, especially since many exist-                                   learning techniques, can be used to extract information for
+ing approaches were primarily tested on news data. For                                    subsequent analysis. While the process of CLS research is
+example, the popular OntoNotes [15] dataset encompasses                                   not standardized and a diverse set of research paths exist,
+news texts in multiple languages annotated with a wide                                    we found a typical approach to the application of machine
+range of linguistic phenomena. That is to say, CLS can offer                              learning to emerge in our review. We will go on to describe
+a test bed for challenging tasks of natural language process-                             this research process in detail. A comparable process was
+ing while providing the tools needed to facilitate literary                               previously described by Pichler et al. [20]. Schöch et al.
+analysis. One example of literary works being used in their                               [2], in their survey on methodology in CLS also present a
+capacity as challenging NLP problems is in the domain of                                  description of the typical research steps required for CLS,
+abstractive text summarization. Wu et al. [16] used modern                                before going on to approach the ﬁeld from the perspective
+language processing models to summarize books, solving                                    of multiple literary research problems (e.g. authorship attri-
+the length problem by recursively summing up previous                                     bution and gender analysis).
+summaries starting from small sections of text.                                                 The prototypical formulation of the CLS research pro-
+                                                                                          cess that we propose, as seen in Figure 1, starts with theoret-
+                                                                                          ical literary work. After identifying the research question or
+2 The (computational) literary                                                            more broadly an area of interest (1), the researcher conducts
+  studies research process                                                                literature research (2), identifying which existing concepts
+                                                                                          are relevant to the question and could be adapted (3). Sub-
+Literary studies can be conducted using a large variety of                                sequently, the concept is operationalized (4) into either an
+methodologies, perhaps most prominent is the application                                  annotation guideline or a clear set of rules. At this point,
+of hermeneutic methods. Hermeneutics in a broader sense                                   we identify two distinct approaches, the ﬁrst (5) is the use
+basically is an umbrella term for methodologies directed                                  of rule-based systems on top of existing machine learning
+towards the interpretation and explanation of a text, i.e. the                            infrastructure, this may for example be the application of
+reconstruction of the meaning represented by the text [17,                                part-of-speech or token-speciﬁc rules or alternatively the
+18]. As such, the traditional research process involves the                               application of an existing sentiment classiﬁer. Alternatively
+“close reading” of individual texts.                                                      annotations are created on the basis of the operational-
+     With the introduction of computational methods,                                      ization in the form of annotation guidelines (6). If annota-
+these analytical methods can be further extended using                                    tions were created, a machine learning system is trained on
+corpus-linguistic methods. For example, measuring a vari-                                 them (7). Regardless of which of the two options is picked,
+ety of word-count-related phenomena such as the lexical                                   the existing annotations are now validated (8) — with the
+diversity of texts, which is, generally speaking, reﬂected                                potential of going back to the annotation process or even
+in the relative number unique words in a text [19]. Going                                 reﬁning the operationalization — and subsequently scaled
+beyond methods that are traditionally associated with                                     to a larger corpus (9). On the edge of theoretical work, in
+
+                                                                                          Machine Learning
+                          Theoretical Work
+                                                                                            Methodology
+
+
+
+        Identify                                       Analyze
+                                                                                            Scale Annotations
+    Question/Area of                                 Annotations
+       Interest                                                (10)                                        (9)
+                  (1)
+
+                                Formulate Insights
+
+                                              (11)
+       Literature
+       Research
+                    (2)
+                                                                      Rule-based
+                                                                                                Validate
+                                                                      Annotations
+                                                                                    (5)                    (8)
+    Identify Relevant           Operationalize the
+        Concepts                    Concepts
+                    (3)                        (4)
+
+                                                                       Annotate                   Train
+
+                                                                                    (6)                    (7)
+
+
+
+
+Figure 1: The prototypical research process when applying machine learning in CLS.
+                                                                                    H. O. Hatzel et al.: Machine learning in CLS   — 203
+
+combination with quantitative analysis, the scaled annota-
+tions are analyzed using a variety of tools from statistics to
+visualizations (10). The results of this analysis can in turn be
+used to formulate insights of literary studies relating to the
+question at hand.
+     For this survey, the theoretical background of liter-
+ary scholars’ work is considered out of scope, instead, we
+will only detail theoretical concepts where required for the
+understanding of the machine learning methodology.
+
+
+2.1 From operationalization to automation
+Concepts of literary studies are not typically well-deﬁned in
+a formal sense and rely on interpretation when applying            Figure 2: Methodologies used in the 11 projects of the SPP-CLS as
+them to an existing text. As a result, in non-digital literary     collected by Helling et al. [1].
+
+studies, the focus is not on objective research ﬁndings, but
+on the “intersubjective comprehensibility” of the argumen-         papers applying existing methodology provided by a soft-
+tation or interpretation [10], that is to say verification of      ware package do not even in all cases need to consider
+a concept is done by forming a shared understanding of             the details of the implementation as long as the method is
+the subject. An operationalization speciﬁes which aspects          well understood and a good match for the task at hand;
+are to be considered in this process, it may also simplify a       for well-established packages, the output can be perfectly
+theoretical concept. One possible operationalization is an         sufficient to answer research questions on a speciﬁc body
+annotation guideline, sometimes also called a codebook.            of work. We will seek to explore both cases, but focus on
+     Annotations in CLS are typically created either by            methodologically innovative approaches.
+domain experts (e.g. the researchers themselves) or trained              The only quantitative overview of methods known to
+annotators (e.g. student assistants), but not typically            us is provided by Helling et al. [1] for the German CLS
+by untrained annotators such as crowd workers. Both                community. In a survey of researchers that were part
+document-level annotations and span-level annotations are          of the DFG-funded priority program Computational Lit-
+common. Helling et al. [1] found the most used annotation          erary Studies,2 the two methods or analysis tools most
+tool among their surveyed researchers to be CATMA [21],            frequently reported to be used (by 7 out of 11 projects
+their survey, however, only included researchers at German         each) were word embeddings and machine learning clas-
+and Swiss Universities.                                            siﬁers, closely followed by sentiment analysis, analysis of
+     In Section 3, we will explore automation techniques in        annotated data, part-of-speech-tagging, and qualitative con-
+detail. Generally speaking though, in CLS, alongside mod-          tent analysis (by 6 out of 11 projects each). Further, topic
+ern neural-network architectures, a lot of more traditional        modeling, and stylometry were reported to be used by 5
+machine learning approaches, like regressions or support           projects each. We visualize this data in Figure 2, omitting
+vector machines (SVMs) are used; in these cases, some fea-         all methods that were reported to be used by less than three
+ture selection is typically required. Alongside these typically    projects.
+supervised approaches, unsupervised methods like cluster-                While this may give an initial overview of the methods,
+ing and topic modeling are also employed. Finally, not all         it is limited in that it is speciﬁc to the German community
+of CLS relies on machine learning with many works instead          and in that results are based on the mere usage of the
+using text mining, e.g. in the form of frequency analysis, to      method without further context. It also does not focus on
+gain insights into the structure and content of texts.             the speciﬁcs of machine learning methods.
+                                                                         Similarly, as mentioned in the introduction, Schöch
+                                                                   et al. [2] explore applied methodologies in CLS from the
+3 Methods of machine learning                                      perspective of speciﬁc ﬁelds of CLS, such as authorship attri-
+                                                                   bution and genre analysis. In their introduction they distin-
+All CLS works making use of machine learning in some way           guish between frequency analysis, searching (or retrieval)
+can be placed on a continuum of technological innovation,
+from one extreme, using existing packaged software to the
+other, of innovating machine learning technologies. Those          2 https://dfg-spp-cls.github.io/.
+204   — H. O. Hatzel et al.: Machine learning in CLS
+
+methods and machine learning techniques (distinguishing          doubt, the contents of the papers. This ratio differs greatly
+between supervised and unsupervised approaches), subse-          depending on the publication. For example, all submissions
+quently detailing their use in the speciﬁc ﬁelds.                in the JCLS journal concern CLS, while only about a quarter
+                                                                 of all Digital Humanities conference “Long Paper” submis-
+3.1 Our survey                                                   sions were found to be CLS-speciﬁc. In the case of CHR,
+                                                                 we found a surprising prevalence of literary studies at the
+To provide a broader, more concrete overview of the              conference, with 14 of 31 papers falling into the category of
+machine learning methods in use in the ﬁeld of CLS, we           CLS. After this initial selection, we checked the papers for
+select a number of scientiﬁc venues that are known for sig-      the application of machine learning techniques, narrowing
+niﬁcant CLS contributions, with the aim of building a broad      our selection of 71 CLS-related papers down to 40, which we
+cross-section of the CLS community. While there is no clear      will consider in this overview. Importantly, we also removed
+boundary to what constitutes a machine learning method           stylometric analyses since they, with one exception [25] that
+as compared to statistical analysis, we consider all regres-     we will discuss in the Section 3.7, do not apply methodolo-
+sion methods to be machine learning techniques, whereas          gies of machine learning. Other work discarded in this step
+frequency analysis of texts and signiﬁcance testing are con-     was based on statistical evaluation of word distributions,
+sidered statistical methods. We will discuss predominant         e.g. dispersion measures, as well as conceptual work dis-
+methodologies in detail, but will not explore each individual    cussing the CLS research process. Detailed numbers on the
+method.                                                          occurrences of CLS and machine learning speciﬁc works are
+     We only consider publications in English, which does        listed in Table 1.
+exclude a variety of smaller language-speciﬁc or region-              Our collected data on the papers’ methodologies is pre-
+speciﬁc venues; works in English do, however, often have         sented in Table 2. The main machine learning methodolo-
+literature in other languages as their subject of study (e.g.    gies are listed in the corresponding column, with the model
+[22–24]). Our selection includes the newly founded “Journal      name specifying the name of a pre-trained model, if appli-
+of Computational Literary” studies (JCLS), the Proceedings       cable. The “LS Question/Topic” column denotes the question
+of the international “Digital Humanities” (DH) conference,       or topic of the paper with regard to literary studies. In some
+as well as the SIGHUM Workshop “on Computational Lin-            cases we did not identify a literary studies’ question, as
+guistics for Cultural Heritage, Social Sciences, Humanities      these heavily focus on the evaluation or improvement of
+and Literature”, and the CHR “Computational Humanities           technical methodologies instead [26–28]. For what we list
+Research” conference. The selection follows the goal of          as the method we only consider the actual decision-making
+providing a cross-section of the community, with the Dig-        method, e.g. when a text is classiﬁed using an SVM that
+ital Humanities conference presenting the largest interna-       operates on word embeddings, we list SVM as the method-
+tional conference on digital humanities and thereby ensur-       ology. The features that are used are tracked separately.
+ing geographic diversity. The CHR is an interdisciplinary        The columns “Annotations” and “Rules” indicate which of
+conference focusing on all computational approaches in           these two categories the paper falls into: (1) approaches with
+the humanities and receives submissions mostly from the          rule-based processing, potentially with existing pre-trained
+European community. The SIGHUM workshop, on the other            models or (2) those training their own models and scaling
+hand, is organized as part of the ACL and thereby connected      their annotations to more texts. One example of (1), the
+to the NLP community. Lastly, the JCLS is the only journal in
+our lineup and unlike the other three is exclusively focused
+on CLS. We use the most recent issue of each publication,        Table 1: We screened a total of 215 papers in our review of the CLS
+                                                                 literature, narrowing our selection down to 40 after first removing all
+with the exception of SIGHUM, where the 2022 issue only
+                                                                 non-CLS related work and then all that did not include methods of
+features two CLS-focused entries, leading us to include the      machine learning.
+2021 issue as well, as such methodological comparisons
+across venues, based on our survey, are potentially mis-                        Number of papers               Percentage of papers
+leading due to the different timeframes. We cannot claim                    Total    CLS     CLS & ML      CLS of total   CLS & ML of CLS
+that our data is comprehensive and representative, yet it
+                                                                 JCLS           12     12             9       100.00 %             75.00 %
+provides an overview that is not limited to a speciﬁc sub-
+                                                                 CHR            31     14             7        45.16 %             50.00 %
+community.                                                       SIGHUM         36     12            10        33.33 %             83.33 %
+     Across all publications, we start with a selection of 215   DH            136     33            14        24.26 %             42.42 %
+papers, only 33 % of which we considered to feature CLS in
+                                                                 Total         215     71            40        33.02 %             56.34 %
+our initial screening, based on both the titles and when in
+Table 2: The 40 papers we reviewed are listed with their main machine learning method and additional details.
+
+
+Author                               Machine learning method            Model name            LS question/topic                   Annotations   Rules   Features
+
+                                                                                               DH 
+
+Algee-Hewitt [32]                    Linear discriminant analysis       –                     Concepts vs objects                 –             ✓       –
+Bonch-Osmolovskaya et al. [35]       Logistic regression                –                     What are war diaries about?         ✓             –       Tf-idf
+Calvo Tello et al. [26]              Transformer                        mBert                 –                                   –             –       –
+Camps et al. [36]                    SVM, topic modeling                –                     Song author features                ✓             –       Chracter ngrams, lemmas,
+                                                                                                                                                        musical features
+Ciotti [37]                          K-means                            –                     Features of literary periods        –             –       LIWC vectors, MFW
+Dennerlein et al. [38]               Transformer                        gBert                 Emotions in dramas                  ✓             –       –
+Eder et al. [39]                     SVM                                –                     Authorship attribution              –             –       –
+Glass [40]                           Transformer                        USE, Bert             Adaptations of Robinson Crusoe      –             –       Tf-idf
+Herrmann et al. [41]                 –                                  –                     Spatial entities                    –             –       –
+Ivanov [42]                          SVM, MLP, random Forest            –                     Concreteness as an author feature   –             –       Abstractness, character
+                                                                                                                                                        n-grams and more
+Langlais et al. [43]                 SVM                                –                     Genres in French fiction            –             –       Tf-idf
+de la Rosa et al. [28]               Transformer                        mT5, mByT5            –                                   ✓             –       –
+Schumacher [44]                      CRF                                –                     Space in novels                     ✓             –       Named entities
+Schumacher et al. [23]               Transformer, CRF                   gBert                 Gender in fiction                   ✓             –
+
+                                                                                        SIGHUM  & 
+
+Abdibayev et al. [31]                BiLSTM, CRF                        –                     Features of poetry                  ✓             ✓       Phonemes
+Cooper et al. [22]                   Logistic regression, LDA           –                     Storyteller characteristics         ✓             –       Tf-idf
+Karlińska et al. [29]                Transformers                       LaBSE                 Cities vs villages                  –             ✓
+Kunilovskaya et al. [45]             SVM                                –                     Translations vs original            ✓             –       Dependency information
+Schmidt et al. [46]                  Transformer                        c2f                   Character networks                  ✓             –       –
+Schmidt et al. [30]                  Transformer, SVM, NB               Various               Emotions in dramas                  ✓             –       Bow
+                                                                        German
+                                                                        transformers
+Schneider et al. [47]                Logistic regression                –                     Chiasmus                            ✓             ✓       Pos, dep, embeddings
+Steg et al. [48]                     Theil-Sen regressor, doc2vec       –                     Narrative passages                  ✓             –       Concreteness, Tf-idf
+Wöckener et al. [49]                 Transformer, RNN                   GPT-2                 Phenomena of poetry                 ✓             –
+Xie et al. [24]                      Transformer                        Bert-base-            Adverbial markers                   –             ✓       Pos
+                                                                        Chinese
+                                                                                                                                                                                    H. O. Hatzel et al.: Machine learning in CLS
+                                                                                                                                                                                   — 205
+Table 2: (continued)
+                                                                                                                                                                                  206
+
+
+
+
+Author                     Machine learning method     Model name          LS question/topic                   Annotations   Rules   Features
+
+                                                                              CHR 
+
+Clérice [27]               GRU, BiLSTM, TextCNN        –                   –                                   ✓             –       –
+Konle et al. [50]          Various                     –                   Plot models                         –             –       Tf-idf, temporal graphs, various
+                                                                                                                                     derived measures
+Parigini et al. [51]       Transformer                 mBert,              Dubitative passages                 ✓             –       –
+                                                       Italian-xxl-cased
+Perri et al. [52]          GNN, GRL                    –                   Character interactions              –             –       –
+Piper et al. [33]          Transformer                 bookNLP             Which “things” are mentioned?       –             ✓       WordNet categories
+Zhang et al. [53]          Transformer                 ECCO-BERT-Seq,      Genre change                        ✓             –       Tf-idf
+                                                       bert-base-cased
+Zundert et al. [54]        Transformer                 Multilingual USE    Are topics genres?                  –             –       –
+                                                                                                                                                                         — H. O. Hatzel et al.: Machine learning in CLS
+
+
+
+
+                                                                              JCLS 
+
+Abdibayev et al. [55]      Transformer                 GPT-2, BERT,        Features of limericks               –             –       –
+                                                       TransformerXL,
+                                                       XLNet
+Brottrager et al. [56]     SVM, XGBoost, transformer   –                   Which works become canon?           ✓             –       Distinctiveness, basic text
+                                                                                                                                     features (like n-grams),
+                                                                                                                                     complexity features
+Du et al. [57]             SVM, NB, logistic           –                   Keyness of terms                    ✓             –       Tf-idf, Welch, Eta, Zeta, various
+                           regression, decision tree                                                                                 others
+Ehrmanntraut et al. [58]   Transformer                 Paraphrase-XLM-     Poem similarity                     ✓             –       –
+                                                       Roberta, gBert,
+                                                       sentence encoders
+Koolen et al. [59]         –                           –                   How does a book make you feel?      –             ✓       Pos, lemma
+Schröter et al. [60]       LDA                         –                   Literary concepts in topic models   –             –       –
+Shin [61]                  –                           –                   Sentiment towards “queer”           –             –       –
+Völkl et al. [62]          LDA                         –                   Gender discourse                    –             –       Filtered lemmatized tokens
+Weimer et al. [63]         Logistic regression,        –                   Literary comments                   ✓             –       Dependency, pos, sentiment
+                           decision tree
+                                                                                           H. O. Hatzel et al.: Machine learning in CLS   — 207
+
+rule-based approach, can be found in the work by Karlińska                  an existing sense tag system (based on WordNet) to iden-
+et al. [29]. While they do not employ annotators themselves                 tify “things” and the category they belong to, ﬁnding that
+(outside of meta-data creation and validation) they instead                 most things referred to in literature are “human-made and
+use existing tools for named entity recognition, geographic                 supportive” meaning such objects as “rooms, houses, doors,
+information retrieval, and sentiment analysis. Using these                  windows, [. . . ], roads, kitchens” and others.
+tools, they analyze the sentiment towards cities as compared                     Some of the techniques listed in the Table 2 are not
+to other locations and conclude that, unlike suggested by                   explained in detail in this document, either because they
+previous work, cities actually are depicted more positively                 are rarely used or because they are already very well estab-
+than villages and the countryside. While they note that this                lished techniques. For reference, we expand the abbrevi-
+ﬁnding does need further analysis, this is an example of CLS                ation of those that are not explained elsewhere here. In
+potentially refuting a thesis previously set out. An example                terms of model variants, RNN refers to recurrent neural
+of (2), approaches that use their own annotations for train-                networks with GRU referring to gated recurrent units, a
+ing, can be found in the work on emotions in dramas by                      simpliﬁed variant of the variant of the LSTM (long short-
+Schmidt et al. [30]. Some works fall into both categories,                  term memory), where BiLSTM refers to the LSTM’s bidirec-
+for example in the case of Abdibayev et al. [31], who use                   tional variant. CRF refers to conditional random ﬁelds, a
+both annotations and rules for different aspects of their                   statistical model. LDA refers to Latent Dirichlet allocation
+analysis. The column “Features” lists the features used in                  a topic modeling approach, which is not to be confused
+feature-based approaches. Although, in some cases, the list                 with Linear Discriminant Analysis which we spell out in the
+is very extensive with multiple feature sets being discussed                one instance it is used. GRL refers to graph representation
+and compared, in this case, we list them as “various”.                      learning, NB to Naïve Bayes, and c2f to a speciﬁc coreference
+     In our survey, transformers are by far the most popu-                  resolution system [34]. For the features, we use pos as short
+lar method, followed by SVMs and logistic regression (see                   for part-of-speech, bow as short for bag-of-words and dep as
+Figure 3). While transformers, which we will explore in                     short for dependency tree information.
+detail in Section 3.4, operate more or less directly on the
+input text, SVMs and logistic regression both require some
+                                                                            3.2 Pre-processing
+sort of feature engineering. We have multiple cases in which
+Tf-idf (term frequency – inverse document frequency) is                     Recently, the NLP community has been slowly moving away
+listed as a feature, this is typically calculated on the basis              from employing the so-called pipeline approach, where
+of individual tokens but not in all cases clearly speciﬁed. We              one language processing step builds on the previous ones
+will consider employed features in more detail in Section 3.5.              towards end-to-end models such as transformers [64]. For
+     Overall we found just over half of the ﬁnal selection                  example, a pipeline might consist of a tokenizer splitting the
+of papers to use some sort of annotation-based setup (see                   text into individual tokens, a part-of-speech tagger tagging
+Table 1), allowing for supervised learning. Others built                    each token, and a named entity tagger recognizing entities
+rule-based systems on top of existing machine learning                      on the basis of the two other components’ outputs. A trend
+approaches [29, 32, 33]; for example Piper et al. [33] use                  away from this kind of architecture can also be observed
+                                                                            in CLS with the adoption of transformers; pipeline-based
+                                                                            approaches however seem to still be popular, as evidenced
+                                                                            by a wide range of works making use of hand-crafted fea-
+                                                                            tures for their classiﬁers. One of the most popular frame-
+                                                                            works, albeit not speciﬁc to CLS, providing a range of pre-
+                                                                            processing options is spaCy [65], employed by a multitude of
+                                                                            authors in our survey [25, 29, 47, 50]. While the library pro-
+                                                                            vides high-level capabilities like coreference resolution, it
+                                                                            can also be used for more basic preprocessing like sentence
+                                                                            splitting and tokenization as well as dependency parsing
+                                                                            and part-of-speech tagging. In terms of tools focused on
+                                                                            the processing of literature, BookNLP3 provides a pipeline-
+Figure 3: The distribution of methods in our literature review shows that   based approach to processing entire books (used by e.g.
+transformers are by far the most popular method but still not used in
+even half the papers, demonstrating the diversity of methodology in CLS.
+We omit methods that only occured once.                                     3 https://github.com/booknlp/booknlp.
+208   — H. O. Hatzel et al.: Machine learning in CLS
+
+[48, 66]), incorporating such preprocessing tasks as named        common [41, 52, 61]. For example, Ehrmanntraut et al. [58]
+entity recognition, part-of-speech tagging (using SpaCy), and     use GloVe and fastText embeddings to predict similarities
+coreference resolution. Similarly, LLpro [67] provides such       of pairs of poems, comparing the results with human judg-
+a pipeline approach for German language texts. The MON-           ments. They ﬁnd fastText embeddings to perform slightly
+APipe pipeline [68], integrates with spaCy and, in addition       better in their setup. Measuring accuracy in identifying
+to some standard pre-processing steps, provides a host of         which of two poems is overall more similar to a given
+literary analysis tools like event annotations, entity linking,   anchor poem, the best fastText static embedding approach
+coreference resolution, and speech attribution to name a          achieves scores of 0.66 without supervision and improves
+few.                                                              to 0.72 after supervised training of a siamese-network [72]
+      We see three main motivations for the CLS community         that uses the existing fastText embeddings as input. Eder
+still relying on pipeline-based approaches: (1) training data     et al. [39] use artiﬁcially added document-speciﬁc tokens
+for CLS-speciﬁc problems often does not exist, meaning it         to explore the use of word embeddings in authorship attri-
+either has to be time-consumingly annotated or a hybrid           bution, with the idea that artiﬁcial tokens capture their
+approach that relies on some form of rule-based inference         context, which for static embeddings is true at training time
+may have to be used. Further, (2) as we discuss in detail in      on a corpus level, thereby representing the document or the
+Section 3.4, existing language models are often not perfectly     author.
+applicable to the literature domain. This fact potentially
+increases the viability of simpler approaches, for example        3.4 Transformer-based methods
+on the basis of features extracted in an early pipeline step.
+Finally (3), feature-based methods can typically more eas-        Transformer-based architectures [73] have revolutionized
+ily be inspected with regard to their decision-making pro-        the ﬁeld of NLP in the last few years by drastically outper-
+cess, such as inspecting the importance of individual fea-        forming previous approaches. Recently generative models,
+tures, allowing researchers to interpret not only the mod-        also using transformer architectures, have demonstrated
+els output but also the weight of features in its decision        unprecedented text generation capabilities. The success of
+process.                                                          transformers as a neural-network architecture, even out-
+                                                                  side the domain of language processing, can be attributed
+                                                                  to their attention mechanism. In contrast to previous recur-
+3.3 Word embeddings
+                                                                  rent neural network approaches, this allows the model
+Word embeddings, in general, are vectors that represent the       to directly access the information of any combination of
+semantics of individual words by their position in space.         tokens at once, without relying on its own state, as a recur-
+Conceptually we distinguish between static word embed-            rent model would. The application of transformers to CLS
+dings which represent each occurrence of a given word the         does, however, bring a couple of challenges with it: for
+same way and contextual word embeddings which repre-              one, foundation models, which require vast computational
+sent each instance of a word differently, based on its context.   resources, are typically primarily trained on data scraped
+Contextual word embeddings were, in the CLS literature            from the internet, resulting in a domain mismatch. For
+we reviewed, typically produced by transformers. Overall,         example, only 16 % of GPT-3’s training data is sourced from
+popular choices of static embeddings were GloVe, word2vec,        two book corpora. The BookCorpus, which was used for
+and fastText. While GloVe [69] and word2vec [70] use slightly     the training of a variety of foundation models including
+different techniques, they often perform similarly, fastText      BERT and GPT variants, has been shown to exhibit a large
+[71], on the other hand, has the added capability of process-     bias in terms of genre distribution [74]. As the selection
+ing sub-word tokens. Where any term that was not known            of texts for such models is not driven by literary studies’
+during training to GloVe or word2vec can not be repre-            needs, the resulting models potentially perform poorly on
+sented, fastText can represent unknown words by repre-            the texts subject to analysis. Konle et al. [75] have shown
+senting constituent character sequences individually.             that domain adaptation helps improving the performance
+      A large number of works [32, 39, 47, 56] make use           of transformer models on downstream tasks in the domain
+of static word embeddings in conjunction with classiﬁers,         of literary ﬁction. In another case, in the domain of German
+sometimes as one feature among many. In the simplest case,        dramas, domain adaption was found to not be beneﬁcial,
+Algee-Hewitt [32] uses linear discriminant analysis on word       with the authors hypothesizing that the additional training
+embeddings to identify if a given noun refers to an object        data was insufficient [30]. An additional issue in the appli-
+or a concept. The direct use of word embeddings and their         cation of transformers can be found in older literary texts,
+distances as a means of analysis appears to be almost as          which often do not follow standard orthographic rules,
+                                                                                H. O. Hatzel et al.: Machine learning in CLS   — 209
+
+necessitating conversion approaches like the one by de la         mechanism, and thereby enable longer input sequences;
+Rosa et al. [28].                                                 Longformers, however, also only allow for input sequences
+      One potential impediment to the application of trans-       up to 4096 tokens. We are not aware of work applying
+formers, especially to historical literary data, is the lack of   any of these approaches to CLS, presumably, at least in
+training data, as transformer models are typically trained        part, because even 4000 tokens are not typically sufficient
+with at least billions of tokens (e.g. the original BERT imple-   to cover the entire subject of analysis. Another alterna-
+mentation [73] used a corpus of more than three billion           tive exists in hierarchical transformers [79], which can
+words). ECCO-Bert [76] is an example of a domain-speciﬁc          potentially handle even longer sequences. But again, we
+transformer model, trained on a corpus of eighteenth-             have not yet encountered them in the application con-
+century data. In the work by Zhang et al. [53], it achieves       text of CLS. More recently, in the machine learning com-
+better results than transformer models trained on modern          munity, architectures incorporating explicit communica-
+data, with the accuracy increasing from 0.94 to 0.96, exem-       tion between segments have been proposed, outperforming
+plifying the utility of time- and domain-speciﬁc models.          existing models on long sequence tasks [80, 81]. In practice,
+Even without domain speciﬁc training data, transformers           the length limitation does not always present a problem, for
+can, however, typically still outperform more traditional         example, Parigini et al. [51] perform token-based annota-
+approaches. Schmidt et al. [30], for example, found trans-        tions and process the entire text in chunks. Such window-
+former models trained on contemporary language to still           based approaches, however, bar the model from consider-
+clearly outperform their Naïve Bayes approach with the F1         ing any text outside the current window, which might be an
+score improving from 0.50 to 0.64 for an emotion classiﬁca-       issue for some annotation tasks.
+tion task.                                                              Another variant of the transformer model that was
+      Many of the transformer models we encountered are           employed in the surveyed literature is the sentence encoder.
+speciﬁc to English. In addition, we encountered language-         Such models are trained to produce embeddings of entire
+speciﬁc models for Chinese, German, Italian, and Spanish          sentences or even short documents representing, similarly
+[23, 24, 30, 51]. For Dutch, German, and Italian we also found    to word embeddings, the sentences’ semantics in vector
+multilingual models being applied in monolingual contexts         space. For example, Ehrmanntraut et al. [58] use them in
+[28, 51, 58, 59], with Parigini et al. [51] ﬁnding an Italian     addition to static word embeddings for identifying simi-
+speciﬁc model to clearly outperform the multilingual BERT         larities in poetry. They ﬁnd the transformer approaches
+variant with performance increasing from an F1 score 0.31         to far outperform the static embedding-based ones, with
+of to 0.49. Multilingual models were also applied to the          performance on the overall similarity of embeddings reach-
+analysis of multilingual datasets [26].                           ing 0.79 as compared to the accuracy of 0.72 for the fast-
+      Beyond the training data-related issues raised so far,      Text approach. Similarly, Glass explores the use of sentence
+transformers have one other major shortcoming when                encoders to analyze if one text is an adaptation of another
+applied to the literature domain: their context size. Early       [40]. We did not ﬁnd any instances of works making use of
+transformers like BERT [73] only had a context window size        word mover’s distance (WMD), a technique for quantifying
+of 512 sub-word tokens. As longer words are typically rep-        document distances given individual word embeddings, in
+resented as combinations of two or more sub-word tokens,          our surveyed papers. Perhaps this can be explained by the
+this means that in practice, depending on the text, only          approach’s time complexity, which can become prohibitive
+about 300 individual words will be accepted at once. This         for long documents, although less expensive variants are
+is often enough to cover short-form poetry (e.g. [55, 58]),       available [82].
+but woefully inadequate for entire novels, as even novellas             The mentioned shortcomings seem to not make trans-
+will typically have tens of thousands of tokens with nov-         formers a natural ﬁt for the domain of CLS. Despite this,
+els frequently reaching the hundred thousand mark [54].           as we found in our survey they are still the most prevalent
+While transformer models with arbitrary input lengths can         machine learning methodology in recent literature in the
+theoretically be trained, the attention mechanism leads to        CLS domain. We conjecture that this can be explained by
+a memory requirement that scales quadratically with the           the very good performance of transformers as compared
+input, making much larger sizes infeasible. More recently,        to other techniques in language processing tasks (poten-
+approaches like Longformers [77, 78] have proposed meth-          tially outweighing domain adaptation issues) in combina-
+ods to limit memory consumption, by limiting the attention        tion with their relative ease of use.
+210   — H. O. Hatzel et al.: Machine learning in CLS
+
+3.5 Feature-based approaches                                      inferred from the data in an unsupervised manner. In the
+                                                                  case of Latent Dirichlet allocation (LDA), for example, topics
+In our literature research, when leaving transformers aside,      are understood as a probability distribution across terms.
+support vector machines (SVMs) were clearly the pre-              A number of the works we surveyed [22, 60, 62] use LDA
+dominant means of approaching classiﬁcation tasks. In             [85] as a means of topic modeling. Cooper et al. [22], for
+terms of input features, we found uses of Tf-idf vectors, n-      example, use it to segment their texts into topics to rep-
+gram counts, and word counts for speciﬁc dictionary-based         resent individual storytellers by means of the topic dis-
+vocabularies. Some works also made use of preexisting clas-       tribution their texts exhibit. Top2Vec [86] is an approach
+siﬁers or rule-sets to build features. SMVs, just as expected,    that, rather than relying on term distributions, encompasses
+perform well for classiﬁcation tasks like genre identiﬁcation     existing embedding models to represent documents; it can
+[43].                                                             be used in conjunction with universal sentence encoder
+      Tf-idf is one of the most popular features in our review.   (USE) embeddings, among other options. In our selection
+It is a measure weighting the relative occurrence of a term       of papers, Top2Vec was employed by Zundert et al. [54],
+(e.g. an individual word) in the current document by its          exploring if topic models can be used to identify literary
+rarity across the corpus, such that rare terms across the         genres as deﬁned by publishers.
+corpus that occur frequently in the document of interest
+receive a very high Tf-idf value. In this way, an individual
+document can be represented as a vector of real numbers           3.7 Stylometry
+where each element represents one term in the vocabulary.
+Orthogonal to this is the selection of what exactly consti-       While stylometry does, strictly speaking, typically not qual-
+tutes a term in the vocabulary, typically individual tokens       ify as a machine learning technique, we include it here for
+are chosen but alternatively character n-grams or word            context as it is a very common technique. Stylometry in
+n-grams, that is to say all sequences of n characters or n        CLS is often performed using most-frequent-word (MFW)
+tokens, could also be used. Brottrager et al. [56] employ a       analysis, that is only the n most frequent words in the corpus
+large variety of features to identify literary work that is       are considered. Each document is represented by a vector
+likely to be externally reviewed, e.g. in a book review; from     with each element representing the occurrence count of
+character-based metrics like the ratio of punctuation marks       one of the n MFWs. After normalization to account for the
+in the text to lexical ones like token n-grams, to semantic       frequency of each token, one of a range of different distance
+features like embedding cosine distance, and even com-            metrics can be used. In this way, either individual docu-
+plexity features like an ease of reading score. By contrast,      ments or collections of documents (by taking the average
+Bonch-Osmolovskaya et al. [35] rely exclusively on Tf-idf, in     vector), can be compared with a given document [87].
+their case the approach is likely to be token-based but details        Eder [25] takes a fresh approach to this task by nor-
+are not provided. With this comparatively simple method,          malizing the number of tokens with semantically relevant
+they succeed in classifying diary entries into four classes,      words, which are extracted using static embeddings.
+depending on what they describe.
+      Ciotti [37] made use of dictionary-based features, apply-
+ing an Italian version of the LIWC [83] to collect the relative
+                                                                  3.8 Metrics
+frequencies of words in speciﬁc categories (such as “Affect       In general terms, many of the metrics used in CLS are
+Words”, “Cognitive Processes”, or “Perceptual Processes”).        well-established in the machine learning community. For
+Camps et al. [36] add musical features to their textual ones      example, accuracy, F1 score, (e.g. [30]) but also BLEU
+by, among others, adding bigrams of musical notes, as their       (e.g. [28]), which was originally developed for machine
+subject of analysis is songs. They ﬁnd character 3-g to be the    translation evaluation. One metric that seems to generally
+best features for identifying song authors using an SVM on        be popular in the CLS community, as evidenced by its inclu-
+their dataset, with the feature reaching an F1 score of 0.79      sion in MONAPipe [68], is Gamma; it can be used to evaluate
+outperforming word-lemmas at 0.67.                                classiﬁer performance as well as inter-annotator agreement
+                                                                  on span-based annotations. For example, Andresen et al.
+                                                                  and Ehrmanntraut et al. [58, 88], employ it to evaluate their
+3.6 Topic modeling
+                                                                  annotation agreement. Outside of our previously selected
+Topic modeling is a technique to identify, for a corpus of        literature, Zehe et al. [89] employ it not only to measure
+texts, which topics are represented in which documents            inter-annotator agreements but also as a performance met-
+(see Sandhiya et al. [84] for a survey). Topics are generally     ric for their prediction system.
+                                                                                H. O. Hatzel et al.: Machine learning in CLS   — 211
+
+3.9 Model introspection                                           tasks there is either an objective knowledge-based ground
+                                                                  truth (as is the case for misinformation) or an annotation
+Some of the papers we surveyed make use of model intro-           schema aligned with colloquial deﬁnitions. They do how-
+spection techniques. Kunilovskaya et al. [45], for example,       ever also ﬁnd that models perform the worst on tasks that
+use a linear kernel SVM to inspect feature weights and            require complex expert taxonomies (meaning tasks where
+ﬁnd ﬁve features that distinguish original Russian texts          the annotation guidelines are informed by domain exper-
+from translations to Russian (among them simple sentences         tise), which tend to not semantically align with much of the
+and interrogative sentences). Steg et al. [48] take a similar     LLM’s training data. An example of such a task is the annota-
+approach, inspecting the importance of features (in this          tion of character tropes, requiring the annotation of one of
+case individual tokens) in their Theil-Sen regressor using        72 tropes given a quote by a character. Aside from the large
+an existing implementation;4 they point out differences in        number of classes, this task is also difficult for LLMs because
+the importance of ﬁrst and third person pronouns depend-          names of individual classes may not be easily understand-
+ing on which theoretical approach to narrativity is taken.        able without further context, requiring expert knowledge
+Crucially, both of these occurrences not only validate their      to interpret the taxonomy. This ﬁnding seems particularly
+models’ decision process but go so far as to derive literary      relevant in the context of the research process we outlined
+insight by inspecting it.                                         earlier, where theoretical work typically produces just such
+                                                                  an annotation scheme. It remains to be seen how quickly
+                                                                  these models are adopted in the CLS community, but we
+3.10 Large and instruction-tuned language
+                                                                  expect them to eventually see wide-spread use.
+     models
+Since our survey considered works from 2022 and before,           3.11 Domain-specific approaches
+no instruction-tuned language models like ChatGPT were
+                                                                  While some CLS methods align well with the methodology
+used. Instruction-tuned models [90] are Large Language
+                                                                  used for example in the NLP community, other methods
+Models (LLMs) that are tuned, based on human feedback,
+                                                                  are more speciﬁc to the ﬁeld. For example, span-based text
+to provide helpful responses rather than exclusively being
+                                                                  annotations are often performed in the ﬁeld of NLP for
+trained using self-supervised language modeling objectives.
+                                                                  tasks like named entity recognition (NER), whereas building
+GPT-2, an LLM without instruction tuning, was used in our
+                                                                  graphs of character interactions is a technique more speciﬁc
+set of surveyed papers to generate poetry [49, 55]. In the near
+                                                                  to the CLS domain.
+future, zero-shot methodology [91], that is to say inference
+using a pretrained model without training data, may sim-
+plify the annotation process for speciﬁc CLS tasks. Similarly,    3.11.1 Character-focused approaches
+the few-shot capabilities of LLMs [92] could help scale anno-
+tations more quickly and simpler than traditional training        Characters here do not refer, as is usually the case in infor-
+approaches. That is to say, given only very few manually          matics contexts, to symbols, but to characters in the sense
+annotated examples, a large body of text could be automat-        of people in the narrated world. As such, it is very spe-
+ically annotated with the given annotation schema for a           ciﬁc to literary studies; while non-ﬁctional texts may also
+speciﬁc concept allowing for corpus level analysis. Ziems         refer to speciﬁc people, this is usually addressed by entity
+et al. [93] evaluate the application of several LLMs, including   linking with existing knowledge bases, an approach that is
+ChatGPT, in social sciences while including a few tasks rele-     not possible for characters in literary works, as they are in
+vant to literary studies. In general, they ﬁnd LLMs to poten-     many cases not represented in external knowledge bases.
+tially be ready for some zero-shot classiﬁcation tasks in the     There exist approaches for the automatic identiﬁcation of
+context of social studies research. For example, ChatGPT          characters and their occurrences; to solve this detection task
+perform particularly well on a stance detection tasks, where      in the general case, however, long document coreference
+the objective is to identify a text’s position on a given topic   resolution is required. Coreference resolution is the task of,
+like atheism or the legalization of abortion. Overall, in their   for each described entity, resolving which spans in the text
+experiments, models perform the best on misinformation            refer to it, in the case of characters, this may be names and
+classiﬁcation, stance detection, and emotion classiﬁcation.       personal pronouns, but also more general references like
+The authors attribute this to the fact that in each of these      occupation titles that may identify individual characters.
+                                                                  While recently, in the ﬁeld of NLP, major advances have
+                                                                  been made in terms of scores for coreference resolution
+4 https://eli5.readthedocs.io/.                                   systems [34, 94], they do not produce satisfactory results for
+212   — H. O. Hatzel et al.: Machine learning in CLS
+
+longer documents in the literature domain (as noted, for           4 Datasets
+example, by Perri et al. [52]) although approaches specif-
+ically for this domain exist [95]. Accordingly, an alterna-        Surveying the landscape of research data management
+tive is needed; Perri et al. choose to rely on named men-          in the German CLS community (speciﬁcally the SPP-CLS),
+tions of characters instead, relying on exact matches of           Helling et al. [1] found XML, CSV, and plain text to be the
+names only and thereby disregarding many references, e.g.          three most prevalent data formats. XML is often used in
+those using only personal pronouns. Coreference resolu-            the form of TEI,6 a standard for representing all sorts of
+tion has recently been trained using supervised learning           characteristics of texts. From an annotation point of view,
+and transformer architectures, annotations for which are           many of the works we encountered built problem-speciﬁc
+very time-consuming to build. A fairly large dataset in the        datasets that have no immediate wider application (e.g.
+domain of English literature already exists in the form of         [35]). Others, however, annotated data intended for wider
+LitBank.5                                                          down-stream use (e.g. [46]), enabling researchers to build
+     The extraction of characters and their mentions is a          their work on existing annotated datasets. A whole range of
+prerequisite for the actual analysis step. Here, a typical         work, for example, builds on the annotated drama datasets
+approach is that of character networks, in general terms           provided by the DraCor project [97].
+a graph where nodes are individual characters with edges
+representing their interaction, for example the number of
+interactions via an edge weight. On such graphs, a variety of
+established algorithms can be used for analysis, for example
+                                                                   5 Generating insights and results
+Konle et al. [50] ﬁnd that, in all twenty novels they consider,
+                                                                   The main body of this work has concerned itself with the
+the protagonist and their love interest rank ﬁrst and sec-
+                                                                   details of how machine learning approaches are applied in
+ond respectively in terms of a closeness-centrality measure,
+                                                                   CLS, at least as important to literary scholars, however, is
+speciﬁcally temporal closeness centrality. In our surveyed
+                                                                   the actual process of generating insights from data obtained
+work only Perri et al. and to a lesser extent Konle et al. use
+                                                                   in this way. We already discussed insights taken from model
+character networks as a method for literary analysis [50,
+                                                                   introspection, where feature weights can inform theoretical
+52]. Graph analysis allows literary researchers to answer a
+                                                                   insights, in Section 3.9.
+broad range of research questions, with Vauth [96], outside
+                                                                        In most scenarios, machine learning replaces a large
+our surveyed papers, analyzing dramas by renowned Ger-
+                                                                   team of annotators, making it possible to, within the con-
+man writer Kleist using network graphs. In general, graph
+                                                                   straints of research projects, expand annotations beyond
+analysis seems to be a very popular tool speciﬁcally for
+                                                                   a small set of texts and onto an entire corpus. As a result
+dramas, which we attribute to the rather straightforward
+                                                                   corpus-level statistics, rather than information on individ-
+extraction of characters and a set of datasets in multiple
+                                                                   ual texts, are subject to analysis.
+languages [97].
+
+
+3.11.2 Narrative modeling                                          6 Conclusions
+Two approaches in our survey are explicitly concerned with         In this survey, we introduced the ﬁeld of computational
+modeling narrative, i.e. modeling what happens on the story        literary studies (CLS) and provided an overview of the
+level by building up from computationally analyzing sur-           machine learning methods used by its practitioners. Our
+face phenomena [48, 50]. Steg et al. [48] like Vauth et al. [98]   overview indicates that modern neural language models
+attempt to measure the degree of narrativity in a given seg-       take a large role in the ﬁeld, while still co-existing with
+ment of text, attempting to quantify in different ways how         traditional methods. CLS provides a potential test bed for
+much is happening at any point in the text. Konle et al. [75]      NLP techniques with tasks such as coreference resolution
+on the other hand take a character-based approach to the           being much more challenging in the literature domain than
+same concept, interpreting plot and narrative as sequence          in the news datasets typically employed in NLP. Further, CLS
+of character graphs.                                               is challenging as it demands a large degree of transparency
+
+
+5 https://github.com/dbamman/litbank.                              6 https://tei-c.org/.
+                                                                                             H. O. Hatzel et al.: Machine learning in CLS       — 213
+
+from NLP methods, as black-box decisions run contrary                       [2] C. Schöch, J. Dudar, and E. Fileva, “CLS INFRA D3.2: series of five
+to literary scholars’ ultimate goal of interpretation. With                     short survey papers on methodological issues (= survey of
+advancements in machine learning techniques, processing                         methods in computational literary studies),” Tech. Rep. Zenodo,
+                                                                                pp. 1 − 159, 2023.
+longer texts will become increasingly feasible, which may
+                                                                            [3] N. Z. Da, “The computational case against computational literary
+give rise to new opportunities for automation in CLS. While                     studies,” Crit. Inq., vol. 45, no. 3, pp. 601 − 639, 2019.
+a variety of methods are employed by literary scholars, we                  [4] T. Underwood, Dear Humanists: Fear Not the Digital Revolution. 2019.
+lined out a process that seems to be common to many works                       Available at: https://www.chronicle.com/article/dear-humanists-
+applying machine learning to the analysis of literature. Our                    fear-not-the-digital-revolution/.
+review also highlighted two key challenges that the disci-                  [5] F. Jannidis, “On the perceived complexity of literature. A response
+                                                                                to nan Z. Da,” J. Cult. Anal., vol. 1, no. 1, p. 11829, 2020.
+pline of CLS faces, the ﬁrst being the black-box nature of
+                                                                            [6] F. Moretti, “The slaughterhouse of literature,” Mod. Lang. Q.,
+some machine learning models and the other being that                           vol. 61, no. 1, pp. 207 − 227, 2000.
+of tying results generated by machine learning methods                      [7] F. Moretti, Distant Reading, London, Verso Books, 2013.
+back to literary theory and, in turn, to gain insights. In CLS,             [8] Martin Mueller on “Morgenstern’s Spectacles or the Importance of
+the traditional pipeline-based approach to NLP is still alive,                  not-reading” — NUDHL, 2013. Available at:
+in part because, in conjunction with rule-sets, they allow                      https://sites.northwestern.edu/nudhl/?p=433.
+                                                                            [9] T. Weitin, “Scalable reading,” Z. Lit. Linguist., vol. 47, no. 1, pp. 1 − 6,
+for automation without annotations and in part because
+                                                                                2017.
+feature-based approaches often allow for inspecting the
+                                                                          [10] E. Gius, “Algorithmen zwischen Strukturalismus und Postcolonial
+model’s decision process, which may be crucial for assessing                    Studies. Zur Kritik und Entwicklung der Computationellen
+the adequacy of an approach from a literary studies point of                    Literaturwissenschaft,” in Toward Undogmatic Reading. Narratology,
+view. We see great potential in the development of further                      Digital Humanities and Beyond, Hamburg, 2021.
+simple-to-use tools and the case of stylometry shows that                  [11] B. Zimmer, Language Log ≫ Rowling and “Galbraith”: An Authorial
+                                                                                Analysis, 2013. Available at:
+established techniques can be applied in various scenarios.
+                                                                                https://languagelog.ldc.upenn.edu/nll/?p=5315.
+Further simplifying the application of transformers may
+                                                                          [12] A. van Cranenburgh and E. Ketzan, “Stylometric literariness
+enable rapid scaling of annotations from a few examples to                      classification: the case of stephen king,” in Proceedings of the 5th
+an entire corpus. We suspect that the few-shot and zero-shot                    Joint SIGHUM Workshop on Computational Linguistics for Cultural
+capabilities of LLMs may constitute such a simpliﬁcation                        Heritage, Social Sciences, Humanities and Literature, Punta Cana,
+in the application of models, and will be established as                        Dominican Republic. (Online), 2021, pp. 189 − 197.
+                                                                          [13] M. L. Jockers, Macroanalysis: Digital Methods and Literary History,
+the standard methodology in CLS, following other ﬁelds of
+                                                                                Champaign, Illinois, University of Illinois Press, 2013.
+application.
+                                                                          [14] C. P. Snow, The Two Cultures and the Scientific Revolution, New York,
+Research ethics: Not applicable.                                                Cambridge University Press, 1959.
+Author contributions: All the authors have accepted                       [15] E. Hovy, M. Marcus, M. Palmer, L. Ramshaw, and R. Weischedel,
+                                                                                “OntoNotes: the 90% solution,” in Proceedings of the Human
+responsibility for the entire content of this submitted
+                                                                                Language Technology Conference of the NAACL, Companion Volume:
+manuscript and approved submission.                                             Short Papers, New York City, New York, USA, Association for
+Conflict of interest: Evelyn Gius is among the editors of                       Computational Linguistics, 2006, pp. 57 − 60.
+the “Journal for Computational Literary Studies” which we                 [16] J. Wu, L. Ouyang, D. M. Ziegler, et al., “Recursively summarizing
+include in our study.                                                           books with human feedback,” 2021, arXiv: 2109.10862 [cs].
+Research funding: This study was funded by the DFG in the                  [17] T. George, “Hermeneutics,” in The Stanford Encyclopedia of
+                                                                                Philosophy, Winter, 2021.
+priority program Computational Literary Studies as part of
+                                                                          [18] E. Gius and J. Jacke, “The hermeneutic profit of annotation: on
+the project “Evaluating Events in Narrative Theory (EvENT)”                     preventing and fostering disagreement in literary analysis,” IJHAC,
+(grants BI 1544/11-1 and GI 1105/3-1).                                          vol. 11, no. 2, pp. 233 − 254, 2017.
+Data availability: Not applicable.                                        [19] D. Malvern, B. Richards, N. Chipere, and P. Durán, “Traditional
+                                                                                approaches to measuring lexical diversity,” in Lexical Diversity and
+                                                                                Language Development: Quantification and Assessment, London,
+References                                                                      Palgrave Macmillan UK, 2004, pp. 16 − 30.
+                                                                          [20] A. Pichler and N. Reiter, “Reflektierte textanalyse,” in Reflektierte
+ [1] P. Helling, K. Jung, and S. Pielström, “Pragmatisches                      algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der
+     Forschungsdatenmanagement − qualitative und quantitative                   CRETA-Werkstatt, 2020, pp. 43 − 60.
+     Analyse der Bedarfslandschaft in den Computational Literary          [21] E. Gius, J. C. Meister, M. Meister, et al, CATMA, Zenodo, 2022.
+     Studies,” in DHd 2022 Kulturen des digitalen Gedächtnisses, Tagung         Available at: https://zenodo.org/record/1470118.
+     des Verbands “Digital Humanities im deutschsprachigen Raum”,         [22] A. Cooper, M. Antoniak, C. De Sa, M. Migiel, and D. Mimno,
+     vol. 8, 2022.                                                              “Tecnologica cosa’: modeling storyteller personalities in
+214   — H. O. Hatzel et al.: Machine learning in CLS
+
+     boccaccio’s ‘decameron’,” in Proceedings of the 5th Joint SIGHUM        [34] M. Joshi, D. Chen, Y. Liu, D. S. Weld, L. Zettlemoyer, and O. Levy,
+     Workshop on Computational Linguistics for Cultural Heritage, Social          “SpanBERT: improving pre-training by representing and predicting
+     Sciences, Humanities and Literature, Punta Cana, Dominican Republic.         spans,” Trans. Assoc. Comput. Linguist., vol. 8, pp. 64 − 77, 2020.
+     (Online), 2021, pp. 147 − 153.                                          [35] A. Bonch-Osmolovskaya, V. Vorobieva, A. Kriukov, and M.
+[23] M. K. Schumacher, M. Flüh, and M. Lemke, “The model of choice                Podriadchikova, “Distant reading of Russian soviet diaries
+     using pure CRF- and BERT-based classifiers for gender annotation             (prozhito database),” in Digital Humanities 2022 Combined Abstracts,
+     in German fantasy fiction,” in Digital Humanities 2022 Combined              Tokyo, Japan, DH2022 Local Organizing Committee, 2022.
+     Abstracts, Tokyo, Japan, 2022.                                          [36] J.-B. Camps, C. Chaillou, V. Mariotti, and F. Saviotti, “Textual,
+[24] W. Xie, J. Lee, F. Zhan, X. Han, and C.-Y. Chow, “Unsupervised               metrical and musical stylometry of the trouvères songs,” in Digital
+     adverbial identification in modern Chinese literature,” in                   Humanities 2022 Combined Abstracts, Tokyo, Japan, DH2022 Local
+     Proceedings of the 5th Joint SIGHUM Workshop on Computational                Organizing Committee, 2022.
+     Linguistics for Cultural Heritage, Social Sciences, Humanities and      [37] F. Ciotti, “Computational approaches to literary periodization: an
+     Literature, Punta Cana, Dominican Republic. (Online), 2021, pp.              experiment in Italian narrative of 19th and 20th century,” in Digital
+     91 − 95.                                                                     Humanities 2022 Combined Abstracts, Tokyo, Japan, 2022.
+[25] M. Eder, “Boosting word frequencies in authorship attribution,” in      [38] K. Dennerlein, T. Schmidt, and C. Wolff, “Emotion courses in
+     Proceedings of the Computational Humanities Research Conference              German historical comedies and tragedies,” in Digital Humanities
+     2022, vol. 3290, Antwerp, Belgium, CEUR Workshop Proceedings,                2022 Combined Abstracts, Tokyo, Japan, 2022.
+     2022, pp. 387 − 397.                                                    [39] M. Eder and A. Šel, a, “One word to rule them all: understanding
+[26] J. C. Tello and J. de la Rosa, “Evaluation of multilingual BERT in a         word embeddings for authorship attribution,” in Digital Humanities
+     diachronic, multilingual, and multi-genre corpus of bibles,” in              2022 Combined Abstracts, Tokyo, Japan, 2022.
+     Digital Humanities 2022 Combined Abstracts, Tokyo, Japan, 2022.         [40] G. Grant, “An adaptive methodology: machine learning and
+[27] T. Clérice, “Ground-truth free evaluation of HTR on old French and           literary adaptation,” in Digital Humanities 2022 Combined Abstracts,
+     Latin medieval literary manuscripts,” in Proceedings of the                  Tokyo, Japan, 2022.
+     Computational Humanities Research Conference 2022, vol. 3290,           [41] J. B. Herrmann, J. Byszuk, and G. Grisot, “Using word embeddings
+     Antwerp, Belgium, CEUR Workshop Proceedings, 2022,                           for validation and enhancement of spatial entity lists,” in Digital
+     pp. 1 − 24.                                                                  Humanities 2022 Combined Abstracts, Tokyo, Japan, 2022.
+[28] J. de la Rosa, Á. Cuéllar, and J. Lehmann, “The modernisa project:      [42] L. Ivanov, “Abstractness/concreteness as stylistic features for
+     orthographic modernization of Spanish golden age dramas with                 authorship attribution,” in Digital Humanities 2022 Combined
+     Language Models,” in Digital Humanities 2022 Combined Abstracts,             Abstracts, Tokyo, Japan, 2022.
+     Tokyo, Japan, 2022.                                                     [43] P.-C. Langlais, J.-B. Camps, N. Baumard, and O. Morin, “From
+[29] A. Karlińska, C. Rosiński, J. Wieczorek, et al., “Towards a                  roland to conan: first results on the corpus of French literary
+     contextualised spatial-diachronic history of literature: mapping             fictions (1050-1920),” in Digital Humanities 2022 Combined Abstracts,
+     emotional representations of the city and the country in polish              Tokyo, Japan, DH2022 Local Organizing Committee, 2022.
+     fiction from 1864 to 1939,” in Proceedings of the 6th Joint SIGHUM      [44] M. K. Schumacher, “Measuring space in German novels − the
+     Workshop on Computational Linguistics for Cultural Heritage, Social          spatial index (SI) as measurement for narrative space,” in Digital
+     Sciences, Humanities and Literature, Gyeongju, Republic of Korea,            Humanities 2022 Combined Abstracts, Tokyo, Japan, 2022.
+     2022, pp. 115 − 125.                                                    [45] M. Kunilovskaya, E. Lapshinova-Koltunski, and R. Mitkov,
+[30] T. Schmidt, K. Dennerlein, and C. Wolff, “Emotion classification in          “Translationese in Russian literary texts,” in Proceedings of the 5th
+     German plays with transformer-based Language Models                          Joint SIGHUM Workshop on Computational Linguistics for Cultural
+     pretrained on historical and contemporary language,” in                      Heritage, Social Sciences, Humanities and Literature, Punta Cana,
+     Proceedings of the 5th Joint SIGHUM Workshop on Computational                Dominican Republic. (Online), 2021, pp. 101 − 112.
+     Linguistics for Cultural Heritage, Social Sciences, Humanities and      [46] D. Schmidt, A. Zehe, J. Lorenzen, et al., “The FairyNet corpus
+     Literature, Punta Cana, Dominican Republic. (Online), 2021,                  − character networks for German fairy tales,” in Proceedings of the
+     pp. 67 − 79.                                                                 5th Joint SIGHUM Workshop on Computational Linguistics for Cultural
+[31] A. Abdibayev, Y. Igarashi, A. Riddell, and D. Rockmore,                      Heritage, Social Sciences, Humanities and Literature, Punta Cana,
+     “Automating the detection of poetic features: the limerick as                Dominican Republic. (Online), 2021, pp. 49 − 56.
+     model organism,” in Proceedings of the 5th Joint SIGHUM Workshop        [47] F. Schneider, B. Barz, P. Brandes, S. Marshall, and J. Denzler,
+     on Computational Linguistics for Cultural Heritage, Social Sciences,         “Data-driven detection of general chiasmi using lexical and
+     Humanities and Literature, Punta Cana, Dominican Republic. (Online),         semantic features,” in Proceedings of the 5th Joint SIGHUM Workshop
+     2021, pp. 80 − 90.                                                           on Computational Linguistics for Cultural Heritage, Social Sciences,
+[32] M. A. Algee-Hewitt, “A computational approach to epistemology in             Humanities and Literature, Punta Cana, Dominican Republic.
+     poetry of the long eighteenth century − a case study in objects              (Online), 2021, pp. 96 − 100.
+     and ideas,” in Digital Humanities 2022 Combined Abstracts, Tokyo,       [48] M. Steg, K. Slot, and F. Pianzola, “Computational detection of
+     Japan, 2022.                                                                 narrativity: a comparison using textual features and reader
+[33] A. Piper and S. Bagga, “A quantitative study of fictional things,” in        response,” in Proceedings of the 6th Joint SIGHUM Workshop on
+     Proceedings of the Computational Humanities Research Conference              Computational Linguistics for Cultural Heritage, Social Sciences,
+     2022, vol. 3290, Antwerp, Belgium, CEUR Workshop Proceedings,                Humanities and Literature, Gyeongju, Republic of Korea, 2022,
+     2022, pp. 268 − 279.                                                         pp. 105 − 114.
+                                                                                                   H. O. Hatzel et al.: Machine learning in CLS   — 215
+
+[49] J. Wöckener, T. Haider, T. Miller, et al., “End-to-End                      [62] Y. Völkl, S. Sarić, and M. Scholger, “Topic modeling for the
+     style-conditioned poetry generation: what does it take to learn                   identification of gender-specific discourse. Virtues and vices in
+     from examples alone?” in Proceedings of the 5th Joint SIGHUM                      French and Spanish 18th century periodicals,” J. Comput. Lit. Stud.,
+     Workshop on Computational Linguistics for Cultural Heritage, Social               vol. 1, no. 1, 2022, https://doi.org/10.48694/jcls.108.
+     Sciences, Humanities and Literature, Punta Cana, Dominican                  [63] A. M. Weimer, F. Barth, and T. Dönicke, “The (In-)Consistency of
+     Republic. (Online), 2021, pp. 57 − 66.                                            literary concepts. Operationalising, annotating and detecting
+[50] L. Konle and F. Jannidis, “Modeling plots of narrative texts as                   literary comment,” J. Comput. Lit. Stud., vol. 1, no. 1, 2022, https://
+     temporal graphs,” in Proceedings of the Computational Humanities                  doi.org/10.48694/jcls.108.
+     Research Conference 2022, vol. 3290, Antwerp, Belgium, CEUR                 [64] A. Pramanick, Y. Hou, and I. Gurevych, “A diachronic analysis of
+     Workshop Proceedings, 2022, pp. 318 − 336.                                        the NLP research paradigm shift: when, how, and why?” 2023,
+[51] M. Parigini and M. Kestemont, “The roots of doubt. Fine-Tuning a                  arXiv: 2305.12920 [cs.CL].
+     BERT model to explore a stylistic phenomenon,” in Proceedings of            [65] M. Honnibal, I. Montani S. Van Landeghem, and A. Boyd., “spaCy:
+     the Computational Humanities Research Conference 2022, vol. 3290,                 Industrial-strength Natural Language Processing in Python,” 2020.
+     Antwerp, Belgium, CEUR Workshop Proceedings, 2022, pp. 72 − 91.                   Available at: https://zenodo.org/record/8123552
+[52] V. Perri, L. Qarkaxhija, A. Zehe, A. Hotho, and I. Scholtes, “One           [66] A. O. Kehinde, “Pathways to the native storyteller: a method to
+     graph to rule them all: using NLP and graph neural networks to                    enable computational story understanding,” Ph.D. thesis, 2020.
+     analyse tolkien’s legendarium,” in Proceedings of the Computational         [67] A. Ehrmanntraut, L. Konle, and F. Jannidis, LLpro − A Literary
+     Humanities Research Conference 2022, vol. 3290, Antwerp, Belgium,                 Language Processing Pipeline for German Narrative Texts, 2022.
+     CEUR Workshop Proceedings, 2022, pp. 291 − 317.                                   Available at: https://github.com/aehrm/LLpro.
+[53] J. Zhang, Y. C. Ryan, I. Rastas, F. Ginter, M. Tolonen, and R. Babbar,      [68] T. Dönicke, F. Barth, H. Varachkina, and C. Sporleder, “MONAPipe:
+     “Detecting sequential genre change in eighteenth-century texts,”                  modes of narration and attribution pipeline for German
+     in Proceedings of the Computational Humanities Research Conference                computational literary studies and language analysis in spaCy,” in
+     2022, vol. 3290, Antwerp, Belgium, CEUR Workshop Proceedings,                     Proceedings of the 18th Conference on Natural Language Processing
+     2022, pp. 243 − 255.                                                              (KONVENS 2022), Potsdam, Germany, KONVENS 2022 Organizers,
+[54] J. J. van Zundert, M. Koolen, J. Neugarten, P. Boot, W. van Hage,                 2022, pp. 8 − 15.
+     and O. Mussmann, “What do we talk about when we talk about                  [69] J. Pennington, R. Socher, and C. Manning, “GloVe: global vectors
+     topic?,” in Proceedings of the Computational Humanities Research                  for word representation,” in Proceedings of the 2014 Conference on
+     Conference 2022, vol. 3290, Antwerp, Belgium, CEUR Workshop                       Empirical Methods in Natural Language Processing (EMNLP), Doha,
+     Proceedings, 2022, pp. 398 − 410.                                                 Qatar, 2014, pp. 1532 − 1543.
+[55] A. Abdibayev, Y. Igarashi, A. Riddell, and D. Rockmore, “Limericks          [70] T. Mikolov, K. Chen, G. Corrado, and J. Dean, Efficient estimation of
+     and computational poetics: the minimal pairs framework.                           Word representations in vector space, arXiv:1301.3781 [cs.CL], 2013.
+     Computational challenges for poetic analysis and synthesis,”                 [71] P. Bojanowski, E. Grave, A. Joulin, and T. Mikolov, “Enriching word
+     J. Comput. Lit. Stud., vol. 1, no. 1, 2022, https://doi.org/10.48694/jcls         vectors with subword information,” Trans. Assoc. Comput. Linguist.,
+     .117.                                                                             vol. 5, pp. 135 − 146, 2017.
+[56] J. Brottrager, A. Stahl, A. Arslan, U. Brandes, and T. Weitin,              [72] J. Bromley, J. W. Bentz, L. Bottou, et al., “Signature verification
+     “Modeling and predicting literary reception. A data-rich approach                 using a “siamese” time delay neural network,” Adv. Neural Inf.
+     to literary historical reception,” J. Comput. Lit. Stud., vol. 1, no. 1,          Process. Syst., vol. 6, pp. 737 − 744, 1993.
+     2022, https://doi.org/10.3929/ethz-b-000596039.                             [73] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “BERT:
+[57] K. Du, J. Dudar, and C. Schöch, “Evaluation of measures of                        pre-training of deep bidirectional transformers for language
+     distinctiveness. Classification of literary texts on the basis of                 understanding,” in Proceedings of the 2019 Conference of the North
+     distinctive words,” J. Comput. Lit. Stud., vol. 1, no. 1, 2022, https://          American Chapter of the Association for Computational Linguistics:
+     doi.org/10.48694/jcls.102.                                                        Human Language Technologies, Volume 1 (Long and Short Papers),
+[58] A. Ehrmanntraut, T. Hagen, F. Jannidis, L. Konle, M. Kröncke, and S.              Minneapolis, Minnesota, USA, 2019, pp. 4171 − 4186.
+     Winko, “Modeling and measuring short text similarities. On the              [74] J. Bandy and N. Vincent, “Addressing “documentation debt” in
+     multi-dimensional differences between German poetry of realism                    machine learning: a retrospective datasheet for BookCorpus,” in
+     and modernism,” J. Comput. Lit. Stud., vol. 1, no. 1, 2022, https://doi           Proceedings of the Neural Information Processing Systems Track on
+     .org/10.48694/jcls.116.                                                           Datasets and Benchmarks, vol. 1, 2021.
+[59] M. Koolen, J. Neugarten, and P. Boot, “This book makes me happy             [75] L. Konle and F. Jannidis, “Domain and task adaptive pretraining for
+     and sad and I love it’. A rule-based model for extracting reading                 Language Models,” in Proceedings of the Workshop on
+     impact from English book reviews,” J. Comput. Lit. Stud., vol. 1, no. 1,          Computational Humanities Research (CHR 2020), vol. 2723,
+     2022, https://doi.org/10.48694/jcls.104.                                          Amsterdam, the Netherlands, CEUR Workshop Proceedings, 2020,
+[60] J. Schröter and K. Du, “Validating topic modeling as a method of                  pp. 248 − 256.
+     analyzing sujet and theme,” J. Comput. Lit. Stud., vol. 1, no. 1, 2022,     [76] I. Rastas, Y. Ciarán Ryan, and I. Tiihonen, “Explainable publication
+     https://doi.org/10.48694/jcls.91.                                                 year prediction of eighteenth century texts with the BERT model,”
+[61] H. Shin, “Analyzing the positive sentiment towards the term                       in Proceedings of the 3rd Workshop on Computational Approaches to
+     “queer” in Virginia woolf through a computational approach and                    Historical Language Change, Dublin, Ireland, 2022, pp. 68 − 77.
+     close reading,” J. Comput. Lit. Stud., vol. 1, no. 1, 2022, https://doi     [77] I. Beltagy, M. E. Peters, and A. Cohan, “Longformer: the
+     .org/10.48694/jcls.106.                                                           long-document transformer,” 2020, arXiv: 2004.05150 [cs].
+216    — H. O. Hatzel et al.: Machine learning in CLS
+
+[78] M. Zaheer, G. Guruganesh, K. A. Dubey, et al., “Big bird:                        Language Processing, Punta Cana, Dominican Republic. (Online),
+     transformers for longer sequences,” Adv. Neural Inf. Process. Syst.,             2021, pp. 7670 − 7675.
+     vol. 33, pp. 17283 − 17297, 2020.                                           [95] S. Toshniwal, S. Wiseman, A. Ettinger, K. Livescu, and K. Gimpel,
+[79] X. Zhang, F. Wei, and M. Zhou, “HIBERT: document level                           “Learning to ignore: long document coreference with bounded
+     pre-training of hierarchical bidirectional transformers for                      memory neural networks,” in Proceedings of the 2020 Conference on
+     document summarization,” in Proceedings of the 57th Annual                       Empirical Methods in Natural Language Processing (EMNLP). Online,
+     Meeting of the Association for Computational Linguistics, Florence,              2020, pp. 8519 − 8526.
+     Italy, 2019, pp. 5059 − 5069.                                               [96] M. Vauth, “Figurenrede in kleists literarischem werk,” in Eine
+[80] A. Bertsch, Y. Kuratov, and M. Burtsev, “Unlimiformer: long-range                digitale Narratologie der Binnenerzählung: Untersuchungen zu den
+     transformers with unlimited length input,” 2023, arXiv: 2305.01625               Dramen und Novellen Heinrich von Kleists, Berlin, Heidelberg,
+     [cs].                                                                            Digitale Literaturwissenschaft, 2023, pp. 153 − 204.
+[81] A. Bulatov, Y. Kuratov, and M. Burtsev, “Recurrent memory                   [97] F. Fischer, I. Börner, M. Göbel, et al., “Programmable corpora:
+     transformer,” Adv. Neural Inf. Process. Syst., vol. 35,                          introducing DraCor, an infrastructure for the research on
+     pp. 11079 − 11091, 2022.                                                         European drama,” in Digital Humanities 2019: “Complexities”
+[82] M. Kusner, Y. Sun, N. Kolkin, and K. Weinberger, “From word                      (DH2019), Utrecht, Utrecht University, 2019.
+     embeddings to document distances,” in Proceedings of the 32nd               [98] M. Vauth, H. O. Hatzel, E. Gius, and C. Biemann, “Automated event
+     International Conference on Machine Learning, vol. 37, Lille, France,            annotation in literary texts,” in Proceedings of the Conference on
+     Proceedings of Machine Learning Research, 2015, pp. 957 − 966.                   Computational Humanities Research 2021, vol. 2989, Amsterdam,
+[83] Y. R. Tausczik and J. W. Pennebaker, “The psychological meaning                  The Netherlands, CEUR Workshop Proceedings, 2021,
+     of words: LIWC and computerized text analysis methods,” J. Lang.                 pp. 333 − 345.
+     Soc. Psychol., vol. 29, no. 1, pp. 24 − 54, 2010.
+[84] R. Sandhiya, A. M. Boopika, M. Akshatha, S. V. Swetha, and N. M.
+     Hariharan, “A review of topic modeling and its application,” in
+     Handbook of Intelligent Computing and Optimization for Sustainable
+                                                                                 Bionotes
+     Development, 2022, pp. 305 − 322. Chap. 15.
+                                                                                                           Hans Ole Hatzel
+[85] D. M. Blei, A. Y. Ng, and M. I. Jordan, “Latent dirichlet allocation,” J.
+                                                                                                           Department of Informatics, Universität
+     Mach. Learn. Res., vol. 3, pp. 993 − 1022, 2003.
+                                                                                                           Hamburg, Vogt-Kölln-Straße 30, 22527
+[86] D. Angelov, “Top2Vec: distributed representations of topics,” 2020,
+                                                                                                           Hamburg, Germany
+     arXiv: 2008.09470 [cs, stat].
+                                                                                                           hans.ole.hatzel@uni-hamburg.de
+[87] S. Evert, F. Jannidis, T. Proisl, et al., “Understanding and explaining
+     delta measures for authorship attribution,” Digit. Scholarsh.
+     Humanit., vol. 32, no. 2, pp. ii4 − ii16, 2017.
+[88] M. Andresen, B. Krautter, J. Pagel, and N. Reiter, “Who knows what
+     in German drama? A composite annotation scheme for knowledge
+     transfer. Annotation, evaluation, and analysis,” J. Comput. Lit. Stud.,     Hans Ole Hatzel studied Computer Science and is currently a Ph.D.
+     vol. 1, no. 1, 2022, https://doi.org/10.48694/jcls.107.                     student at the Universität Hamburg where he also got his Bachelors and
+[89] A. Zehe, L. Konle, L. K. Dümpelmann, et al., “Detecting scenes in           Masters degrees in 2017 and 2020. He works on event and story
+     fiction: a new segmentation task,” in Proceedings of the 16th               modeling in literary texts as part of the EvENT (Evaluating Events in
+     Conference of the European Chapter of the Association for                   Narrative Theory) project, publishing in both DH and NLP venues.
+     Computational Linguistics: Main Volume. Online, 2021, pp.
+     3167 − 3177.
+[90] L. Ouyang, K. Wu, X. Jiang, et al., “Training language models to                                      Haimo Stiemer
+     follow instructions with human feedback,” in Advances in Neural                                       Technical University of Darmstadt, Institute of
+     Information Processing Systems, vol. 35, New Orleans, Louisiana,                                      Linguistics and Literary Studies,
+     USA, Curran Associates, Inc., 2022, pp. 27730 − 27744.                                                Residenzschloss 1, 64283 Darmstadt,
+[91] T. Kojima, S. S. Gu, M. Reid, Y. Matsuo, and Y. Iwasawa, “Large                                       Germany
+     Language models are zero-shot reasoners,” in Advances in Neural                                       stiemer@linglit.tu-darmstadt.de
+     Information Processing Systems, vol. 35, New Orleans, Louisiana,
+     USA, Curran Associates, Inc., 2022, pp. 22199 − 22213.
+[92] T. Brown, B. Mann, N. Ryder, et al., “Language models are
+     few-shot learners,” Adv. Neural Inf. Process. Syst., vol. 33, pp.           Dr. Haimo Stiemer is a research associate at the fortext lab, where he
+     1877 − 1901, 2020.                                                          supervises the EvENT project (Evaluating Events in Narrative Theory). In
+[93] C. Ziems, W. Held, O. Shaikh, J. Chen, Z. Zhang, and D. Yang, “Can          addition to computational narratology and digital literary studies, his
+     large language models transform computational social science?”              research interests include the sociology of literature (especially
+     2023, arXiv: 2305.03514 [cs].                                               Bourdieu’s field theory), literary and cultural theory, modernist literature
+[94] V. Dobrovolskii, “Word-level coreference resolution,” in                    with a special focus on the German-language literatures of Eastern and
+     Proceedings of the 2021 Conference on Empirical Methods in Natural          Central Europe, and journal research.
+                                                                                              H. O. Hatzel et al.: Machine learning in CLS   — 217
+
+                         Chris Biemann                                                                Evelyn Gius
+                         Department of Informatics, Universität                                       Technical University of Darmstadt, Institute of
+                         Hamburg, Vogt-Kölln-Straße 30, 22527                                         Linguistics and Literary Studies,
+                         Hamburg, Germany                                                             Residenzschloss 1, 64283 Darmstadt,
+                         chris.biemann@uni-hamburg.de                                                 Germany
+                                                                                                      evelyn.gius@tu-darmstadt.de
+
+
+
+
+Prof. Dr. Chris Biemann is scientific director of the House of Computing &   Prof. Dr. Evelyn Gius is Professor of Digital Philology and Modern
+Data Science, and the head of the Language Technology group at the           German Literary Studies and head of the fortext lab. She has been
+Informatics department, at Universität Hamburg. He holds a doctorate         working in the field of Digital Humanities for about 15 years. Her
+from the University of Leipzig since 2007. While his PhD research was        research interests are mainly in the field of Computational Literary
+focused on unsupervised knowledge-free methods in language                   Studies and include in particular (computational) narratology, manual
+processing that leverage large corpora for pretraining, his research now     annotation and questions of operationalization.
+encompasses all aspects of natural language processing, with a focus on
+semantics and on applications in different fields of science and the
+humanities.

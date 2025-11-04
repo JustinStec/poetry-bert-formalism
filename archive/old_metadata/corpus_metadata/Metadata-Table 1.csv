@@ -1,0 +1,53 @@
+poem_id,title,author,source,source_edition,source_page,length_lines,length_words,collected,filename,source_url
+1,The Things That Cause a Quiet Life,Henry Howard Earl of Surrey,Poetry Foundation,,,14,16.0,True,001_the_things_that_cause_a_quiet_life.txt,https://www.poetryfoundation.org/poems/45263/the-things-that-cause-a-quiet-life
+2,Whoso List to Hunt,Thomas Wyatt,Poetry Foundation,,,14,14.0,True,002_whoso_list_to_hunt.txt,https://www.poetryfoundation.org/poems/45536/whoso-list-to-hunt-i-know-where-is-an-hind
+3,Astrophil and Stella 39: Come Sleep! O Sleep,Philip Sidney,Poetry Foundation,,,14,14.0,True,003_come_sleep_o_sleep.txt,https://www.poetryfoundation.org/poems/45153/astrophil-and-stella-39-come-sleep-o-sleep-the-certain-knot-of-peace
+4,Epithalamion,Edmund Spenser,Poetry Foundation,,,433,2597.0,True,004_epithalamion.txt,https://www.poetryfoundation.org/poems/45189/epithalamion
+5,The Passionate Shepherd to his Love,Christopher Marlowe,Poetry Foundation,,,24,168.0,True,005_the_passionate_shepherd_to_his_love.txt,https://www.poetryfoundation.org/poems/44691/the-passionate-shepherd-to-his-love
+6,Shall I Compare Thee to a Summer's Day,William Shakespeare,Poetry Foundation,,,14,118.0,True,006_shall_i_compare_thee_to_a_summers_day.txt,https://www.poetryfoundation.org/poems/45087/sonnet-18-shall-i-compare-thee-to-a-summers-day
+7,The Description of Cooke-ham,Aemilia Lanyer,Poetry Foundation,,,210,1525.0,True,007_the_description_of_cooke_ham.txt,https://www.poetryfoundation.org/poems/50338/the-description-of-cooke-ham
+8,The Good Morrow,John Donne,Poetry Foundation,,,21,163.0,True,008_the_good_morrow.txt,https://www.poetryfoundation.org/poems/44097/the-good-morrow
+9,Lycidas,John Milton,Poetry Foundation,,,193,1416.0,True,009_lycidas.txt,https://www.poetryfoundation.org/poems/44733/lycidas
+10,On Mr. G. Herbert's Book,Richard Crashaw,Poetry Foundation,,,18,132.0,True,010_on_mr_g_herberts_book.txt,https://www.poetryfoundation.org/poems/44626/on-mr-g-herberts-book
+11,An Apology for Her Poetry,Margaret Cavendish,Poetry Foundation,,,18,130.0,True,011_an_apology_for_her_poetry.txt,https://www.poetryfoundation.org/poems/148964/an-apology-for-her-poetry
+12,To His Coy Mistress,Andrew Marvell,Poetry Foundation,,,46,304.0,True,012_to_his_coy_mistress.txt,https://www.poetryfoundation.org/poems/44688/to-his-coy-mistress
+13,Mac Flecknoe,John Dryden,Poetry Foundation,,,217,1690.0,True,013_mac_flecknoe.txt,https://www.poetryfoundation.org/poems/44172/mac-flecknoe
+14,Eloisa to Abelard,Alexander Pope,Poetry Foundation,,,366,2753.0,True,014_eloisa_to_abelard.txt,https://www.poetryfoundation.org/poems/44892/eloisa-to-abelard
+15,Elegy Written in a Country Churchyard,Thomas Gray,Poetry Foundation,,,128,888.0,True,015_elegy_written_in_a_country_churchyard.txt,https://www.poetryfoundation.org/poems/44299/elegy-written-in-a-country-churchyard
+16,On Imagination,Phillis Wheatley,Poetry Foundation,Poems on Various Subjects Religious and Moral,,53,371.0,True,016_on_imagination.txt,https://www.poetryfoundation.org/poems/45465/on-imagination
+17,Lines Composed a Few Miles above Tintern Abbey,William Wordsworth,Poetry Foundation,,,159,1052.0,True,017_lines_composed_a_few_miles_above_tintern_abbey.txt,https://www.poetryfoundation.org/poems/45527/lines-composed-a-few-miles-above-tintern-abbey-on-revisiting-the-banks-of-the-wye-during-a-tour-july-13-1798
+18,The Rime of the Ancient Mariner,Samuel Taylor Coleridge,Poetry Foundation,,,625,4665.0,True,018_the_rime_of_the_ancient_mariner.txt,https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834
+19,The Sick Rose,William Blake,Poetry Foundation,,,8,42.0,True,019_the_sick_rose.txt,https://www.poetryfoundation.org/poems/43682/the-sick-rose
+20,She Walks in Beauty,Lord Byron,Poetry Foundation,Hebrew Melodies,,18,117.0,True,020_she_walks_in_beauty.txt,https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty
+21,Ozymandias,Percy Bysshe Shelley,Poetry Foundation,Shelley's Poetry and Prose,,14,113.0,True,021_ozymandias.txt,https://www.poetryfoundation.org/poems/46565/ozymandias
+22,Ode on a Grecian Urn,John Keats,Poetry Foundation,,,50,372.0,True,022_ode_on_a_grecian_urn.txt,https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn
+23,Ulysses,Alfred Tennyson,Poetry Foundation,,,70,565.0,True,023_ulysses.txt,https://www.poetryfoundation.org/poems/45392/ulysses
+24,My Last Duchess,Robert Browning,Poetry Foundation,,,57,447.0,True,024_my_last_duchess.txt,https://www.poetryfoundation.org/poems/43768/my-last-duchess
+25,Goblin Market,Christina Rossetti,Poetry Foundation,,,567,3043.0,True,025_goblin_market.txt,https://www.poetryfoundation.org/poems/44996/goblin-market
+26,The Cry of the Children,Elizabeth Barrett Browning,Poetry Foundation,,,162,1355.0,True,026_the_cry_of_the_children.txt,https://www.poetryfoundation.org/poems/43725/the-cry-of-the-children
+27,When Lilacs Last in the Dooryard Bloom'd,Walt Whitman,Poetry Foundation,,,222,2165.0,True,027_when_lilacs_last_in_the_dooryard_bloomd.txt,https://www.poetryfoundation.org/poems/45480/when-lilacs-last-in-the-dooryard-bloomd
+28,I'm Nobody! Who are you?,Emily Dickinson,Poetry Foundation,The Poems of Emily Dickinson: Variorum Edition,,8,52.0,True,028_im_nobody_who_are_you.txt,https://www.poetryfoundation.org/poems/47466/im-nobody-who-are-you-260
+29,"Loveliest of trees, the cherry now",A.E. Housman,Poetry Foundation,A Shropshire Lad,,12,74.0,True,029_loveliest_of_trees.txt,https://www.poetryfoundation.org/poems/45515/loveliest-of-trees-the-cherry-now
+30,In a Station of the Metro,Ezra Pound,Poetry Foundation,,,2,14.0,True,030_in_a_station_of_the_metro.txt,https://www.poetryfoundation.org/poems/45129/in-a-station-of-the-metro
+31,Oread,H.D.,Poetry Foundation,,,6,26.0,True,031_oread.txt,https://www.poetryfoundation.org/poems/47658/oread
+32,"Easter, 1916",William Butler Yeats,Poetry Foundation,,,80,429.0,True,032_easter_1916.txt,https://www.poetryfoundation.org/poems/43289/easter-1916
+33,Gerontion,T.S. Eliot,Poetry Foundation,Collected Poems: 1909-1962,,78,578.0,True,033_gerontion.txt,https://www.poetryfoundation.org/poems/44214/gerontion
+34,The Negro Speaks of Rivers,Langston Hughes,Poetry Foundation,,,10,103.0,True,034_the_negro_speaks_of_rivers.txt,
+35,Yet Do I Marvel,Countee Cullen,Color (1925),Harper & Brothers,,14,100.0,True,035_yet_do_i_marvel.txt,
+36,Reapers,Jean Toomer,Cane,"Boni & Liveright, 1923",,8,65.0,True,036_reapers.txt,
+37,Funeral Blues,W. H. Auden,Another Time,"Random House, 1940",,16,134.0,True,037_funeral_blues.txt,
+38,Black Earth,Marianne Moore,Others,"Vol. 5, No. 1 (1918)",,68,438.0,True,038_black_earth.txt,
+39,Howl,Allen Ginsberg,Howl and Other Poems,"City Lights Books, 1956",,135,2905.0,True,039_howl.txt,
+40,The Horses,Ted Hughes,The Hawk in the Rain,"Faber and Faber, 1957",,38,271.0,True,040_the_horses.txt,
+41,Preface to a Twenty Volume Suicide Note,Amiri Baraka,Preface to a Twenty Volume Suicide Note,"Totem Press, 1961",,17,122.0,True,041_preface_to_a_twenty_volume_suicide_note.txt,
+42,Daddy,Sylvia Plath,Collected Poems,"HarperCollins, 1981",,80,512.0,True,042_daddy.txt,
+43,The Ghost,Robert Lowell,For the Union Dead,"Farrar, Straus and Giroux, 1964",,82,579.0,True,043_the_ghost.txt,
+44,Time and Time Again,A. K. Ramanujan,The Striders,"Oxford University Press, 1966",,19,127.0,True,044_time_and_time_again.txt,
+45,The Ballad of the Lonely Masturbator,Anne Sexton,Love Poems,"Houghton Mifflin, 1969",,42,290.0,True,045_the_ballad_of_the_lonely_masturbator.txt,
+46,Riot,Gwendolyn Brooks,Riot,"Broadside Press, 1969",,32,242.0,True,046_riot.txt,
+47,Crusoe in England,Elizabeth Bishop,Geography III,"Farrar, Straus and Giroux, 1976",,182,1200.0,True,047_crusoe_in_england.txt,
+48,Hinge Picture,Susan Howe,Hinge Picture,"Telephone Books, 1974",,24,60.0,True,048_hinge_picture.txt,
+49,Coal,Audre Lorde,Coal,"W. W. Norton, 1976",,26,159.0,True,049_coal.txt,
+50,Phenomenal Woman,Maya Angelou,And Still I Rise,"Random House, 1978",,60,258.0,True,050_phenomenal_woman.txt,
+51,A Black River,Mary Oliver,New and Selected Poems,"Beacon Press, 1992",,28,95.0,True,051_a_black_river.txt,
+52,Heart to Heart,Rita Dove,American Smooth,"W. W. Norton, 2004",,32,94.0,True,052_heart_to_heart.txt,

@@ -1,0 +1,54 @@
+poem_id,title,author,mode,genre,stanza_structure,meter,rhyme
+1,The Things That Cause a Quiet Life,Henry Howard Earl of Surrey,Lyric,,Couplets,Iambic pentameter,AABB
+2,Whoso List to Hunt,Thomas Wyatt,Lyric,,Sonnet (8+6),Iambic pentameter,ABBAABBA CDCDEE
+3,Astrophil and Stella 39: Come Sleep! O Sleep,Philip Sidney,Lyric,,Sonnet (8+6),Iambic pentameter,ABBAABBA CDCDEE
+4,Epithalamion,Edmund Spenser,Lyric,Epithalamion,24 stanzas + envoi,Varied,Complex stanza
+5,The Passionate Shepherd to his Love,Christopher Marlowe,Lyric,Pastoral,Quatrains,Iambic tetrameter,AABB
+6,Shall I Compare Thee to a Summer's Day,William Shakespeare,Lyric,,Sonnet (12+2),Iambic pentameter,ABAB CDCD EFEF GG
+7,The Description of Cooke-ham,Aemilia Lanyer,Lyric,Pastoral,Couplets,Iambic pentameter,AABB
+8,The Good Morrow,John Donne,Lyric,,Three septets,Iambic pentameter,ABABCCC
+9,Lycidas,John Milton,Mixed,Pastoral elegy,Irregular,Varied,Irregular
+10,On Mr. G. Herbert's Book,Richard Crashaw,Lyric,,Couplets,Iambic pentameter,AABB
+11,An Apology for Her Poetry,Margaret Cavendish,Lyric,,Couplets,Iambic tetrameter,AABB
+12,To His Coy Mistress,Andrew Marvell,Lyric,,Couplets,Iambic tetrameter,AABB
+13,Mac Flecknoe,John Dryden,Narrative,Satire,Couplets,Iambic pentameter,AABB
+14,Eloisa to Abelard,Alexander Pope,Dramatic,,Couplets,Iambic pentameter,AABB
+15,Elegy Written in a Country Churchyard,Thomas Gray,Lyric,Elegy,Quatrains,Iambic pentameter,ABAB
+16,On Imagination,Phillis Wheatley,Lyric,Ode,Couplets,Iambic pentameter,AABB
+17,Lines Composed a Few Miles above Tintern Abbey,William Wordsworth,Lyric,,Blank verse,Iambic pentameter,Unrhymed
+18,The Rime of the Ancient Mariner,Samuel Taylor Coleridge,Narrative,,Quatrains,Ballad meter,ABCB
+19,The Sick Rose,William Blake,Lyric,,Two quatrains,Mixed,ABAB
+20,She Walks in Beauty,Lord Byron,Lyric,,Three sestets,Iambic tetrameter,ABABAB
+21,Ozymandias,Percy Bysshe Shelley,Lyric,,Sonnet,Iambic pentameter,ABABACDCEDEFEF
+22,Ode on a Grecian Urn,John Keats,Lyric,Ode,Five 10-line stanzas,Iambic pentameter,ABABCDECDE
+23,Ulysses,Alfred Tennyson,Dramatic,,Blank verse,Iambic pentameter,Unrhymed
+24,My Last Duchess,Robert Browning,Dramatic,,Couplets,Iambic pentameter,AABB
+25,Goblin Market,Christina Rossetti,Narrative,,Irregular,Irregular,Irregular
+26,The Cry of the Children,Elizabeth Barrett Browning,Lyric,Political/social protest,12-line stanzas,Mixed anapestic/iambic,AABBCCDDEE (varied)
+27,When Lilacs Last in the Dooryard Bloom'd,Walt Whitman,Lyric,Elegy,16 numbered sections,Free verse,Unrhymed
+28,I'm Nobody! Who are you?,Emily Dickinson,Lyric,,Two quatrains,Hymn stanza,ABCB
+29,"Loveliest of trees, the cherry now",A.E. Housman,Lyric,,Three quatrains,Iambic tetrameter,AABB
+30,In a Station of the Metro,Ezra Pound,Lyric,,Two lines,Free verse,Unrhymed
+31,Oread,H.D.,Lyric,,Six lines,Free verse,Unrhymed
+32,"Easter, 1916",William Butler Yeats,Lyric,Political elegy,Quatrains,Iambic tri/tetrameter,ABAB
+33,Gerontion,T.S. Eliot,Dramatic,,Free verse,Free verse,Unrhymed
+34,The Negro Speaks of Rivers,Langston Hughes,Lyric,,Free verse,Free verse,Unrhymed
+35,Yet Do I Marvel,Countee Cullen,Lyric,,Sonnet,Iambic pentameter,ABABCDCDEFEFGG
+36,Reapers,Jean Toomer,Lyric,,Octave,Iambic pentameter,AABBCCDD
+37,Funeral Blues,W. H. Auden,Lyric,Elegy,Four quatrains,Anapestic tetrameter,AABBCCDD
+38,Black Earth,Marianne Moore,Lyric,Dramatic monologue,Syllabic stanzas,Syllabic verse,Light rhyme
+39,Howl,Allen Ginsberg,Lyric,,Three-part poem with long lines,Free verse,Unrhymed
+40,The Horses,Ted Hughes,Lyric,,Variable stanzas,Free verse,Unrhymed
+41,Preface to a Twenty Volume Suicide Note,Amiri Baraka,Lyric,,Variable stanzas,Free verse,Unrhymed
+42,Daddy,Sylvia Plath,Lyric,,16 five-line stanzas,Modified villanelle,Loose rhyme scheme
+43,The Ghost,Robert Lowell,Lyric,Dramatic monologue,Rhyming couplets,Iambic pentameter,Couplets
+44,Time and Time Again,A. K. Ramanujan,Lyric,,Single stanza,Free verse,Unrhymed
+45,The Ballad of the Lonely Masturbator,Anne Sexton,Lyric,Ballad,Seven six-line stanzas,Variable meter,ABABCB
+46,Riot,Gwendolyn Brooks,Narrative,,Variable stanzas,Free verse,Unrhymed
+47,Crusoe in England,Elizabeth Bishop,Narrative,Dramatic monologue,Variable stanzas,Free verse,Unrhymed
+48,Hinge Picture,Susan Howe,Lyric,,Experimental visual spacing,Free verse,Light rhyme
+49,Coal,Audre Lorde,Lyric,,Variable stanzas,Free verse,Unrhymed
+50,Phenomenal Woman,Maya Angelou,Lyric,,Four stanzas with refrain,Free verse,Irregular rhyme
+51,A Black River,Mary Oliver,Lyric,,Seven quatrains,Free verse,Unrhymed
+52,Heart to Heart,Rita Dove,Lyric,,Single stanza,Free verse,Unrhymed
+53,At Pegasus,Terrance Hayes,Lyric,,,,

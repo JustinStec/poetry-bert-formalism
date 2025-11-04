@@ -1,0 +1,1267 @@
+Understanding poetry using natural language
+processing tools: a survey
+Mirella De Sisto1,�, Laura Herna
+                               �ndez-Lorenzo                                2
+                                                                             , Javier De la Rosa3, Salvador Ros2,
+                        4
+Elena Gonza �lez-Blanco
+1
+  Tilburg University, The Netherlands
+2
+  National Distance Education University, Spain
+3
+  National Library of Norway, Norway
+4
+  IE University, Spain
+�Corresponding author. Tilburg University, Warandelaan 2, 5037 AB Tilburg, The Netherlands. E-mail: m.desisto@tilburguniversity.edu
+
+
+Abstract
+Analyzing poetry with automatic tools has great potential for improving verse-related research. Over the last few decades, this field
+has expanded notably and a large number of tools aiming at analyzing various aspects of poetry have been developed. However, the
+concrete connection between these tools and traditional scholars investigating poetry and metrics is often missing. The purpose of
+this article is to bridge this gap by providing a comprehensive survey of the automatic poetry analysis tools available for European lan­
+guages. The tools are described and classified according to the language for which they are primarily developed, and to their function­
+alities and purpose. Particular attention is given to those that have open-source code or provide an online version with the same func­
+tionality. Combining more traditional research with these tools has clear advantages: it provides the opportunity to address theoretical
+questions with the support of large amounts of data; also, it allows for the development of new and diversified approaches.
+Keywords: Poetry analysis; Natural Language Processing; Computational Literary Studies.
+
+
+
+1. Introduction                                                         analysis of the structural characteristics of poetry of
+                                                                        European languages.
+The field of automatic poetry analysis is expanding,
+                                                                           Since most tools are not publicly available, a comprehen­
+allowing for the application of automatic tools in verse
+investigation. This enables new quantitative approaches                 sive qualitative comparison was not feasible. In addition,
+to address traditional and theoretical questions.                       such a comparison would require expertise in multiple po­
+   The advancement of Natural Language Processing                       etic traditions, which goes beyond the possibilities of a sin­
+and text analysis technologies has significantly con­                   gle research group. Therefore, this article aims to offer an
+tributed to the growth of automatic poetry analysis.                    exhaustive overview of available tools for European lan­
+Multiple and varied tools have been developed, each                     guages, while empirical testing falls beyond its scope.
+addressing different aspects of verse with specific                        The article is structured as follows: Section 2 briefly
+goals, such as metrical annotation or the visualization                 introduces automatic poetry analysis and describes its
+of poetic features. While most tools focus on analyzing                 advantages for poetry-related research. Section 3,
+English, an increasing number of programs now target                    along with its subsections, classifies the tools presented
+other languages and language varieties.                                 in this article based on language (3), purpose and fea­
+   These tools empower scholars to address theoretical                  tures (4), and algorithmic nature (i.e. rule-based or
+questions with the support of large-scale data analysis.                data-driven) (5). A concluding section summarizes the
+However, the development of computational tools of­                     key points of the review and highlights the importance
+ten remains disconnected from the theoretical research                  of bridging the gap between traditional and computa­
+that could benefit from them. The present article aims                  tional versification studies. Appendix Table A1 pro­
+to bridge this gap by providing a survey of currently                   vides a detailed overview of the classification and
+available computational tools for automatic poetry                      includes the links to the tools’ source code and graphi­
+analysis. In this survey, we focus on tools for the                     cal user interface.
+Understanding poetry using NLP                                                                                      501
+
+
+2. Automatic poetry analysis                                   Indo-European language considered. The reason for
+In the last few decades, the use of automatic tools for        this exception is that the tools annotating Basque and
+analyzing poetry has grown notably. An important               Finnish poetry are already included in this study,
+factor contributing to this growth is the development          since they are also used to perform annotation of
+of new technologies and, in particular, advancements           English and Spanish verse, and English verse,
+in the field of Natural Language Processing.                   respectively.
+   Automatic poetry analysis offers clear advantages              Our selection method aimed to be as exhaustive as
+for literary and linguistic research. Researchers gain         possible. We started from the most recent conference
+access to large amounts of data that would otherwise           on Digital Humanities 2020,1 and selected all abstracts
+be unavailable or require the effort of many people for        based on a keyword search for poetry-related terms:
+a long stretch of time to compile and analyze.                 for example, poetry, poem, verse, meter, rhyme, metri­
+   Furthermore, the use of such tools also presents advan­     cal annotation, and poetry scansion. From there, we
+tages that vary depending on the type of tool considered.      went backward in time reading all bibliographies from
+For instance, they can provide a diachronic perspective        those relevant papers, in an effort to encompass every
+on formal aspects of poetry or a stylistic analysis on often   approach in a timeline.
+overlooked poetic language markers. These tools can be            As a result of our survey, we could infer that not all
+employed to empirically test claims made in previous tra­      languages and poetic traditions have received equal at­
+ditional studies. Studies by Navarro-Colorado (2015),          tention in the development of automatic tools for po­
+Ruiz Fabo (2020) and Hern�andez-Lorenzo et al.                 etry analysis. Some languages, such as English, have a
+(Hern�andez-Lorenzo et al. 2021) have tested and corrob­       large number of existing tools; other languages are un­
+orated the claim regarding the Spanish Renaissance hen­        derrepresented, such as Italian, for which only one
+decasyllable being predominantly a maiore (Henr�ıquez          tool seems to be available.
+Ure~na 1919; Dom�ınguez Caparr�   os 2020). Moreover, at          Lastly, the time range of our survey expands from
+the epistemological level, automatic annotations of large      the late 1980s to mid-2020, covering 40 years of
+corpora can be viewed as performed by a single “hand,”         advances and evolution of tool creation. As shown in
+which is not possible in classical manual approaches. In       Fig. 1, the earliest automatic tools for poetry analysis
+fact, working with big corpora annotated by a group of         date back to the end of the last century—especially the
+people requires precise guidelines in order to avoid inter-    nineties—whereas many of them have been created in
+annotator disagreement. Nevertheless, discussing ambig­        the last decade.
+uous cases is needed. Given that poetry is usually open to        In the next section, we propose a classification of
+interpretation, the annotation of one annotator might          the tools based on their general characteristics, such as
+differ from that of another. On the contrary, in auto­         the languages they are developed for, their purpose,
+matic annotation all material is annotated by a single an­     and the type of technology they employ. Online docu­
+notator, the machine. Once the model has been                  mentation and code repositories are listed in Appendix
+evaluated, it will always make the same choices and            Table A1.
+interpretations along the whole corpus. As most systems
+are deterministic, this minimizes the risk of having two
+poems be metrically different because of the choices of its
+                                                               3. The languages of poetry analysis tools
+automatic annotator. Similarly, automatic tools for po­        The current survey of tools covers seventeen languages
+etry visualization enhance close reading (Fisher 2013) or      and language varieties. We focused on Indo-European
+complement distant reading perspectives, as proposed by        languages and their existing tools. The only two excep­
+Moretti (Moretti 2013); this type of innovative approach       tions are Basque and Finnish. English is strongly repre­
+allows for a more detailed and rich investigation of po­       sented with twenty-three tools. The second most
+etry. However, not all tools are easily available to schol­    represented language is Spanish, with eight tools.
+ars and only a few have a graphical user interface.            Table 1 displays the tools considered in this article di­
+   The present survey specifically focuses on tools that       vided by language and language variety.
+analyze the structural characteristics of verse, rather
+than its content. For this reason, we decided not to in­
+clude tools that relate to the meaning of poetic texts.        4. Purpose of the tools
+Furthermore, we chose tools for Indo-European lan­             Three groups can be outlined based on the general pur­
+guages as our area of focus, including historic lan­           pose for which the tools were developed: (1) tools for
+guages such as Latin, Ancient Greek, Middle High               metrical annotation, namely those that annotate po­
+German, etc. Therefore, our survey does not contain            etry in terms of stress, line length, rhyme, or rhythm;
+the description of tools developed for other languages         (2) tools for poetry recognition, that is, tools that de­
+and varieties. Basque and Finnish are the only non-            termine whether a given text is poetry or not; and (3)
+502                                                                                                                     M. De Sisto et al.
+
+
+
+
+Figure 1. Timeline chart showing the development of automatic tools for poetry analysis. All the tools are classified and explained in
+this article.
+
+
+tools for poetry visualization, which aim to enhance                    tools span two groups and are classified according to
+close-reading by highlighting various details of the                    their primary function.
+line, for example, recurrent sounds in a line.
+   The following sections provide a survey of the tools                 4.1 Tools for metrical annotation
+based on this classification and offer some details                     The first and the largest macro-group considered in
+about the specific focus and features of each tool, in­                 the present survey consists of tools that focus on metri­
+cluding a brief explanation of their functioning. Some                  cal annotation. These tools are primarily concerned
+Understanding poetry using NLP                                                                                                 503
+
+
+Table 1 Tools described in the current paper organised by language and language variety.
+
+Language                           Tools
+
+English                            Logan (1988)                                            Poesy (Algee-Hewitt et al. 2014)
+                                     Hayward (1991)                                          ZeuScansion (Agirrezabal et al. 2013)
+                                     Scandroid (Hartman 1996)                                SPARSAR (Delmonte 2014)
+                                     AnalysePoems (Plamondon 2006)                           Lorang et al. (2015)
+                                     Tizhoosh, Sahba, and Dara (2008)                        Tanasescu, Paget, and Inkpen (2016)
+                                     Calliope (McAleese 2007)                                Agirrezabal, Alegria, and Hulden
+                                     Kaplan and Blei (2007)                                  (2017)
+                                     Prosodic (Heuser et al. 2010)                           Kilner and Fitch (2017)
+                                     Reddy and Knight (2011)                                 KAIST (Kim, Zhao, and Zelalem 2018)
+                                     Myopia (Chaturvedi et al. 2012)                         ECPA tools (Huber 2018)
+                                     Poem Viewer (Abdul-Rahman                               Foley (2019)
+                                     et al. 2013)                                            Haider (2021)
+                                                                                             De la Rosa et al. (2021)
+Spanish                            Gerv�
+                                       as (2000)                                           Jumper (Marco et al. 2021)
+                                     ZeuScansion (Agirrezabal et al. 2013)                   De la Rosa et al. (2021)
+                                     ADSO (Navarro-Colorado 2018)                            DISCOVER (Berm�     udez Sabel, Ruiz
+                                     Agirrezabal, Alegria, and Hulden                        Fabo, and Mart�ınez Cant� on 2023)
+                                     (2017)
+                                     Rantanplan (De la Rosa et al. 2020b)
+Ancient Greek                      Papakitsos (2011)                                       Greek_scansion (Conser, 2017)
+                                                                                             Greek_scansion (Schumann, 2020)
+Basque                             Agirezabal (2017)
+Czech                              Automatic analysis of Czech verse (Ibrahim and Plech�
+                                                                                       a�c 2011)
+Dutch                              KBNL-scansion (Koppelaar and Van Oostendorp 2013)
+Middle Dutch                       Middle Dutch (Haverals et al. 2019; Haverals, 2020)
+Renaissance Dutch                  De Sisto (2020)
+Finnish                            Prosodic (Heuser et al. 2010)
+French                             Metrometer (Beaudouin and Yvon 1996)                  Anam�etre (Delente and Renault 2015)
+                                     Reddy and Knight (2011)
+Middle                             AMM 2.0 (Dimpel, 2015)                                MHG-scansion (Estes and Hench 2016)
+  High German
+German                             Metricalizer (Bobenhausen 2011)                         De la Rosa et al. (2021)
+                                     Haider (2021)
+Italian                            Dante Visualised (Ferraro 2020)
+Latin                              Calliope scansio (Jacquet 2013)                         Pedecerto (Colombi et al. 2012)
+Old Occitan                        Rainsford and Scrivner (Rainsford and
+                                     Scrivner, 2014)
+Portuguese                         Aoidos (Mittmann, von Wangenheim,                       Ara�
+                                                                                              ujo and Mamede (2002)
+                                     and dos Santos 2016)
+Russian                            StarLing (Pilshchikov and Starostin 2011)               Barakhnin, Kozhemyakina, and
+                                                                                             Borzilova (2019)
+
+
+
+
+with defining the metrical features of verse. The spe­                a hybrid between quantitative and accentual verse (e.g.
+cific features considered may vary depending on the                   Middle High German trochaic tetrameter); in those
+poetic tradition being analyzed. For example, word                    cases, syllable quantity also needs to be considered. In
+stress and the number of syllables per line are essential             addition, metrical features like stanza division and
+elements in accentual–syllabic verse (e.g. English                    rhyme scheme can provide valuable insights into the
+iambic pentameter) and play an important role in syl­                 characteristics of poetry.
+labo–tonic traditions (e.g. Spanish hendecasyllable) as                  The tools described in this section are designed to
+well. On the other hand, for syllabic poetry, which is                detect and annotate these features based on the spe­
+only defined by the number of syllables per line (e.g.                cific poetic traditions they are developed for. They do
+French alexandrine), detecting the number of syllables                so by applying different types of algorithms or differ­
+might be the main focus of the tool. Foot-based poetry                ent techniques. Nevertheless, they all share a common
+(e.g. Ancient Greek verse) needs to be analyzed with a                goal: to understand the structure of a verse and anno­
+tool able to identify feet. Other tools annotate meters               tate it according to its metrical pattern and
+which are either quantitative (e.g. Latin hexameter) or               characteristics.
+504                                                                                                     M. De Sisto et al.
+
+
+4.1.1 English                                                    Built on Scandroid, Calliope (McAleese 2007) imple­
+One of the first metrical annotation tools developed is       ments metrical scansion by using syntactic information,
+the tool by Logan (1988), which utilizes sound pattern        namely stress assignment derived from syntax, and pho­
+detection for metrical annotation. In addition to syl­        nological scansion based on syntax. It uses the Antelope
+labification and stress assignment, this tool identifies      Natural Language Process Parser (Chaumartin 2013) for
+the recurring sounds within the lines and their patterns      parsing the text into syntactic elements. Stress is assigned
+across lines. It also considers the distinctive features of   using a lexicon and phonological grouping is performed.
+sounds (i.e. þ or—labial, þ or—coronal, etc.) both on         The output is parsed by a phonological scansion algo­
+a per-line basis and for the entire poem. By comparing        rithm, and, subsequently, consistency of the result is
+the generated metrical annotation with the metrical           assessed. The tool has been tested with iambic and tro­
+pattern of an iambic pentameter, the tool calculates          chaic meters, and with free verse.
+metrical complexity.                                             In the second decade of the 2000s, there was a grow­
+   The connectionist model developed by Hayward               ing interest in automatic metrical annotation tools,
+(Hayward 1996, 1991) analyzes poetry in order to              leading to a significant increase in the variety of tools
+measure its metricality, which is a concept that has          for analyzing poetry. Greene, Bodrumlu, and Knight
+been claimed to be gradient (Hayes, Wilson, and               (2010) developed a tool for metrical annotation, gen­
+                                                              eration, and translation of poetic texts, with a focus on
+Shisko 2012). It is still not clear at which degree of de­
+                                                              English rhythmic poetry. They extract word-stress pat­
+viance from the canon a line stops being metrical. The
+                                                              terns from the corpus sonnets.org, an archive of
+tool aims to identify the boundary between metricality
+                                                              English sonnets,4 using unsupervised learning. Since a
+and unmetricality by using Artificial Neural Networks
+                                                              pronunciation dictionary of contemporary English
+with a parallel distributed processing model
+                                                              could not handle the language of part of the sonnets in
+(McClelland and Rumelhart 1988). The annotation
+                                                              the corpus (i.e. Shakespeare’s 1600 English), the model
+considers stress on the intonational, lexical, prosodic,
+                                                              extracts word stress without relying on a pronuncia­
+syntactic, and interpretative levels and aims to account
+                                                              tion dictionary. Poetry generation is based on a
+for their interaction. The annotations for the different
+                                                              finite-state cascade composed of three models: a user-
+levels are merged into a calculation of the potential ac­
+                                                              supplied model which generates a single string of met­
+tivation of metrical stress of each position. This tool is    rical strong and weak positions; a model that selects
+built with a bias toward iambic reading, therefore,           words based on the required stress (augmented with a
+when annotating a line, it always tries to match it to        pronunciation dictionary); a word-trigram model built
+such rhythm.                                                  from a corpus consisting of 10,000 lines of English
+   Scandroid (Hartman 1996) is a tool for scansion of         love poems. Finally, another finite-state cascade is
+iambic and anapestic poetry (and has a bias for these         employed in order to implement translation to the
+meters as a result). If a poem is written in a different      model with the aim of providing coherence of meaning
+meter, the program forces its lines into one of the two       to the generated text. To explain, the poetic input
+possible scansions. When analyzing a line, it first tries     from a different language, Italian in this case, is used
+to determine whether it is formed by iambic or anapes­        to train a statistical phrase-based machine translation
+tic feet and, subsequently, calculates line length.           (PBMT) system Moses (Koehn et al. 2007); the lattice
+Initially, it divides the line into words and then syllabi­   generated by the PBMT is sent to the model trained for
+fies words and assigns stress to syllables based on a         poetry annotation; finally, the resulting syllable
+built-in dictionary and on general principles. The tool       sequences are filtered with a single-path deterministic
+can be downloaded from its website, which also pro­           iambic pentameter acceptor.
+vides a tutorial, a manual and the source code.2                 Prosodic (Heuser et al. 2010) is a tool that focuses
+   AnalysePoems (Plamondon 2006) is developed using           on metrical and phonological parsing of poetry. Its
+the poetry of Representative Poetry online,3 a web an­        scansion process begins with tokenization of the text
+thology of 4,800 poems in English and French.                 into words, which are then converted into stressed, syl­
+AnalysePoems employs syllable decomposition, stress           labified phonetic transcriptions. By default, Prosodic
+placement, and rhyme, in order to identify the dominant       uses the CMU pronunciation dictionary (Weide 1998)
+meter and the rhyme scheme of a poem. Word stress as­         to retrieve information about stress patterns and sylla­
+signment is checked in a lexicon database and, in the         ble boundaries. For the metrical parsing of words not
+case that a word is not in the database, the user is asked    available in the CMU pronunciation dictionary, a text-
+to provide the information needed. AnalysePoems also          to-speech (TTS) engine5 is used. Each line is assigned
+verifies whether line length is stable in the poem. Even      its best available metrical parsing based on a set of
+though it is not based on a specific fixed meter, the tool    constraints, following the principles of Optimality
+assumes a regular metrical form.                              Theory (Prince and Smolensky 1993), which can be
+Understanding poetry using NLP                                                                                            505
+
+
+
+
+Figure 2. Metrical annotation with Prosodic.
+
+
+
+
+Figure 3. Metrical annotation with Rantanplan and enjambements detection with JollyJumper in PoetryLab.
+
+
+defined by the user. The default metrical constraints                  ZeuScansion (Agirrezabal et al. 2013) is a rule-
+are based on those proposed by Hanson and Kiparsky                  based tool that annotates poetry by defining line stress
+(Hanson and Kiparsky 1996), such as strength (a weak                patterns. It also attempts to identify the dominant me­
+syllable should not be in a strong position and a strong            ter of a poem and the metrical feet constituting it. The
+syllable should not be in a weak position), stress (an              tool performs tokenization, stress assignment via Part-
+unstressed syllable should not be in a strong position              of-Speech (POS)-based rules, looks up words in a pro­
+and, vice versa, a stressed syllable should not be in a             nunciation lexicon, and divides lines into feet. The
+weak position) and minimal foot (a disyllabic metrical              evaluation of ZeuScansion relies on the gold-standard
+position should not contain more than a minimal                     data from For Better For Verse,7 a corpus of about
+foot). Constraints can be adjusted to different frame­              100 poems manually annotated in terms of weak and
+works or metrical forms. Prosodic is available in a                 strong positions. The poems of For Better For Verse
+code repository, which also contains two English and                can be downloaded from a code repository.8
+Finnish corpora.6 Aside from its source code being                  ZeuScansion’s source code is publicly available in a
+available, Prosodic is available as an online platform,             code repository, where instructions on installation and
+which gives the possibility of configuring the meter by             utilization are provided.
+adjusting metrical parameters and constraints. The                     Built on Prosodic, Poesy (Algee-Hewitt et al. 2014)
+line analysis can be downloaded as a PDF or Excel for­              is a tool that generates a metrical annotation of a po­
+mat. Figure 2 is an example of the annotation of three              etic text and detects rhyme patterns. This tool, apart
+lines by using Prosodic.                                            from syllabification, also groups syllables into feet. Its
+506                                                                                                         M. De Sisto et al.
+
+
+metrical parsing and annotation procedures depend on            Better For Verse corpus for English for training and the
+Prosodic. The tool is available in a code repository.9          Corpus se Siglo de Oro (Navarro-Colorado 2015)
+    The combination of metrical annotation and TTS              for Spanish.
+technology has led to the creation of SPARSAR                      Kim, Zhao, and Zelalem (2018) from the KAIST re­
+(Delmonte 2014). SPARSAR is a rule-based system                 search group developed an automatic tool for poetry
+aiming to represent and analyze poetic devices in               classification. Their model extracts syllables by refer­
+English and Italian. However, it is only evaluated,             ring to the WebCelex dataset and scans lines based on
+though, with English corpora. The system utilizes a             the manually annotated training corpus; aside from
+modified version of VENSES, a semantically oriented             special characters (e.g. colons and full stops) and sylla­
+NLP pipeline for deep text understanding. SPARSAR               bles, word boundary is encoded as a character on the
+has three modules: the first operates at the sentence           syllable. The tool also determines whether a line is
+level and provides syntactic and semantic analysis; the         metrical or not. The data used for developing this tool
+second is a rule-based system that converts each poem           is, as for the tool by Tasnasescu et al. (2016), the po­
+into phonetic characters, divides words into stressed           etry available on Poetry Foundation. The source code
+and unstressed syllables, and computes rhyming                  is publicly available in a code repository.
+schemes at line and stanza levels. The third module                Although these tools are all developed to provide
+uses these data to generate a parameterized version of          metrical annotations of English poetry, they do present
+the poem which can be read by a TTS engine.                     some significant differences. The major distinction is
+SPARSAR’s output includes a visualization and allows            between tools developed based on a particular meter
+for the comparison of poems from different authors              (e.g. iambic) and those which are not developed for a
+using the Pearson correlation coefficient. In addition,         specific poetic form. Tools developed by Logan
+it includes a technology for TTS reading of poems. The          (1988), Hayward (1991), Hartman (1996), and
+tool can be downloaded from the project’s website,10            Tanasescu, Paget, and Inkpen (2016) have a bias for
+which, besides documentation, also provides examples            iambic meter, making their annotation more accurate
+of analyzed poems and of the generated graphics.                with iambic poetry than with other metrical patterns.
+However, the platform does not appear to be regu­               The same could count for Greene et al. (Greene,
+larly updated.                                                  Bodrumlu, and Knight 2010), since it was trained on
+    Tanasescu , Paget, and Inkpen (2016) developed a tool       Shakespeare’s sonnets. On the other hand, Prosodic
+for poetry classification partially based on Scandroid.         (Heuser et al. 2010) has a set of constraints which can
+The tool uses prosodic and phonetic features to identify        be adjusted, and the other tools are not based on a spe­
+meter and rhyme. Lexical stress detection is based on the       cific meter.
+Scandroid code. For classification, they use a decision            Another difference concerns rhyme detection. Only
+tree algorithm (J48) and a bootstrap aggregating ma­            Logan (1988), AnalysePoems (Plamondon 2006),
+chine learning technique (Breiman 1996). The source             Poesy (Algee-Hewitt et al. 2014), and Tanasescu,
+data of this tool is the poetry available on the online plat­   Paget, and Inkpen (2016) provide information about
+forms Poetry Foundation11 and sonnets.org.                      rhyme patterns.
+    Similarly, Agirrezabal and his colleagues (Agirrezabal
+2017; Agirrezabal, Alegria, and Hulden 2017) use                4.1.2 Spanish
+Recurrent Neural Networks (RNN; Schmidhuber 1989)               Gerv� as’ tool (Gerv�as 2000) for Spanish poetry is also
+with bidirectional Long Short-Term Memory (bi-LSTM)             one of the earliest automatic annotation tools. It presents
+cells (Hochreiter and Schmidhuber 1997) and                     a logic programming application for the metrical annota­
+Conditional Random Fields (CRF; Lafferty, Abdul-                tion of Spanish poems. The system uses Definite Clause
+Rahman, and Pereira 2001) to automatically scan poetry          Grammars to model word syllabification, as well as addi­
+in three languages, that is, English, Spanish, and Basque.      tional predicates to define synaloepha, syllable count,
+The tool tokenizes words using the IXA pipeline12               and rhyme. The logic programming implementation, us­
+(Agerri, Bermudez, and Rigau 2014) and then tags POS.           ing SWI Prolog, treats verses as lists of words, and words
+Stress is assigned according to an implementation of            and syllables as lists of characters. A predicate analysis
+Groves’ rules (Groves 1998) and using the CMU pronun­           retrieves from each verse the number of syllables, a list of
+ciation dictionary (Weide 1998) in combination with             syllables in the verse, a list of positions of stressed sylla­
+NETtalk (Sejnowski and Rosenberg 1987). In the case             bles, and the verse’s rhyme (which is used to define the
+that a word is not found in the dictionaries, its stress pat­   rhyme pattern of the stanza). It also includes a system vo­
+tern is guessed by searching for similar entries in the         cabulary, referred to as ‘a database of facts’ (see Gerv�   as
+NETtalk lexicon and in the CMU dictionary. Finally, syl­        2000: 1335), containing word information. If data are
+lables are grouped into feet. Like ZeuScansion                  missing for a given word, a set of rules is used to fill
+(Agirrezabal et al. 2013), this tool also employed the For      them. After checking if the data are available or need to
+Understanding poetry using NLP                                                                                     507
+
+
+be produced, a Word Syllable Parser module is used to         synaloephas and synaeresis at the syllable level before
+parse character types, character groups and syllables, lo­    determining the metrical pattern. If the expected metri­
+cate the stressed syllables of a word, and extract the        cal length has a greater value than the calculated one,
+rhymes of a word. Additionally, a Metrical Syllable           synaloephas and synaeresis are undone in different
+Counter counts the metrical syllables in a verse. The         tests until the discrepancy is resolved. Rantanplan
+Metrical Syllable Counter consists of a set of Prolog         works with different types of verses, not only hendeca­
+predicates that operate recursively over the list of words    syllables, as is the case with ADSO. Rantaplan has its
+in a verse, with another predicate to evaluate if the verse   source code available in a code repository. In addition,
+is a hendecasyllable. However, the author acknowledges        its scansion can be analyzed and visualized on the
+that this application makes significant errors with the       web-based interface application PoetryLab (De la
+character “y” and has problems with some diphthongs.          Rosa et al. 2020a) (see Figure 3). This platform also
+   On the rule-based side, the ADSO Scansion system           displays Named Entity Recognition provided by the
+(Navarro-Colorado 2018) is a tool for Spanish poetry          tool HisMeTag15 and enjambement detection provided
+that uses POS tags for syllabification and stress assign­     by the Python library JollyJumper.16 Rantanplan is
+ment. First, POS tags (using FreeLing),13 Padr�      o and    intended to complement the data repository, Averell,17
+Stanilovsky (2012) are added to the words of every
+                                                              which contributes to reducing the current limitations
+line in a poem. Then, each word is split into syllables,
+                                                              of quantitative research on poetry by standardizing po­
+the POS tag is used to classify syllables as stressed or
+                                                              etic corpora into an easily downloadable and accessi­
+unstressed. As the system is prepared for hendecasylla­
+                                                              ble format.
+ble detection, a syllable counter is applied. Only when
+                                                                 A different approach is employed by Jumper (Marco
+the verse length is shorter or longer than eleven sylla­
+                                                              et al. 2021), which addresses the metrical annotation
+bles, diaeresis and synaloephas are applied. ADSO’s
+                                                              of Spanish poetry without performing syllabification
+source code is available in a code repository. The tool
+                                                              but by counting syllables just by counting the vowels
+was developed on the Corpus de Siglo de Oro14
+                                                              of each word. Stress is assigned using the same
+(Navarro-Colorado 2015), the only available manually
+annotated corpus of Spanish poetry, which contains            method: the position of graphically accented vowels is
+sonnets from the 16th and the 17th centuries. The             defined by counting vowels, and, in case of no graphi­
+poems are in XML format, meeting TEI standards.               cal stress, Spanish orthographic rules are applied. The
+Additionally, each line has its metrical pattern indi­        verse level module is composed by three submodules:
+cated in the annotation. The metrical annotation is           the first module counts syllables by counting vowels
+obtained with the tool developed by Navarro-                  and assigns stress on the line level; the second module
+Colorado and manually verified by experts in                  applies line compensation (e.g. synaloepha) to lines
+some cases.                                                   which are longer than eleven syllables; finally the third
+   Rantanplan (De la Rosa et al. 2020b) is a rule-based       module addresses metric ambiguities. The poem level
+tool for Spanish poetry. It relies on POS tags and its        module analyzes the scansion performed by the line
+own syllabification algorithm to assign stress to words       level module for each line evaluates whether only one
+and lines, in a similar way to the ADSO Scansion sys­         line length is attested in the poem (in the case of a
+tem (Navarro-Colorado 2018). Like ADSO, it is based           fixed-meter poem), and whether some line lengths are
+on the Corpus de Siglo de Oro (Navarro-Colorado               more frequent than others. Jumper’s code is available
+2015). However, Rantanplan applies all possible               in a code repository.
+
+
+
+
+Figure 4. Metrical annotation with Metricalizer.
+508                                                                                                    M. De Sisto et al.
+
+
+   Finally, De la Rosa et al. (2021) conducted metrical      and syllable count, and a verse class that contains the
+pattern annotation of Spanish, English, and German           verse model, including information about the poetic
+poetry using transformer-based models. They utilize          text such as syllabification, syllable count resulting
+monolingual and multilingual BERT-base and                   from hyphenation, and the hexameter scheme. The
+RoBERTa models (Wolf et al. 2019) to predict line            source code for this tool is available in a
+stress patterns. The findings demonstrate that these         code repository.
+models effectively capture sufficient structural infor­
+mation for poetry scansion. Specifically, they perform       4.1.4 Czech
+well for Spanish in a monolingual setting, and the           In the expanding field of poetry scansion, the Versologie
+cross-lingual transfer, when training the model on the       research group at the Institute of Czech Literature has
+three languages, yields to particularly promising results    been particularly prolific, developing a set of tools for
+for English and German. The training, test, and evalu­       poetry analysis. These data are available in the Database
+ation datasets consist of the following: for Spanish, a      of Czech Metres (DCM; Ibrahim and Plech�        a�c 2011),
+subset of the Corpus de Siglo de Oro (Navarro-               which provide metrical and stanzaic descriptions of
+Colorado 2015); for English, a subset of the For Better      poems contained in the Corpus of Czech Verse. Poetry is
+For Verse corpus; for German, the manually annotated         analyzed in terms of prosody and metrical structure
+corpus from Haider et al. (2020). The German corpus          through a set of algorithms. With DCM, poetry can be
+comprises 158 poems from 1575 to 1936 which are              statistically evaluated in terms of verse meter, verse
+annotated in terms of syllable stress, foot boundaries,      length, line ending, metrical pattern, stanza and rhyme
+caesuras, and line main accent. The original lines are       scheme, and types of fixed metrical forms (e.g. sonnet).
+available on the online platform Antikoerperchen             In addition to DCM, the Versologie research group also
+Lyrik Datenbank.18                                           developed a tool called Gunstick for automatic analysis
+4.1.3 Ancient Greek                                          of rhyme. Its annotations are available in the Database
+                                                             of Czech rhymes.20 The set of tools to analyze the mate­
+A tool for Ancient Greek hexameter, developed by
+                                                             rial available in the Corpus of Czech Verse and the
+Papakitsos (2011) is one of the scansion machines that
+                                                             DCM are available on the Institute of Czech
+emerged in the early 2010s. The primary goal of the
+                                                             Literature’s website.
+tool is to divide the line in six parts (feet or meters)
+and determine their length. The tool has four modules:       4.1.5 Dutch, Middle Dutch, and Renaissance Dutch
+the first module detects syllables; the second module
+                                                             The KBNL scansion generator (Koppelaar and Van
+assigns length based on the number of syllables; the
+                                                             Oostendorp 2013; Van Oostendorp 2014) is an annota­
+third module identifies foot structure; and the final
+                                                             tion tool for Dutch poetry. It uses information about
+module returns a Boolean (true or false) value indicat­
+                                                             stressed syllables from the CELEX Lexical database for
+ing the success of the scansion. When the Boolean is
+                                                             Dutch21 to determine which syllables are stressed in the
+true, the ‘identity of the syllables and feet is known’
+                                                             words that form a line. Subsequently, the algorithm
+(Papakitsos 2011).
+   Another tool developed for Ancient Greek is               attempts to match the line with an ideal template (in their
+Greek_scansion, created by Conser (2017). This tool          example, a fixed number of iambs). An online platform
+analyzes prosody in Ancient Greek poetry and prose. It       is for the KBNL scansion generator (Koppelaar and Van
+offers two versions: a generic one not tied to a specific    Oostendorp 2013; Van Oostendorp 2014), offering com­
+meter, and another specifically designed for iambic trime­   prehensive information about the tool, a demo for users
+ter. The tool provides line scansion as a list of syllable   to scan poetry, and a link to the code repository.
+markers, namely “long,” “short,” and “unknown.” The             A Middle Dutch syllabifier (Haverals, Karsdorp,
+syllabification module is based on James Tauber’s Greek      and Kestemont 2019) has been developed using a bi-
+accentuation Python library19 and can potentially work       LSTM RNN. The tool provides syllabification of
+with a different syllabifier. Unfortunately, the source      Middle Dutch texts. Each word is inputted to the
+code, available in a code repository, does not appear to     model at the character level, and the model provides
+be updated regularly.                                        the syllable grouping. In Haverals (2020) word stress
+   Greek_scansion (Schumann 2020; Schumann et al.            is implemented. The model was trained on the Corpus
+2022), homonym of the tool by Conser (Conser 2017),          Van Reenen-Mulder (Reenen and Mulder 1993). This
+was implemented based on the syllabification method          tool can be applied to both verse and prose, and in
+proposed by Papakitsos (Papakitsos 2011). Like the           Haverals (2020), it was used to define the metrical pat­
+tool by Papakitsos this rule-based tool also focuses on      tern of Dutch medieval poetry. The source code is
+annotating Ancient Greek hexameter. It uses a class          available in a code repository. In addition, the input
+ruleset containing linguistic rules for syllabification      data for the machine learning algorithm in various
+Understanding poetry using NLP                                                                                  509
+
+
+formats and a pdf-file with further information about      calculation program employs a deterministic approach
+the dataset are also publicly accessible on Zenodo.        based on Cornulier’s metrical method (Cornulier
+   De Sisto (2020) developed a tool similar to that by     1982). Developed in Python, this tool identifies vowels
+Haverals, Karsdorp, and Kestemont (2019), for the          which are part of the metrical pattern and from those
+metrical annotation of a Dutch Renaissance poetry          calculates the meter based on the prosodic and
+corpus. Like the Middle Dutch syllabifier and other        morpho-syntactic constraints of the French language,
+data-driven tools, the tool for Renaissance Dutch uses     which vary diachronically and depend on the context.
+a bi-LSTM RNN. The tool is based on two models:            Additionally, Anam�etre uses a lexical resource of
+one is trained on a list of the most frequent words syl­   grammatical syllables and employs algorithms to ad­
+labified and annotated in terms of stress (with a focus    dress issues of ambiguity by considering left and
+on polysyllabic words); the other on random lines          right context.
+from the corpus with stress pattern annotations. These
+two models are then combined to extract the metrical       4.1.7 German and Middle High German
+pattern of a line based on the lexical stress assignment   Metricalizer (Bobenhausen 2011; Bobenhausen and
+of the words it contains. Line annotation only consid­     Hammerich 2015) is a rule-based tool for metrical
+ers syllabification and disregards word boundary. The      analysis of German poetry. It detects words, line,
+Dutch Renaissance poetry corpus annotated by De            rhyme, and stanza structures in a text and provides
+Sisto (2020) and the source plain texts are available in   word syllabification. The metrical analysis is based on
+a code repository.22 The original source texts used to     a rule-based algorithm that incorporates prosodic and
+build the corpus are available at De Digitale              morphological information. In addition, the tool can
+Bibliotheek voor de Nederlandse Letteren (DBNL).23         identify metrical complexity by detecting discrepancies
+                                                           between prosodic and metrical structures. The results
+4.1.6 French                                               produced by Metricalizer can be saved in TEI-XML
+Metrometer (Beaudouin and Yvon 1996) is a tool for         format. An online platform is available for accessing
+French poetry which was developed in the mid-              Metricalizer. In addition to the user interface, the web­
+nineties. As mentioned earlier, in the case of the         site offers an analyzed poetry corpus from the Freiburg
+French poetic tradition, metrical annotation is based      Anthologie.25 The corpus analysis provides a rich
+on the number of syllables per line. Metrometer uses       overview of the data that can be generated with the
+phonemic transcriptions, phonological and syntactic        tool. The poems, organized by author, are initially dis­
+information to calculate the number of syllables and of    played as plain text and can be analyzed and presented
+metrical positions per line while considering the occur­   with their corresponding annotations (according to
+rence of metrical phenomena such as synaloepha and         metrical pattern, prosodic level, word boundary, and
+liaison. The input is converted into phonemic tran­        complexity). The database allows for other options,
+scriptions enriched with information such as syntactic     such as visualizing the transcription and comparing
+components. The tool combines a syntactic analyzer         poems. An annotated sample from the corpus from the
+with a system of grapheme-to-phoneme transcription.        Freiburg Anthologie available on the Metricalizer web­
+The rules of the tool were developed based on alexan­      site is shown in Fig. 4.
+drines by P. Corneille and J. Racine, hence it is more        Haider (2021) conducted experiments to test how
+suitable for annotating this specific form of              different models learn meter on two large corpora of
+versification.                                             English and German poetry. After preprocessing the
+   Reddy and Knight (2011) propose an unsupervised         corpora, different models were compared. The results
+and language-independent model for rhyme schemes           demonstrated that bi-LSTM-CRF models with syllable
+detection. The model infers rhyme schemes based on         embeddings outperform the baseline CRF model and
+word repetition within stanzas. Their study tests this     BERT models. Notably, the experiments yielded inter­
+model on English and French data. English and French       esting findings regarding caesura: the use of POS infor­
+poetry data were used in the rhyme recognition pro­        mation supported the correct identification of caesura,
+cess. The English data are from the open access part of    which highlights its connection to poetic rhythm and
+the corpus used by Sonderegger (2011) consisting of        its dependency on syntax. The bi-LSTM-CRF models
+12,000 stanzas from the 15th to 20th centuries. The        also perform better in terms of emotion prediction.
+French data are from the ARTFL project24 containing        Specifically, emotion prediction seems to play a role in
+3,000 stanzas.                                             learning POS and verse measure, leading Haider to
+   Lastly, another tool for French poetry is Anam�etre     propose a relationship between meter and emotion.
+(Delente and Renault 2015). The tool is used for the       The two large corpora used for this study contain ap­
+analysis of French poetry and drama from the early         proximately 3 million lines of English poetry and
+seventeenth to the early twentieth century. The meter      around 2 million lines of German poetry. The English
+510                                                                                                   M. De Sisto et al.
+
+
+corpus contains all poetry available in the English          searching for word or verse type, based on line metri­
+Project Gutenberg.26 The German corpus contains              cal pattern or based on specific metrical sequences.
+data from digitized corpora such as the German Text          The plain text can be instead browsed at the Musisque
+Archive,27 the Digital Library of Textgrid28 and the         Deoque31 archive.
+German version of Project Gutenberg. The data are               Calliope scansio (Jacquet 2013) dates back to the
+available in both JSON and TEI P5 XML format.                same year. This tool for Latin poetry detects the num­
+   The tool Automatische Mittelhochdeutsche Metrik           ber of syllables per line and groups them into feet.
+2.0 (Dimpel 2015) provides metrical annotation for           Syllables are looked up in a dictionary, and syllabifica­
+Middle High German. Originally designed for author­          tion occurs on a character-by-character basis, follow­
+ship detection to identify an author’s metrical profile,     ing specific rules. Once the syllables are defined, their
+the tool annotates and statistically evaluates line fea­     quantity is assigned based on their position in the
+tures, such as stress placement, by using the ErMaStat       words. The resulting line annotation is matched to a
+package, which follows the Kadenz-Taxonomie                  metrical template, for example hexameter, by consid­
+“rhythm taxonomy” by Heusler (1927). Not all fea­            ering all possible combinations and groupings of the
+tures were statistically significant in improving the per­   material, until the best combination is found. The code
+formance of the tool. This was the case, for instance,       repository of Calliope scansio contains some anno­
+of elision, which did not significantly improve line an­     tated and non-annotated material, however, the folder
+notation. Consequently, these features have been ex­         contains a limited amount of material and, just like the
+cluded from the tool. However, they can be activated         whole tool, has not been updated since 2014.32 The
+manually by the user in the user interface in case they      code repository of Calliope scansio mentions a version
+are of interest to the researcher.                           of the tool with graphical user interface, but it does
+   Estes and Hench (2016) use machine learning tech­         not appear to be currently available. In addition, its re­
+nology for annotating Middle High German poetry.             pository does not seem to be regularly updated.
+Their supervised learning model, namely a bi-LSTM
+with CRF neural network, predicts the metrical value         4.1.9 Old Occitan
+of syllables. The meter analyzed is both stress-based        Slightly different from the other tools introduced in
+and quantity sensitive, therefore both stress- and           this section, the metrical annotation machine by
+weight-related features are predicted by the tool.           Rainsford and Scrivner (2014) serves the purpose of
+Other features considered are syllable position within       adding metrical annotation to treebanks (i.e. syntacti­
+the line, word boundary, syllable length in characters,      cally annotated corpora). The process of annotation of
+syllable constitution in characters, and elision. To ob­     Old Occitan follows three steps: first, a syllable-level
+tain the most likely scansion of a line, additional metri­   tokenizer algorithm syllabifies words in a line; second,
+cal rules are considered and marginal probabilities          the results are manually corrected, and lexical stress is
+calculated. The tool was trained on material from the        added; third, a scansion algorithm, equipped with ac­
+Mittelhochdeutsche Begriffsdatenbank.29 The data­            cepted rules of syllabification, assigns metrical posi­
+base can be consulted online. However, most of its ma­       tions to each syllable. The material used by Rainsford
+terial still has copyright, hence, the whole texts are not   and Scrivner is available—although without annota­
+publicly available. The Middle High German scansion          tion—on the Old Occitan corpus Le Roman de
+tool (MHG-scansion model) by Estes and Hench                 Flamenca Corpus.33 The online platform appears to be
+(2016) has a graphical user interface and its source         under construction; therefore, while the plain text of
+code available in a code repository.                         the poems can be browsed, the metrical annotations
+                                                             do not seem to be available.
+4.1.8 Latin
+Also dating from the early 2010s, Pedecerto (Colombi         4.1.10 Portuguese
+et al. 2012) has been developed within the project           The first tool for metrical annotation of Portuguese
+Traditio patrum FIRB of the Universit�a di Udine. It is      verse also dates back to the early 2000s. It was devel­
+used to annotate approximately 244,000 dactylic lines        oped by Ara�   ujo and Mamede (2002) and analyzes
+from the Musisque Deoque digital archive.                    poems in terms of line length, rhyme, and the number
+Unfortunately, neither the source code nor the algo­         of lines in each stanza. Its architecture is inspired by
+rithm used for developing the tool seems to be avail­        Galaxy-II (Seneff et al. 1998) with a central process
+able. The website presenting Pedecerto offers a use-         that coordinates the various modules: the external in­
+friendly online demo of the tool which can be used to        terface, which generates phonetic transcriptions and
+scan verse of various meters. In addition, the platform      syllabic division; the lexical interface, which connects
+provides a corpus of annotated poetry30 and the possi­       the information generated by the external interface to
+bility of doing multiple types of searches, such as          the lexicon; the system interface, which includes
+Understanding poetry using NLP                                                                                     511
+
+
+information such as poem edition; the concept identifi­     Borzilova 2019). The tool comprises three levels: struc­
+cation module, which assigns rhyme scheme, strophic,        tural, semantic, and pragmatic. The structural analysis
+and metrical structure; and the rule identification mod­    defines the characteristics related to meter and degree of
+ule, which provides the final classification of the         metricality, while the semantic level extracts the semantic
+poem. In addition, Mamede et al. (2004) implemented         structure of the poetic text. Finally, the pragmatic level
+another module to suggest the ending word of a verse        analyzes genre and style of the text. The tool can be used
+given an incomplete poem as input.                          for analyzing poems on an online platform with a graph­
+   Aoidos (Mittmann, von Wangenheim, and dos                ical interface, although the platform is currently only
+Santos 2016) is the second and, to the best of our          available in Russian.
+knowledge, the only other tool which focuses on                A substantial and publicly available source for
+Portuguese verse. This tool annotates the metrical pat­     Russian poetry is the Poetic subcorpus of the Russian
+tern of the line and detects rhyme schemes. In addition,    National Corpus,37 which contains a vast amount of
+the tool detects the number of syllables per line and       data (12.8 million word forms). This corpus enables
+which poetic licenses, for example, synaloepha, are         searching for texts based on various parameters (me­
+employed in the analyzed text. A trial version of           ter, line length, rhyme, and stanza). The metrical anno­
+Aoidos is available on its website.34 By creating an ac­    tation in this corpus was initially done manually and
+count, users gain access to the entire tool and can ana­    without providing a metrical pattern for each line, but
+lyze a large amount of data.                                now such information is available. The corpus con­
+                                                            tains the meter and the rhythmic pattern of each line
+4.1.11 Russian                                              (which were obtained with automatic analysis).38
+An example of a tool for the metrical annotation of         Recent work as that by Plech�     a�c, Zelenkov, and � Sela
+Russian syllabo-tonic meter is that developed by            (Plech� a�c, Zelenkov, and � Sela 2020), has utilized the
+Pilshchikov and Starostin (2011). They use a program        poetry in this corpus for analysis, employing a
+based on “Treeton” (developed by Starostin for              machine-assisted accentuation tool developed by
+morpho-syntactic analysis, which incorporates ele­          Yuri Zelenkov.39
+ments of StarLing).35 The tool calculates the proximity
+to various hypotheses instead of favoring one hypothe­      4.2 Tools for poetry recognition
+sis over another, based on theoretical considerations.      Poetry recognition is a recent development in the field of
+The tool consists of six modules: 1) tokenizer; 2) sylla­   text classification40 and automatic text recognition with
+bifier (which follows the Sonority Sequencing               the aid of Optical Character Recognition (OCR). The
+Principle); 3) morphological analyzer (developed by         purpose of poetry recognition tools is to detect poetic
+Starostin, generating morphological interpretations at      text and to automatically distinguish it from prose. All
+the word level using Andrei Zalizniak’s Grammatical         tools reviewed in this section are for English poetry.
+Dictionary of the Russian Language, which includes             The first approach to poetry recognition was intro­
+stress placement for every word in the inflection para­     duced by Tizhoosh and Dara (2006). Their main goal
+digm; 4) fragmentator, identifying the elements com­        was to suggest a way to “measure poetry” and provide
+posing the poetic text, for example, line, stanzas, etc.;   an exploratory study to lay the foundations for the re­
+5) accentuation form generator, defining multiple pos­      search field of poetry recognition. They define a mea­
+sible ways of accentuating a line; and 6) meter ana­        sure of poetry based on the textual features which can
+lyzer, calculating the distance of each verse to each of    distinguish poetry from prose, such as the number of
+the five Russian syllabo-tonic meters (iamb, trochee,       lines in the text, since poems generally have less lines
+dactyl, amphibrach and anapaest). StarLing has been         than prose. In addition, they consider the average
+an essential tool for the analysis of Russian poetry (see   number of words per line, which is generally smaller
+for instance Kozmin 2006).                                  for poetry, as well as the number of words that rhyme,
+   Some principles proposed by Pilshchikov and              which is expected to be greater. Finally, they calculate
+Starostin for syllabic–accentual meters (e.g. the formal    the poetic significance of words and the density of po­
+definition of the degree of metricality, indicated as       etic words in the text. They conducted a preliminary
+“1,” divided by the number of deviations from the pat­      experiment aimed at defining a set of poetic features
+tern) have also been employed to annotate poetic tradi­     relating to the structure and organization of poetic
+tions other than the Russian. For instance, they were       text, and three case studies. Each case study focused
+the base for the program of verse annotation of The         on a different set of poetic features and machine learn­
+Corpus of Czech verse.36                                    ing techniques. Bayesian classifiers (Maron 1961;
+   An ongoing project on metrical analysis of Russian po­   Minsky 1961) are used for the first two case studies,
+etry has been launched at the Institute of Computational    while decision tree classifiers (Quinlan 1986; Duda,
+Technologies SBRAS (Barakhnin, Kozhemyakina, and            Hart, and Stork 2001) are employed in the third. The
+512                                                                                                   M. De Sisto et al.
+
+
+first case study considers three types of features,          saves a computed set of attributes to the data structure
+namely rhyme, rhythm (the number of words and the            representing the processed image.
+number of syllables in a line and throughout the                Similarly, the project by Kilner and Fitch (2017)
+poem), and frequency of adjectives in comparison to          addressed poetry detection in digitized historical
+prose. Their results suggest that rhythmical features,       Australian newspapers from the AusLit database
+followed by rhyme, were the most accurate in distin­         (Kilner 2002). The authors trained a naïve Bayesian
+guishing. The frequency of adjectives, on the other          classifier adapting the code by Shiffman (Bayesian
+hand, was found to be not significant for poetry recog­      Filtering,41 2008) and that by Paul Graham (A Plan
+nition. In the second case study, the classifier was         for Spam,42 Graham 2002), and by using the
+trained on multiple classes representing poetic forms        overProof (Evershed and Fitch 2014) correction algo­
+and one representing prose; nine features were consid­       rithm to improve the quality of OCR. The features
+ered, such as the number of lines and the number of          considered for recognizing poetry were based on
+words in a line, and in the whole texts, the number of       Tizhoosh et al. (Tizhoosh, Sahba, and Dara 2008).
+stanzas, the number of alliteration and rhymes. This            Finally, the most recent tool for poetry identification
+method performs considerably well, albeit using a            was developed by Foley (2019, 2020). The tool is an au­
+small dataset for training. In the third case study, the     tomatic, learned model for poetry extraction from digi­
+Festival Text-to-Speech Synthesis System (Black,             tally scanned books. Its purpose is to identify poetry in
+Taylor, and Caley 2002) was used to extract various          scanned documents and in particular in scanned pages
+text features, particularly those relevant to semantics      which do not necessarily only contain poetry. The model
+and prosody, that were then employed to train a deci­        (using bi-LTSM RNN) has been trained on a few thou­
+sion tree classifier. As in the previous case studies, the   sand labeled pages and detects anomalous formatting in
+employment of the extracted features gave high-              the page, such as differences in punctuation, margins,
+accuracy results.                                            and capitalization. This tool has its code, model, and
+   Subsequently, Tizhoosh, Sahba, and Dara (2008)            datasets available and downloadable.
+explored various techniques of poetry recognition.
+They focused on extracting genre-specific poetic fea­        4.3 Tools for poetry visualization43
+tures, for example, rhyme, meter, in order to define         4.3.1 English
+new poem classification techniques. Two classifiers          In this section, we describe a range of tools capable of
+were used, namely naïve Bayesian and Multilayer              visualizing different aspects of a poem. Most of these
+Perceptron. They evaluated five different approaches:        tools have emerged in recent years, indicating an in­
+(1) a traditional text classification method employing       creasing interest in poetry from the perspective of dis­
+Information gain and Mutual Information (Yang and            tant reading (Moretti 2013), macroanalysis (Jockers
+Pederesen 1997); (2) a method that considered shape,         2013), and quantitative approaches.
+that is, structural characteristics of poetry such as line      The first research-oriented method was presented by
+length; (3) a method which combined shape and rhyme          Kaplan and Blei (2007). It visualizes stylistic similari­
+features; (4) a method which considered shape, rhyme,        ties and relationships between poems by embedding
+and metrical structure; and (5) and a method which           them in a vector space and using Principal Component
+combined poetic features of method 3 and word fre­           Analysis. Style detection is used to distinguish poetic
+quency. Despite all approaches performing well, the          texts and cluster poems by poet. A set of features is
+highest accuracy was achieved with method 5.                 used to differentiate different styles and classify poems.
+   A further advancement for poetry recognition was          These features are categorized as orthographic (e.g.
+represented by the tool developed by Lorang and et al.       word count, average line length), syntactic (e.g. fre­
+(2015). This tool used an image-based approach to            quencies of POS), and phonemic (e.g. sound patterns,
+identify poetry in historical newspapers. The purpose        assonance, and consonance). Each feature was
+of the tool was to detect and make available for further     assigned a weight. The CMU Pronouncing Dictionary
+investigation poetry which appears in non-poetic his­        for North American English (Weide 1998) is used for
+torical texts. In order to do so, supervised machine         word-to-phoneme translation. The method is applied
+learning was used to create a classifier able to distin­     to a miscellaneous corpus of American poets from var­
+guish snippets that contain poetry from those that do        ious sources and different centuries. The authors con­
+not. A preprocessing phase is followed by feature ex­        clude that their algorithm is able to distinguish
+traction. The preprocessing algorithm performs blur­         between poems from poets with different styles, verify­
+ring on the snippet from a newspaper, then, the              ing whether a single long poem follows the same style,
+blurred image undergoes bi-Gaussian binarization and         and providing evidence of known mentoring relation­
+pixel consolidation. The feature extraction algorithm        ship between some poets.
+Understanding poetry using NLP                                                                                     513
+
+
+
+
+Figure 5. Sample of poetry visualization with PoemViewer.
+
+
+   Myopia (Chaturvedi et al. 2012) is a software tool       phonological, morphological, syntactic, semantic, and
+implemented in Python for poetry visualization in the       pragmatic (mainly, named entities) layers. Additionally,
+context of close reading. It was developed based on the     it integrates some original and adapted visualization
+poems available in the Poetess Archive,44 which con­        tools, including the aforementioned Poem Viewer, as
+tains 4,000 entries of poetry written by British and        well as Phonemia—which visualizes the phonemic
+American poets between 1750 and 1900. Myopia uses           makeup of a poem—and DoubleTreesJS—which aims to
+a schema extended from TEI, where a poem’s charac­          provide a more compact view of words in their context
+teristics are structured as tags and attributes according   of use than traditional concordances (Key Word in
+to XML standards. It is designed for comparing liter­       Context). These tools are available on the ECPA’s graph­
+ary attributes of different poems and to improve the        ical user interface platform and are connected to the digi­
+display of a multidimensional representation of poetry      tal edition site of each poem. The analysis tools are
+encoded in TEI. The tool has a visual interface and         displayed by default, while Phonemia, Poem Viewer, and
+currently exists as a desktop tool.                         DoubleTreeJS must be launched by the user.
+   Poem Viewer (Abdul-Rahman et al. 2013) is part of
+the Visual Informatics Lab at Oxford and is a web-          4.3.2 Spanish
+based tool for visualizing poems which aims of en­          One tool for visualization of Spanish poetry is the proj­
+hancing close reading.45 It was developed to create a       ect DISCOVER (Berm�      udez-Sabel, Ruiz Fabo, and
+user-centered tool that allows the visualization of dif­    Mart�ınez Cant� on 2023). This tool adapts existing
+ferent features. The features that can be displayed per­    resources for the analysis of rhymes in the DISCO cor­
+tain to the phonic aspect of the poem: the tool shows       pus, featuring Spanish sonnets (Ruiz Fabo et al.
+consonants, vowels, their phonetic features, and pho­       2017a). This corpus was annotated using ADSO
+netic relations (rhyme, assonance, and alliteration). It    Scansion system (Navarro-Colorado 2018), ANJA by
+also visualizes the vocalic movement within the vocalic     Pablo Ruiz Fabo (Ruiz Fabo et al. 2017b), and
+triangle, depicting the transition from one vowel to an­    RhymeTagger46 by Petr Plech�    a�c (2018) for rhyme de­
+other while reading the line. In addition, word repeti­     tection. The interface, implemented in PHP and
+tion, word sentiments, and semantic relations can be        Javascript, allows users to filter results by corpus and
+visualized. Poem Viewer has an online graphical user        prosodic elements and view rhyme trends. DISCOVER
+interface platform where poetry can be analyzed. The        has an online graphical user platform and allows the
+platform gives many customizable options regarding          user to limit the corpus by origin, century, and even
+the visualization, such as displaying vowel length or       gender of the author. It also provides filters for stress,
+word repetition. An example is given in Fig. 5.             rhyme, the presence of enjambment, and even visualize
+   The Eighteenth-Century Poetry Archive (ECPA;             rhyme trends. However, the code is not available.
+Huber 2018) provides the community with a range of
+new web-based poetry visualization tools for this corpus.   4.3.3 Italian
+For each digital edition of a particular poem, users can    Dante Visualized (Ferraro 2020) was developed to en­
+apply analysis tools to extract information on the          hance distant reading of Dante’s Divina Commedia,
+514                                                                                                    M. De Sisto et al.
+
+
+and has the potential to be applied to other texts in fu­    line, such as line length, number of stressed syllables per
+ture research. The tool analyzes both stylistic and se­      line, rhyme, and the number of lines in a stanza.
+mantic features, offering a schematic representation of         Nevertheless, in the last few years, the use of ma­
+the structure and rhythm, a visual representation of         chine learning technologies in the field of automatic
+the sentiment analysis, and the distribution of key­         metrical annotation has significantly increased. The
+words in the three parts of the work. The tool was de­       most commonly employed approach involves RNNs
+veloped by using machine learning techniques and the         (Schmidhuber 1989) with bi-LSTM cells (Hochreiter
+Naive Bayes Classifier (Perkins 2010). The tool was          and Schmidhuber 1997) and CRF (Lafferty, Abdul-
+implemented in Python. A JavaScript library (Bostock         Rahman, and Pereira 2001). These techniques have
+D3.js47) was used for producing the visualizations.          demonstrated high accuracy in metrical annotation.
+The code repository of the Dante Visualized (Ferraro         Some of the metrical annotation tools developed using
+2020) includes the tool itself as well as the results of     machine learning techniques include the MHG-
+the case study on the Divina Commedia by Dante.              scansion model (Estes and Hench 2016), the tool by
+                                                             Tanasescu, Paget, and Inkpen (2016), the tool by
+                                                             Agirrezabal (Agirrezabal 2017; Agirrezabal, Alegria,
+5. The role of rules and data                                and Hulden 2017), the tool by KAIST (Kim, Zhao,
+Poetry analysis tools can be classified based on the type    and Zelalem 2018), the Middle Dutch Syllabifier
+of technology they are built upon and, more specifically,    (Haverals, Karsdorp, and Kestemont 2019) and
+the role played by rules and data in their structure.        Stresser (Haverals 2020), the tool by De Sisto (2020)
+   A large number of tools are rule-based, especially,       and that by Haider (2021). The manually annotated
+those for metrical annotation. These tools are con­          material used as training data of these models is gener­
+structed based on a set of predefined rules that govern      ally annotated according to syllable structure, stress,
+the annotation process. For metrical annotation, ex­         rhyme, word boundary, and, in the case of quantitative
+plicit annotation rules are outlined, and the tool fol­      verse (i.e. Middle High German for MHG-scansion
+lows these rules to annotate new material.                   model), in terms of syllable quantity. These tools typi­
+   With the advancements of machine and deep learn­          cally employ a similar architecture based on RNN
+ing techniques, the use of these technologies has spread     with bi-LSTM. A different method is proposed in the
+in the field of automatic poetry analysis, leading to dif­   study by De la Rosa et al. (2021), where transformer-
+ferent a type of systems. In these systems, rules are not    based models (Wolf et al. 2019) are employed for
+explicitly provided to the tool; instead, the model          detecting line stress patterns.
+learns implicit generalizations from large amounts of           Similar to data-driven metrical annotation tools
+data. Machine learning algorithms are employed to ex­        and, actually, a predecessor of them, the tool by
+tract information and create a model, which is then          Hayward (1991, 1996) also uses Artificial Neural
+used to analyze new data (Patternson and Gibson              Networks for evaluating line metricality. In addition,
+2017). This process can be either supervised or unsu­        Greene, Bodrumlu, and Knight (2010) use unsuper­
+pervised. In supervised learning, the model is trained       vised learning for extracting word stress from a corpus
+on manually annotated data to make generalizations           as part of their tool which annotates, translates, and
+for annotating new data, while unsupervised learning         generates poetry.
+involves using raw data and fine-tuning the model               Machine learning techniques are also utilized in the
+with manually annotated material. This type of tool,         field of poetry visualization, as demonstrated by the
+where the model makes generalizations from data, is          ongoing project Dante Visualized (Ferraro 2020). This
+called data-driven or inference-based. Although the          tool uses a Naive Bayes Classifier (Perkins 2010)
+terms may seem contradictory, they refer to the same         trained on a manually created dataset of subsets of
+aspect: data-driven refers to the fact that the model        texts from other authors that are linguistically and
+receives data and learns from them; inference-based          temporally similar (Ferraro 2020).
+refers to the process of making generalizations and             Finally, inference-based methods are highly common
+making predictions from the data.                            among tools of poetry recognition; in fact, all tools con­
+   In the present article, both rule-based and inference-    sidered in the present survey employ them: Tizhoosh and
+based tools are considered. As mentioned above, within       Dara (2006), Tizhoosh, Sahba, and Dara (2008), Lorang
+the group of metrical annotation tools, most tools are       et al. (2015), and Foley (2019, 2020).
+rule-based. Defining metrical and prosodic rules for verse
+annotation has proven to be an effective technique.
+These tools generally rely on rules related to linguistic    6. Conclusion
+features, such as syllabification, stress assignment, pho­   In this article, we have presented a survey of automatic
+netic representation, as well as metrical features of the    tools for poetry analysis, with a focus on those
+Understanding poetry using NLP                                                                                                    515
+
+
+analyzing structural characteristics of verse. To this      and Linked Open Data: POSTDATA (ERC-2015-STG-
+end, we provided various classifications of the tools       679528) http://postdata.linhd.uned.es/ led by Elena
+based on language, general purpose, and the role of         Gonz�alez-Blanco. Thisproject is funded by the European
+rule-based or data-driven technology. The purpose of        Research Council (https://erc.europa.eu) (ERC)as part of
+this article was to carry out a survey of the available     the European Union’s Horizon2020 research and inno­
+tools for automatic analysis of poetry and provide in­      vation program.
+formation about their applicability for future research.
+Although many traditional poetry scholars might not         Notes
+be familiar with these automatic tools, our work high­
+lights the significant number of automatic tools devel­     1. See the Book of Abstracts of this Conference: https://dh2020.
+                                                                adho.org/abstracts/, accessed 22 Feb. 2022.
+oped to date for poetry analysis. This overview aims to     2. Links to tools’ online platforms and source codes are provided
+bridge the gap between more traditional poetry studies          in Appendix Table A1.
+                                                            3. See at: https://rpo.library.utoronto.ca, accessed 22 Feb. 2022.
+and available computational versification approaches,       4. See its website at: http://sonnets.org, accessed 22 Feb. 2022.
+enabling researchers to scale up their data for testing     5. eSpeak: http://espeak.sourceforge.net, accessed 7 Oct. 2021 .
+theoretical questions and supporting them in terms of       6. Available at: https://github.com/quadrismegistus/prosodic/tree/
+                                                                master/corpora, accessed 22 Feb. 2022.
+generalizability and verifiability.                         7. See the website platform at: https://prosody.lib.virginia.edu,
+   We hope poetry scholars will find the resources pre­         accessed 22 Feb. 2022.
+                                                            8. Available at: https://github.com/waynegraham/for_better_for_
+sented in this article useful, particularly for research        verse/tree/master/poems, accessed 22 Feb. 2022.
+focusing on European poetic traditions. In addition,        9. Available at: https://github.com/quadrismegistus/poesy/tree/mas
+we believe that the availability of many of the tools as        ter/poems/shakespeare_sonnets, accessed 18 Feb. 2022.
+                                                            10. See the project’s website at: https://sparsar.wordpress.com/,
+online platforms or open-source code will encourage             accessed 18 Feb. 2022.
+researchers to use them—or their open annotated cor­        11. See at: http://poetryfoundation.org, accessed 22 Feb. 2022.
+                                                            12. Available at https://github.com/ixa-ehu/ixa-pipe-tok, accessed
+pora—in their studies.                                          19 Feb. 2022.
+   Both Natural Language Processing and automatic           13. https://nlp.lsi.upc.edu/freeling/index.php/node/1, accessed 21
+analysis of poetry are fields in expansion and, as a re­        June 2023.
+                                                            14. Available at: https://github.com/bncolorado/CorpusSonetosSigloDe
+sult, we are witnessing new and important advances,             Oro, accessed 18 Oct. 2021.
+methods, and applications every day. Being aware of         15. Available      at:     https://github.com/linhd-postdata/HisMetag,
+                                                                accessed 30 Oct. 2021.
+the current developments that could enhance our re­         16. Available at: https://github.com/linhd-postdata/jollyjumper,
+search is crucial for preserving the quality of our stud­       accessed 30 Oct. 2021.
+ies. Automatic tools present both challenges and            17. Available at: https://github.com/linhd-postdata/averell, accessed
+                                                                30 Oct. 2021.
+opportunities for poetry researchers. They pose chal­       18. Available at: https://lyrik.antikoerperchen.de/, accessed 15 Feb. 2022.
+lenges due to their interdisciplinary nature, which         19. Available at: https://github.com/jtauber/greek-accentuation,
+                                                                accessed 15 Feb. 2022.
+requires researchers to acquire knowledge from vari­        20. The Versologie research group has also been one of first groups
+ous disciplines. However, they also offer opportunities         to use metrical information in Digital Literary Stylistics. See, for
+to address unanswered questions and explore new ave­            example, their studies on the interest of metrical information
+                                                                for authorship attribution (Plech�    a�c et al. 2019).
+nues of research in the field of poetry, which, as Emily    21. See at: https://catalog.ldc.upenn.edu/LDC96L14, accessed 14
+Dickinson48 stated, is full of possibilities.                   Jan. 2022.
+                                                            22. Available at: https://github.com/mirsdev/Dutch_Renaissance_po
+                                                                etry_corpus, accessed 9 Sept. 2021.
+                                                            23. See the website platform at: https://www.dbnl.org, accessed 9
+Author contributions                                            Sept. 2021.
+                                                            24. See at: ARTFL-FRANTEXT j The ARTFL Project (uchicago.
+Mirella De Sisto (Conceptualization, Formal analysis,           edu), accessed 12 Nov. 2021.
+Investigation, Methodology, Writing—original draft, and     25. See the website platform at: https://metricalizer.de/en/corpus/,
+Writing—review & editing), Laura Hern�andez-Lorenzo             accessed 18 Nov. 2021.
+                                                            26. See the website platform at: http://www.gutenberg.net, accessed
+(Conceptualization, Formal analysis, Investigation,             18 Oct. 2021.
+Methodology, and Writing—original draft), Javier de la      27. Available at: https://www.deutschestextarchiv.de/, accessed 15
+                                                                Feb. 2022.
+Rosa (Data curation, Validation, and Writing—original       28. Available at: http://textgrid.de [accessed 18 Oct. 2021].
+draft), Salvador Ros (Conceptualization and Project ad­     29. See at: http://mhdbdb.sbg.ac.at [accessed 18 Oct. 2021].
+ministration),     and      Elena      Gonz�alez-Blanco     30. See at: http://www.pedecerto.eu/public/pagine/autori [accessed
+                                                                31 Oct. 2023].
+(Conceptualization, Funding acquisition, and Project        31. See at: http://mizar.unive.it/mqdq/public/[accessed 18 Feb. 2022].
+administration)                                             32. Available at: https://github.com/ChristopheJacquet/Calliope/
+                                                                tree/master/test [accessed 18 Jan. 2022].
+                                                            33. See at: https://cl.indiana.edu/�obscrivn/F1_495.html [accessed
+                                                                21 Jun. 2023].
+Funding                                                     34. https://aoidos.ufsc.br [accessed 21 Jun. 2023].
+                                                            35. StarLing is a software package for various types of linguistic
+Research for this paper was made possible thanks to the         text and database analyses. For more details: https://starlingdb.
+Starting Grant researchproject Poetry Standardization           org/program.php?lan=en [accessed 21 Jun. 2023].
+516                                                                                                                       M. De Sisto et al.
+
+
+36. We would like to thank an anonymous reviewer for pointing this         Beaudouin, V., and Yvon, F. (1996) ‘The Metrometer: A Tool
+    out to us.                                                                for Analysing French Verse’, Literary and Linguistics
+37. Available at: https://ruscorpora.ru/new/search-poetic.html [accessed
+    6 Jan. 2022].
+                                                                              Computing, 11: 23–31. https://doi.org/10.1093/llc/11.1.23
+38. We would like to thank an anonymous reviewer for providing             Berm�udez Sabel, H., Ruiz Fabo, P., and Mart�ınez Cant�      on, C.
+    us information about this corpus and about research based on              (2023) ‘DISCOvering Spanish Sonnets: A Circular Reading
+    it. Given that the website and other resources are only available         Experience’, in: A. S. Bories, P. Plech� a�c, and P. Ruiz Fabo
+    in Russian, it would not have been possible for us to include it
+                                                                              (eds.) Computational Stylistics in Poetry, Prose and Drama,
+    in our review without the reviewer’s contribution.
+39. See Plech� a�c, Zelenkov, and �Sela (2020), p. 136, footnote 7.           pp. 67–86. Berlin, Germany: De Gruyter. https://doi.org/10.
+40. For relevant literature, see: Manevitz and Yousef 2007; McCallum          1515/9783110781502-004
+    and Nigam 1998; Ruiz and Srinivasan, 1998; Yang 1999.                  Black, A.W., Taylor, P., and Caley, R. (2002) The Festival
+41. Unfortunately, the link to this blog post does not exist anymore:
+                                                                              Speech Synthesis System: System Documentation.
+    http://shiffman.net/teaching/a2z_2008/bayesian/[last accessed
+    27 Oct. 2015]                                                             Edinburgh, Scotland: University of Edinburgh, The Centre
+42. http://www.paulgraham.com/spam.html [accessed 22 Feb. 2022].              for Speech Technology Research.
+43. Apart from the tools mentioned in this section, there are some         Bobenhausen, K. (2011) ‘The Metricalizer2–automated
+    studies of rhyme through network analysis. In this sense, we              Metrical Markup of German Poetry’, Current Trends in
+    would like to highlight the panel “Understanding Rhyme
+    Through Network Analysis” presented at Digital Humanities                 Metrical Analysis. Bern, Switzerland: Peter Lang.
+    2020 Conference (Houston et al. 2020).                                 Bobenhausen, K., and Hammerich, B. (2015) ‘M�etrique
+44. See its website at: http://www.poetessarchive.org [accessed 18            Litt�eraire,    M�etrique      Linguistique     et     M�etrique
+    Oct. 2021].                                                               Algorithmique de l’allemand Mises en Jeu Dans le
+45. According to its authors, their goal was to produce “a suitable
+    tool to help poets to explore the information spaces of poems.            Programme Metricalizer2’, Langages, 3(199): 67–88.
+    Following the nested design process” (Abdul-Rahman                     Breiman, L. (1996) ‘Bagging Predictors’, Machine Learning,
+    et al. 2013).                                                             24: 123–40.
+46. https://github.com/versotym/rhymetagger                                Chaturvedi, M. et al. (2012) Myopia: A Visualization Tool in
+47. https://d3js.org/
+48. See the poem ‘I dwell in Possibility’ (https://www.poetryfounda           Support of Close Reading. in: Digital Humanities
+    tion.org/poems/52197/i-dwell-in-possibility-466).                         Conference.          https://www-archiv.fdm.uni-hamburg.de/
+                                                                              dh2012/conference/programme/abstracts/myopia-a-visuali
+                                                                              zation-tool-in-support-of-close-reading.1.html.
+                                                                           Chaumartin, F. R. (2013) Antelope, Une Plate-forme de TAL
+References                                                                    Permettant d’Extraire les Sens du Texte: Th�eorie et
+                                                                              Applications de l’interface Syntaxe-s�emantique 228.
+Abdul-Rahman, A. et al. (2013) ‘Rule-based Visual                             Universit�e Paris-Diderot - Paris VII. PhD Dissertation.
+   Mappings—with a Case Study on Poetry Visualization’,                       https://theses.hal.science/tel-00803531/file/TheseFRC.pdf.
+   Computer Graphics Forum, 32: 381–90. https://doi.org/10.                Colombi, E. et al. (2012) ‘Pedecerto [WWW Document]’,
+   1111/cgf.12125                                                             http://www.pedecerto.eu/public/index. Date accessed 21
+Agerri, R., Bermudez, J., and Rigau, G. (2014) ‘Ixa Pipeline:                 June 2023.
+   Efficient and Ready to Use Multilingual nlp Tools’, LREC,               Conser, A. (2017) ‘Greek_scansion [WWW Document]’,
+   2014: 3823–8.                                                              https://github.com/aconser/greek_scansion. Date accessed
+Agirrezabal, M. (2017) Automatic Scansion of Poetry.                          24 September 2020.
+   Donostia, Spain: University of Basque Country.                          Cornulier, B. (1982) Th�eorie du Vers: Rimbaud, Verlaine,
+Agirrezabal, M., Alegria, I., and Hulden, M. (2017) A                         Mallarm�e. Paris: Seuil.
+   Comparison of Feature-Based and Neural Scansion of                      De la Rosa, J. et al. (2021) ‘Transformers Analyzing Poetry:
+   Poetry. in: Proceedings of the International Conference                    Multilingual        Metrical    Pattern      Prediction     with
+   Recent Advances in Natural Language Processing, RANLP                      Transfomer-based Language Models’, Neural Computing
+   2017, pp. 18–23. Varna, Bulgaria. INCOMA Ltd.                              and Applications, 35: 1–6.https://doi.org/10.1007/s00521-
+Agirrezabal, M. et al. (2013) ‘ZeuScansion: A Tool for Scansion               021-06692-2
+   of English Poetry’, Journal of Language Modelling, 4: 3.                De la Rosa, J. et al. (2020a) ‘PoetryLab as infrastructure for the
+   https://doi.org/10.15398/jlm.v4i1.102                                      analysis of Spanish poetry’ in: Navarretta, C. and Eskevich, M.
+Algee-Hewitt, M.R. et al. (2014) The Stanford Literary Lab                    (Eds.), Selected Papers from the CLARIN Annual Conference
+   Transhistorical Poetry Project Phase ii: Metrical Form. in:                2020. Presented at the CLARIN Annual Conference 2020.
+   9th Annual International Conference of the Alliance of                     Link€ oping Electronic Conference Proceedings 180 pp. 82–7.
+   Digital Humanities Organizations, fDHg 2014, Lausanne,                     https://doi.org/10.3384/ecp1809.
+   Switzerland, 8-12 July 2014, Conference Abstracts. Alliance             De la Rosa, J. et al. (2020b) ‘Fast and Accurate Syllabification
+   of Digital Humanities Organizations (ADHO). http://dharch                  and Scansion of Spanish Poetry’, Review Process Length
+   ive.org/paper/DH2014/Paper-788.xml.                                        Natural, 65: 83–90.
+Ara�
+   ujo, J. P., and Mamede, N.J. (2002) Classificador de                    De Sisto, M. (2020) The Interaction between Phonology and
+   Poemas. Lisbon: CCTE.                                                      Metre. Approaches to Romance and West-Germanic Metre.
+Barakhnin, V.B., Kozhemyakina, O. Y., and Borzilova, Y. S.                    Amsterdam, the Netherlands: Radboud University
+   (2019) ‘The Development of the Information System of the                   Nijmegen. LOT Publications.
+   Representation of the Complex Analysis Results for the                  Delente, E., and Renault, R. (2015) Traitement automatique
+   Poetic Texts’, Vestnik NSU: Information. Technologies, 17:                 des formes m�etriques des textes versifi�es, in: Actes de la 22e
+   5–17. https://doi.org/10.25205/1818-7900-2019-17-1-5-17                    conf�erence sur le Traitement Automatique des Langues
+Understanding poetry using NLP                                                                                                517
+
+
+   Naturelles. Articles courts, pp. 116–122, Caen,                     German and English Poetry’, in: Proceedings of the Twelfth
+   France: ATALA.                                                      Language Resources and Evaluation Conference, pp.
+Delmonte, R. (2014) A Computational Approach to Poetic                 1652–1663, Marseille, France. European Language
+   Structure, Rhythm and Rhyme 7. in: Archivio istituzionale           Resources Association. https://doi.org/10.48550/ARXIV.
+   della ricerca - Universit�
+                            a degli Studi di Venezia Ca' Foscari.      2003.07723
+   https://core.ac.uk/download/pdf/223168461.pdf.                   Hanson, K., and Kiparsky, P. (1996) ‘A Parametric Theory of
+Dimpel, F.M. (2015) ‘Automatische Mittelhochdeutsche                   Poetic Meter’, Language, 72: 287–335.
+   Metrik 2.0 [WWW Document]’, http://web.fu-berlin.de/             Hartman, C. (1996) ‘Scandroid [WWW Document]’, http://
+   phin/phin73/p73i.htm. Date accessed 10 August 2020.                 oak.conncoll.edu/cohar/Programs.htm. Date accessed 20
+Dom�ınguez Caparr�    os, J. (2020) M�etrica Espa~         nola.       June 2023.
+    Madrid: UNED.                                                   Haverals, W. (2020) De Maat van het Middelnederlands: EEN
+Duda, R.O., Hart, P.E., and Stork, D.G. (2001) Pattern                 Digitaal Onderzoek Naar de Prosodische en Ritmische
+   Classification. New York, NY: Wiley.                                Kenmerken van Middelnederlandse Berijmde Literatuur.
+Estes, A., and Hench, C. (2016) ‘Supervised machine learning           Antwerp, Belgium: Universiteit Antwerpen, Faculteit
+   for hybrid meter’, Proceedings of the Fifth Workshop on             Letteren & Wijsbegeerte.
+   Computational Linguistics for Literature, pp. 1–8. San           Haverals, W., Karsdorp, F., and Kestemont, M. (2019)
+   Diego, CA: Association for Computational Linguistics.               ‘Data-Driven Syllabification for Middle Dutch’, Digital
+   https://doi.org/10.18653/v1/W16-0201                                Medievalist, 12: 2. https://doi.org/10.16995/dm.83
+Evershed, J., and Fitch, K. (2014) ‘Correcting Noisy OCR:           Hayes, B., Wilson, C., and Shisko, A. (2012) ‘Maxent Grammars
+    Context beats Confusion’, in: DATeCH'14: Proceedings of            for the Metrics of Shakespeare and Milton’, Language, 88:
+    the First International Conference on Digital Access to            691–731. https://doi.org/10.1353/lan.2012.0089
+    Textual Cultural Heritage, New York: Association for            Hayward, M. (1996) ‘Analysis of a Corpus of Poetry by a
+    Computing Machinery, pp. 45–51. https://doi.org/10.1145/           Connectionist Model of Poetic Meter’, Poetics, 24: 1–11.
+    2595188.2595200.                                                Hayward, M. (1991) ‘A Connectionist Model of Poetic Meter’,
+Ferraro, G. (2020) From data to visualisation: Dante’s Divine          Poetics, 4: 303–17.
+    Comedy as a case study. Digital Humanities 2020. Ottawa,        Henr�ıquez Ure~  na, P. (1919) ‘El Endecas�ılabo Castellano’,
+    Canada. http://dx.doi.org/10.17613/0g8f-x945.                      Revista de Filologia Espanola, 6(2), 132–57.
+Fisher, F., and Frey N. (2013) ‘Close Reading as Part of a          Hern�andez-Lorenzo, L. et al. (2021) ‘The automatic quantita­
+   Comprehensive Literacy Framework’, Colorado Reading                 tive metrical analysis of Spanish poetry with rantanplan: A
+   Journal - Winter 2014, 30–4.                                        preliminary approach’, Tackling the Toolkit. Plotting
+Foley, J. (2019) Poetry: Identification, Entity Recognition, and       Poetry through Computational Literary Studies. Prague:
+   Retrieval. Boston, MA: University of Massachusetts.                 Institute of Czech Literature of the Czech Academy
+Foley, J. (2020) Automatic Extracion of Poetry from Digitally          of Sciences.
+   Scanned Books. Digital Humanities 2020. Ottawa, Canada.          Heuser, R. et al. (2010) ‘Prosodic [WWW Document]’, http://
+   https://hcommons.org/deposits/item/hc:31737/.                       prosodic.stanford.edu. Date accessed 8 March 2020.
+Gerv�as, P. (2000) ‘A Logic Programming Application for the         Heusler, A. (1927) Deutsche Versgeschichte. Mit Einschluß des
+   Analysis of Spanish Verse’, in: J. Lloyd, V. Dahl, U.               Altenglischen und Altnordischen Stabreimverses, Bd. 2/III:
+   Furbach, M. Kerber, K. K., Lau, C. Palamidessi, L.M.                Der Altdeutsche Vers (¼ Grundriß der Germanischen
+   Pereira, Y. Sagiv, and P.J. Stuckey (eds.) Computational            Philologie 8/2). Berlin, Leipzig: De Gruyter.
+   Logic–CL 2000, Lecture Notes in Computer Science, pp.            Hochreiter, S., and Schmidhuber, J. (1997) ‘Long Short-Term
+   1330–44. Berlin, Heidelberg, Germamny: Springer Berlin              Memory’, Neural Computation 9(8), 1735–80.
+   Heidelberg. Https://doi.org/10.1007/3-540-44957-4_89             Houston, N.M. et al. (2020) ‘Understanding Rhyme Through
+Graham, P. (2002) ‘A Plan for Spam’, Paul Graham. [WWW                 Network Analysis’, Digital Humanities 2020. Ottawa,
+   Document], http://www.paulgraham.com/spam.html. Date                Canada. https://hal.science/hal-02661449.
+   accessed 10 September 2020.                                      Huber, A. (2018) Eighteenth-Century Poetry Archive. Oxford:
+Greene, E., Bodrumlu, T., and Knight, K. (2010) ‘Automatic             University of Oxford (Eighteenth-Century Poetry Archive.
+   analysis of rhythmic poetry with applications to generation      Ibrahim, R., and Plech�  a�c, P. (2011) ‘Towards the automatic
+   and translation’, Proceedings of the 2010 Conference on             analysis of Czech verse’, Formal Methods in Poetics, pp.
+   Empirical Methods in Natural Language Processing, pp.               295–305. L€  udenscheid, Germany: RAM.
+   524–33.Cambridge, MA: Association for Computational              Jacquet, C. (2013) ‘Calliope Scansio [WWW Document]’,
+   Linguistics.                                                        https://github.com/ChristopheJacquet/Calliope          Date
+Groves, P.L. (1998) ‘Strange Music: The Metre of the English           accessed 10 August 2020.
+   Heroic Line’, English Literary Studies, 74.                      Jockers, M.L. (2013) Theme, in: Macroanalysis: Digital
+Haider, T. (2021) Metrical Tagging in the Wild: Building and           Methods and Literary History, pp. 118–53. Urbana:
+   Annotating Poetry Corpora with Rhythmic Features. in:               University of Illinois Press.
+   Proceedings of the 16th Conference of the European               Kaplan, D.M., and Blei, D.M. (2007) ‘A computational ap­
+   Chapter of the Association for Computational Linguistics:           proach to style in American poetry’, Seventh IEEE
+   Main Volume, pp. 3715–3725, Online: Association for                 International Conference on Data Mining (ICDM 2007).
+   Computational Linguistics.                                          Presented at the Seventh IEEE International Conference on
+Haider, T. et al. (2020) ‘PO-EMO: Conceptualization,                   Data Mining (ICDM 2007), pp. 553–8. Omaha, NE: IEEE.
+   Annotation, and Modeling of Aesthetic Emotions in                   https://doi.org/10.1109/ICDM.2007.76
+518                                                                                                                   M. De Sisto et al.
+
+
+Kilner, K. (2002) ‘AustLit: The Australian Literature Resource        McClelland, J.L., and Rumelhart, D.E. (1988) Explorations in
+    [WWW Document]’, www.austlit.edu.au. Date accessed 9                  Parallel Distributed Processing: A Handbook of Models,
+    January 2020.                                                         Programs, and Exercises. Cambridge, MA: The MIT Press.
+Kilner, K., and Fitch, K. (2017) ‘Searching for My Lady’s Bonnet:     Minsky, M. (1961) ‘Steps towards Artificial Intelligence’,
+    Discovering Poetry in the National Library of Australia’s             Proceedings of the IRE, 49: 8–30.
+    Newspapers Database,’ Digital Scholarship in the Humanities,      Mittmann, A., von Wangenheim, A., and dos Santos, A.L.
+    32: i69–83. https://doi.org/10.1093/llc/fqw062                        (2016) ‘Aoidos: A system for the automatic scansion of po­
+Kim, H., Zhao, Y., and Zelalem, B. (2018) Automatic                       etry written in Portuguese’, Computational Linguistics and
+    Classiffication of Poetry by Neural Scansion. School of               Intelligent Text Processing. Presented at the 17th
+    Electrical Engineering and Computer Science, Faculty of               International Conference. Konya, Turkey: CICLing.
+    Engineering, University of Ottawa. PhD Dissertation.              Moretti, F. (2013) Distant Reading. London: Verso.
+    https://ruor.uottawa.ca/bitstream/10393/37309/1/                  Navarro-Colorado, B. (2015) ‘A computational linguistic ap­
+    Kesarwani_Vaibhav_2018_thesis.pdf.                                    proach to Spanish Golden Age Sonnets: metrical and seman­
+Koehn, P. et al. (2007) ‘Moses: Open source toolkit for statistical       tic aspects’, Proceedings of the Fourth Workshop on
+    machine translation’, Proceedings of the 45th Annual Meeting          Computational Linguistics for Literature, pp. 105–13.
+    of the Association for Computational Linguistics Companion            Denver, CO: Association for Computational Linguistics.
+    Volume Proceedings of the Demo and Poster Sessions.                   https://doi.org/10.3115/v1/W15-0712
+    Association for Computational Linguistics, Prague, Czech          Navarro-Colorado, B. (2018) ‘A Metrical Scansion System for
+    Republic. Association for Computational Linguistics.,                 Fixed-metre Spanish Poetry’, Digital Scholarship in the
+    pp. 177–80.                                                           Humanities,        33,    112–127.      https://doi.org/10.1093/
+Koppelaar, H., and Van Oostendorp, M. (2013) ‘The Scansion                llc/fqx009
+    Generator [WWW Document]’, KB Lab, http://lab.kb.nl/              Padr� o L. l., and Stanilovsky, E. (2012) FreeLing 3.0: Towards
+    tool/scansion-generator. Date accessed 31 October 2023.               Wider Multilinguality Proceedings of the Language
+Kozmin, A.V. (2006) Automated Analysis of Verse with                      Resources and Evaluation Conference (LREC 2012) ELRA.
+    Starling Software Package. Automatic Verse Analysis in                Istanbul, Turkey. European Language Resources
+    Starling. in: Computsyional Linguistics and Intellectural             Association (ELRA). http://www.lrec-conf.org/proceedings/
+    Technologies. International Conference "Dialogue 2006"                lrec2012/pdf/430_Paper.pdf.
+    Proceedings, pp. 265–268.                                         Papakitsos, E.C. (2011) ‘Computerized Scansion of Ancient
+Lafferty, J., Abdul-Rahman, A., and Pereira, F.C. (2001)                  Greek Hexameter’, Literary and Linguistics Computing, 26:
+    Conditional Random Fields: Probabilistic Models for                   57–69. https://doi.org/10.1093/llc/fqq015
+    Segmenting and Labeling Sequence Data. In Proceedings of          Patternson, J., and Gibson, A. (2017) Deep Learning.
+    the Eighteenth International Conference on Machine                    Sebastopol, CA: O’Reilly Media.
+    Learning (ICML 2001), Williams College, Williamstown,             Perkins, J. (2010) ‘Text Classifier for Sentiment Analysis—Naive
+    MA, USA, June 28 - July 1, 2001. 282–289.                             Bayes Classifier’, SteamHacker, https://streamhacker.com/
+Logan, H.M. (1988) ‘Computer Analysis of Sound and Meter in               2010/05/10/text-classification-sentiment-analysis-naive-bayes-
+    Poetry’, College Literature, 15: 19–24.                               classifier/. Date accessed 10 September 2020.
+Lorang, M.L. et al. (2015) ‘Developing an Image-Based                 Pilshchikov, I., and Starostin, A. (2011) ‘Automated Analysis of
+    Classifier for Detecting Poetic Content in Historic                   Poetic Texts and the Problem of Verse Meter’, in Current
+    Newspaper Collections’, D-Lib Magazine, 21, 1–24.                     Trends in Metrical Analysis. Lausanne, Switzerland: Peter Lang.
+Mamede, N. et al. (2004) ‘An electronic assistant for poetry          Plamondon, M.R. (2006) ‘Virtual Verse Analysis: Analysing
+    writing’, Proceedings of the 9th Ibero-American Conf. on              Patterns in Poetry’, Literary and Linguistics Computing, 21:
+    Artificial Intelligence. Presented at the LNCS. Berlin,               127–41. https://doi.org/10.1093/llc/fql011
+    Heidelberg: Springer. https://doi.org/10.1007/978-3-540-          Plech� a�c, P. (2018) ‘A Collocation-Driven Method of
+    30498-2_29.                                                           Discovering Rhymes (in Czech, English, and French
+Manevitz, L., and Yousef, M. (2007) ‘One-class Document                   Poetry)’, Taming the Corpus: From Inflection and Lexis to
+    Classification via Neural Networks’, Neurocomputing,                  Interpretation, pp. 79–95. Cham, Switzerland: Springer.
+    70: 1466–81.                                                      Plech� a�c, P. et al. eds. (2019) Quantitative Approaches to
+Marco, G. et al. (2021) ‘Automated Metric Analysis of Spanish             Versification. Prague: Institute of Czech Literature of the
+    Poetry: Two Complementary Approaches’, IEEE Access, 9:                Czech Academy of Sciences.
+    51734–46. https://doi.org/10.1109/ACCESS.2021.3069635             Plech�a�c, P., Zelenkov, J., and �  Sela, A. (2020) ‘The Batenkov
+Maron, M. E. (1961) ‘Automatic Indexing; an Experimental                  Phenomenon and the Problem of Authorship Verification: A
+    Inquiry’, Journal of the ACM, 8: 404–17.                              Multivariate Statistical Approach to an Unsolved Question’,
+McAleese, W. (2007) Improving Scansion with Syntax: An                    Acta Slavica Estonica, 12: 131–65.
+    Investigation into the Effectiveness of a Syntactic Analysis of   Prince, A., and Smolensky, P. (1993) Optimality Theory:
+    Poetry by Computer Using Phonological Scansion Theory.                Constraint Interaction in Generative Grammar. Manuscript,
+    Technical Report, Department of Computing, The Open                   Rutgers University and University of Colorado, Boulder.
+    University. https://doi.org/10.21954/ou.ro.00016055.              Quinlan, J.R. (1986) ‘Induction of Decision Trees’, Machine
+McCallum, A., and Nigam, K. (1998) A comparison of Event                  Learning, 1: 81–106. https://doi.org/10.1007/BF00116251
+    Models for Naive Bayes Text Classification. in: AAAI              Rainsford, T.M., and Scrivner, O. (2014) ‘Metrical annotation for
+    Conference on Artificial Intelligence. https://courses.wash           a verse treebank’, Proceedings of the Thirtheenth International
+    ington.edu/ling572/papers/mccallum1998_AAAI.pdf.                      Workshop on Treebanks and Linguistic Theories (TLT13),
+Understanding poetry using NLP                                                                                                       519
+
+
+    T€ubingen, Germany. University of T€   ubingen. https://doi.org/   Seneff, S. et al. (1998) ‘Galaxy-II: A reference architecture for
+    10.5281/zenodo.10054982                                               conversational system development’, in: The 5th
+Reddy, S., and Knight, K. (2011) ‘Unsupervised discovery of               International Conference on Spoken Language Processing,
+    rhyme schemes’, Proceedings of the 49th Annual Meeting of             Incorporating The 7th Australian International Speech
+    the Association for Computational Linguistics: Human                  Science and Technology Conference, Sydney Convention
+    Language Technologies, Portland, Oregon, USA.                         Centre, Sydney, Australia, 30th November - 4th December
+    Association for Computational Linguistics, 77–82.                     1998. ISCA. 10.21437/ICSLP.1998-478.
+van Reenen, P., and Mulder, M. (1993) ‘Een Gegevensbank van            Sonderegger, M. (2011) ‘Application to Graph Theory to an
+    14de-eeuwse Middelnederlandse Dialecten op Computer’,                 English Rhyming Corpus’, Computer Speech and Language,
+    Lexikos, 3: 259–81. https://doi.org/10.5788/3-1-1110                  25: 655–78.
+Ruiz Fabo, P. (2020) ‘The Diachronic Spanish Sonnet Corpus: TEI        Tanasescu, C., Paget, B., and Inkpen, D. (2016) Automatic
+    and Linked Open Data Encoding, Data Distribution, and                 Classification of Poetry by Meter and Rhyme 6. Proceedings
+    Metrical Findings’, Digital Scholarship in the Humanities, 36:        of the twenty-Ninth International Florida Artificial
+    i68–80. https://doi.org/10.1093/llc/fqaa035.                          Intelligence Research Society Conference (FLAIRS 2026).
+Ruiz Fabo, P. et al. (2017a) Diachronic Spanish Sonnet Corpus             Association for the Advacement of Artificial Intelligence.
+    (DISCO). Madrid: UNED.                                                https://cdn.aaai.org/ocs/12923/12923-60593-1-PB.pdf
+Ruiz Fabo, P. et al. (2017b) ‘Enjambment detection in a large dia­     Tizhoosh, H.R., and Dara, R.A. (2006) ‘On Poem
+    chronic corpus of Spanish sonnets’, Proceedings of the Joint          Recognition’, Pattern Analysis and Applications, 9: 325–38.
+    SIGHUM Workshop on Computational Linguistics for                      https://doi.org/10.1007/s10044-006-0044-8
+    Cultural Heritage. in: Social Sciences, Humanities and             Tizhoosh, H.R., Sahba, F., and Dara, R. (2008) ‘Poetic Features
+    Literature, Vancouver, Canada. Association for Computational          for Poem Recognition: A Comparative Study’, Journal of
+    Linguistics.. 27–32.                                                  Pattern Recognition Research, 3: 24–39. https://doi.org/10.
+Ruiz, M.E., and Srinivasan, P. (1998) ‘Automatic text categoriza­         13176/11.62
+    tion using neural networks’, Proceedings of the 8th Workshop       Van Oostendorp, M. (2014) ‘Introducing a Scansion Machine
+    on Advances in Classification Research, University of                 for Dutch Poetry and Prose’, Loquens, 1: e002. https://doi.
+    Washington, 59–72.                                                    org/10.3989/loquens.2014.002
+Schmidhuber, J. (1989) ‘The Neural Bucket Brigade: A Local             Weide, R. (1998) The CMU Pronunciation Dictionary. http://www.
+    Learning Algorithm for Dynamic Feedforward and                        speech.cs.cmu.edu/cgi-bin/cmudict, (accessed 17 Jan. 2024).
+    Recurrent Networks’, Connection Science, 403: 412.                 Wolf, T. et al. (2019) ‘HuggingFace’s Transformers:
+Schumann, A. K. (2020) Automatische Versmaßannotation in                  State-of-the-art Natural Language Processing’. https://doi.org/
+    Werken der Homerischen Hexameter-Dichtung. Berlin,                    10.48550/ARXIV.1910.03771, (accessed 17 Jan. 2024)
+    Germany: Freie Universit€  at Berlin.                              Yang, Y. (1999) ‘An Evaluation of Statistical Approaches to
+Schumann, A. K. et al. (2022) ‘Using Finite-state Machines to             Text Categorization’, Information Retrieval, 1: 67–88.
+    Automatically Scan Ancient Greek Hexameter’, Digital               Yang, Y., and Pederesen, J.O. (1997) ‘A comparative study
+    Scholarship in the Humanities, 37: 242–53. https://doi.org/           on feature selection in text categorization’, Proceedings
+    10.1093/llc/fqab071                                                   of the Fourteenth International Conference on Machine
+Sejnowski, T.J., and Rosenberg, C.R. (1987) ‘Parallel Networks that       Learning. Presented at the ICML’97, Nashville, 8-12 July
+    Learn to Pronounce English Text’, Complex Systs, 1: 145–68.           1997, 412–20.
+520                                                                                                                  M. De Sisto et al.
+
+
+Appendix
+Table A1 Summary of the reviewed tools including availability of source code, GUI, websites and code repositories.
+
+Tool                               Language                Type           Source     GUI     Websites and code repositoriesa
+                                                                          code
+
+Metrical annotation
+Logan (1988)                       English                 Rule-based     No         No      Not available
+Hayward (1991)                     English                 Data-driven    No         No      Not available
+Scandroid (Hartman 1996)           English                 Rule-based     Yes        Yes     http://oak.conncoll.edu/cohar/
+                                                                                               Programs.htm
+AnalysePoems                       English                 Rule-based     No         No
+  (Plamondon 2006)
+Calliope (McAleese 2007)           English                 Rule-based     No         No
+Greene, Bodrumlu, and              English                 Data-driven    No         No
+  Knight (2010)
+Prosodic (Heuser et al. 2010)      English and Finnish     Rule-based     Yes        Yes     http://prosodic.stanford.edu
+                                                                                             https://github.com/quadrismegis
+                                                                                               tus/prosodic
+ZeuScansion (Agirrezabal           English (Spanish)       Rule-based     Yes        No      https://github.com/manexagirrezabal/
+  et al. 2013)                                                                                 zeuscansion
+Poesy (Algee-Hewitt                English                 Rule-based     Yes        No      https://github.com/quadrismegistus/poesy
+  et al. 2014)
+SPARSAR (Delmonte 2014)            English                 Rule-based     Yes        No      https://sparsar.wordpress.com/
+Tanasescu, Paget, and              English                 Data-driven    No         No
+  Inkpen (2016)
+Agirrezabal (2017)                 English, Spanish        Data-driven    No         No
+                                     and Basque
+KAIST (Kim, Zhao, and              English                 Data-driven    Yes        No      https://github.com/rokrokss/Automatic_
+ Zelalem 2018)                                                                                 Classification_of_Poetry_by_
+                                                                                               Neural_Scansion
+Gerv�as (2000)                     Spanish                 Rule-based     No         No
+ADSO (Navarro-                     Spanish                 Rule-based     Yes        No      https://github.com/bncolorado/
+  Colorado 2018)                                                                               adsoScansionSystem
+Rantanplan (De la Rosa             Spanish                 Rule-based     Yes        No      https://github.com/linhd-postdata/rantan
+  et al. 2020b)                                                                                plan
+                                                                                             http://postdata-prototype.linhd.uned.es/
+                                                                                               poetry-lab.php
+Jumper (Marco et al. 2021)         Spanish                 Rule-based     Yes        No      https://github.com/grmarco/jumper
+De la Rosa et al. (2021)           Spanish                 Data-driven    Yes        No      https://github.com/linhd-postdata/alberti
+                                     English and
+                                     German
+Papakitsos (2011)                  Ancient Greek           Rule-based     No         No
+Greek_scansion                     Ancient Greek           Data-driven    Yes        No      https://github.com/aconser/
+  (Conser, 2017)                                                                               greek_scansion
+Greek_scansion                     Ancient Greek           Rule-based     Yes        No      https://github.com/anetschka/
+  (Schumann, 2020)                                                                             greek_scansion
+Corpus of Czech Verse              Czech                   Rule-based     No         Yes     http://www.versologie.cz/en/nastroje.
+  (Ibrahim and Plech�
+                    a�c 2011)                                                                  html
+                                                                                               http://www.versologie.cz/en/kcv.html
+                                                                                               http://www.versologie.cz/dcm/index_
+                                                                                               en.html
+                                                                                               http://www.versologie.cz/gunstick/in
+                                                                                               dex_en.php
+KBNL scansion (Koppelaar           Dutch                   Rule-based     Yes        Yes     https://lab.kb.nl/tool/scansion-generator
+  and Van Oostendorp 2013)
+De Sisto (2020)                    Renaissance Dutch       Data-driven    No         No
+Middle Dutch Syllabifier           Middle Dutch            Data-driven    Yes        No      https://github.com/WHaverals/syllabify
+  (Haverals et al. 2019)                                                                       https://zenodo.org/record/2582976#.
+                                                                                               XylqBC2w3OR
+Metrometer (Beaudouin and          French                  Rule-based     No         No
+ Yvon 1996)
+                                                                                                                              (continued)
+Understanding poetry using NLP                                                                                                           521
+
+
+Table A1. (continued)
+Tool                                  Language                 Type            Source     GUI     Websites and code repositoriesa
+                                                                               code
+
+Reddy and Knight (2011)               French and English       Data-driven     No         No
+Anam�etre (Delente and                French                   Rule-based      No         No
+  Renault 2015)
+Metricalizer                          German                   Rule-based      Yes        Yes     https://metricalizer.de/en/
+  (Bobenhausen 2011)
+Haider (2021)                         German                   Data-driven     Yes        No      https://github.com/tnhaider/metrical-tag
+                                       and English                                                  ging-in-the-wild
+Automatische                          Middle                   Rule-based      Yes        Yes     http://www.archiv.mediaevistik.germanis
+  MittelHochdeutsche Metrik            High German                                                  tik.phil.uni-erlangen.de/cgi-bin/metrik/
+  2.0 (Dimpel, 2015)                                                                                metrik2.pl
+MHG-scansion model (Estes             Middle                   Data-driven     Yes        Yes     https://github.com/henchc/MHG-scan
+  and Hench 2016)                      High German                                                  sion https://henchc.github.io/MHG-
+                                                                                                    Scansion-WebApp/
+Pedecerto (Colombi                    Latin                    ?b              No         Yes     http://www.pedecerto.eu
+  et al. 2012)                                                                                      http://www.pedecerto.eu/public/scan
+                                                                                                    sioni/scansioni
+Calliope scansio                      Latin                    Rule-based      Yes        Noc     https://github.com/
+  (Jacquet 2013)                                                                                    ChristopheJacquet/Calliope
+Rainsford and Scrivner (2014)         Old Occitan              Rule-based      No         No
+Aoidos (Mittmann, von                 Portuguese               Rule-based      No         Yes     https://aoidos.ufsc.br
+  Wangenheim, and dos
+  Santos 2016)
+Ara�ujo and Mamede (2002)             Portuguese               Rule-based      No         No
+StarLing (Pilshchikov and             Russian                  Rule-based      No         No
+  Starostin 2011)
+Barakhnin, Kozhemyakina,              Russian                  Rule-based      No         Yes     http://poem.ict.nsc.ru/
+  and Borzilova (2019)
+Poetry recognition
+Tizhoosh and Dara (2006)              English                  Data-driven     No         No
+Tizhoosh, Sahba, and                  English                  Data-driven     No         No
+  Dara (2008)
+Lorang et al. (2015)                  English                  Data-driven     No         No
+Kilner and Fitch (2017)               English                  Data-driven     No         No
+Foley (2019)                          English                  Data-driven     Yes        Yes     https://github.com/jjfiv/poetry-identifica
+                                                                                                    tion
+                                                                                                    http://ciir.cs.umass.edu/down
+                                                                                                    loads/poetry
+Poetry visualization
+Kaplan and Blei (2007)                English                  Rule-based      No         No
+Myopia (Chaturvedi                    English                  Rule-based      No         Yes
+  et al. 2012)
+Poem Viewer (Abdul-Rahman             English                  Rule-based      No         Yes     https://nms.kcl.ac.uk:8443/poemvis/in
+  et al. 2013)                                                                                      dex.html
+ECPA tools (Huber 2018)               English                  Rule-based      No         Yes     https://www.eighteenthcenturypoetry.
+                                                                                                    org/
+                                                                                                    https://www.eighteenthcenturypoetry.
+                                                                                                    org/works/peh89-w0080.
+                                                                                                    shtml#visualization
+Dante Visualized                      Italian                  Data-driven     Yes        No      https://github.com/ginestra/
+  (Ferraro 2020)                                                                                    dante-visualised
+DISCOVER (Berm�  udez-Sabel,          Spanish                  Rule-based      No         Yes     http://prf1.org/discover/
+  Ruiz Fabo, and Mart�ınez
+  Cant�on 2023)
+  a
+       All webpages were accessed on 14 January 2022.
+  b
+       No information is provided about the structure of the tool.
+  c
+       An interface version is mentioned in the code repository; however, the link does not seem to work.

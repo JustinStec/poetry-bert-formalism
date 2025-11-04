@@ -1,0 +1,399 @@
+Neural Computing and Applications (2023) 35:18171–18176
+https://doi.org/10.1007/s00521-021-06692-2
+                                         (0123456789().,-volV)(0123456789().
+                                                                        ,- volV)
+
+
+
+
+ S.I. : LATINX IN AI RESEARCH
+
+
+
+Transformers analyzing poetry: multilingual metrical pattern
+prediction with transfomer-based language models
+Javier de la Rosa1 • Álvaro Pérez1 • Mirella de Sisto1 • Laura Hernández1 • Aitor Dı́az2 •
+Salvador Ros2 • Elena González-Blanco3
+
+Received: 2 February 2021 / Accepted: 27 October 2021 / Published online: 15 November 2021
+Ó The Author(s) 2021
+
+
+Abstract
+The splitting of words into stressed and unstressed syllables is the foundation for the scansion of poetry, a process that aims
+at determining the metrical pattern of a line of verse within a poem. Intricate language rules and their exceptions, as well as
+poetic licenses exerted by the authors, make calculating these patterns a nontrivial task. Some rhetorical devices shrink the
+metrical length, while others might extend it. This opens the door for interpretation and further complicates the creation of
+automated scansion algorithms useful for automatically analyzing corpora on a distant reading fashion. In this paper, we
+compare the automated metrical pattern identification systems available for Spanish, English, and German, against fine-
+tuned monolingual and multilingual language models trained on the same task. Despite being initially conceived as models
+suitable for semantic tasks, our results suggest that transformers-based models retain enough structural information to
+perform reasonably well for Spanish on a monolingual setting, and outperforms both for English and German when using a
+model trained on the three languages, showing evidence of the benefits of cross-lingual transfer between the languages.
+
+Keywords Natural language processing  Language models  Digital humanities  Poetry
+
+Mathematics Subject Classiﬁcation 68T50  68U15
+
+
+                                                                                   1 Introduction
+
+                                                                                   In the last two decades, the almost coincidental emergence
+                                                                                   of the big data and distant reading [29] paradigms
+                                                                                   increased the demand within the Humanities for bigger
+                                                                                   corpora that could be analyzed in mass and from which
+See http://postdata.linhd.uned.es/. Starting Grant research                        trends and corpus-wide characteristics otherwise invisible
+project Poetry Standardization and Linked Open Data:                               could be identified. However, one particular literary genre
+POSTDATA (ERC-2015-STG-679528) funded by the Euro-                                 that has remained somewhat overlooked by the advances in
+pean Research Council (https://erc.europa.eu) (ERC) under
+the research and innovation program Horizon2020 of the                             natural language processing is poetry. Different poetic
+European Union.
+
+& Javier de la Rosa                                                                    Salvador Ros
+  versae@linhd.uned.es                                                                 sros@scc.uned.es
+
+    Álvaro Pérez                                                                     Elena González-Blanco
+    alvaro.perez@linhd.uned.es                                                         egonzalezblanco@faculty.ie.edu
+
+    Mirella de Sisto                                                               1
+                                                                                       LINHD, UNED, Juan del Rosal 16, Madrid 28040, Spain
+    mdesisto@linhd.uned.es                                                         2
+                                                                                       Control and Communication Systems, UNED, Madrid, Spain
+    Laura Hernández                                                               3
+    laura.hernandez@linhd.uned.es                                                      School of Human Sciences and Technology, IE University,
+                                                                                       Madrid, Spain
+    Aitor Dı́az
+    adiazm@scc.uned.es
+
+
+                                                                                                                                        123
+18172                                                                         Neural Computing and Applications (2023) 35:18171–18176
+
+
+traditions demand slightly different approaches to their             natural language processing (NLP) have shown advantages
+analysis, despite being mostly based on the musicality and           over their rule-based counterparts. Modern NLP methods
+prosody of the specific languages they are rendered in. The          explore the idea of constructing numerical representations
+analysis of poetry usually intertwines both structural and           of documents (understood as sequences of words) that
+semantic aspects, making the creation of computer-based              would allow to compare them using mathematical opera-
+solutions a challenge. Extracting metrical patterns, calcu-          tions in a vector space. An especially powerful way of
+lating verse lengths, identifying rhyme schemes, or                  mapping a word into a numerical vector was introduced by
+inquiring about rhyme types, are all parts of the study of           Mikolov et al. [28]. Their word2vec algorithm, based on
+poetry in structural terms. The scanning of a verse depends          the distributional hypothesis, was able to find context-free
+entirely on the correct assignment of stress to the syllables        vectors for words while retaining some of their semantic
+of the words is comprised of. This process might be                  features. The approach was rapidly expanded to sentences
+affected by rhetorical figures and the particularities of each       [24] and documents [25]. However, one crucial aspect of
+tradition. For example, one common device that can be                natural languages, word polysemy, was left unaccounted
+found in Spanish, English, and German poetry is the                  for. Context-dependent word vectors tried to solve this
+synalepha, which allows to join separate phonological                issue by leveraging bidirectional long short-term memory
+groups (syllables belonging to different words, i.e., the last       neural networks and attention mechanisms that produced
+syllable of a word and the first one of the next) into one           different vectors for a word depending on its context.
+single unit of pronunciation solely for metrical purposes            Examples of these approaches are ULMFit [21], ELMo
+(see Example 1). Two other such devices are syneresis, that          [32], or GPT [33], although it would be Devlin et al. [12]
+operates similarly but within the word, and dieresis, that           who would popularize multilingual language models with
+does the opposite by artificially splitting a syllable.              BERT. Research has shown that neural models implicitly
+   We can consider the metre of a verse as a sequence of             encode linguistic features ranging from token labeling to
+stressed (strong) and unstressed (weak) syllables, which are         different kinds of segmentation [26]. There is also evidence
+sometimes denoted with the plus symbol ‘þ’ for stressed syl-         that language models and embeddings are able to capture
+lables and the minus ‘-’ for the unstressed ones. While some         not only semantic and syntactic properties but structural, as
+traditions denote only the numeric positions of the stressed         shown by Hewitt and Manning in their work with structural
+syllables, for clarity we will use the binary ‘þ‘ codification in   probes for extracting syntax trees [20], and Conneau et al.
+this study. Examples 1, 2, and 3 show verses of metrical             approximating the length in words of a sentence by its
+lengths of 8, 10, and 7 syllables for Spanish, English, and          vector [11].
+German, respectively. These examples also show the resulting
+metrical pattern after applying synalepha (denoted by ‘^’) and
+considering the stress of the last word, which might also affect     2 Related work
+the metrical length in Spanish poetry.
+                                                                     Approaches for the automated scansion of poetry date as
+Example 1 cubra de nieve la hermosa cumbre1
+                                                                     far back as 1988 [27], at least for English. In this work, we
+   cu-bra-de-nie-ve-la-her-mo-sa-cum-bre
+                                                                     only focus on recent and related advances for Spanish,
+   þ   þ    þ  þ  11
+                                                                     English, and German as case studies. Our choice was
+   (Garcilaso de la Vega)
+                                                                     guided on the importance of their poetic traditions as well
+Example 2 Our foes to conquer on th’ embattled plain;                as the availability of gold standard corpora and automatic
+   Our-foes-to-con-quer-on-t ^ h0 em-bat-tled-plain;                 metrical annotation tools for each language.
+    þ  þ    þ þ 10                                                For Spanish, Gervás’ tool [15] is one of the earliest
+   (Rhys Prichard)                                                   automatic annotation tools available. It uses definite clause
+                                                                     grammars to model word syllabification and additional
+Example 3 Leise lausch’ ich an der Thür2
+                                                                     predicates to define synalepha, syllable count, and rhyme.
+   lei-se-la-sch ^ u0 ich-an-der-Thür
+                                                                     More recently, the ADSO Scansion system introduced by
+   þþþþ 7
+                                                                     Navarro-Colorado et al. [30] first applies part of speech
+   (Adolf Schults)
+                                                                     (PoS) tags to the words of every line in a poem. The system
+  Scanning poetry is deemed as a feasible task for humans            can only handle verses of eleven syllables (hendecasylla-
+while machines might struggle given the many rules and               bles) and is capable of applying dieresis and synalephas as
+exceptions involved. Nevertheless, recent approaches to              needed. Similarly, Rantanplan [34] employs PoS tags and
+                                                                     syllabified words to assign stress. Unlike the ADSO
+1
+    ’’[It] covered with snow the beautiful summit.’’                 Scansion system, Rantanplan applies all possible synale-
+2
+    ’’I quietly listen at the door’’                                 phas and syneresis at the syllable level before returning the
+
+
+123
+Neural Computing and Applications (2023) 35:18171–18176                                                                  18173
+
+
+metrical pattern. It is also currently the fastest and more      it includes 730 poems with manually annotated metrical
+accurate metrical annotation tool for Spanish poetry, and it     information, consisting of over 71,000 lines. From this
+works with different types of verses other than hendeca-         corpus, a subset of 100 poems was used to evaluate ADSO
+syllables. Agirrezabal et al. [1, 2] explored the idea of        Scansion system [30]. We also chose this subset as our test
+using recurrent neural networks bi-LSTM and CRF to               set (15%) and split the rest for training (70%) and evalu-
+automatically scan poetry in three languages (i.e. English,      ation (15%).
+Spanish, and Basque). The tool tokenizes words, tags PoS,            Unfortunately, for English and German we could not
+and assigns stress according to Groves et al. [16]. Their        find annotated valid corpora of the scale found for Spanish.
+performance was not better than ADSO’s nor Rantanplan.           For English, while the Eighteenth-Century Poetry Archive
+   Scandroid [19], first introduced in 1996, analyzes iambic     (ECPA) [22] contains more than 3000 poems, at the time of
+and anapestic poetry, and served as an inspiration for may       writing around 95% of them seem to follow the same
+others similar tools for English. More recently, Antilla and     metrical pattern, thus making it useless for training pur-
+Heuser [4] introduced Prosodic for metrical and phono-           poses. Therefore, we chose an English corpus from For
+logical parsing. Its scansion process starts with tokeniza-      Better For Verse [35], an online platform of the University
+tion of the text into words which are then converted into        of Virginia for training students in annotating poetry. The
+stressed syllabified phonetic transcriptions according to the    103 manually annotated poems composing the corpus are
+CMU pronunciation dictionary. A metrical pattern is then         available in TEI-XML format. It was previously used in the
+assigned based on a set of customizable constraints. Built       literature for the evaluation of neural scansion systems for
+on Prosodic, Poesy [3] also detects rhyme patterns and           English [1]. For German, we used the manually annotated
+groups syllables into feet. ZeuScansion [2] annotates            corpus from Haider and Kuhn [18] and Haider et al. [17].
+poetry by defining line stress patterns and it also attempts     The corpus contains 158 poems which cover the period
+to identify the dominant meter of a poem and which met-          from 1575 to 1936. Around 1200 lines have been annotated
+rical feet constitute it. It uses tokenization, stress assign-   in terms of syllable stress, foot boundaries, caesuras and
+ment via PoS tagging, and a pronunciation lexicon.               line main accent. The original non-annotated lines are
+   Finally, Metricalizer [5, 6] is a rule-based tool for         available on the online platform Antikoerperchen Lyrik
+metrical annotation of German poetry. The tool detects           Datenbank ‘‘Little Antibodies Lyrics Database’’.3 Both of
+words and syllabifies them, and it is also capable of            these corpora were also split in train, evaluation, and test
+detecting lines and stanzas. The metrical annotation uses        sets following the same 70-15-15 rule applied for the
+prosodic and morphological information. Rhyme recogni-           Spanish corpus. Table 1 shows the number of lines in each
+tion is based on the identification of vowels lengths,           split per corpus. While other corpora exist, they were not
+stressed syllables, and phonetic constituents. Also, metrical    suitable for the task since the manually annotated metrical
+complexity is calculated by defining when metrical patterns      patterns were not varied enough or were simply missing.
+diverge from prosodic structure. Other approaches for
+Middle High German exist [13, 14] but the differences with
+standard contemporary German are so profound that they           4 Experimental design
+cannot be reliably used to scan the same corpora.
+                                                                 With the available corpora, our downstream task is defined
+                                                                 as metrical pattern prediction. That is, given a raw string of
+3 Materials and methods                                          text representing a line of verse of a poem, a model is
+                                                                 expected to predict a string of þ and - symbols repre-
+Given the encouraging previous results using transformer-        senting the stress of each syllable after any rhetorical
+based models and context-free embeddings for structural          device has been applied. Formally, it’s a single-class multi-
+tasks, we decided to evaluate the capability of well per-        label classification task with as many labels as possible
+forming language models to predict correct metrical pat-         syllables in a verse. We defined two baselines based on
+terns in the three languages. One challenging aspect of          fastText context-free embeddings of 300 dimensions with
+such comparison is the collection of the right annotated         and without an extra BiLSTM before the prediction layer
+corpus.                                                          [7, 23]. We also selected the best performing methods for
+   As a corpus for Spanish, we decided to use the Corpus         each language as the state-of-the-art in their respective
+de Sonetos de Siglo de Oro ‘‘Golden Age Spanish corpus’’         languages. On the testing sets, we run the ADSO Scansion
+[31]. This corpus, annotated in TEI-XML, contains sonnets        system [30] for Spanish, Poesy [3] for English, and Met-
+from canonical Golden Age Spanish authors (16th and 17th         ricalizer [5] for German. ADSO and Poesy evaluations
+centuries), featuring only hendecasyllabic verses. Although
+                                                                 3
+most of the poems included were annotated automatically,             https://lyrik.antikoerperchen.de/
+
+
+                                                                                                                    123
+18174                                                                         Neural Computing and Applications (2023) 35:18171–18176
+
+
+Table 1 Number of verses for each language                           individual syllable predictors were correct in a per line
+                      Train              Evaluation           Test
+                                                                     basis. This is a much more strict and demanding require-
+                                                                     ment than it is usually needed, but for metrical purposes is
+Spanish               7327               1421                 1401   an all or nothing: if a metrical pattern got one stressed
+English               708                152                  153    syllable wrong, then the entire pattern is useless. As such,
+German                775                167                  168    we are reporting accuracy expressed as a percentage of
+                                                                     correct metrical patterns in the testing set.
+                                                                        The first thing we notice when looking at Table 2 is that
+                                                                     our baselines performed very poorly. This suggests that the
+were run using a computer with an Intelr CoreTM i7-                  task at hand is not exactly trivial. There are marginal gains
+8550U CPU @ 1.80GHz and 16GiB of DDR4 RAM                            when increasing the number of epochs and applying Bi-
+memory. Metricalizer was run using their own online web-             LSTM layers on top of the context-free embeddings per
+based tool.4                                                         language, but the accuracy is still far from state-of-the-art.
+   Using the training and evaluation sets, we fine-tuned             Moreover, among all the monolingual BERT versions the
+several language models for each language and also for the           only one outperforming the rule-based counterpart was
+three languages combined in different sets of experiments.           English BERT-large [12] with a 38.82% accuracy, just a
+We expected to see some gains in terms of cross-lingual              0.66 percentage point increase over the English state-of-
+transfer. Specifically, we used monolingual and multilin-            the-art. Although not shown in Table 2, English BERT-
+gual BERT-base and RoBERTa models with a fully con-                  base performed on par to BERT-large. The Spanish [8] and
+nected layer to predict the presence or absence of stress in         German [9] BERT-base models improved with the number
+each of the 11 positions of the hendecasyllabic verses in the        of epochs but remained far from their state-of-the-art
+Spanish corpora. The English and German corpora con-                 scores. The multilingual version of BERT (mBERT)
+tained more varied verses in terms of metrical length, so we         notably improved the scores of the monolingual versions
+cut it at 12 and padded when needed. We used the language            for Spanish, performed better for English with fewer
+Python 3, the library PyTorch, and the framework Trans-              epochs, and yielded our best result for German (30.54%).
+formers [36] conveniently wrapped for classification tasks.5         The multilingual version of RoBERTa (XLM-RoBERTa)
+We pre-processed all texts removing duplicated verses,               [10] only performed better than mBERT for Spanish.
+lowercasing, and removing punctuation marks since they               Interestingly, the best performing models for Spanish were
+are irrelevant for metrical purposes. We found that lower            the monolingual versions of RoBERTa [11]. Our guess is
+numbers of epochs made the models perform very poorly.               that despite being trained only on English data, the corpora
+Therefore, we trained the models for 10 and 100 epochs               used might contain enough Spanish words in their vocab-
+using AdamW optimiser, warmup of 10%, and weight                     ularies to make Spanish downstream tasks feasible.
+decay of 0.001. We used the evaluation set to search for the            In order to test language transferability when applied to
+optimum learning rate between a set of 10e-6, 15e-6,                 structural tasks, in a second set of experiments we decided
+20e-6, 30e-6, 50e-6, thus reporting on the best per-                 to concatenate the datasets for the three languages. We then
+forming one. Training was done on a 8 vCPUs Google                   fine-tuned the models on the combined dataset and evalu-
+Cloud instance with 30GB of RAM memory and 4 NVI-                    ated on the test sets for each individual language. Given the
+DIA Tesla V100 GPU with 16GB of memory running on                    good performance of the supposedly English-only
+Debian 10. The maximum sequence length was set at 24                 RoBERTa models, we decided to keep them in this set of
+tokens and the batch size for both training and evaluation           experiments as well. As seen in Table 3, results for Spanish
+was set to 8.                                                        plateaued at 93.43%, suggesting we are reaching the limits
+                                                                     of the dataset. On the other hand, we were able to out-
+                                                                     perform previous state-of-the-art for English with a 12.5%
+5 Results                                                            point increase in accuracy up to 50.66%, and a 3.6% point
+                                                                     increase for German up to 48.50%.
+It is commonplace in multi-label classification tasks to
+report on F-scores or even accuracy. However, in our case
+those metrics would produce per-syllable information dis-
+torting the results of our experiments. We decided to
+consider as a correct prediction only when all the
+
+4
+    https://metricalizer.de/en/metrikanalyse/.
+5
+    https://github.com/ThilinaRajapakse/simpletransformers.
+
+
+123
+Neural Computing and Applications (2023) 35:18171–18176                                                                                18175
+
+Table 2 Accuracy of the
+                                                                          Spanish                      English              German
+different methods fine-tuned
+and evaluated language by          Method                                 10              100          10          100      10          100
+language on the test sets for 10
+and 100 epochs. Best scores per    Baseline (fasttext)                    8.56            8.57         9.87        10.53    2.39        4.79
+language in bold, our best         Baseline (fasttext ? BiLSTM)           22.34           27.34        11.18       16.45    5.39        9.58
+results underlined
+                                   BERT (monolingual)                     55.39           72.38        28.29       38:82    17.36       23.95
+                                   Multilingual BERT                      87.72           90.44        32.89       35.71    20.96       30:54
+                                   RoBERTa (base)                         89.86           93.22        22.37       32.89    23.35       28.74
+                                   RoBERTa (large)                        89.36           93:43        26.32       30.92    23.95       28.74
+                                   XLM RoBERTa (base)                     69.74           91.72        30.92       32.51    11.98       29.94
+                                   XLM RoBERTa (large)                    83.30           92.29        32.89       32.89    10.78       29.94
+                                   SOTA                                   96.23                        38.16                44.91
+
+
+Table 3 Accuracy of the
+                                                                  Spanish                         English                  German
+different methods fine-tuned on
+the three languages for 10 and     Method                         10                100           10             100       10           100
+100 epochs and evaluated
+independently on each language     Multilingual BERT              87.29             90.01         35.53          41.45     37.72        39.52
+test set. Best scores per          RoBERTa (base)                 76.52             87.37         36.18          36.21     31.74        43.11
+language in bold, our best
+                                   RoBERTa (large)                87.29             93:43         30.92          40.79     29.94        42.51
+results underlined
+                                   XLM RoBERTa (base)             85.44             92.15         35.53          40.79     31.14        46.11
+                                   XLM RoBERTa (large)            82.44             93.29         29.31          50:66     34.73        48:50
+                                   SOTA                           96.23                           38.16                    44.91
+
+
+
+
+6 Conclusions and further work                                         Similarly, a whole variety of tasks could be also be tested:
+                                                                       metrical length, enjambment detection, caesura detection
+In this paper we have evaluated the capabilities of BERT-              and position, and synalephas, dieresis, and syneresis posi-
+based models when trained on the task of predicting the                tions among others. It could also be interesting to apply
+metrical pattern of a verse. Under the assumption that                 domain-specific models at the stanza or even whole poem
+transformed-based models were capable of performing                    level to investigate whether BERT models could predict
+tasks of structural nature beyond those of the semantic                structure or poetic genre.
+kind, we show that BERT models perform reasonably well
+                                                                       Acknowledgements This research was supported by the project
+for Spanish, while outperform the previous state-of-the-art            Poetry Standardization and Linked Open Data (POSTDATA) (ERC-
+for English and German.                                                2015-STG-679528) obtained by Elena González-Blanco and funded
+   Since the best performing models are those trained on a             by an European Research Council (https://erc.europa.eu) Starting
+combined corpora, there is evidence of cross-lingual                   Grant under the Horizon2020 Program of the European Union.
+transfer in effect. This suggests that further training a              Funding Open Access funding provided thanks to the CRUE-CSIC
+specialized multilingual pre-trained model on poetic cor-              agreement with Springer Nature. The study was conceived and
+pora could help improve on the task of metrical pattern                designed by Javier de la Rosa. Material preparation, data collection
+prediction. Our result on language transferability paves the           and analysis were performed by Javier de la Rosa, Álvaro Pérez,
+                                                                       Mirella de Sisto, Laura Hernández, and Aitor Dı́az. The first draft of
+way for transformer-based multilingual models for metrical             the manuscript was written by Javier de la Rosa. Salvador Ros
+pattern prediction able to work on languages for which                 commented on previous versions of the manuscript. Funding was
+very few annotated corpora exist, as in the case of German.            provided by Elena González-Blanco. All authors read and approved
+Traditionally, automated metrical pattern systems are built            the final manuscript.
+by hand for each individual language, which is a costly                Data availibility statement The corpora and code used in this study
+enterprise that could greatly benefit from using multilin-             are publicly available at the next code repository: https://github.com/
+gual approaches like ours.                                             linhd-postdata/bertsification
+   Moreover, our multilingual fine-tuned models could also
+assist in the creation of poems by analyzing the metrical              Declarations
+structure of each verse generated by a third-party system.
+
+
+                                                                                                                                    123
+18176                                                                                 Neural Computing and Applications (2023) 35:18171–18176
+
+Conflicts of interest The authors declare that they have no conflict of    14. Estes A, Hench C (2016) Supervised machine learning for hybrid
+interest.                                                                      meter. In: Proceedings of the fifth workshop on computational
+                                                                               linguistics for literature, pp 1–8
+Open Access This article is licensed under a Creative Commons              15. Gervás P (2000). A logic programming application for the anal-
+Attribution 4.0 International License, which permits use, sharing,             ysis of Spanish verse. In: International conference on computa-
+adaptation, distribution and reproduction in any medium or format, as          tional logic, pp 1330–1344. Springer
+long as you give appropriate credit to the original author(s) and the      16. Groves PL (1998) Strange music: the metre of the English heroic
+source, provide a link to the Creative Commons licence, and indicate           line. English Literary Studies (University of Victoria)
+if changes were made. The images or other third party material in this     17. Haider, T., Eger, S., Kim, E., Klinger, R., Menninghaus, W
+article are included in the article’s Creative Commons licence, unless         (2020) Po-emo: conceptualization, annotation, and modeling of
+indicated otherwise in a credit line to the material. If material is not       aesthetic emotions in German and English poetry. arXiv preprint
+included in the article’s Creative Commons licence and your intended           arXiv:2003.07723
+use is not permitted by statutory regulation or exceeds the permitted      18. Haider, T., Kuhn, J (2018) Supervised rhyme detection with
+use, you will need to obtain permission directly from the copyright            Siamese recurrent networks. In: Proceedings of the second joint
+holder. To view a copy of this licence, visit http://creativecommons.          SIGHUM workshop on computational linguistics for cultural
+org/licenses/by/4.0/.                                                          heritage, social sciences, humanities and literature, pp 81–86
+                                                                           19. Hartman, C.O (2005) The Scandroid 1.1. http://oak.conncoll.edu/
+                                                                               cohar/Programs.htm. Accessed 20 July 2020
+References                                                                 20. Hewitt J, Manning CD (2019) A structural probe for finding
+                                                                               syntax in word representations. pp 4129–4138
+                                                                           21. Howard, J., Ruder, S (2018) Universal language model fine-
+ 1. Agirrezabal M, Alegria I, Hulden M (2017) A comparison of                  tuning for text classification. arXiv preprint arXiv:1801.06146
+    feature-based and neural scansion of poetry. In: Proceedings of        22. Huber A (2020) Eighteenth-century poetry archive
+    the international conference recent advances in natural language       23. Joulin A, Grave E, Bojanowski P, Mikolov T (2016) Bag of tricks
+    processing, Ranlp 2017, pp 18–23                                           for efficient text classification. arXiv preprint arXiv:1607.01759
+ 2. Agirrezabal M, Astigarraga A, Arrieta B, Hulden M (2016)               24. Kim Y (2014) Convolutional neural networks for sentence clas-
+    Zeuscansion: a tool for scansion of english poetry. J Lang Model           sification. arXiv preprint arXiv:1408.5882
+    4                                                                      25. Le Q, Mikolov T (2014) Distributed representations of sentences
+ 3. Algee-Hewitt M, Heuser R, Kraxenberger M, Porter J, Sensen-                and documents. In: International conference on machine learning,
+    baugh J, Tackett J (2014) The stanford literary lab transhistorical        pp 1188–1196
+    poetry project phase II: metrical form. In: DH                         26. Liu NF, Gardner M, Belinkov Y, Peters ME, Smith NA (2019)
+ 4. Anttila A, Heuser R (2016) Phonological and metrical variation             Linguistic knowledge and transferability of contextual represen-
+    across genres. In: Proceedings of the annual meetings on                   tations. arXiv preprint arXiv:1903.08855
+    phonology, vol 3                                                       27. Logan HM (1988) Computer analysis of sound and meter in
+ 5. Bobenhausen K (2011) The metricalizer2-automated metrical                  poetry. Coll Lit 15(1):19–24
+    markup of German poetry. Current trends in metrical analysis.          28. Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S., Dean, J
+    Peter Lang, Bern, pp 119–131                                               (2013) Distributed representations of words and phrases and their
+ 6. Bobenhausen K, Hammerich B (2015) Literary metrics, linguistic             compositionality. In: Advances in neural information processing
+    metrics, and the algorithmic analysis of German poetry using               systems, pp 3111–3119
+    metricalizer (2). Langages 199:67                                      29. Moretti F (2013) Distant reading. Verso Books, Brooklyn
+ 7. Bojanowski P, Grave E, Joulin A, Mikolov T (2017) Enriching            30. Navarro-Colorado B (2017) A metrical scansion system for fixed-
+    word vectors with subword information. Trans Assoc Comput                  metre Spanish poetry. Digit Scholarsh Humanit 33(1):112–127
+    Linguist 5:135–146                                                     31. Navarro-Colorado B, Lafoz MR, Sánchez N (2016) Metrical
+ 8. Cañete J, Chaperon G, Fuentes R, Ho JH, Kang H, Pérez J (2020).          annotation of a large corpus of spanish sonnets: representation,
+    Spanish pre-trained bert model and evaluation data. In: PML4DC             scansion and evaluation. In: International conference on language
+    at ICLR 2020                                                               resources and evaluation, pp 4360–4364
+ 9. Chan, B., Schweter, S., Möller, T (2020) German’s next language       32. Peters, M.E., Neumann, M., Iyyer, M., Gardner, M., Clark, C.,
+    model. In: Proceedings of the 28th International Conference on             Lee, K., Zettlemoyer, L (2018) Deep contextualized word rep-
+    Computational Linguistics, pp. 6788–6796. International Com-               resentations. arXiv preprint arXiv:1802.05365
+    mittee on Computational Linguistics, Barcelona, Spain (Online) .       33. Radford, A., Narasimhan, K., Salimans, T., Sutskever, I (2018)
+    https://doi.org/10.18653/v1/2020.coling-main.598. https://www.             Improving language understanding by generative pre-training
+    aclweb.org/anthology/2020.coling-main.598                              34. de la Rosa J, Pérez Á, Hernández L, Ros S, González-Blanco E
+10. Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wen-                (2020) Rantanplan, fast and accurate syllabification and scansion
+    zek, G., Guzmán, F., Grave, E., Ott, M., Zettlemoyer, L., Stoy-           of Spanish poetry. Procesamiento del Lenguaje Natural 65:83–90
+    anov, V (2019) Unsupervised cross-lingual representation               35. Tucker HF (2011) Poetic data and the news from poems: a for
+    learning at scale. arXiv preprint arXiv:1911.02116                         better for verse memoir. Vic Poet 49(2):267–281
+11. Conneau, A., Kruszewski, G., Lample, G., Barrault, L., Baroni, M       36. Wolf T, Debut L, Sanh V, Chaumond J, Delangue C, Moi A,
+    (2018) What you can cram into a single vector: Probing sentence            Cistac P, Rault T, Louf R, Funtowicz M et al (2019) Hugging-
+    embeddings for linguistic properties. arXiv preprint arXiv:1805.           face’s transformers: state-of-the-art natural language processing.
+    01070                                                                      ArXiv arXiv-1910
+12. Devlin, J., Chang, M.W., Lee, K., Toutanova, K (2018) Bert: Pre-
+    training of deep bidirectional transformers for language under-
+    standing. arXiv preprint arXiv:1810.04805                              Publisher’s Note Springer Nature remains neutral with regard to
+13. Dimpel F (2015) Automatische mittelhochdeutsche metrik 2.0.            jurisdictional claims in published maps and institutional affiliations.
+    Phil. Netz 73:1–26
+
+
+
+
+123

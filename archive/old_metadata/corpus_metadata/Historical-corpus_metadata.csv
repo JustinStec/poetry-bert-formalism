@@ -1,0 +1,54 @@
+poem_id,title,author,author_last,period,literary_movement,year_approx
+1,The Things That Cause a Quiet Life,Henry Howard Earl of Surrey,Howard,Tudor,Renaissance,1547
+2,Whoso List to Hunt,Thomas Wyatt,Wyatt,Tudor,Renaissance,1557
+3,Astrophil and Stella 39: Come Sleep! O Sleep,Philip Sidney,Sidney,Elizabethan,Renaissance,1591
+4,Epithalamion,Edmund Spenser,Spenser,Elizabethan,Renaissance,1595
+5,The Passionate Shepherd to his Love,Christopher Marlowe,Marlowe,Elizabethan,Renaissance,1599
+6,Shall I Compare Thee to a Summer's Day,William Shakespeare,Shakespeare,Jacobean,Renaissance,1609
+7,The Description of Cooke-ham,Aemilia Lanyer,Lanyer,Jacobean,Renaissance,1611
+8,The Good Morrow,John Donne,Donne,Caroline,Metaphysical,1633
+9,Lycidas,John Milton,Milton,Caroline,Renaissance,1638
+10,On Mr. G. Herbert's Book,Richard Crashaw,Crashaw,Interregnum,Metaphysical,1646
+11,An Apology for Her Poetry,Margaret Cavendish,Cavendish,Interregnum,,1653
+12,To His Coy Mistress,Andrew Marvell,Marvell,Restoration,Metaphysical,1681
+13,Mac Flecknoe,John Dryden,Dryden,Restoration,Augustan,1682
+14,Eloisa to Abelard,Alexander Pope,Pope,Neoclassical,Augustan,1717
+15,Elegy Written in a Country Churchyard,Thomas Gray,Gray,Neoclassical,Graveyard School,1751
+16,On Imagination,Phillis Wheatley,Wheatley,Neoclassical,,1773
+17,Lines Composed a Few Miles above Tintern Abbey,William Wordsworth,Wordsworth,Romantic,Romanticism,1798
+18,The Rime of the Ancient Mariner,Samuel Taylor Coleridge,Coleridge,Romantic,Romanticism,1798
+19,The Sick Rose,William Blake,Blake,Romantic,Romanticism,1794
+20,She Walks in Beauty,Lord Byron,Byron,Romantic,Romanticism,1814
+21,Ozymandias,Percy Bysshe Shelley,Shelley,Romantic,Romanticism,1818
+22,Ode on a Grecian Urn,John Keats,Keats,Romantic,Romanticism,1819
+23,Ulysses,Alfred Tennyson,Tennyson,Victorian,,1833
+24,My Last Duchess,Robert Browning,Browning,Victorian,,1842
+25,Goblin Market,Christina Rossetti,Rossetti,Victorian,Pre-Raphaelite,1862
+26,The Cry of the Children,Elizabeth Barrett Browning,Browning,Victorian,,1843
+27,When Lilacs Last in the Dooryard Bloom'd,Walt Whitman,Whitman,Victorian,,1865
+28,I'm Nobody! Who are you?,Emily Dickinson,Dickinson,Victorian,,1891
+29,"Loveliest of trees, the cherry now",A.E. Housman,Housman,Victorian,,1896
+30,In a Station of the Metro,Ezra Pound,Pound,Modernist,Imagism,1913
+31,Oread,H.D.,Doolittle,Modernist,Imagism,1914
+32,"Easter, 1916",William Butler Yeats,Yeats,Modernist,Modernism,1916
+33,Gerontion,T.S. Eliot,Eliot,Modernist,Modernism,1920
+34,The Negro Speaks of Rivers,Langston Hughes,Hughes,Modernist,Harlem Renaissance,1921
+35,Yet Do I Marvel,Countee Cullen,Cullen,Modernist,Harlem Renaissance,1925
+36,Reapers,Jean Toomer,Toomer,Modernist,Harlem Renaissance,1923
+37,Funeral Blues,W. H. Auden,Auden,Modernist,Modernism,1936
+38,Black Earth,Marianne Moore,Moore,Modernist,Modernism,1918
+39,Howl,Allen Ginsberg,Ginsberg,Postwar,Beat,1956
+40,The Horses,Ted Hughes,Hughes,Postwar,,1957
+41,Preface to a Twenty Volume Suicide Note,Amiri Baraka,Baraka,Postwar,Black Arts,1961
+42,Daddy,Sylvia Plath,Plath,Postwar,Confessional,1962
+43,The Ghost,Robert Lowell,Lowell,Postwar,Confessional,1964
+44,Time and Time Again,A. K. Ramanujan,Ramanujan,Postwar,,1966
+45,The Ballad of the Lonely Masturbator,Anne Sexton,Sexton,Postwar,Confessional,1969
+46,Riot,Gwendolyn Brooks,Brooks,Postwar,,1969
+47,Crusoe in England,Elizabeth Bishop,Bishop,Postwar,,1971
+48,Hinge Picture,Susan Howe,Howe,Contemporary,Language Poetry,1974
+49,Coal,Audre Lorde,Lorde,Contemporary,,1976
+50,Phenomenal Woman,Maya Angelou,Angelou,Contemporary,,1978
+51,A Black River,Mary Oliver,Oliver,Contemporary,,1992
+52,Heart to Heart,Rita Dove,Dove,Contemporary,,1999
+53,At Pegasus,Terrance Hayes,Hayes,Contemporary,,2010

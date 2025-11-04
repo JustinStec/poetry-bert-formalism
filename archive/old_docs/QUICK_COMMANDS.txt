@@ -1,0 +1,73 @@
+========================================
+  QUICK REFERENCE - REMOTE ACCESS
+========================================
+
+IP ADDRESS: 10.21.55.231
+USERNAME: justin
+PASSWORD: (Mac login password)
+
+========================================
+  FILE SHARING (EASIEST)
+========================================
+
+Finder → Go → Connect to Server (⌘K)
+Enter: smb://10.21.55.231
+
+Navigate to:
+Repos/AI Project/Data/corpus_texts
+
+Drag & drop poem .txt files
+
+
+========================================
+  SSH COMMANDS
+========================================
+
+CONNECT:
+ssh justin@10.21.55.231
+
+ADD ONE POEM:
+~/Repos/AI\ Project/scripts/utils/add_poem.sh
+
+CHECK BERT TRAINING:
+~/Repos/AI\ Project/scripts/utils/training_progress.sh
+
+UPDATE METADATA:
+cd ~/Repos/AI\ Project
+python3 scripts/utils/smart_scan_poems.py
+
+DISCONNECT:
+exit
+
+
+========================================
+  FOR YOU: AFTER POEMS ADDED
+========================================
+
+ssh justin@10.21.55.231
+cd ~/Repos/AI\ Project
+python3 scripts/utils/smart_scan_poems.py
+open Metadata/corpus_metadata.xlsx
+
+
+========================================
+  SETUP (ONE-TIME ON YOUR MAC)
+========================================
+
+System Settings → Sharing:
+  ✓ Remote Login (ON)
+  ✓ File Sharing (ON)
+
+Keep Mac awake:
+caffeinate -i
+
+
+========================================
+  FILE PATHS
+========================================
+
+Poems: ~/Repos/AI Project/Data/corpus_texts/
+Metadata: ~/Repos/AI Project/Metadata/corpus_metadata.xlsx
+
+
+========================================
