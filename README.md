@@ -33,23 +33,71 @@ Higher tortuosity = more semantic "turns" = greater complexity/density through e
 
 **Key Finding**: Prosodic constraints (meter, rhyme) consistently reduce semantic complexity, suggesting **form acts as a semantic constraint**.
 
-### Tonight's Task 🚀
-**Train Poetry-EEBO-BERT** (proper Layer 1 → Layer 2 architecture)
-- Notebook: `notebooks/poetry_eebo_bert_training.ipynb`
-- Platform: Google Colab (A100)
-- Duration: ~6-8 hours
-- Why: Test if poetry specialization preserves or modifies historical semantics
+### Current Task 🚀
+**NEW ARCHITECTURE: Hierarchical Multi-Objective BERT**
+
+We're now implementing a novel hierarchical approach that trains on multiple objectives simultaneously:
+
+```
+Combined Loss = 0.5 × MLM + 0.2 × Line + 0.2 × Quatrain + 0.1 × Sonnet
+
+where:
+- MLM: Masked Language Modeling (token level)
+- Line: Contrastive learning on line pairs (adjacent/rhyming vs random)
+- Quatrain: Contrastive learning on quatrain structure
+- Sonnet: Contrastive learning on whole-sonnet representations
+```
+
+**Status**: ✅ Implementation complete (CLI)
+**Training Platform**: Claude Code on web (GPU compute) or Google Colab Pro
+**Dataset**: Shakespeare's 154 sonnets (139 train, 15 val)
+**Duration**: ~6-8 hours
+**Innovation**: First poetry model with explicit hierarchical structure learning
+
+**Why This Matters**: Standard fine-tuning only learns at the token level. This hierarchical approach explicitly trains the model to understand poetic structure at multiple scales, potentially capturing more nuanced semantic relationships than previous approaches.
 
 ---
 
-## Three-Layer Architecture
+## Hierarchical Multi-Objective Architecture (NEW)
+
+```
+EEBO-BERT (Layer 1 - historical semantics)
+    ↓ Fine-tune with hierarchical multi-objective losses
+Poetry-EEBO-Hierarchical-BERT (Layer 2 - NEW APPROACH)
+    |
+    |── Token Level (0.5 weight): Masked Language Modeling
+    |── Line Level (0.2 weight): Contrastive learning on line pairs
+    |     • Positive pairs: adjacent lines, rhyming lines
+    |     • Negative pairs: random non-related lines
+    |── Quatrain Level (0.2 weight): Contrastive learning on quatrain structure
+    |     • Positive pairs: lines from same quatrain
+    |     • Negative pairs: lines from different quatrains
+    └── Sonnet Level (0.1 weight): Contrastive learning on whole-sonnet representations
+          • Positive: sonnet vs itself
+          • Negative: sonnet vs other sonnets in batch
+
+    ↓ Optional: Concatenate prosodic features (Layer 3)
++Prosody: meter deviation, rhyme pairs, position, couplet marking
+```
+
+### Implementation Status
+
+✅ **Data Preparation**: 139 train sonnets + 15 val sonnets with hierarchical annotations
+✅ **Dataset Class**: `HierarchicalPoetryDataset` with multi-level sampling
+✅ **Loss Functions**: `HierarchicalLoss` with InfoNCE contrastive learning
+✅ **Custom Trainer**: `HierarchicalTrainer` extending HuggingFace Trainer
+✅ **Training Scripts**: CLI script + Colab notebook
+⏳ **Training**: Ready to start (6-8 hours on GPU)
+⏳ **Validation**: Scripts to compare with baseline models
+
+## Previous Three-Layer Architecture (Baseline)
 
 ```
 Base BERT (general modern English)
     ↓ Fine-tune on EEBO 1595-1700
 Layer 1: EEBO-BERT (historical semantics) ✓
     ↓ Fine-tune on 17.7M poetry lines
-Layer 2: Poetry-EEBO-BERT (poetry + historical) ⏳ TRAINING TONIGHT
+Layer 2: Poetry-BERT (poetry specialization) ✓
     ↓ Concatenate prosodic features
 Layer 3: +Prosody (meter, rhyme, position, couplet) ✓
 ```
@@ -128,17 +176,30 @@ AI Project/
 ├── RESEARCH_PLAN.md                        # Multi-paper strategy
 ├── SHAKESPEARE_PROJECT.md                  # Detailed Shakespeare documentation
 │
-├── notebooks/
-│   ├── complete_layered_analysis.ipynb     # Main analysis (all visualizations)
-│   ├── shakespeare_sonnets_bert_analysis.ipynb
-│   └── poetry_eebo_bert_training.ipynb     # Colab training (TONIGHT)
+├── training/                                # NEW: Hierarchical training modules
+│   ├── hierarchical_dataset.py             # PyTorch Dataset with multi-level sampling
+│   ├── hierarchical_losses.py              # InfoNCE contrastive losses (4 levels)
+│   └── hierarchical_trainer.py             # Custom HuggingFace Trainer
 │
 ├── scripts/
+│   ├── prepare_hierarchical_training_data.py   # Extract sonnets with hierarchical structure
+│   ├── train_hierarchical_bert.py          # CLI training script
 │   ├── layer3_bert_prosody.py              # Prosodic conditioning analysis
 │   └── (other analysis scripts)
 │
+├── notebooks/
+│   ├── hierarchical_bert_training_colab.ipynb  # NEW: Colab training notebook
+│   ├── complete_layered_analysis.ipynb     # Main analysis (all visualizations)
+│   └── shakespeare_sonnets_bert_analysis.ipynb
+│
 ├── corpus_samples/
 │   └── shakespeare_sonnets_parsed.jsonl    # 154 sonnets
+│
+├── Data/
+│   ├── eebo_sonnets_hierarchical_train.jsonl   # NEW: 139 sonnets with annotations
+│   ├── eebo_sonnets_hierarchical_val.jsonl     # NEW: 15 sonnets with annotations
+│   ├── eebo_sonnets_hierarchical_stats.json    # Dataset statistics
+│   └── poetry_unified.db                   # 17.7M lines poetry corpus
 │
 ├── results/
 │   ├── shakespeare_sonnets_eebo_bert_contextual.csv
@@ -148,8 +209,8 @@ AI Project/
 │   ├── shakespeare_sonnets_layer3_poetry_bert.csv
 │   └── eebo_vs_poetry_bert_contextual_comparison.csv
 │
-└── Data/
-    └── poetry_unified.db                   # 17.7M lines poetry corpus
+└── models/                                  # Trained model checkpoints
+    └── poetry_eebo_hierarchical_bert/      # NEW: Hierarchical model (to be trained)
 ```
 
 ---
