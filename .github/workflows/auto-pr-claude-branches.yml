@@ -47,18 +47,18 @@ jobs:
           COMMITS=$(git log origin/main..HEAD --pretty=format:"- %s" | head -10)
 
           # Create PR body file
-          cat > /tmp/pr_body.md <<'PRBODY'
-## Auto-generated PR from Claude Code
-
-Branch: ${BRANCH_NAME}
-
-### Changes in this PR:
-
-${COMMITS}
-
----
-This PR was automatically created by GitHub Actions when pushing to a Claude branch.
-PRBODY
+          {
+            echo "## Auto-generated PR from Claude Code"
+            echo ""
+            echo "Branch: ${BRANCH_NAME}"
+            echo ""
+            echo "### Changes in this PR:"
+            echo ""
+            echo "${COMMITS}"
+            echo ""
+            echo "---"
+            echo "This PR was automatically created by GitHub Actions when pushing to a Claude branch."
+          } > /tmp/pr_body.md
 
           # Create PR with auto-generated title and body
           gh pr create \
