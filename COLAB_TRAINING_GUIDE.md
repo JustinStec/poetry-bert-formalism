@@ -109,9 +109,10 @@ Now execute each cell in order (Shift+Enter or click ▶️):
 
 ### Cell 2: Install Dependencies
 ```python
-!pip install -q transformers==4.36.0 torch==2.1.0 datasets==2.15.0 tensorboard
+!pip install -q transformers datasets tensorboard --upgrade
 ```
 ⏱️ Takes ~1 minute
+✅ Uses Colab's existing PyTorch 2.8.0 and NumPy 2.x (avoids binary incompatibility)
 
 ### Cell 3: HuggingFace Authentication
 ```python
@@ -134,7 +135,7 @@ Already done in Step 4!
 ### Cell 8: Configuration
 Just run it - all settings are pre-configured:
 - Base model: `jts3et/eebo-bert`
-- Batch size: 8 (good for GPU)
+- Batch size: 16 (optimized for A100)
 - Epochs: 10
 - Learning rate: 2e-5
 
@@ -154,7 +155,7 @@ trainer.train()
 
 This is the main training loop!
 
-**Expected duration:** 6-8 hours on A100, 10-12 hours on T4
+**Expected duration:** 4-6 hours on A100 (batch_size=16), 8-10 hours on T4 (reduce to batch_size=8)
 
 **What you'll see:**
 ```
@@ -238,8 +239,13 @@ Quick sanity check that the model works
 ### ❌ "401 Unauthorized" loading model
 - **Fix**: Re-run Cell 3 (HuggingFace authentication)
 
+### ❌ "numpy.dtype size changed, may indicate binary incompatibility"
+- **Fix**: Runtime → Restart runtime → Factory reset runtime
+- Then re-run all cells from the beginning
+- The updated Cell 3 uses Colab's existing NumPy 2.x instead of downgrading
+
 ### ❌ "CUDA out of memory"
-- **Fix**: Edit Cell 8, change `'batch_size': 8` to `'batch_size': 4` or `'batch_size': 2`
+- **Fix**: Edit Cell 8, change `'batch_size': 16` to `'batch_size': 8` or `'batch_size': 4`
 
 ### ❌ "Files not found"
 - **Fix**: Re-run Step 4 to organize uploaded files
@@ -300,4 +306,4 @@ Once you have the trained model:
 
 **Last Updated:** November 4, 2025
 **Estimated Cost:** Free (Google Colab) or $10/month (Colab Pro for A100)
-**Duration:** 6-8 hours (A100) or 10-12 hours (T4)
+**Duration:** 4-6 hours (A100) or 8-10 hours (T4)

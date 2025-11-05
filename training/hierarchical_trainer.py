@@ -312,7 +312,8 @@ class HierarchicalTrainer(Trainer):
         self,
         model: HierarchicalBertModel,
         inputs: Dict,
-        return_outputs: bool = False
+        return_outputs: bool = False,
+        num_items_in_batch: int = None
     ) -> torch.Tensor:
         """
         Compute hierarchical loss.
@@ -321,6 +322,7 @@ class HierarchicalTrainer(Trainer):
             model: HierarchicalBertModel
             inputs: Batch dictionary from dataset
             return_outputs: Whether to return model outputs
+            num_items_in_batch: Number of items in batch (for compatibility with newer transformers)
 
         Returns:
             loss (and optionally outputs)
