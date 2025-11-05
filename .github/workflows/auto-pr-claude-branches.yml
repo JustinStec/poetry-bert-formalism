@@ -41,19 +41,16 @@ jobs:
         if: steps.check_pr.outputs.pr_exists == '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ steps.branch_info.outputs.branch_name }}
         run: |
           # Get commit messages for PR body
           COMMITS=$(git log origin/main..HEAD --pretty=format:"- %s" | head -10)
 
-          # Create PR with auto-generated title and body
-          gh pr create \
-            --base main \
-            --head "${{ steps.branch_info.outputs.branch_name }}" \
-            --title "Claude: ${{ steps.branch_info.outputs.task_name }}" \
-            --body "$(cat <<'EOF'
+          # Create PR body
+          PR_BODY=$(cat <<EOF
 ## Auto-generated PR from Claude Code
 
-**Branch:** ${{ steps.branch_info.outputs.branch_name }}
+**Branch:** \`${BRANCH_NAME}\`
 
 ### Changes in this PR:
 
@@ -62,7 +59,14 @@ ${COMMITS}
 ---
 *This PR was automatically created by GitHub Actions when pushing to a Claude branch.*
 EOF
-)" \
+)
+
+          # Create PR with auto-generated title and body
+          gh pr create \
+            --base main \
+            --head "${{ steps.branch_info.outputs.branch_name }}" \
+            --title "Claude: ${{ steps.branch_info.outputs.task_name }}" \
+            --body "${PR_BODY}" \
             || echo "PR creation skipped (may already exist or no changes)"
 
       - name: Comment on existing PR
