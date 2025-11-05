@@ -358,7 +358,7 @@ class HierarchicalTrainer(Trainer):
 
         return (loss, outputs) if return_outputs else loss
 
-    def log(self, logs: Dict[str, float]) -> None:
+    def log(self, logs: Dict[str, float], start_time: Optional[float] = None) -> None:
         """
         Override log to include loss components.
         """
@@ -369,4 +369,4 @@ class HierarchicalTrainer(Trainer):
             logs['loss_quatrain'] = self.loss_history['quatrain'][-1]
             logs['loss_sonnet'] = self.loss_history['sonnet'][-1]
 
-        super().log(logs)
+        super().log(logs, start_time)
