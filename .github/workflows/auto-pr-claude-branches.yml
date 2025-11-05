@@ -50,16 +50,19 @@ jobs:
             --base main \
             --head "${{ steps.branch_info.outputs.branch_name }}" \
             --title "Claude: ${{ steps.branch_info.outputs.task_name }}" \
-            --body "## Auto-generated PR from Claude Code
+            --body "$(cat <<'EOF'
+## Auto-generated PR from Claude Code
 
-**Branch:** \`${{ steps.branch_info.outputs.branch_name }}\`
+**Branch:** ${{ steps.branch_info.outputs.branch_name }}
 
 ### Changes in this PR:
 
-$COMMITS
+${COMMITS}
 
 ---
-*This PR was automatically created by GitHub Actions when pushing to a Claude branch.*" \
+*This PR was automatically created by GitHub Actions when pushing to a Claude branch.*
+EOF
+)" \
             || echo "PR creation skipped (may already exist or no changes)"
 
       - name: Comment on existing PR
