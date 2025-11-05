@@ -27,7 +27,7 @@ ENV/
 *.ipynb_checkpoints/
 
 # Data files (too large for git)
-Data/
+# Data/ - removed to allow hierarchical training data files
 *.db
 *.db-journal
 *.json.gz
