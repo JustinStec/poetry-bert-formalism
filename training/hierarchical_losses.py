@@ -156,9 +156,18 @@ class HierarchicalLoss(nn.Module):
             scalar loss
         """
         if len(positive_pairs) == 0:
-            return torch.tensor(0.0, device=positive_pairs[0][0].device if positive_pairs else 'cpu')
+            # Return 0 loss on same device as model parameters
+            return torch.tensor(0.0, requires_grad=True)
+
+        if len(negative_pairs) == 0:
+            # Can't compute contrastive loss without negatives
+            return torch.tensor(0.0, requires_grad=True)
 
         losses = []
+
+        # Use all negative samples for each positive pair
+        # (standard InfoNCE: one anchor+positive vs many negatives)
+        all_negatives = [neg for _, neg in negative_pairs]
 
         for anchor, positive in positive_pairs:
             # Normalize embeddings
@@ -168,17 +177,12 @@ class HierarchicalLoss(nn.Module):
             # Positive similarity
             pos_sim = torch.sum(anchor_norm * positive_norm, dim=-1) / self.temperature
 
-            # Negative similarities
+            # Negative similarities (use ALL negatives, not just matched anchors)
             neg_sims = []
-            for neg_anchor, negative in negative_pairs:
-                # Only use negatives with same anchor
-                if torch.allclose(anchor, neg_anchor):
-                    negative_norm = F.normalize(negative, dim=-1)
-                    neg_sim = torch.sum(anchor_norm * negative_norm, dim=-1) / self.temperature
-                    neg_sims.append(neg_sim)
-
-            if len(neg_sims) == 0:
-                continue
+            for negative in all_negatives:
+                negative_norm = F.normalize(negative, dim=-1)
+                neg_sim = torch.sum(anchor_norm * negative_norm, dim=-1) / self.temperature
+                neg_sims.append(neg_sim)
 
             # InfoNCE loss: -log(exp(pos) / (exp(pos) + sum(exp(neg))))
             neg_sims_tensor = torch.stack(neg_sims)
@@ -187,7 +191,7 @@ class HierarchicalLoss(nn.Module):
             losses.append(loss)
 
         if len(losses) == 0:
-            return torch.tensor(0.0)
+            return torch.tensor(0.0, requires_grad=True)
 
         return torch.mean(torch.stack(losses))
 
