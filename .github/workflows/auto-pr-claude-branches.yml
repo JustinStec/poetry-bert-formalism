@@ -1,0 +1,79 @@
+name: Auto Create PR for Claude Branches
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract session ID from branch name
+        id: branch_info
+        run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+          # Extract a human-readable task name from branch (between 'claude/' and session ID)
+          TASK_NAME=$(echo "$BRANCH_NAME" | sed 's/claude\/\(.*\)-[^-]*$/\1/' | sed 's/-/ /g')
+          echo "task_name=$TASK_NAME" >> $GITHUB_OUTPUT
+
+      - name: Check if PR already exists
+        id: check_pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if PR already exists for this branch
+          PR_EXISTS=$(gh pr list --head "${{ steps.branch_info.outputs.branch_name }}" --json number --jq length)
+          echo "pr_exists=$PR_EXISTS" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_pr.outputs.pr_exists == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ steps.branch_info.outputs.branch_name }}
+        run: |
+          # Get commit messages for PR body
+          COMMITS=$(git log origin/main..HEAD --pretty=format:"- %s" | head -10)
+
+          # Create PR body file
+          {
+            echo "## Auto-generated PR from Claude Code"
+            echo ""
+            echo "Branch: ${BRANCH_NAME}"
+            echo ""
+            echo "### Changes in this PR:"
+            echo ""
+            echo "${COMMITS}"
+            echo ""
+            echo "---"
+            echo "This PR was automatically created by GitHub Actions when pushing to a Claude branch."
+          } > /tmp/pr_body.md
+
+          # Create PR with auto-generated title and body
+          gh pr create \
+            --base main \
+            --head "${{ steps.branch_info.outputs.branch_name }}" \
+            --title "Claude: ${{ steps.branch_info.outputs.task_name }}" \
+            --body-file /tmp/pr_body.md \
+            || echo "PR creation skipped (may already exist or no changes)"
+
+      - name: Comment on existing PR
+        if: steps.check_pr.outputs.pr_exists != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "PR already exists for branch ${{ steps.branch_info.outputs.branch_name }}"
+          # Optionally add a comment to existing PR
+          PR_NUMBER=$(gh pr list --head "${{ steps.branch_info.outputs.branch_name }}" --json number --jq '.[0].number')
+          echo "Existing PR: #$PR_NUMBER"

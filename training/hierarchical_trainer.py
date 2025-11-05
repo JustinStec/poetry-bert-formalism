@@ -312,7 +312,8 @@ class HierarchicalTrainer(Trainer):
         self,
         model: HierarchicalBertModel,
         inputs: Dict,
-        return_outputs: bool = False
+        return_outputs: bool = False,
+        num_items_in_batch: int = None
     ) -> torch.Tensor:
         """
         Compute hierarchical loss.
@@ -321,6 +322,7 @@ class HierarchicalTrainer(Trainer):
             model: HierarchicalBertModel
             inputs: Batch dictionary from dataset
             return_outputs: Whether to return model outputs
+            num_items_in_batch: Number of items in batch (for compatibility with newer transformers)
 
         Returns:
             loss (and optionally outputs)
@@ -356,7 +358,7 @@ class HierarchicalTrainer(Trainer):
 
         return (loss, outputs) if return_outputs else loss
 
-    def log(self, logs: Dict[str, float]) -> None:
+    def log(self, logs: Dict[str, float], start_time: Optional[float] = None) -> None:
         """
         Override log to include loss components.
         """
@@ -367,4 +369,4 @@ class HierarchicalTrainer(Trainer):
             logs['loss_quatrain'] = self.loss_history['quatrain'][-1]
             logs['loss_sonnet'] = self.loss_history['sonnet'][-1]
 
-        super().log(logs)
+        super().log(logs, start_time)
