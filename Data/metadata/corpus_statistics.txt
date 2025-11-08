@@ -1,0 +1,12 @@
+Final Corpus Statistics
+================================================================================
+
+Total Poems: 116,675
+Total Authors: 8,765
+Total Lines: 6,035,242
+Total Words: 41,102,801
+Average Lines/Poem: 51.7
+Average Words/Poem: 352.3
+
+By Source:
+  poetry_platform: 116,675 poems

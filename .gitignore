@@ -1,2 +1,66 @@
 # OAuth credentials
 client_secret*.json
+.credentials/
+
+# Python package
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model checkpoints
+models/*.pt
+models/*.pth
+models/*.bin
+
+# Data (large files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Temporary
+.tmp.*
+__pycache__/
+*.pyc
+.DS_Store
+Icon
+
+# Mac resource forks
+*Icon*
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Archive old structure (historical, don't need in git)
+archive/old_structure/
+archive/old_logs/
+archive/organization_files/
+
+# Scripts cleanup artifacts (keep in local archive only)
+scripts/archive/
+scripts/*_report.md
+scripts/*_report.txt
+scripts/*_list.txt
+scripts/*_samples/
+scripts/*.json
+scripts/*.jsonl
+
+# Organization/refactoring scripts (one-time use, archived)
+refactor_to_professional_structure.py
+create_package_files.py
+execute_organization.py
+organize_*.py
+PROJECT_ORGANIZATION*.md
+scripts_categorization.json
