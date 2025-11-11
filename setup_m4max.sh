@@ -145,7 +145,7 @@ echo ""
 echo "Step 7: Cloning Poetry BERT repository..."
 cd ~/
 if [ ! -d "poetry-bert-formalism" ]; then
-    git clone https://github.com/JustinStec/poetry-bert-formalism.git
+    git clone git@github.com:JustinStec/poetry-bert-formalism.git
     cd poetry-bert-formalism
     echo -e "${GREEN}✓ Repository cloned${NC}"
 else
@@ -198,7 +198,7 @@ echo "Step 9: Setting up coverletter_tagger..."
 cd ~/
 
 if [ ! -d "coverletter_tagger" ]; then
-    git clone https://github.com/JustinStec/coverletter_tagger.git
+    git clone git@github.com:JustinStec/coverletter_tagger.git
     cd coverletter_tagger
     echo -e "${GREEN}✓ Repository cloned${NC}"
 else
