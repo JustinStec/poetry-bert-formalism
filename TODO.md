@@ -18,27 +18,34 @@
 - All files match CSV
 - All validation tests pass except 2 missing titles (minor)
 
+### Phase 2: Automated Basic Metadata
+- [x] Fix 2 poems with missing titles (poems 75474, 84157)
+- [x] Recompute line counts and word counts
+- [x] Parse author names into author_last, author_first
+- [x] Add filename, search_vector, content placeholders
+- [x] Add created_at, updated_at timestamps
+- [x] Document Phase 2 completion
+
+**Note**: year_approx and source_url left as placeholders for future enrichment (requires research, not automation)
+
+**Final metadata state:**
+- 19 fields (up from 10)
+- 15/19 fields with 100% coverage
+- Ready for Phase 3 (LLM training)
+
 ---
 
 ## 🔄 In Progress
 
-None currently.
+### Transfer to M4 Max
+- [ ] Copy project to M4 Max MacBook Pro
+- [ ] Set up MLX framework
+- [ ] Verify Python environment
+- [ ] Test corpus access
 
 ---
 
 ## 📋 Planned
-
-### Phase 2: Automated Basic Metadata (Next)
-- [ ] Fix 2 poems with missing titles (poems 75474, 84157)
-- [ ] Recompute line counts and word counts
-- [ ] Parse author names into author_last, author_first
-- [ ] Extract/approximate years from date field
-- [ ] Generate source URLs from source field
-- [ ] Add search_vector field (for PostgreSQL full-text search)
-- [ ] Add created_at, updated_at timestamps
-- [ ] Validate metadata completeness (aim for 100% coverage on basic fields)
-
-**Goal**: Complete Tier 1 metadata (17 fields, 100% coverage)
 
 ### Phase 3: Historical Context Classification
 - [ ] Fine-tune local LLM (MLX on M4 Max) for period classification
@@ -99,7 +106,7 @@ None currently.
 - [x] CORPUS_ENHANCEMENT_PLAN.md - Overall strategy
 - [x] METADATA_SCHEMA.md - Complete field reference
 - [x] PHASE1_USAGE.md - Phase 1 execution guide
-- [ ] Add Phase 2 usage guide
+- [x] PHASE2_SUMMARY.md - Phase 2 completion summary
 - [ ] Add database schema documentation
 - [ ] Add API documentation (when ready)
 
@@ -115,4 +122,20 @@ None currently.
 
 ---
 
-**Last Updated**: 2025-11-08 (Phase 1 complete)
+## 🔮 Future Enrichment (Optional)
+
+### Phase 2.5: Date Enrichment (Post Phase 3)
+- Build author lifespan database from Wikipedia/Poetry Foundation
+- Web scraping for publication dates
+- LLM estimation for unknown dates (using Phase 3 model)
+- Cross-reference with PoetryDB, Gutenberg metadata
+
+### Bibliographic Sources (Phase 5 or ongoing)
+- Manual research for original publications
+- Add scholarly sources (book titles, journal names, years)
+- Requires literary research, not automation
+- Best done incrementally during corpus use
+
+---
+
+**Last Updated**: 2025-11-11 (Phase 2 complete)
