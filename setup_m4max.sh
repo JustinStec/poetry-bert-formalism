@@ -145,7 +145,7 @@ echo ""
 echo "Step 7: Cloning Poetry BERT repository..."
 cd ~/
 if [ ! -d "poetry-bert-formalism" ]; then
-    git clone git@github.com:JustinStec/poetry-bert-formalism.git
+    git clone https://github.com/JustinStec/poetry-bert-formalism.git
     cd poetry-bert-formalism
     echo -e "${GREEN}✓ Repository cloned${NC}"
 else
@@ -198,7 +198,7 @@ echo "Step 9: Setting up coverletter_tagger..."
 cd ~/
 
 if [ ! -d "coverletter_tagger" ]; then
-    git clone git@github.com:JustinStec/coverletter_tagger.git
+    git clone https://github.com/JustinStec/coverletter_tagger.git
     cd coverletter_tagger
     echo -e "${GREEN}✓ Repository cloned${NC}"
 else
@@ -283,17 +283,21 @@ echo ""
 echo "  2. ${YELLOW}Test SSH from Air:${NC}"
 echo "     ssh m4max"
 echo ""
-echo "  3. ${YELLOW}Activate Poetry BERT environment:${NC}"
+echo "  3. ${YELLOW}Setup GitHub SSH keys (for git push):${NC}"
+echo "     ssh-keygen -t ed25519 -C \"your_email@example.com\""
+echo "     cat ~/.ssh/id_ed25519.pub  # Add to GitHub settings"
+echo ""
+echo "  4. ${YELLOW}Activate Poetry BERT environment:${NC}"
 echo "     poetry-env"
 echo ""
-echo "  4. ${YELLOW}Start Jupyter (optional):${NC}"
+echo "  5. ${YELLOW}Start Jupyter (optional):${NC}"
 echo "     jupyter notebook --no-browser --port=8888"
 echo "     (Access from Air: http://localhost:8888)"
 echo ""
-echo "  5. ${YELLOW}Test MLX:${NC}"
+echo "  6. ${YELLOW}Test MLX:${NC}"
 echo "     python -c 'import mlx.core as mx; print(mx.array([1, 2, 3]))'"
 echo ""
-echo "  6. ${YELLOW}Run coverletter_tagger backend:${NC}"
+echo "  7. ${YELLOW}Run coverletter_tagger backend:${NC}"
 echo "     cd ~/coverletter_tagger/backend"
 echo "     source venv/bin/activate"
 echo "     uvicorn api.main:app --host 0.0.0.0 --port 8000"
