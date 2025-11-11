@@ -258,10 +258,12 @@ tmux attach -t training
 ssh m4max
 cd ~/coverletter_tagger/backend
 source venv/bin/activate
-uvicorn api.main:app --host 0.0.0.0 --port 8000
+uvicorn api.main:app --host 127.0.0.1 --port 8000
 ```
 
 Access from Air browser: `http://localhost:8000`
+
+(Uses 127.0.0.1 for security - SSH port forwarding handles remote access)
 
 ### Use Jupyter Notebooks
 
