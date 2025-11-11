@@ -1,0 +1,27 @@
+Sample 10: 62620_Down Here The Hawthorn_Moult, Thomas_unknown.txt
+Author: Moult, Thomas
+Original Title: Down Here The Hawthorn
+
+Split into 7 poems:
+
+1. Untitled 1
+   Lines 1-16 (16 lines)
+
+2. Untitled 2
+   Lines 17-33 (15 lines)
+
+3. Untitled 3
+   Lines 34-51 (16 lines)
+
+4. Untitled 4
+   Lines 52-81 (28 lines)
+
+5. Untitled 5
+   Lines 82-109 (26 lines)
+
+6. Untitled 6
+   Lines 110-123 (12 lines)
+
+7. Untitled 7
+   Lines 124-132 (7 lines)
+

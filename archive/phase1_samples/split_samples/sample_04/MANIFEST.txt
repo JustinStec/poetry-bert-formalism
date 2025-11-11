@@ -1,0 +1,33 @@
+Sample 4: 62525_I-Juca Pirama_Dias, Antonio Goncalves_unknown.txt
+Author: Dias, Antonio Goncalves
+Original Title: I-Juca Pirama
+
+Split into 9 poems:
+
+1. Untitled 1
+   Lines 1-281 (281 lines)
+
+2. Untitled 2
+   Lines 282-318 (35 lines)
+
+3. Untitled 3
+   Lines 319-330 (10 lines)
+
+4. Untitled 4
+   Lines 331-345 (13 lines)
+
+5. Untitled 5
+   Lines 346-377 (30 lines)
+
+6. Untitled 6
+   Lines 378-390 (11 lines)
+
+7. Untitled 7
+   Lines 391-453 (61 lines)
+
+8. Untitled 8
+   Lines 454-565 (110 lines)
+
+9. Untitled 9
+   Lines 566-1178 (611 lines)
+

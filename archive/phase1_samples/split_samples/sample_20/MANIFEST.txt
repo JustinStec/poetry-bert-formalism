@@ -1,0 +1,15 @@
+Sample 20: 63159_Shakuntala Act 1_Kalidasa_unknown.txt
+Author: Kalidasa
+Original Title: Shakuntala  Act  1
+
+Split into 3 poems:
+
+1. Untitled 1
+   Lines 1-54 (54 lines)
+
+2. Untitled 2
+   Lines 55-181 (125 lines)
+
+3. Untitled 3
+   Lines 182-698 (515 lines)
+

@@ -1,5 +1,7 @@
 # Phase 1 Usage Guide: Corpus Cleanup & Sequential Renumbering
 
+> **Note**: Phase 1 is complete. Scripts referenced in this guide are archived in `scripts/archive/phase1_cleanup/`. This document serves as historical reference.
+
 This guide explains how to use the Phase 1 scripts to clean and renumber the poetry corpus.
 
 ---

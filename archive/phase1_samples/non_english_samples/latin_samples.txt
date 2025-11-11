@@ -1,0 +1,125 @@
+# LATIN SAMPLES
+Total detected: 114
+Sample size: 20
+================================================================================
+
+
+## SAMPLE 1/20
+File: 100586_The Vision Of Piers Plowman - Part 11_Langland, William_unknown.txt
+--------------------------------------------------------------------------------
+The Vision Of Piers Plowman - Part 11 Thanne Scriptare scorned me and a skile tolde, And lakked me in Latyn and light by me sette, And seide, " Multi multa sciunt et seipsos nesciunt. Tho wepte I for wo andwrathe of hir speche And in a wynkynge w[o]rth til I [weex] aslepe. A merveillous metels mette me thanne. For I was ravysshed right there — for Fortune me fette And into the lond of longynge and love she me broughte, And in a mirour that highte Middelerthe she made me to biholde. Sithen she seide to me,-Here myghtow se wondres, And knowe that thow coveitest, and come therto, peraunter. Thanne hadde Fortune folwynge hire two faire damyseles Concupiscencia Carnis men called the elder mayde, And Coveitise of Eighes ycalled was that oother. Pride of Parfit Lyvynge pursued hem bothe, And bad me for my contenaunce acounten Clergie lighte. Concupiscencia Carnis colled me aboute the nekke And seide, "Thow art yong and yeep and hast yeres ynowe For to lyve longe and ladies to lovye; And in this mirour thow might se myrthes ful manye That leden thee wole to likynge al thi lif tyme. The secounde seide the same"
+--------------------------------------------------------------------------------
+
+## SAMPLE 2/20
+File: 100566_Piers Plowman- Passus 6_Langland, William_unknown.txt
+--------------------------------------------------------------------------------
+Piers Plowman: Passus 6 ‘þis were a wikkede wey but whoso hadde a gyde þat [myȝte] folwen us ech foot’: þus þis folk hem mened. Quod Perkyn þe Plowman, ‘By Seint Peter of Rome! I haue an half acre to erie by þe heiȝe weye; Hadde I eryed þis half acre and sowen it after I wolde wende wiþ yow and þe wey teche. ‘þis were a long lettyng,’ quod a lady in a Scleyre. ‘What sholde we wommen werche þe while? ‘Somme shul sowe þe sak for shedyng of þe Whete. And ye louely ladies wiþ youre longe fyngres, þat ye haue silk and Sandel to sowe whan tyme is Chesibles for Chapeleyns chirches to honoure. Wyues and widewes wolle and flex spynneþ; Makeþ cloþ, I counseille yow, and kenneþ so youre douȝtres. þe nedy and þe naked nymeþ hede how þei liggeþ; Casteþ hem cloþes [for cold] for so [wol] truþe. For I shal lenen hem liflode but if þe lond faille As longe as I lyue, for þe Lordes loue of heuene. And alle manere of men þat [by þe] mete libbeþ, Helpeþ hym werche wiȝtliche þat wynneþ youre foode. ‘By Crist!’ quod a knyȝt þoo, ‘[þow]
+--------------------------------------------------------------------------------
+
+## SAMPLE 3/20
+File: 143101_Quia Amore Langueo_Americas, Anonymous_unknown.txt
+--------------------------------------------------------------------------------
+Quia Amore Langueo IN a valley of this restles mind I sought in mountain and in mead, Trusting a true love for to find. Upon an hill then took I heed; A voice I heard (and near I yede) In great dolour complaining tho: See, dear soul, how my sides bleed Quia amore langueo. Upon this hill I found a tree, Under a tree a man sitting; From head to foot wounded was he; His hearte blood I saw bleeding: A seemly man to be a king, A gracious face to look unto. I asked why he had paining; [He said,] Quia amore langueo. I am true love that false was never; My sister, man's soul, I loved her thus. Because we would in no wise dissever I left my kingdom glorious. I purveyed her a palace full precious; She fled, I followed, I loved her so That I suffered this pain piteous Quia amore langueo. My fair love and my spouse bright! I saved her from beating, and she hath me bet; I clothed her in grace and heavenly light; This bloody shirt she hath on me set; For longing of love yet would I not let; Sweete strokes
+--------------------------------------------------------------------------------
+
+## SAMPLE 4/20
+File: 100185_How Deacon Fry Bought A 'Duchess.'_Crawford, Isabella Valancy_unknown.txt
+--------------------------------------------------------------------------------
+How Deacon Fry Bought A "Duchess." It sorter skeer'd the neighbours round, For of all the 'tarnal set thet clutches Their dollars firm, he wus the boss; An' yet he went and byed a "Duchess. I never will forget the day He druv her from the city market; I guess thar warn't more'n two Thet stayed to hum thet day in Clarket. And one of them wus Gran'pa Finch, Who's bed-rid up to Spense's attic: The other Aunt Mehitabel, Whose jints and temper is rheumatic. She said she "guessed that Deacon Fry Would some day see he'd done more fitter To send his dollars savin' souls Than waste 'em on a horn'd critter!" We all turn'd out at Pewse's store, The last one jest inside the village; The Jedge he even chanc'd along, And so did good old Elder Millage. We sot around on kegs and planks, And on the fence we loung'd precarious; The Elder felt to speak a word, And sed his thoughts wus very various. He sed the Deacon call'd to mind The blessed patriarchs and their cattle; "To whose herds cum a great increase When they in furrin parts did settle. We nodded all our skulls
+--------------------------------------------------------------------------------
+
+## SAMPLE 5/20
+File: 92520_De Puero Et Praecone. Catul._Lovelace, Richard_unknown.txt
+--------------------------------------------------------------------------------
+De Puero Et Praecone. Catul. DE PUERO ET PRAECONE. CATUL. Cum puero bello praeconem qui videt esse, Quid credat, nisi se vendere discupere? CATUL. With a fair boy a cryer we behold, What should we think, but he would not be sold?
+--------------------------------------------------------------------------------
+
+## SAMPLE 6/20
+File: 129159_Totem_Grennan, Eamon_unknown.txt
+--------------------------------------------------------------------------------
+Totem All Souls’ over, the roast seeds eaten, I set on a backporch post our sculpted pumpkin under the weather, warm still for November. Night and day it gapes in at us through the kitchen window, going soft in the head. Sleepwalker-slow, a black rash of ants harrows this hollow globe, munching the pale peach flesh, sucking its seasoned last juices dry. In a week, when the ants and humming flies are done, only a hard remorseless light drills and tenants it through and through. Within, it turns mould-black in patches, stays days like this while the weather takes it in its shifty arms: wide eye-spaces shine, the disapproving mouth holds firm. Another week, a sad leap forward: sunk to one side so an eye-socket’s almost blocked, it becomes a monster of its former self. Human, it would have rotted beyond unhappiness and horror to some unspeakable subject state—its nose no more than a vertical hole, the thin bridge of amber between nose and mouth in ruins. The other socket opens wider than ever: disbelief. It’s all downhill from here: knuckles of sun, peremptory steady fingers of frost, strain all day and night— cracking the rind, kneading the knotted fibres
+--------------------------------------------------------------------------------
+
+## SAMPLE 7/20
+File: 127820_A Fourfold Exercise for the Believer in his Lodging on Earth_Erskine, Ralph_unknown.txt
+--------------------------------------------------------------------------------
+A Fourfold Exercise for the Believer in his Lodging on Earth I. The HOLY LAW: or, The Ten Commandments, Exod. xx. 3—17. 1. No God but me thou shalt adore. 2. No image frame to bow before. 3. My holy name take not in vain. 4 My sacred Sabbath don't profane. 5. To parents render due respect. 6. All murder shun, and malice check. 7. From filth and bunnydom base abstain, 8. From theft and all unlawful gain. 9. False witness flee, and sland'ring spite. 10. Nor covet what's thy neighbour's right. II. The UNHOLY HEART, the direct opposite to God's holy and righteous Law, Rom. vii. 14. Or, The Knowledge of Sin by the Law, Rom. iii. 20. 1. My heart's to many gods a slave. 2. Of imag'ry an hideous cave. 3. An hoard of God-dishon'ring crimes. 4. A waster base of holy times. 5. A throne of pride and self-conceit. 6. A slaughter-house of wrath and hate. 7. A cage of birds and thoughts unclean. 8. A den of thieves and frauds unseen. 9. An heap of calumnies unspent. 10. A gulph of greed and discontent. III. The GLORIOUS GOSPEL; Or, Christ the end of the law
+--------------------------------------------------------------------------------
+
+## SAMPLE 8/20
+File: 90009_A Gooid Kursmiss Day_Hartley, John_unknown.txt
+--------------------------------------------------------------------------------
+A Gooid Kursmiss Day It wor Kursmiss day,--we wor ready for fun, Th' puddin wor boil'd an th' rooast beef wor done; Th' ale wor i'th' cellar, an th' spice-cake i'th' bin, An th' cheese wor just lively enuff to walk in. Th' lads wor all donned i' ther hallidy clooas, An th' lasses,--they each luckt as sweet as a rooas; An th' old wife an me, set at each end o'th' hob, An th' foir wor splutterin raand a big cob, An aw sed, "Nah, old lass, Tho we havn't mich brass, We shall celebrate Kursmiss to-day. Th' young fowk couldn't rest, they kept lukkin at th' clock, Yo'd a thowt 'twor a wick sin they'd had any jock, But we winkt one at tother as mich as to say, They mun wait for th' reight time, for ther mother has th' kay. Then they all went to th' weshus at stood just aghtside, An they couldn't ha made mich moor din if they'd tried, For they skriked an they giggled an shaated like mad, An th' wife sed, "They're happy," an aw sed, "Awm glad, An be thankful old lass, Tho we havn't mich brass, We shall celebrate
+--------------------------------------------------------------------------------
+
+## SAMPLE 9/20
+File: 142942_Of Man's Mortality [Quod tu in cinerem revertis]_Dunbar, William_unknown.txt
+--------------------------------------------------------------------------------
+Of Man's Mortality [Quod tu in cinerem revertis] Memento, homo, quod cinis es: Think, man, thow art bot erd and as; Lang heir to dwell nathing thow pres, For as thow come sa sall thow pas. Lyk as ane schaddow in ane glas Hyne glydis all thy tyme that heir is; Think, thocht thy bodye ware of bras, Quod tu in cinerem reverteris. Worthye Hector and Hercules, Forcye Achill and strong Sampsone, Alexander of grit nobilnes, Meik David and fair Absolone Hes playit thair pairtis, and all are gone At will of God that all thing steiris: Think, man, exceptioun thair is none, Sed tu in cinerem reverteris. Thocht now thow be maist glaid of cheir, Fairest and plesandest of port, Yit may thow be within ane yeir Ane ugsum, uglye tramort. And sen thow knawis thy tyme is schort And in all houre thy lyfe in weir is, Think, man, amang all uthir sport, Quod tu in cinerem reverteris. Thy lustye bewté and thy youth Sall feid as dois the somer flouris; Syne sall thee swallow with his mouth The dragone death that all devouris. No castell sall thee keip, nor touris, Bot he sall seik thee with thy
+--------------------------------------------------------------------------------
+
+## SAMPLE 10/20
+File: 92509_Ausonius Lib. I. Epig._Lovelace, Richard_unknown.txt
+--------------------------------------------------------------------------------
+Ausonius Lib. I. Epig. AUSONIUS LIB. I. EPIG. Thesauro invento qui limina mortis inibat, Liquit ovans laqueum, quo periturus erat; At qui, quod terrae abdiderat, non repperit aurum, Quem laqueum invenit nexuit, et periit. ENGLISHED. A treasure found one, entring at death's gate, Triumphing leaves that cord, was meant his fate; But he the gold missing, which he did hide, The halter which he found he knit: so dy'd.
+--------------------------------------------------------------------------------
+
+## SAMPLE 11/20
+File: 100577_The Vision Of Piers Plowman - Part 07_Langland, William_unknown.txt
+--------------------------------------------------------------------------------
+The Vision Of Piers Plowman - Part 07 Treuthe herde telle herof, and to Piers sente To taken his teme and tilien the erthe, And purchaced hym a pardoun a pena et a culpa For hym and for hyse heirs for ever oore after- And bad hym holde hym at home and erien hise Ieyes, And alle that holpen hym to erye, to sette or to sowe, or any [man]er mestier that myghte Piers availe — Pardon with Piers Plowman Truthe hath ygraunted. Kynges and knyghtes that kepen Holy Chirche And rightfully in remes rulen the peple, Han pardon thorugh purgatorie to passen ful lightly, With patriarkes and prophetes in paradis to be felawe. Bysshopes yblessed, if thei ben as thei sholde Legistres of bothe lawes, the lewed therwith to preche, And in as muche as thei mowe amenden alle synfulle, Arn peres with the Apostles — this pardon Piers sheweth — And at the day of dome at the heighe deys to sitte. Marchaunts in the margyne hadde manye yeres, Ac noon A pena et a culpa the Pope nolde hem graunte. For thei holde noght hir halidayes as Holy Chirche techeth, And for thei swere 'by hir soule'
+--------------------------------------------------------------------------------
+
+## SAMPLE 12/20
+File: 100568_The Vision Of Piers Plowman - Part 19_Langland, William_unknown.txt
+--------------------------------------------------------------------------------
+The Vision Of Piers Plowman - Part 19 Thus I awaked and wroot what I hadde ydremed, And dighte me derely, and dide me to chirche, To here holly the masse and to be housled after. In myddes of the masse, tho men yede to offryng, I fel eftsoones aslepe — and sodeynly me mette That Piers the Plowman was peynted al blody, And com in with a cros bifore the comune peple, And right lik in alle lymes to Oure Lord Jesu. And thanne called I Conscience to kenne me the sothe "Is this Jesus the justere,' quod I, "that Jewes dide to dethe? Or it is Piers the Plowman! Who peynted hym so rede? Quod Conscience, and kneled tho, " Thise arn Piers armes — Hise colours and his cote armure; ac he that cometh so blody Is Crist with his cros, conquerour of Cristene. "Why calle ye hym Crist? ' quod I, "sithen Jewes called hym Jesus? Patriarkes and prophetes prophecied bifore That alle kynne creatures sholden knelen and bowen Anoon as men nempned the name of God Jesu. Ergo is no name to the name of Jesus, Ne noon so nedeful to nempne by nyghte ne
+--------------------------------------------------------------------------------
+
+## SAMPLE 13/20
+File: 65711_Gravskrift Over Hans Frandsen_Brahe, Tycho_unknown.txt
+--------------------------------------------------------------------------------
+Gravskrift Over Hans Frandsen DOCTISSIMO ET HUMANISSIMO VIRO, DOMINO IOANNI FRANCISCO RIPENSI, MEDICINÆ GALENICÆ DOCTORI, POETÆ ET MUSICO EXIMIO OMNIBUSQUE BONIS CARO. Si mortale nihil deceat perferre Camoenas, Sique Poetarum fama perennis erit, Arte Machaonia, docuit qui primus Apollo, Si Libitina tuum jus inhibere licet, Musica, lætitiæ, genitus, convictus amicus, Si cita Parcarum sistere fila queant: Quæris, in hoc tumolo cur condidit ante diem? Franciscus? curque is concidit ante diem? Quem Musæ et Charites adeo coluere, quod inter Præcipuos vates nomen habere darent, Et cui contribuit facundi cura Galeni, Conspicuus Medica Doctor ut arte foret, Musica mentem hilarem, facilis convictus amicos, Egregium mores attribuere decus. Ille severa tamen poterat nec flectere fata Et multo lustris plus supereße decem. Scilicet est certi præfixus terminus ævi, Quem superare nequit; stat sua cuique dies. Nec mors sæva ulli parcet, licet ipse Machaon Arte siet Medica, carminibusque Maro, Orphea seu cantu superet, seu Thesea amore; Est adeo claris mors inimica viris. Ergo nihil mirum est, quod fatis ceßit iniquis Vir, qui perpetuo vivere dignus erat. Forsitan et mores hominum terrasque perosus Optabat superis civis adeße Diis. Nec frustratus in hoc, Christo duce, gaudet Olympo: Heic sine fine quies, vita salusque datur. Obiit Anno 1584.
+--------------------------------------------------------------------------------
+
+## SAMPLE 14/20
+File: 159129_The Canterbury Tales; EPILOGUE_Chaucer, Geoffrey_unknown.txt
+--------------------------------------------------------------------------------
+The Canterbury Tales; EPILOGUE Part 17 EPILOGUE The wordes of the Hoost to the Phisicien and the Pardoner. Oure Hooste gan to swere as he were wood; "Harrow!" quod he, "by nayles and by blood! This was a fals cherl and a fals justice! As shameful deeth as herte may devyse Come to thise juges and hire advocatz! Algate this sely mayde is slayn, allas! Allas! to deere boughte she beautee! Wherfore I seye al day, as men may see That yiftes of Fortune and of Nature Been cause of deeth to many a creature. (Hir beautee was hir deeth, I dar wel sayn; Allas, so pitously as she was slayn!) Of bothe yiftes that I speke of now Men han ful ofte moore harm than prow. But trewely, myn owene maister deere, This is a pitous tale for to heere. But nathelees, passe over is no fors; I pray to God so save thy gentil cors, And eek thyne urynals and thy jurdanes, Thyn ypocras and eek thy Galianes And every boyste ful of thy letuarie, God blesse hem, and oure lady Seinte Marie! So moot I theen, thou art a propre man, And lyk a prelat, by Seint
+--------------------------------------------------------------------------------
+
+## SAMPLE 15/20
+File: 150985_In Legationem Domini Oliveri St. John Ad Provincias Foedera_Marvell, Andrew_unknown.txt
+--------------------------------------------------------------------------------
+In Legationem Domini Oliveri St. John Ad Provincias Foedera Ingeniosa Viris contingunt Nomina magnis, Ut dubites Casu vel Ratione data. Nam Sors, caeca licet, tamen est praesaga futuri; Et sub fatidico Nomine vera premit. Et Tu, cui soli voluit Respublica credi, Foedera seu Belgis seu nova Bella feras; Haud frustra cecidit tibi Compellatio fallax, Ast scriptum ancipiti Nomine Munus erat; Scilicet hoc Martis, sed Pacis Nuntius illo: Clavibus his Jani ferrea Claustra regis. Non opus Arcanos Chartis committere Sensus, Et varia licitos condere Fraude Dolos. Tu quoque si taceas tamen est Legatio Nomen. Et velut in Scytale publica verba refert. Vultis Oliverum, Batavi, Sanctumve Johannem? Antiochus gyro non breviore stetit.
+--------------------------------------------------------------------------------
+
+## SAMPLE 16/20
+File: 92620_Ad Fabullium. Catul. Lib. I. Ep. 13._Lovelace, Richard_unknown.txt
+--------------------------------------------------------------------------------
+Ad Fabullium. Catul. Lib. I. Ep. 13. Caenabis bene, mi Fabulle, apud me Paucis, si dii tibi favent, diebus; Si tecum attuleris bonam atque magnam Caenam, non sine candida puella, Et vino, et sale, et omnibus cachinnis. Haec si, inquam, attuleris, Fabulle noster, Caenabis bene: nam tui Catulli Plenus sacculus est aranearum. Sed, contra, accipies meros amores, Seu quod suavius elegantiusve est: Nam unguentum dabo, quod meae puellae Donarunt Veneres Cupidinesque; Quod tu cum olfacies, deos rogabis, Totum te faciant, Fabulle, nasum. ENGLISH Fabullus, I will treat you handsomely Shortly, if the kind gods will favour thee. If thou dost bring with thee a del'cate messe, An olio or so, a pretty lass, Brisk wine, sharp tales, all sorts of drollery, These if thou bringst (I say) along with thee, You shall feed highly, friend: for, know, the ebbs Of my lank purse are full of spiders webs; But then again you shall receive clear love, Or what more grateful or more sweet may prove: For with an ointment I will favour thee My Venus's and Cupids gave to me, Of which once smelt, the gods thou wilt implore, Fabullus, that they'd make thee nose all ore.
+--------------------------------------------------------------------------------
+
+## SAMPLE 17/20
+File: 142928_In a Secret Place [Ye brek my hart, my bony ane]_Dunbar, William_unknown.txt
+--------------------------------------------------------------------------------
+In a Secret Place [Ye brek my hart, my bony ane] In secreit place this hyndir nycht I hard ane beyrne say till ane bricht: "My huny, my hart, my hoip, my heill, I have bene lang your luifar leill And can of yow get confort nane. How lang will ye with danger deill? Ye brek my hart, my bony ane. His bony beird wes kemmit and croppit, Bot all with cale it wes bedroppit, And he wes townysche, peirt, and gukit. He clappit fast, he kist and chukkit As with the glaikis he wer ouirgane. Yit be his feirris he wald have fukkit— "Ye brek my hart, my bony ane. Quod he: "My hairt, sweit as the hunye, Sen that I borne wes of my mynnye, I never wowit weycht bot yow. My wambe is of your luif sa fow That as ane gaist I glour and grane. I trymble sa, ye will not trow, Ye brek my hart, my bony ane. "Tehe!" quod scho, and gaif ane gawfe. "Be still, my tuchan and my calfe, My new spanit howffing fra the sowk, And all the blythnes of my bowk. My sweit swanking, saif yow allane Na leyd I
+--------------------------------------------------------------------------------
+
+## SAMPLE 18/20
+File: 159135_The Canterbury Tales; THE REVES TALE_Chaucer, Geoffrey_unknown.txt
+--------------------------------------------------------------------------------
+The Canterbury Tales; THE REVES TALE PROLOGUE TO THE REVES TALE The prologe of the Reves Tale. Whan folk hadde laughen at this nyce cas Of Absolon and hende Nicholas, Diverse folk diversely they seyde, But for the moore part they loughe and pleyde, Ne at this tale I saugh no man hym greve, But it were oonly Osewold the Reve; Bycause he was of carpenteres craft, A litel ire is in his herte ylaft; He gan to grucche, and blamed it a lite. "So theek," quod he, "ful wel koude I you quite, With bleryng of a proud milleres eye, If that me liste speke of ribaudye. But ik am oold, me list no pley for age, Gras-tyme is doon, my fodder is now forage, This white top writeth myne olde yeris, Myn herte is also mowled as myne heris, But if I fare as dooth an openers; That ilke fruyt is ever leng the wers, Til it be roten in mullok or in stree. We olde men, I drede, so fare we, Til we be roten kan we nat be rype. We hoppen ay whil that the world wol pype, For in oure wyl ther stiketh evere a
+--------------------------------------------------------------------------------
+
+## SAMPLE 19/20
+File: 150982_In Effigiem Oliveri Cromwell_Marvell, Andrew_unknown.txt
+--------------------------------------------------------------------------------
+In Effigiem Oliveri Cromwell Haec est quae toties Inimicos Umbra fugavit, At sub qua Cives Otia lenta terunt. In eandem Reginae Sueciae transmissam Bellipotens Virgo, septem Regina Trionum. Christina, Arctoi lucida stella Poli; Cernis quas merui dura sub Casside Rugas; Sicque Senex Armis impiger Ora fero; Invia Fatorum dum per Vestigia nitor, Exequor & Populi fortia Jussa Manu. At tibi submittit frontem reverentior Umbra, Nec sunt hi Vultus Regibus usque truces.
+--------------------------------------------------------------------------------
+
+## SAMPLE 20/20
+File: 150966_A Letter To Doctor Ingelo, then With My Lord Whitlock, Amba_Marvell, Andrew_unknown.txt
+--------------------------------------------------------------------------------
+A Letter To Doctor Ingelo, then With My Lord Whitlock, Amba Quid facis Arctoi charissime transfuga coeli, Ingele, proh sero cognite, rapte cito? Num satis Hybernum defendis pellibus Astrum, Qui modo tam mollis nec bene firmus eras? Quae Gentes Hominum, quae sit Natura Locorum, Sint Homines, potius dic ibi sintre Loca? Num gravis horrisono Polus obruit omnia lapsu, Jungitur & praeceps Mundas utraque nive? An melius canis horrescit Campus Aristis, Amuius Agricolis & redit Orbe labor? Incolit, ut fertur, saevam Gens mitior Oram, Pace vigil, Bello strenua, justa Foro. Quin ibi sunt Urbes, atque alta Palatia Regum, Musarumque domus, & sua Templa Deo. Nam regit Imperio populum Christina ferocem, Et dare jura potest regia Virgo viris. Utque trahit rigidum Magnes Aquilone Metallum, Gandet eam Soboles ferrea sponte sequii. Dic quantum liceat fallaci credere Famae, Invida num taceat plura, sonet ve loquax. At, si vera fides, Mundi melioris ab ortu, Saecula Christinae nulla tulere parem. Ipsa licet redeat (nostri decus orbis) Eliza, Qualis nostra tamen quantaque Eliza fuit. Vidimus Effigiem, mistasque Coloribus Umbras: Sic quoque Sceptripotens, sic quoque visa Dea. Augustam decorant (raro concordia) frontem Majestas & Amor, Forma Pudorque simul. Ingens Virgineo spirat Gustavus in ore: Agnoscas animos, fulmineumque Patrem.
+--------------------------------------------------------------------------------

@@ -1,7 +1,9 @@
 # Corpus Enhancement & Database Implementation Plan
 
+> **Status Update**: Phase 1 complete (Nov 2025). Phase 2 complete (Nov 2025). Phase 1 scripts archived in `scripts/archive/phase1_cleanup/`. Ready for Phase 3 (M4 Max).
+
 **Project**: Poetry Hierarchical BERT
-**Corpus Size**: 116,675 unique poems
+**Corpus Size**: 116,674 unique poems
 **Approach**: Iterative, quality-focused enhancement with local M4 Max ML
 
 ---

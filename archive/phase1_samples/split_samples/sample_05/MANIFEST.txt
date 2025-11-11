@@ -1,0 +1,15 @@
+Sample 5: 62546_Hours of the Night_Stowe, Harriet Beecher_unknown.txt
+Author: Stowe, Harriet Beecher
+Original Title: Hours of the Night
+
+Split into 3 poems:
+
+1. Untitled 1
+   Lines 1-14 (14 lines)
+
+2. Untitled 2
+   Lines 15-44 (28 lines)
+
+3. Untitled 3
+   Lines 45-54 (8 lines)
+

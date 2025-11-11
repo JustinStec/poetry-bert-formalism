@@ -1,0 +1,1050 @@
+Non-English File Removal Report
+================================================================================
+
+Files removed: 1039
+Files not found: 0
+Total processed: 1039
+
+
+Detailed Results:
+--------------------------------------------------------------------------------
+
+Removed from poetry_platform_renamed: Zrinyi, Miklos/79965_Peril Of Sziget_Zrinyi, Miklos_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159060_Propos Des Rues_Maupassant, Guy de_unknown.txt
+Removed from Gutenberg: Allez: la Foi vous a sauvé!/49018_Le Cantique Spirituel_Allez: la Foi vous a sauvé!_unknown.txt
+Removed from Gutenberg: Vois-tu pas son œil de lumière..../49040_A Clair Matin_Vois-tu pas son œil de lumière...._unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129770_L’Invention_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174367_Vendémiaire_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171691_Rip Van Winkle. Canto II._Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159056_La Dernière Escapade_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184863_A propos d'Horace_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184843_Aux proscrits_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174320_La Maison Des Morts_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129719_Hymne A La Justice_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142290_Un Héros De 1870_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184850_Chanson des oiseaux_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184733_A celle qui est restée en France_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142283_Samuel Champlain_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184730_Ce que dit la bouche d'ombre (II)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184692_Booz Endormi_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67052_Les Heures Claires_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67210_L'Âme De La Ville_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67026_Le Paradis_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Boileau-Despréaux, Nicolas/165540_Le Lutrin_Boileau-Despréaux, Nicolas_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142278_Bouquet De Violettes_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129709_Aux Deux Freres Trudaine_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184897_La Fée Et La Péri (The Fay And The Peri)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184793_Conclusion_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Tennyson, Alfred/97212_Northern Farmer- Old Style_Tennyson, Alfred_unknown.txt
+Removed from poetry_platform_renamed: Tennyson, Alfred Lord/117800_Northern Farmer- Old Style_Tennyson, Alfred Lord_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170300_A Monsieur D'Avanson_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67028_Les Villes_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142294_Mauvais Artisan_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184688_Dans le jardin_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67037_L'Action_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174343_Les Collines_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142270_Un Orphelin_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184681_Souvenir De La Nuit Du 4 (Memory Of The Night Of The 4th)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184896_Ecrit en 1827_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159055_Le Mur_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67030_Liminaire_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99596_La Chaussée Clignancourt_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129739_A Le Brun Et Au Marquis De Brazais_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174358_Le Musicien De Saint-Merry_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Breton, Andre/121605_Le Verbe Être_Breton, Andre_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142300_La Canadienne_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129704_Ami, Chez Nos Francois_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184764_Charles Vacquerie_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184827_Je la revois, après vingt ans, l'île où Décembre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184741_Louis XVII (King Louis XVII)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184834_A des oiseaux envolés_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184832_A qui la faute_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67061_Les Idées_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67107_Le Mont_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138116_Bénédiction (Benediction)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129740_O Jours De Mon Printemps_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129728_Au Chevalier De Pange_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129750_La Liberte_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184744_Dans la forêt_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159057_Vénus Rustique_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171775_Rip Van Winkle. Canto I._Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184913_Âme! être, c'est aimer..._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67087_Les Cordiers_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174251_Les Soupirs Du Servant De Dakar_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142304_La Nuit De Noël_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67166_L'Arbre_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67062_Les Vieux Maîtres_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174263_Un Fantôme De Nuées_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68888_The Leädy’s Tower_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142292_Il Sera Prêtre!_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184769_Hier, la nuit d'été, qui nous prêtait ses voiles_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184788_Enthousiasme_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128884_Le Forgeron (The Blacksmith)_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172526_La Solitude_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67224_Le Monde_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174302_Les Doukhobors_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174332_Merveille De La Guerre_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142295_La Misère_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184795_Georges Et Jeanne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Beauchemin, Neree/172323_D'Iberville_Beauchemin, Neree_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142253_Le Bonheur_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129774_O Muses, Accourez_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172435_Mon Père_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184868_Dicté en présence du glacier du Rhône_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184817_D'après Albert Dürer_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184833_Ce siècle est grand et fort. Un noble instinct le mène_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184822_A Petite Jeanne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Kim, Sowol/97432_Wild Flowers of the Mountains_Kim, Sowol_unknown.txt
+Removed from poetry_platform_renamed: Lamartine, Alphonse Marie Lois de/118014_L'isolement_Lamartine, Alphonse Marie Lois de_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172505_Le Palais De La Volupté_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67069_Mon Ami, Le Paysage_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: A Henry de Groux./49026_Litanies De La Rose_A Henry de Groux._unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174374_Lundi Rue Christine_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184922_Je ne veux condamner personne, ô sombre histoire_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184719_Abîme - La Voie Lactée_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184867_La Fiancée Du Timbalier (The Cymbaleer's Bride)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67080_Le Spectacle_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67033_Les Fièvres_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67088_Les Cathédrales_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67131_Les Baptêmes_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142267_Qu’est-Ce Que La Vie!_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142285_Le Faubourg Saint-Roch_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142264_Au Peuple Canadien_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129741_Hymne_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Corneille, Pierre/158530_Que La Vérité Parle Au Dedans Du Coeur_Corneille, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184812_A mademoiselle Louise B. (II)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184902_A Virgile_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184873_Ce qui n'a pas encore de nom_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172530_Le Poète Crotté - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67229_Un Lambeau De Patrie_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67134_Kato_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67093_Les Nombres_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67085_Le Menuisier_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67067_Le Premier Arbre De L'Allée_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67226_Vers La Mer_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67206_Les Pas_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142262_Octave Crémazie_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184731_Ce que dit la bouche d'ombre (I)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133113_Aux Amis Inconnus_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Samain, Albert/110137_Elégies_Samain, Albert_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67205_Vers Le Futur_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67237_Les Plages_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67144_Les Fumeurs_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: Swinburne, Algernon Charles/26121_From Victor Hugo_Swinburne, Algernon Charles_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174340_Le Palais Du Tonnerre_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138161_Les Phares (The Beacons)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138076_Un Fantôme (A Phantom)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142284_Le Mois Des Morts_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129706_Fumant Dans Le Cristal_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172416_La rêve du poète_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184865_A la France_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184890_A ceux qui sont petits_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Prevert, Jacques/184976_Chanson Dans Le Sang_Prevert, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133073_L'Une D'Elles_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133124_La Reine Du Bal_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67111_Sur La Mer_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67095_Sur Les Grèves_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67127_Le Silence_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174331_Le Larron_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142308_A Beauport_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142310_Chant Du Club De Raquette_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129697_Aux Freres De Pange_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Claudel, Paul/153827_Le Fleuve_Claudel, Paul_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171673_On Lending a Punch-Bowl_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184914_Amour secret_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159059_Sommation Sans Respect_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Ponge, Francis/180485_l'Orange_Ponge, Francis_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67163_Pèlerinage_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67077_Moine Épique_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67223_Le Roc_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Ady, Endre/123847_Valaki Utravált Belőlünk_Ady, Endre_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174300_Dans L'Abri-Caverne_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baif, Jean Antoine de/126812_Après Les Vents, Après Le Triste Orage_Baif, Jean Antoine de_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68689_The Lovely Maïd Ov Elwell Meäd_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138215_Le Masque (The Mask)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142288_La Presse Canadienne_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142297_Renouveau_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129714_Dryas_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Desbordes-Val, Marceline Felicite Josephe/149264_Élégie_Desbordes-Val, Marceline Felicite Joseph_unknown.txt
+Removed from poetry_platform_renamed: Desbordes-Valmore, Marceline Felicite Josephe/144778_Élégie_Desbordes-Valmore, Marceline Felicite Jo_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171756_Nux Postcoenatica_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184938_Ecrit après la visite d'un bagne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184749_Aux arbres_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184685_Être aimé_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184759_Canaris_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67214_Les Tours Au Bord De La Mer_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67173_Un Toit, Là-Bas_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67200_Les Pêcheurs_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67204_Le Meunier_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: Yeats, W. B. (William Butler)/46375_Glossary And Notes_Yeats, W. B._unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174252_Arbre_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174317_Les Attentives_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138115_Une Charogne (The Carcass)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138182_Le Cygne (The Swan)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129723_L’Amerique_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129742_L’Art Des Transports De L’Ame_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Marie-Joseph-Blaise/92654_Chant Du 14 Juillet_Chenier, Marie-Joseph-Blaise_unknown.txt
+Removed from poetry_platform_renamed: Corneille, Pierre/158531_Au Roy_Corneille, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Galvez, Delfina Bunge de/139648_Le Cloitre_Galvez, Delfina Bunge de_unknown.txt
+Removed from poetry_platform_renamed: Garnier, Noel/139455_Dans la Tranchée..._Garnier, Noel_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171867_A Poem. For the AMA at New York, 1853_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184900_A un poète_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184792_Abîme - L'Homme_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184674_Bon conseil aux amants_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184787_Dans l'ombre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184677_Ultima Verba (My Last Word)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Lamartine, Alphonse Marie Lois de/118015_Le lac_Lamartine, Alphonse Marie Lois de_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133140_Au Jour Le Jour_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172527_La Généreuse - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67034_Plus Loin Que Les Gares, Le Soir_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: al-Haidari, Buland/103418_Vous êtes arrivés avec l'aube_al-Haidari, Buland_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174286_Inscription Pour Le Tombeau Du Peintre Henri Rousseau Douanier_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174309_Voie Lactée Ô Soeur Lumineuse..._Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174294_Le Brasier_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174372_Les Femmes (The Women)_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Balaguer, Victor/76835_A la Verge de Montserrat_Balaguer, Victor_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142255_Chant De L’Ovrier_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142301_Sur L’Album De Mlle D. M…_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142315_La Chanson Du Petit Porteur_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129760_La Jeune Captive_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129761_Le Rat De Ville Et Le Rat Des Champs_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129734_A Versailles_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Eliot, T S/140839_Dans le Restaurant_Eliot, T S_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184820_Cent mille hommes, criblés d'obus et de mitraille_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184862_Chant sur le berceau_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184888_Amis, un dernier mot!_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Lautreamont, Le Comte de/158299_Poésies I_Lautreamont, Le Comte de_unknown.txt
+Removed from poetry_platform_renamed: Mansour, Joyce/123612_Léger comme une navette le désir_Mansour, Joyce_unknown.txt
+Removed from poetry_platform_renamed: Petofi, Sandor/134747_Nemzeti Dal (Rise Up, Magnar)_Petofi, Sandor_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128848_Ophelia_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67133_Epilogue_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67167_Ceux De Liége_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Altaroche, Michel/102957_La fête à l'Hôtel de Ville- 19 juin 1837_Altaroche, Michel_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174290_Les Saisons_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174370_Il Y A_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174247_Palais_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170405_L'Olive_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142311_Aux Raquetteuers De Sherbrooke_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129707_La Republique Des Lettres_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Hoccleve, Thomas/148632_The Pietous Complainte Of The Soule._Hoccleve, Thomas_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184778_A Madame D. G. de G._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184828_En mai_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184721_Explication_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184874_Envoi des feuilles d'automne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184915_Aux morts du 4 décembre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184839_Depuis six mille ans la guerre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184785_A la mère de l'enfant mort_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Mansour, Joyce/123628_From “Trous noirs”_Mansour, Joyce_unknown.txt
+Removed from poetry_platform_renamed: McGonagall, William Topaz/111294_Little Pierre's Song_McGonagall, William Topaz_unknown.txt
+Removed from poetry_platform_renamed: Prevert, Jacques/184971_Cet Amour_Prevert, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Racan, Honorat de Beuil Seigneur de/168389_La Venue Du Printemps_Racan, Honorat de Beuil Seigneur de_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128900_To Music (À la Musique)_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172512_Le Contemplateur - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172515_La Pluie_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172503_La Naissance De Pantagruel_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67187_Les Routes_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67161_Vers Le Cloître_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67198_Mon Village_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67149_Les Voyageurs_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67056_Les Saints, Les Morts, Les Arbres Et Le Vent_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67152_Le Péché_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67190_Le Voyage_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verne, Jules/73561_Connaissez-vous Mon Andalouse_Verne, Jules_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174264_La Jolie Rousse_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174271_L'Assassin_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138141_Confession_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138172_Châtiment De L'Orgueil (The Punishment of Pride)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99605_Les petits joyeux_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142263_La Saint-Jean-Baptiste_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142307_L'Hirondelle_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129694_Hylas_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129756_Non, Je Ne L’Amime Plus_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129772_Bacchus_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Marie-Joseph-Blaise/92657_Hymne À L'égalité_Chenier, Marie-Joseph-Blaise_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172421_Septembre au ciel léger taché de cerfs-volants_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172462_Adagio_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Corneille, Pierre/158524_Epitaphe Sur La Mort De Damoiselle Elisabeth Ranquet_Corneille, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128197_La Chanson Du Gui_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Cremazie, Octave/123799_A La Mémoire De M. De Fenouillet_Cremazie, Octave_unknown.txt
+Removed from poetry_platform_renamed: Delong, Eugene Camille/81188_Aux hommes_Delong, Eugene Camille_unknown.txt
+Removed from poetry_platform_renamed: Evanturel, Eudore/168707_Au Collège_Evanturel, Eudore_unknown.txt
+Removed from poetry_platform_renamed: Hoccleve, Thomas/148644_A Lamentacioun Of The Grene Tree, Complaynyng Of The Losyng Of Hire Appill._Hoccleve, Thomas_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184927_A Vianden_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184671_Fuite En Sologne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184882_C'est à coups de canon qu'on rend le peuple heureux_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184948_Ce qui se passait aux Feuillantines vers 1813_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184840_Ce siècle avait deux ans_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184742_Je n'ai pas de palais épiscopal en ville_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugues, Clovis/87149_La poésie à Montmartre_Hugues, Clovis_unknown.txt
+Removed from poetry_platform_renamed: Lorrain, Jean/138619_Clair de Lune_Lorrain, Jean_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159062_Les Oies Sauvages_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133059_Enfantillage_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Sanchez, Mikeas/69248_Aj’ jara’is tzi’upä’_Sanchez, Mikeas_unknown.txt
+Removed from poetry_platform_renamed: Tennyson, Alfred/97186_Northern Farmer- New Style_Tennyson, Alfred_unknown.txt
+Removed from poetry_platform_renamed: Tennyson, Alfred Lord/117936_Northern Farmer- New Style_Tennyson, Alfred Lord_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67228_Les Usines_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67156_L'Ancienne Gloire_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67106_Les Saints_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67079_Une Statue (4)_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67164_Les Baisers Morts Des Défuntes Années_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: In the measure of Hiawatha./22478_Ida Sexton Searls_In the measure of Hiawatha._unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174282_La Victoire_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baif, Jean Antoine de/126777_Psaume V_Baif, Jean Antoine de_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68767_The Pillar’d Geäte_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68708_The Weepen Leady_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138149_J'aime le souvenir de ces époques nues (I Love The Naked Ages Long Ago)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138051_Au Lecteur (To The Reader)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138164_Chant d'automne (Song Of Autumn)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170455_Si La Perte Des Tiens, Si Les Pleurs De Ta Mère_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99593_A Mazas_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99606_A la Bastoche_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142293_Sachons Lutter!_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Cendrars, Blaise/182477_Portrait_Cendrars, Blaise_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129731_Le Satyre Et La Flute_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129733_Neere_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172441_XXIX - A Paris, en été..._Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172415_A Paris, en été, les soirs sont étouffants..._Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Corbiere, Tristan/126230_Le Poete Et La Cigale_Corbiere, Tristan_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128192_La Rose De L'Absent_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Dilong, Rudolf/111367_Vtáča_Dilong, Rudolf_unknown.txt
+Removed from poetry_platform_renamed: Goudezki, Jean/133811_Le Ballottage_Goudezki, Jean_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184687_Adieux de l'hôtesse arabe_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184947_A Granville, en 1836_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184763_Après la bataille_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184704_Aimons toujours! Aimons encore!..._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184754_Ceux qui vivent, ce sont ceux qui luttent_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159050_La Chanson Du Rayon De Lune_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Meung, Jean De/155016_Le roman de la rose [extract]_Meung, Jean De_unknown.txt
+Removed from poetry_platform_renamed: Prevert, Jacques/184980_Osiris Ou La Fuite En Égypte_Prevert, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133133_La Laide_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128943_Romance_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172502_L'Amarante_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172500_Sonnet Sur La Moisson D'un Lieu Proche De Paris_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172506_Le fromage_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67217_Les Fleurs Du Clair Accueil Au Long De La Muraille_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67230_Le Sonneur_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67122_Les Mendiants_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67082_Les Malades_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67029_Moine Simple_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67211_L'Amante_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: Ah! qu'elle est belle La Marguerite./39150_The Eve Of Crecy_Ah! qu'elle est belle La Marguerite._unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174308_Les Poètes_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Aragon, Louis/112320_Ce Que Dit Elsa_Aragon, Louis_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68762_Eclogue---A Ghost_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138167_La Chevelure (Her Hair)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138175_Spleen (II)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138225_L'Irrémédiable (The Irremediable)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170408_Après Avoir Longtemps Erré Sur Le Rivage_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170291_A Son Livre_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170322_La Complaînte Du Désespéré_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170467_Qui Est Ami Du Coeur Est Ami De La Bourse_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129702_Souffre Un Moment Encor_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129768_La Jeune Tarentine_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129708_Souvent Le Malheureux_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172450_L'Amazone_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Corneille, Pierre/158525_Sur La Mort Du Roi Louis XIII_Corneille, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128205_Sur La Grand'route_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126986_L'été_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Desbordes-Val, Marceline Felicite Josephe/149263_La Couronne Effeuillée_Desbordes-Val, Marceline Felicite Joseph_unknown.txt
+Removed from poetry_platform_renamed: Desbordes-Valmore, Madeleine/155333_La couronne effeuillée (The Crown of Courage)_Desbordes-Valmore, Madeleine_unknown.txt
+Removed from poetry_platform_renamed: Desbordes-Valmore, Marceline Felicite Josephe/144776_La Couronne Effeuillée_Desbordes-Valmore, Marceline Felicite Jo_unknown.txt
+Removed from poetry_platform_renamed: Hatun, Mihri/92381_Gazel_Hatun, Mihri_unknown.txt
+Removed from poetry_platform_renamed: Hoccleve, Thomas/148633_The Chartre Of Pardon._Hoccleve, Thomas_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171727_Agnes_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184738_Apparition_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184713_Ecrit sur le tombeau_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184714_Éclaircie_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184848_Fonction Du Poète (The Poet's Function)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184877_Ce qu'on entend sur la montagne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184950_Il Fait Froid_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Morris, William/150297_The Eve of Crecy_Morris, William_unknown.txt
+Removed from poetry_platform_renamed: Nerval, Gerard de/125906_Artemis_Nerval, Gerard de_unknown.txt
+Removed from poetry_platform_renamed: Pozzi, Catherine/81650_Ave_Pozzi, Catherine_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133066_Dernière Solitude_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133143_L'Amour Maternel_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128970_Dance Of The Hanged Men_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128890_Movement_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172501_Le Soleil Levant_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172513_La Nuit - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172528_Le Déluge_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67132_Les Barques D'Or Du Bel Été_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67089_Les Plaines_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67121_Heures Mornes_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67041_Les Moines_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67119_Heure D'Automne_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: Arthur Rimbaud/49021_Au Cabaret Vert_Pound, Ezra_unknown.txt
+Removed from Gutenberg: Pound, Ezra/49015_Complainte Des Printemps_Pound, Ezra_unknown.txt
+Removed from Gutenberg: Thackeray, William Makepeace/25817_Roger-Bontemps_Thackeray, William Makepeace_unknown.txt
+Removed from poetry_platform_renamed: Aubigne, Theodore Agrippa D/180004_A L'éclair Violent De Ta Face Divine_Aubigne, Theodore Agrippa D_unknown.txt
+Removed from poetry_platform_renamed: Baif, Jean Antoine de/126799_Or Voy-Je Bien Qu'Il Faut Vivre En Servage_Baif, Jean Antoine de_unknown.txt
+Removed from poetry_platform_renamed: Baif, Jean Antoine de/126806_Mets-Moi Dessus La Mer D'Où Le Soleil Se Lève_Baif, Jean Antoine de_unknown.txt
+Removed from poetry_platform_renamed: Balassa, Balint/124749_Adj már csendességet_Balassa, Balint_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68751_Eclogue---The Times_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138205_Le Tonneau de la Haine (The Cask of Hate)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138152_Les Bijoux (The Jewels)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170318_Tels Que L'On Vit Jadis Les Enfants De La Terre_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Belleau, Remy/62559_La Pierre Du Coq_Belleau, Remy_unknown.txt
+Removed from poetry_platform_renamed: Bergerac, Savinien de Cyrano de/115588_Agrippine_Bergerac, Savinien de Cyrano de_unknown.txt
+Removed from poetry_platform_renamed: Bernard, Charles/146601_Le Serpent et la Lime ( d'après une fable de La Fontaine)_Bernard, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99588_Géomay_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142274_Louis Fréchette_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129715_Comme Un Dernier Rayon_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129754_Sur La Mort D’Un Enfant_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128200_Les Trois Chansons Du Carillon_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Dilong, Rudolf/111366_Pred Búrkou_Dilong, Rudolf_unknown.txt
+Removed from poetry_platform_renamed: Dilong, Rudolf/111362_Preludy_Dilong, Rudolf_unknown.txt
+Removed from poetry_platform_renamed: Dilong, Rudolf/111360_Grúň_Dilong, Rudolf_unknown.txt
+Removed from poetry_platform_renamed: Galvez, Delfina Bunge de/139649_Voici La Nuit_Galvez, Delfina Bunge de_unknown.txt
+Removed from poetry_platform_renamed: Hoccleve, Thomas/148634_The Epistle Of Grace Sent To The Seek Man_Hoccleve, Thomas_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171709_A Rhymed Lesson (Urania)_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184891_Dieu fait les questions pour que l'enfant réponde_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184679_Du haut de la muraille de Paris_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184740_J'ai cueilli cette fleur pour toi sur la colline_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184800_En marchant la nuit dans un bois_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184720_Ce que c'est que la mort_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184939_C'était la première soirée_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184781_Après l'hiver_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184774_Insondable, immuable, éternel, absolu_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184830_A ma fille_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184762_Veni, Vidi, Vixi (French & English)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184826_A celle qui est voilée_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Lormia, Pierre Marie Francois Louis Baour/92188_Hymne Au Soleil_Lormia, Pierre Marie Francois Louis Baou_unknown.txt
+Removed from poetry_platform_renamed: Lormian, Pierre Marie Francois Louis Baour/125612_Hymne Au Soleil_Lormian, Pierre Marie Francois Louis Bao_unknown.txt
+Removed from poetry_platform_renamed: Nerval, Gerard de/125909_Anteros_Nerval, Gerard de_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133135_Les Serres Et Les Bois_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133084_Le Cygne_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133138_La Grande Allée_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128933_L'Idole.. Sonnet Du Trou Du Cul_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172510_Les Visions - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172531_Plainte Sur La Mort De Sylvie_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Varlet, Theo/141165_Exil de guerre_Varlet, Theo_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67103_Les Cierges_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67050_Rentrée Des Moines_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67179_La Petite Vierge_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67128_Viens Jusqu'À Notre Seuil Répandre_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67215_Un Soir (I)_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67175_Hommage_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67073_Il Fait Novembre En Mon Âme_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67234_Les Paysans_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67171_Un Soir_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67117_Le Port_Verhaeren, Emile_unknown.txt
+Removed from Gutenberg: Qu'on attend dans les Quartiers Aisés/49016_Complainte Des Pianos_Qu'on attend dans les Quartiers Aisés_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174269_Oriande_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174326_À Nîmes_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Baif, Jean Antoine de/126805_Psaume Vi_Baif, Jean Antoine de_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68903_Naighbour Pla Meätes_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68809_The Sky A-Clearen_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138049_Moesta et Errabunda (Grieving and Wandering)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138054_L'Horloge (The Clock)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138097_Le Balcon (The Balcony)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170426_Finalement Sur Le Point Que Morphée_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170389_A Madame Marguerite, D'Écrire En Sa Langue_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Belleau, Remy/62560_La Pierre Aqueuse_Belleau, Remy_unknown.txt
+Removed from poetry_platform_renamed: Benitez, Jose Gautier/79992_Zoraida_Benitez, Jose Gautier_unknown.txt
+Removed from poetry_platform_renamed: Berzsenyi, Daniel/174390_Levéltöredék barátnémhoz_Berzsenyi, Daniel_unknown.txt
+Removed from poetry_platform_renamed: Bosquet, Alain/93721_Ne Te Suicide Pas, Seigneur..._Bosquet, Alain_unknown.txt
+Removed from poetry_platform_renamed: Brautigan, Richard/148923_Tournesol_Brautigan, Richard_unknown.txt
+Removed from poetry_platform_renamed: Breton, Andre/121600_Tournesol_Breton, Andre_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99599_Dans la rue_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142273_A M. Victor Billaud_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142316_Hymne A Saint-François D’Assise_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142291_Chant D’Adieu_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129744_Ah! Je Les Reconnais_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129736_Mnais_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172452_XXVI - Je rêve, tant Paris..._Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172428_J'adore la banlieue avec ses champs en friche_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172417_Le crépuscule est triste et doux comme un adieu_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172453_Un pâle enfant du vieux Paris_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172455_Elle sait que l'attente est un cruel supplice_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172410_De même que Rousseau jadis fondait en pleurs_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172461_Je suis un pâle enfant du vieux Paris..._Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Corn, Alfred/139419_In the Grünewald Café_Corn, Alfred_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126960_Nocturne_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126966_Matin_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Delille, Jacques/171036_Christophe Colomb_Delille, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184750_Depuis quatre mille ans il tombait dans l'abîme_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184669_Chanson (L'Ame en fleur)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184881_Bièvre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184814_Horror_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184907_A quoi songeaient les deux cavaliers ..._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184818_Dans ce jardin antique où les grandes allées_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184727_Ah! c'est un rêve! non! nous n'y consentons point_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184937_A dona Rosita Rosa_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Larbaud, Valery/169685_Le Don De Soi-même_Larbaud, Valery_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159064_Nuit De Neige_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159058_Envoi D'amour Dans Le Jardin Des Tuileries_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Newbolt, Sir Henry/81977_The Fighting Téméraire_Newbolt, Sir Henry_unknown.txt
+Removed from poetry_platform_renamed: Pozzi, Catherine/81651_Vale_Pozzi, Catherine_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133130_L'Étoile Au Coeur_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133096_L'Escalier De L'Ara Coeli_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128916_The Ancient Beasts_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Saint-Gelais, Mellin de/101489_Sonnet faict apres le sermon du jour de la trinité_Saint-Gelais, Mellin de_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67207_Un Matin_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67064_Les Vieux Chênes_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67201_Comme À D'Autres, L'Heure Et L'Humeur_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67092_Les Meules_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67203_Les Meules Qui Brûlent_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67074_Vénus_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67091_Mets Ta Chaise Près De La Mienne_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67090_Lorsque S'Épand Sur Notre Seuil La Neige Fine_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67112_Novembre_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verne, Jules/73563_Hésitation_Verne, Jules_unknown.txt
+Removed from Gutenberg: Tristan Corbière/49020_Poem Ii_Cinq heures du soir_unknown.txt
+Removed from poetry_platform_renamed: Amboise, Michel d/66602_Le Blason De La Dent_Amboise, Michel d_unknown.txt
+Removed from poetry_platform_renamed: Amboise, Michel d/66601_Le Printemps_Amboise, Michel d_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174329_C'Est_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174322_La Loreley_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174376_Guerre_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174368_Le Bestiaire_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174324_Cortège_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174289_Le... Poème Secret_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174366_Chevaux De Frise_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68676_Jeane’s Wedden Day In Mornen_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68588_Brookwell_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68719_True Love_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68712_Culver Dell And The Squire_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68800_Hay-Meaken. Nunchen Time_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68599_The Clote (Water-Lily)_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138177_L'Héautontimorouménos (The Man Who Tortures Himself)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138094_Je t'adore à l'égal de la voûte nocturne (More Than Night's Vault, It's You That_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138108_Avec ses vêtements ondoyants et nacrés (With Waving Opalescense In Her Gown)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138150_L'Idéal (The Ideal)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138117_Je t'adore à l'égal de la voûte nocturne (More Than Night's Vault, It's You That_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138189_Le Flacon (The Perfume Flask)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Beauchemin, Neree/172324_La Cloche De Louisbourg_Beauchemin, Neree_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170414_Ô Beaux Cheveux D'Argent Mignonnement Retors !_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170310_Sur La Croupe D'Un Mont Je Vis Une Fabrique_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170367_C'Était Alors Que Le Présent Des Dieux_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170417_Ayant Tant De Malheurs Gémi Profondément_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170436_C'Est Ores, Mon Vineus, Mon Cher Vineus, C'Est Ore_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170430_Sur La Rive D'Un Fleuve Une Nymphe Éplorée,_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99602_113ème de Ligne_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99590_A Batignolles_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142305_Adieu A La Nouvelle-Écosse_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142269_France Et Canada_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129698_L’Art D’Aimer_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129746_Ode to Marie-Anne-Charlotte Corday_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129755_Sur Un Groupe De Jupiter Et D’Europe_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172425_L'allée est droite et longue, et sur le ciel d'hiver_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128191_Le Deuil Du Moulin_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126971_Li-Taï-Pé_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126963_à Madame S. de F._Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Dupont, Pierre/71540_Le Chant Des Ouvriers_Dupont, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Elliott, Charlotte/89303_My God and Father! while I stray_Elliott, Charlotte_unknown.txt
+Removed from poetry_platform_renamed: Hermite, Tristan L/183650_Le promenoir des deux amants_Hermite, Tristan L_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171681_The New Eden_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171747_The Study_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Holmes, Oliver Wendell/171551_Poetry- A Metrical Essay, Read Before the Phi Beta Kappa Society, Harvard_Holmes, Oliver Wendell_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184697_Je prendrai par la main les deux petits enfants_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184783_Au peuple_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184784_En sortant du collège_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184823_Chanson du bol de punch_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184803_A Mlle Fanny de P._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184678_A un homme partant pour la chasse_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184875_Deux voix dans le ciel_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184743_Ecrit sur la vitre d'une fenêtre flamande_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184857_Elle était pâle, et pourtant rose..._Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173467_Flórának_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Nerval, Gerard de/125912_Le Christ Aux Oliviers_Nerval, Gerard de_unknown.txt
+Removed from poetry_platform_renamed: Prevert, Jacques/184962_Pour Faire Le Portrait D'Un Oiseau_Prevert, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133086_A Vingt Ans_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133100_La Terre Et L'Enfant_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133078_Les Oiseaux_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133080_Première Solitude_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133087_Le Volubilis_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133119_Un Rendez-Vous_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128920_First Evening (Première Soirée)_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128917_At The Green Inn, Five In The Evening (Au Cabaret-Vert, Cinq Heures Du Soir)_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Rostand, Edmund/134333_Le Petit Chat_Rostand, Edmund_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172518_Assis Sur Un Fagot, Une Pipe À La Main - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172509_La Plainte De Tirsis_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Sainte-Beuve, Charles Augustin/153472_'Dans ce cabriolet de place'_Sainte-Beuve, Charles Augustin_unknown.txt
+Removed from poetry_platform_renamed: Sandys, William/159226_Quand Dieu Naquit À Noël_Sandys, William_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112245_Realidad (Silva)_Silva, Jose Asuncion_unknown.txt
+Removed from poetry_platform_renamed: Smith, Cicely Fox/101848_The Call 2_Smith, Cicely Fox_unknown.txt
+Removed from poetry_platform_renamed: Toth, Arpad/161308_'Az Öröm illan'_Toth, Arpad_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67231_Peut-Être_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67120_Moine Sauvage_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67150_Pour Nous Aimer Des Yeux_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67065_Le Soir Tombe, La Lune Est D'Or_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67068_Moine Doux_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67157_Les Soirs D'Été_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67059_Les Jours De Fraîche Et Tranquillé Santé_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67181_Les Rois_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67154_Inconscience_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67202_Mourir_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verne, Jules/73562_La Cloche Du Soir_Verne, Jules_unknown.txt
+Removed from poetry_platform_renamed: Verne, Jules/73564_Tempête Et Calme_Verne, Jules_unknown.txt
+Removed from Gutenberg: Consolation des époux!/49017_La Rapsode Foraine Et Le Pardon De Sainte-Anne_Consolation des époux!_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50060_Cantiga De Ciegos_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Then Monsieur--possibly--may meet/19693_The Lady_Then Monsieur--possibly--may meet_unknown.txt
+Removed from poetry_platform_renamed: Allais, Alphonse/158219_Le châtiment de la cuisson appliqué aux imposteurs_Allais, Alphonse_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174327_La Chanson Du Malaime_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174249_Au Prolétaire_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174305_Le Poète_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174361_Les Feux Du Bivouac_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Apollinaire, Guillaume/174304_Fusée_Apollinaire, Guillaume_unknown.txt
+Removed from poetry_platform_renamed: Arcos, Rene/152079_Les Morts_Arcos, Rene_unknown.txt
+Removed from poetry_platform_renamed: Babits, Mihaly/169021_Cigány a siralomházban (German)_Babits, Mihaly_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68732_The Little Worold_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68692_Not Goo Hwome To-Night_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68902_Married Peäir’s Love Walk_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68857_Fanny’s Be’th-Day_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68620_Meäry Wedded_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68789_Eclogue---Two Farms In Woone_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68605_Whitsuntide An’ Club Walken_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68863_Gwaïn To Brookwell_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Barnes, William/68831_The Girt Wold House O’ Mossy Stwone_Barnes, William_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138092_A Une Madone (To A Madonna)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138136_Le Goût du Néant (The Desire for Annihilation)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138111_Sed Non Satiata (Unslakeable Lust)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Baudelaire, Charles/138217_Le Flambeau Vivant (The Living Torch)_Baudelaire, Charles_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170329_Magny, Je Ne Puis Voir Un Prodigue D'Honneur,_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170356_France, Mère Des Arts, Des Armes Et Des Lois,_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170481_Telle Que Dans Son Char La Bérécynthienne_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170472_Chant Du Désespéré_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bellay, Joachim du/170304_Vivons, Gordes, Vivons, Vivons, Et Pour Le Bruit_Bellay, Joachim du_unknown.txt
+Removed from poetry_platform_renamed: Bertrand, Aloysius/81258_A M. Charles Nodier_Bertrand, Aloysius_unknown.txt
+Removed from poetry_platform_renamed: Berzsenyi, Daniel/174389_A Közelítõ Tél_Berzsenyi, Daniel_unknown.txt
+Removed from poetry_platform_renamed: Bruant, Aristide/99604_Le jour de l'An_Bruant, Aristide_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142306_A L’Admiral Thomasset_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142314_Chanson Des Noces D’Or_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142260_A L’Auteur_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142317_Rayons Et Ombres_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142296_Montréal_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Caouette, Jean Baptiste/142275_A Mon Père_Caouette, Jean Baptiste_unknown.txt
+Removed from poetry_platform_renamed: Cartier, Georges Etienne/67838_O Canada! Mon Pays, Mes Amours_Cartier, Georges Etienne_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129747_O Delices D’Amour!_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129735_Pasiphae_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129701_A La Sante_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Chenier, Andre Marie de/129716_Blanche Et Douce Colombe_Chenier, Andre Marie de_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172442_VIII - Un rêve de bonheur..._Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172419_Espoir timide_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172430_Un rêve de bonheur qui souvent m'accompagne_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Coute, Gaston/128207_Sur Le Pressoir_Coute, Gaston_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126970_Triolets fantaisistes_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Cros, Charles/126956_Don Juan_Cros, Charles_unknown.txt
+Removed from poetry_platform_renamed: Deshoul, Antoinette du Ligier de la Garde/72953_Ballade_Deshoul, Antoinette du Ligier de la Gard_unknown.txt
+Removed from poetry_platform_renamed: Deshoulieres, Antoinette du Ligier de la Garde/91316_Ballade_Deshoulieres, Antoinette du Ligier de la_unknown.txt
+Removed from poetry_platform_renamed: Drummond, William Henry/127180_De Notaire Publique_Drummond, William Henry_unknown.txt
+Removed from poetry_platform_renamed: Dupont, Pierre/71538_Le Repos Du Soir_Dupont, Pierre_unknown.txt
+Removed from poetry_platform_renamed: Gautier, Theophile/183347_Carmen - from Émaux et camées_Gautier, Theophile_unknown.txt
+Removed from poetry_platform_renamed: Gilbert, William Schwenck/70641_Thomas Winterbottom Hance_Gilbert, William Schwenck_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184934_Le matin (Morning)_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184768_Commencement d'une illusion_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184690_Guitare_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184747_Certe, elle n'était pas femme et charmante en vain_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184870_Bêtise de la guerre_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184737_Crépuscule_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184753_A Jeanne_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184846_1er janvier_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184765_Choses du soir_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184908_Garde à jamais dans ta mémoire_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Jouy, Jules/120391_La Veuve_Jouy, Jules_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173466_Betlehemi Királyok_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173463_Születésnapomra_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173460_'Íme, hát megleltem hazámat'_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Kingsley, Charles/125133_Qu'est Qu'il Dit'_Kingsley, Charles_unknown.txt
+Removed from poetry_platform_renamed: Landon, Letitia Elizabeth/115908_Louise. Duchess of La Valliere_Landon, Letitia Elizabeth_unknown.txt
+Removed from poetry_platform_renamed: Maupassant, Guy de/159053_Découverte_Maupassant, Guy de_unknown.txt
+Removed from poetry_platform_renamed: Perse, Saint-John/127663_Chanson_Perse, Saint-John_unknown.txt
+Removed from poetry_platform_renamed: Plath, Sylvia/145979_'Célibataire'_Plath, Sylvia_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133105_La Colombe Et Le Lis_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133136_Joies Sans Causes_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Prudhomme, Rene Francois Armand/133128_La Valse_Prudhomme, Rene Francois Armand_unknown.txt
+Removed from poetry_platform_renamed: Quintana, Manuel Jose/125210_Oda A Espana, Despues De La Revolucion De Marzo_Quintana, Manuel Jose_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128886_Asleep In The Valley_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128951_From 'The Cupboard' (Le buffet)_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Rimbaud, Arthur/128929_Venus Anadyomene_Rimbaud, Arthur_unknown.txt
+Removed from poetry_platform_renamed: Roubaud, Jacques/86000_Parmi beaucoup de poèmes - Among Many Poems_Roubaud, Jacques_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172524_Le Melon - Extract_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172511_Sonnet Sur Des Mots Qui N'ont Point De Rime_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Amant, Antoine de Girard/172507_Voici Le Rendez-Vous Des Enfants Sans Souci_Saint-Amant, Antoine de Girard_unknown.txt
+Removed from poetry_platform_renamed: Saint-Gelais, Mellin de/101486_Sonnet mis dans le Petrarque de feu Monseigneur..._Saint-Gelais, Mellin de_unknown.txt
+Removed from poetry_platform_renamed: Saint-Gelais, Mellin de/101501_Pour les masques de Monseigneur de Martigues à la Court_Saint-Gelais, Mellin de_unknown.txt
+Removed from poetry_platform_renamed: Sainte-Beuve, Charles Augustin/153471_Sonnet_Sainte-Beuve, Charles Augustin_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67113_Une Statue (3)_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67066_Soir Religieux (Iv)_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67232_Les Menus Faits, Les Mille Riens_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67142_Croquis De Cloître (I)_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67129_Sur La Côte_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67072_Vieille Ferme À La Toussaint_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67042_Hélas! Les Temps Sont Loin..._Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Verhaeren, Emile/67110_Les Pêcheurs À Cheval_Verhaeren, Emile_unknown.txt
+Removed from poetry_platform_renamed: Watts, Alaric Alexander/107321_Queen Victoria at Spithead. Written on the Occassion of the Review by Her Majest_Watts, Alaric Alexander_unknown.txt
+Removed from poetry_platform_renamed: Watts, Alaric Alexander/107328_Queen Victoria at Spithead. Written on the Occassion of the Review by Her Majest_Watts, Alaric Alexander_unknown.txt
+Removed from Gutenberg: Arthur Rimbaud/49024_Comedie En Trois Baisers_Pound, Ezra_unknown.txt
+Removed from Gutenberg: Hills, E. C./9076_La Agricultura De La Zona Torrida_Hills, E. C._unknown.txt
+Removed from Gutenberg: Pound, Ezra/49038_Pour La Demone_Pound, Ezra_unknown.txt
+Removed from Gutenberg: Quia voluit consolari/49013_Complainte Des Consolations_Quia voluit consolari_unknown.txt
+Removed from poetry_platform_renamed: Heikkinen, Tytti/183741_Olen Broileri_Heikkinen, Tytti_unknown.txt
+Removed from poetry_platform_renamed: Brentano, Clemens Maria/140003_Erntelied_Brentano, Clemens Maria_unknown.txt
+Removed from Gutenberg: Ludwig Uhland/56517_Des Sängers Fluch_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Froding, Gustaf/76526_Min Stjärnas Sånger_Froding, Gustaf_unknown.txt
+Removed from poetry_platform_renamed: Geibel, Franz Emanuel August Von/70383_Der Tod Des Tiberius_Geibel, Franz Emanuel August Von_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56535_August, Graf Von Platen_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Simrock, Karl Joseph/168467_Der Schelm Von Bergen_Simrock, Karl Joseph_unknown.txt
+Removed from poetry_platform_renamed: Arnim, Karl Joachim Friedrich Ludwig von/86636_Des Ersten Bergmanns Ewige Jugend_Arnim, Karl Joachim Friedrich Ludwig von_unknown.txt
+Removed from poetry_platform_renamed: Freiligrath, Hermann Ferdinand/183520_Wie Man's Macht_Freiligrath, Hermann Ferdinand_unknown.txt
+Removed from poetry_platform_renamed: Arp, Jean Hans/112180_Die Schwalbenhode_Arp, Jean Hans_unknown.txt
+Removed from poetry_platform_renamed: Danz, Daniela/177557_Die Signale kommen aus dem Dunkel_Danz, Daniela_unknown.txt
+Removed from poetry_platform_renamed: Freiligrath, Hermann Ferdinand/183532_Vor Der Fahrt_Freiligrath, Hermann Ferdinand_unknown.txt
+Removed from poetry_platform_renamed: Gernhardt, Robert/97087_Meine Frau - My Wife_Gernhardt, Robert_unknown.txt
+Removed from poetry_platform_renamed: European, Anonymous/80533_Die Tage von Lihü_European, Anonymous_unknown.txt
+Removed from poetry_platform_renamed: Froding, Gustaf/76528_Ur Strövtåg I Hembygden_Froding, Gustaf_unknown.txt
+Removed from poetry_platform_renamed: Rydberg, Abraham Viktor/158751_I Klostercellen_Rydberg, Abraham Viktor_unknown.txt
+Removed from poetry_platform_renamed: Rydberg, Abraham Viktor/158754_Tomten_Rydberg, Abraham Viktor_unknown.txt
+Removed from poetry_platform_renamed: Snoilsky, Carl/149365_Den Tjänande Brodern_Snoilsky, Carl_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56503_Die Kraniche Des Ibykus_Bruns, Friedrich_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56504_Das Verschleierte Bild Zu Sais_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Hofmannswaldau, Christian Hofmann von/96031_Mein Engel Kannst Du Mich Nicht Lieben_Hofmannswaldau, Christian Hofmann von_unknown.txt
+Removed from poetry_platform_renamed: Rydberg, Abraham Viktor/158749_Goternas Säng_Rydberg, Abraham Viktor_unknown.txt
+Removed from poetry_platform_renamed: Freiligrath, Hermann Ferdinand/183522_Freie Presse_Freiligrath, Hermann Ferdinand_unknown.txt
+Removed from poetry_platform_renamed: Heym, Georg/165987_Der Krieg_Heym, Georg_unknown.txt
+Removed from poetry_platform_renamed: Claudius, Matthias/77242_Urians Reise Um Die Welt,_Claudius, Matthias_unknown.txt
+Removed from poetry_platform_renamed: Lessing, Gotthold Ephraim/114588_Wem Ich Zu Gefallen Suche, Und Nicht Suche_Lessing, Gotthold Ephraim_unknown.txt
+Removed from poetry_platform_renamed: Snoilsky, Carl/149366_I Porslinsfabriken_Snoilsky, Carl_unknown.txt
+Removed from poetry_platform_renamed: Brockes, Barthold Heinrich/165557_Gedanken Bey Dem Fall Der Blätter Im Herbst_Brockes, Barthold Heinrich_unknown.txt
+Removed from poetry_platform_renamed: Chamisso, Albert Von/129595_Das Riesenspielzeug_Chamisso, Albert Von_unknown.txt
+Removed from poetry_platform_renamed: European, Anonymous/80526_Gedichte des Bayerischen Infanterie-Leib-Regiments_European, Anonymous_unknown.txt
+Removed from poetry_platform_renamed: Freiligrath, Hermann Ferdinand/183517_Eispalast_Freiligrath, Hermann Ferdinand_unknown.txt
+Removed from poetry_platform_renamed: Gerok, Frederich Karl/103862_Die Rosse Von Gravelotte_Gerok, Frederich Karl_unknown.txt
+Removed from poetry_platform_renamed: Sachs, Hans/73173_Der Farendt Schuler Im Paradeiß._Sachs, Hans_unknown.txt
+Removed from poetry_platform_renamed: Vedel, Anders Sorensen/127232_Hundredevisebog_Vedel, Anders Sorensen_unknown.txt
+Removed from Gutenberg: Heinrich Heine/56531_Die Grenadiere_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Froding, Gustaf/76525_Bergslagstroll_Froding, Gustaf_unknown.txt
+Removed from poetry_platform_renamed: Heidenstam, Carl Gustaf Verner von/89309_Pilgrimens Julsång_Heidenstam, Carl Gustaf Verner von_unknown.txt
+Removed from poetry_platform_renamed: Heidenstam, Carl Gustaf Verner von/89310_Åkallan Och Löfte_Heidenstam, Carl Gustaf Verner von_unknown.txt
+Removed from poetry_platform_renamed: Karlfeldt, Erik Axel/86631_Jungfru Maria_Karlfeldt, Erik Axel_unknown.txt
+Removed from poetry_platform_renamed: Levertov, Denise/73358_Ein Baum Erzählt von Orpheus_Levertov, Denise_unknown.txt
+Removed from poetry_platform_renamed: Schwab, Gustav/165651_Hans Hemmling_Schwab, Gustav_unknown.txt
+Removed from poetry_platform_renamed: Spitteler, Carl/153906_Der Wanderer_Spitteler, Carl_unknown.txt
+Removed from poetry_platform_renamed: Weber, Friedrich Wilhelm/139590_Alte Geschichten_Weber, Friedrich Wilhelm_unknown.txt
+Removed from poetry_platform_renamed: Geibel, Franz Emanuel August Von/70381_An Georg Herwegh_Geibel, Franz Emanuel August Von_unknown.txt
+Removed from poetry_platform_renamed: Heine, Heinrich/76046_Meergruß_Heine, Heinrich_unknown.txt
+Removed from poetry_platform_renamed: Herder, Johann Gottfried von/105708_Erlkönigs Tochter_Herder, Johann Gottfried von_unknown.txt
+Removed from poetry_platform_renamed: Rydberg, Abraham Viktor/158750_Snöfrid_Rydberg, Abraham Viktor_unknown.txt
+Removed from poetry_platform_renamed: Stagnelius, Erik Johan/114724_Till Förruttnelsen_Stagnelius, Erik Johan_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56539_Der Postillion_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Bracken, Thomas/171037_God Defend New Zealand_Bracken, Thomas_unknown.txt
+Removed from poetry_platform_renamed: Danz, Daniela/177554_Komm Wildnis in unsere Häuser_Danz, Daniela_unknown.txt
+Removed from poetry_platform_renamed: Freiligrath, Hermann Ferdinand/183516_Von Unten Auf!_Freiligrath, Hermann Ferdinand_unknown.txt
+Removed from poetry_platform_renamed: Heine, Heinrich/76050_Zur Beruhigung_Heine, Heinrich_unknown.txt
+Removed from poetry_platform_renamed: Karlfeldt, Erik Axel/86628_Intet Är Som Väntanstider_Karlfeldt, Erik Axel_unknown.txt
+Removed from poetry_platform_renamed: Meerbaum-Eisinger, Selma/65223_Rote Nelken_Meerbaum-Eisinger, Selma_unknown.txt
+Removed from poetry_platform_renamed: Nordenflycht, Hedvig Charlotta/123670_Lugnet_Nordenflycht, Hedvig Charlotta_unknown.txt
+Removed from poetry_platform_renamed: Rydberg, Abraham Viktor/158753_Atenarnes Säng_Rydberg, Abraham Viktor_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56500_Gesang Der Geister Über Den Wassern_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Arp, Jean Hans/112185_Westöliche Rosen_Arp, Jean Hans_unknown.txt
+Removed from poetry_platform_renamed: Bachmann, Ingeborg/126430_Nebelland_Bachmann, Ingeborg_unknown.txt
+Removed from poetry_platform_renamed: Brentano, Clemens Maria/140005_Lore Lay oder Zu Bacharach am Rheine_Brentano, Clemens Maria_unknown.txt
+Removed from poetry_platform_renamed: Droste-Hulshoff, Annette Von/129615_In the Grass (Im Grase)_Droste-Hulshoff, Annette Von_unknown.txt
+Removed from poetry_platform_renamed: Froding, Gustaf/76522_Vallarelåt_Froding, Gustaf_unknown.txt
+Removed from poetry_platform_renamed: Geibel, Franz Emanuel August Von/70380_Friedrich Rotbart_Geibel, Franz Emanuel August Von_unknown.txt
+Removed from poetry_platform_renamed: Geibel, Franz Emanuel August Von/70376_Aus Dem Walde_Geibel, Franz Emanuel August Von_unknown.txt
+Removed from poetry_platform_renamed: Hagedorn, Friedrich von/171965_Johann Der Seifensieder_Hagedorn, Friedrich von_unknown.txt
+Removed from poetry_platform_renamed: Heidenstam, Carl Gustaf Verner von/89307_Djufars Visa_Heidenstam, Carl Gustaf Verner von_unknown.txt
+Removed from poetry_platform_renamed: Karlfeldt, Erik Axel/86630_Uppbrott_Karlfeldt, Erik Axel_unknown.txt
+Removed from poetry_platform_renamed: Meerbaum-Eisinger, Selma/65217_Schlaflied für die Sehnsucht_Meerbaum-Eisinger, Selma_unknown.txt
+Removed from poetry_platform_renamed: Meerbaum-Eisinger, Selma/65222_Tränenhalsband_Meerbaum-Eisinger, Selma_unknown.txt
+Removed from poetry_platform_renamed: Pfeffel, Gottlieb Konrad/112617_Der Frühling Und Der Herbst_Pfeffel, Gottlieb Konrad_unknown.txt
+Removed from poetry_platform_renamed: Platen, August Graf von/174241_Das Grab Im Busento_Platen, August Graf von_unknown.txt
+Removed from poetry_platform_renamed: Spencer, Thomas Edward/137700_Not Too Bad_Spencer, Thomas Edward_unknown.txt
+Removed from poetry_platform_renamed: Transtromer, Tomas/154923_Dagsmeja_Transtromer, Tomas_unknown.txt
+Removed from poetry_platform_renamed: Transtromer, Tomas/154940_Det öppna fönstret_Transtromer, Tomas_unknown.txt
+Removed from poetry_platform_renamed: Wolff, Albert/140676_Als das Land rief (Der erste Ruf-Fort Sumter ist gefallen)_Wolff, Albert_unknown.txt
+Removed from poetry_platform_renamed: Zech, Paul/63266_The Town of Essen on the Ruhr (Die Stadt Essen an der Ruhr)_Zech, Paul_unknown.txt
+Removed from Gutenberg: Johann Wolfgang von Goethe/56486_Johann Wolfgang Von Goethe_Bruns, Friedrich_unknown.txt
+Removed from poetry_platform_renamed: Babits, Mihaly/169025_Zigeuner im Armsünderhaus (German)_Babits, Mihaly_unknown.txt
+Removed from poetry_platform_renamed: Brun, Friederike/159210_An meine Kinder_Brun, Friederike_unknown.txt
+Removed from poetry_platform_renamed: Chamisso, Albert Von/129596_Die Weiber von Weinsberg_Chamisso, Albert Von_unknown.txt
+Removed from poetry_platform_renamed: European, Anonymous/80544_Unsere Rauscher_European, Anonymous_unknown.txt
+Removed from poetry_platform_renamed: Froding, Gustaf/76524_Jonte Och Brunte_Froding, Gustaf_unknown.txt
+Removed from poetry_platform_renamed: Grillparzer, Franz/76078_How much do you know, o humankind (with original German)_Grillparzer, Franz_unknown.txt
+Removed from poetry_platform_renamed: Heine, Heinrich/76068_Abenddämmerung_Heine, Heinrich_unknown.txt
+Removed from poetry_platform_renamed: Heine, Heinrich/76028_Die Nacht am Strande (Night on the Shore)_Heine, Heinrich_unknown.txt
+Removed from poetry_platform_renamed: Heym, Georg/165986_Die Nacht_Heym, Georg_unknown.txt
+Removed from poetry_platform_renamed: Holz, Arno/95352_„Een Boot Is noch buten!'_Holz, Arno_unknown.txt
+Removed from poetry_platform_renamed: Karlfeldt, Erik Axel/86629_Vinterhälsning_Karlfeldt, Erik Axel_unknown.txt
+Removed from poetry_platform_renamed: Keller, Gottfried/176737_Der Kirchenbesuch_Keller, Gottfried_unknown.txt
+Removed from poetry_platform_renamed: Lagerkvist, Par/174209_'Det är vackrast när det skymmer'_Lagerkvist, Par_unknown.txt
+Removed from poetry_platform_renamed: Lessing, Gotthold Ephraim/114550_Die Drei Reiche Der Natur_Lessing, Gotthold Ephraim_unknown.txt
+Removed from poetry_platform_renamed: Lowell, Amy/78585_The Cremona Violin_Lowell, Amy_unknown.txt
+Removed from poetry_platform_renamed: Meerbaum-Eisinger, Selma/65225_Sehnsuchtslied_Meerbaum-Eisinger, Selma_unknown.txt
+Removed from poetry_platform_renamed: Meerbaum-Eisinger, Selma/65224_Poem_Meerbaum-Eisinger, Selma_unknown.txt
+Removed from poetry_platform_renamed: Morgenstern, Christian/167911_Der Sperling und das Känguru_Morgenstern, Christian_unknown.txt
+Removed from poetry_platform_renamed: Riley, James Whitcomb/144850_Dot Leedle Boy_Riley, James Whitcomb_unknown.txt
+Removed from poetry_platform_renamed: Sachs, Nelly Leonie/105820_An euch, die das neue Haus bauen_Sachs, Nelly Leonie_unknown.txt
+Removed from poetry_platform_renamed: Trakl, Georg/147429_Grodek_Trakl, Georg_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56532_Frieden_Bruns, Friedrich_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56516_Taillefer_Bruns, Friedrich_unknown.txt
+Removed from Gutenberg: Bruns, Friedrich/56604_Schöne Junitage_Bruns, Friedrich_unknown.txt
+Removed from Gutenberg: James Whitcomb Riley/54466_Dot Leedle Boy_Riley, James Whitcomb_unknown.txt
+Removed from poetry_platform_renamed: Alighieri, Dante/174830_Inferno (Italian)_Alighieri, Dante_unknown.txt
+Removed from poetry_platform_renamed: Alighieri, Dante/174822_Paradiso (Italian)_Alighieri, Dante_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176675_Nu jurne_Pierro, Albino_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176683_E quanne su' nd'u strìttue d'u Barone,_Pierro, Albino_unknown.txt
+Removed from poetry_platform_renamed: Alighieri, Dante/174837_Purgatorio (Italian)_Alighieri, Dante_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172454_J'écris près de la lampe. Il fait bon. Rien ne bouge_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Hugo, Victor Marie/184710_Il faut que le poète_Hugo, Victor Marie_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176678_Quanne_Pierro, Albino_unknown.txt
+Removed from poetry_platform_renamed: MacLean, Sorley/174022_A Nighean a’ Chùil Ruaidh Òir_MacLean, Sorley_unknown.txt
+Removed from poetry_platform_renamed: Alighieri, Dante/174824_Inferno Canto02_Alighieri, Dante_unknown.txt
+Removed from poetry_platform_renamed: Coppee, Francois/172447_Il a neigé la veille et, tout le jour, il gèle_Coppee, Francois_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176681_U mort_Pierro, Albino_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176684_Nd' 'a gente ca rirìte_Pierro, Albino_unknown.txt
+Removed from poetry_platform_renamed: Pierro, Albino/176676_I 'nnammurète_Pierro, Albino_unknown.txt
+Removed from Gutenberg: Stevenson, Burton Egbert/23151_Praise Of My Lady_Stevenson, Burton Egbert_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100586_The Vision Of Piers Plowman - Part 11_Langland, William_unknown.txt
+Removed from Gutenberg: Crashaw, Richard/45457_Reverendo Admodum Viro_Crashaw, Richard_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100572_The Vision Of Piers Plowman - Part 16_Langland, William_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100575_The Vision Of Piers Plowman - Part 08_Langland, William_unknown.txt
+Removed from Gutenberg: V. 34./36765_Martial._V. 34._unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100585_Pilgrimage In Search Of Do-Well_Langland, William_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100562_The Vision Of Piers Plowman - Part 17_Langland, William_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100578_The Vision Of Piers Plowman - Part 15_Langland, William_unknown.txt
+Removed from poetry_platform_renamed: Chaucer, Geoffrey/159161_The Canterbury Tales; THE CHANOUNS YEMANNES TALE_Chaucer, Geoffrey_unknown.txt
+Removed from poetry_platform_renamed: Dunbar, William/142928_In a Secret Place [Ye brek my hart, my bony ane]_Dunbar, William_unknown.txt
+Removed from poetry_platform_renamed: Langland, William/100582_The Vision Of Piers Plowman - Part 06_Langland, William_unknown.txt
+Removed from poetry_platform_renamed: Skelton, John/163533_The Bowge of Courte_Skelton, John_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62530_O Soldado Espanhol_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157205_Jesus, Dødens Overvinder_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175228_'Os Lusiadas (Canto Sétimo)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175206_Os Lusiadas (Canto Décimo)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175209_Os Lusidas (Canto Nono)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157234_Dig Rumme Ei Himle_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157277_Guds Ord Blev Aldrig Bundet_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175225_Os Lusiadas (Canto Segundo)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157216_Alle Ting Er Underlige_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175223_'Os Lusiadas (Canto Quarto)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157252_Her Er Guds Huus Og Himlens Dør_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157332_Glæden, Hun Er Født I Dag_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175203_'Os Lusiadas (Canto Sexto)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175204_'Os Lusiadas (Canto Terceiro)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175215_'Os Lusiadas (Canto Oitavo)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62529_Seus olhos_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157201_Herrens Røst_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156940_Hil Dig, Frelser Og Forsoner_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175229_'Os Lusiadas (Canto Quinto)_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Abreu, Casimiro Jose Marques de/127254_A valsa_Abreu, Casimiro Jose Marques de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156896_Kommer Hid Kun Med De Smaa_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157083_Simon Peders Kald_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Lima, Jorge Mateus de/104052_Invenção de Orfeu ( canto I, parte I, II, III )_Lima, Jorge Mateus de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156899_At Sige Verden Ret Farvel_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Guimaraes, Bernardo/176942_Nostalgia_Guimaraes, Bernardo_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77006_Hymno Á Solidão_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157064_Har Haand Du Lagt Paa Herrens Plov_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Andrade, Carlos Drummond de/173376_Receita De Ano Novo_Andrade, Carlos Drummond de_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157101_Johannes Den Døber_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164608_Não sei se os astros mandam neste mundo_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76994_Descendo A Encosta Do Parnaso_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77017_Hymno Á Alegria_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164569_O GUARDADOR DE REBANHOS II_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171530_A Mosca Azul_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171528_A Flor do Embiroçu_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77011_A Selva Escura_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171531_Menina e Moça_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171523_A Um Legista_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Eminescu, Mihai/161480_Ce te Legeni!_Eminescu, Mihai_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76992_Hymno Á Morte_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Guerra, Gregorio de Matos/97908_Preceito 1_Guerra, Gregorio de Matos_unknown.txt
+Removed from poetry_platform_renamed: Kolcsey, Ferenc/104912_Himnusz_Kolcsey, Ferenc_unknown.txt
+Removed from poetry_platform_renamed: Babits, Mihaly/169020_Cigánydal_Babits, Mihaly_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77005_O Romance Da Pastora Linda_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76997_Cysne Branco_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164601_Não tenho ninguém que me ame_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164564_O GUARDADOR DE REBANHOS XXXIX_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164546_Não sei quantas almas tenho_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156929_En Sæde-Mand Gik Ud At Saae_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164611_Símbolos Estou farto de símbolos…_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Andrade, Carlos Drummond de/173346_Carta A Stalingrado_Andrade, Carlos Drummond de_unknown.txt
+Removed from poetry_platform_renamed: Campos, Alvaro De/119228_“Sim, não tenho razão”_Campos, Alvaro De_unknown.txt
+Removed from poetry_platform_renamed: Costa, Margaret Jull/71297_“Sim, não tenho razão”_Costa, Margaret Jull_unknown.txt
+Removed from poetry_platform_renamed: Eminescu, Mihai/161470_Mai am un singur dor_Eminescu, Mihai_unknown.txt
+Removed from poetry_platform_renamed: Ferrari, Patricio/73806_“Sim, não tenho razão”_Ferrari, Patricio_unknown.txt
+Removed from poetry_platform_renamed: Bandeira, Manuel/86608_Belo Belo (Nice, Nice)_Bandeira, Manuel_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77014_Cabellos Brancos_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77008_Hymno Á Belleza_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77009_Castello Bárbaro_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164615_Leram-me hoje S. Francisco de Assis_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171532_Os Dois Horizontes_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77001_Rio Amargo_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77004_O Livro Da Vida_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156966_Er Det Mueligt, Er Det Sandt_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157270_Halleluja For Lysets Drot_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Guimaraes, Bernardo/176941_A Sepultura De Um Escravo_Guimaraes, Bernardo_unknown.txt
+Removed from poetry_platform_renamed: Barbosa, Jorge Vera Cruz/74445_Conquista_Barbosa, Jorge Vera Cruz_unknown.txt
+Removed from poetry_platform_renamed: Eminescu, Mihai/161469_Somnoroase Pãsãrele_Eminescu, Mihai_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77010_A Lenda Dos Cysnes_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77026_Súpplica Ao Vento_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164596_Não queiras, Lídia, edificar no ‘spaço_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164632_Não basta abrir a janela_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164641_O GUARDADOR DE REBANHOS XLVII_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171536_Vísio_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Eminescu, Mihai/161494_La mijloc de codru des_Eminescu, Mihai_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/157150_Hellig-Aand! Vor Sorg Du Slukke_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Guerra, Gregorio de Matos/97907_A inconstancia dos bens do mundo_Guerra, Gregorio de Matos_unknown.txt
+Removed from poetry_platform_renamed: Guerra, Gregorio de Matos/97906_Contemplando nas coisas do mundo desde o seu retiro_Guerra, Gregorio de Matos_unknown.txt
+Removed from poetry_platform_renamed: Lobo, Francisco Rodrigues/161385_Fénix Renascida_Lobo, Francisco Rodrigues_unknown.txt
+Removed from poetry_platform_renamed: Noronha, Antonio Rui de/169002_Lua Nova_Noronha, Antonio Rui de_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164607_Ah a frescura na face de não cumprir um dever!_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164553_APONTAMENTO_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130806_Elogio Da Morte_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Abreu, Casimiro Jose Marques de/127252_Assim!_Abreu, Casimiro Jose Marques de_unknown.txt
+Removed from poetry_platform_renamed: Coelho-Net, Henrique Maximiano de Fonseca/69584_Ser Mae_Coelho-Net, Henrique Maximiano de Fonsec_unknown.txt
+Removed from poetry_platform_renamed: Coelho-Neto, Henrique Maximiano de Fonseca/147127_Ser Mae_Coelho-Neto, Henrique Maximiano de Fonse_unknown.txt
+Removed from poetry_platform_renamed: Eminescu, Mihai/161464_La steaua_Eminescu, Mihai_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77025_A Cidade Do Sonho_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76993_O Amor E O Tempo_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130822_Quia Aeternus_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130793_Divina Comedia (Divine Comedy)_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130799_Estoicismo_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171534_Stella_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Bandeira, Manuel/86609_Pneumotórax (Pneumothorax)_Bandeira, Manuel_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62532_Soneto_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77000_Somnambula_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77021_Dyptico_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Guerra, Gregorio de Matos/97910_Descreve a cidade da Bahia_Guerra, Gregorio de Matos_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173459_A Hetedik_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Jozsef, Attila/173450_Kései Sirató_Jozsef, Attila_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164634_Não consentem os deuses mais que a vida_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130823_Disputa Em Familia_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Abreu, Casimiro Jose Marques de/127253_Meus oito anos_Abreu, Casimiro Jose Marques de_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171537_O Dilúvio_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62531_Ainda uma vez — Adeus_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76991_Hymno Á Vida_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Grundtvig, Nicolaj Frederik Severin/156943_Helgen Her Og Helgen Hisset_Grundtvig, Nicolaj Frederik Severin_unknown.txt
+Removed from poetry_platform_renamed: Moraes, Vinicius de/113168_A você, com amor_Moraes, Vinicius de_unknown.txt
+Removed from poetry_platform_renamed: Pessoa, Fernando/164577_O GUARDADOR DE REBANHOS VI_Pessoa, Fernando_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130812_Ignotus_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Abreu, Casimiro Jose Marques de/127257_Exílio_Abreu, Casimiro Jose Marques de_unknown.txt
+Removed from poetry_platform_renamed: Assis, Joaquim Maria Machado de/171539_Horas Vivas_Assis, Joaquim Maria Machado de_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62526_Canção do exílio_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76995_Hymno Á Dor_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77015_A Aguia Prisoneira_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76988_A Resposta Do Árabe_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Franck, Johann/75755_Schmuecke Dich O Liebe Seele_Franck, Johann_unknown.txt
+Removed from poetry_platform_renamed: Lima, Jorge Mateus de/104056_As pessoas De Mira-Celi (Album de familia)_Lima, Jorge Mateus de_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130801_Transcendentalismo_Quental, Antero Tarquinio de_unknown.txt
+Removed from poetry_platform_renamed: Bandeira, Manuel/86610_Vou-me embora pra Pasárgada_Bandeira, Manuel_unknown.txt
+Removed from poetry_platform_renamed: Bandeira, Manuel/86574_A Estrela (The Star)_Bandeira, Manuel_unknown.txt
+Removed from poetry_platform_renamed: Camoes, Luis Vaz de/175207_A Pero Moniz, Que Morreu No Mar De Monte Felix, Em Epitáfio_Camoes, Luis Vaz de_unknown.txt
+Removed from poetry_platform_renamed: Dias, Antonio Goncalves/62527_Minha Terra!_Dias, Antonio Goncalves_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/76989_A Armadura_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Feijo, Antonio/77023_Entre Pinheiros E Cyprestes_Feijo, Antonio_unknown.txt
+Removed from poetry_platform_renamed: Guerra, Gregorio de Matos/97902_A Cidade da Bahia_Guerra, Gregorio de Matos_unknown.txt
+Removed from poetry_platform_renamed: Lima, Jorge Mateus de/104043_O Acendedor de Lampiões_Lima, Jorge Mateus de_unknown.txt
+Removed from poetry_platform_renamed: Quental, Antero Tarquinio de/130798_Logos_Quental, Antero Tarquinio de_unknown.txt
+Removed from Gutenberg: Miguel de Cervantes/50087_Sobre Los Consonantes_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Campoosorio, Ramon de Campoamor y/162378_Quien Supiera Escribir_Campoosorio, Ramon de Campoamor y_unknown.txt
+Removed from poetry_platform_renamed: Lorca, Federico Garcia/78741_Llanto por Ignacio Sánchez Mejías_Lorca, Federico Garcia_unknown.txt
+Removed from poetry_platform_renamed: Cervantes, Miguel de/161382_Ovillejos_Cervantes, Miguel de_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50106_El Soldado Y El Carretero_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Leandro Fernández de Moratín/50099_El Oso, La Mona Y El Cerdo_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Ayala, Pedro Lopez de/82125_LOS DIEZ MANDAMIENTOS_Ayala, Pedro Lopez de_unknown.txt
+Removed from Gutenberg: Ramón de Campoamor/50111_Poem I_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50107_El Amor De Los Amores_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50086_La Conquista De Alhama_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Fray Luis de León/50081_La Vida Del Campo_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Galan, Jose Maria Gabriel y/125900_Un Don Juan_Galan, Jose Maria Gabriel y_unknown.txt
+Removed from poetry_platform_renamed: Galan, Jose Maria Gabriel y/125899_Elegia_Galan, Jose Maria Gabriel y_unknown.txt
+Removed from poetry_platform_renamed: Manrique, Jorge/157649_Coplas a la muerte de su padre_Manrique, Jorge_unknown.txt
+Removed from poetry_platform_renamed: Cruz, Sor Juana Ines de la/119384_You Men_Cruz, Sor Juana Ines de la_unknown.txt
+Removed from poetry_platform_renamed: Davila, Virgilio/185258_Visión del Porvenir_Davila, Virgilio_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112276_La Respuesta De La Tierra_Silva, Jose Asuncion_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50069_A La Muerte Del Maestre De Santiago Don Rodrigo Manrique, Su Padre_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50101_La Voluntariedad Y El Deseo Resignado_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50100_El Dos De Mayo_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50105_Al Faro Del Puerto De Malta_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50084_Casamiento Del Cid Con Jimena_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Ayala, Pedro Lopez de/82124_Preliminar_Ayala, Pedro Lopez de_unknown.txt
+Removed from poetry_platform_renamed: Milanes, Jose Jacinto/144154_La fuga de la tórtola_Milanes, Jose Jacinto_unknown.txt
+Removed from Gutenberg: Vicente Espinel/50090_Poem Iii_Epitafio de don Rodrigo Calderón_unknown.txt
+Removed from poetry_platform_renamed: Benitez, Jose Gautier/79988_Canto a Puerto Rico (Song to Puerto Rico)_Benitez, Jose Gautier_unknown.txt
+Removed from poetry_platform_renamed: Davila, Virgilio/185261_Elegía de Reyes_Davila, Virgilio_unknown.txt
+Removed from poetry_platform_renamed: Galan, Jose Maria Gabriel y/125898_La Pedrada_Galan, Jose Maria Gabriel y_unknown.txt
+Removed from poetry_platform_renamed: Miron, Salvador Diaz/92883_A Gloria_Miron, Salvador Diaz_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50078_Contra Los Que Dejan Los Metros Castellanos Y Siguen Los Italianos_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Alcazar, Baltazar de/114065_Cena_Alcazar, Baltazar de_unknown.txt
+Removed from poetry_platform_renamed: Brecht, Bertolt/71341_Elogio al Aprendizaje_Brecht, Bertolt_unknown.txt
+Removed from poetry_platform_renamed: Campoosorio, Ramon de Campoamor y/162382_La Opinión_Campoosorio, Ramon de Campoamor y_unknown.txt
+Removed from poetry_platform_renamed: Diego, Eliseo/148804_Cuadernillo de Bella_Diego, Eliseo_unknown.txt
+Removed from poetry_platform_renamed: Molina, Tirso de/170796_Que El Clavel Y La Rosa_Molina, Tirso de_unknown.txt
+Removed from poetry_platform_renamed: Najera, Manuel Gutierrez/150920_Por la ventana_Najera, Manuel Gutierrez_unknown.txt
+Removed from poetry_platform_renamed: Pizarnik, Alejandra/180874_El Despertar_Pizarnik, Alejandra_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112258_Nocturno (Silva)_Silva, Jose Asuncion_unknown.txt
+Removed from poetry_platform_renamed: Vallejo, Cesar/65391_España, Aparta De Mí Este Cáliz_Vallejo, Cesar_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50085_De La Muerte De La Reina Blanca_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Luis de Góngora/50082_A Felipe Ruiz_Ford, J. D. M._unknown.txt
+Removed from poetry_platform_renamed: Galan, Jose Maria Gabriel y/125896_Las Republicas_Galan, Jose Maria Gabriel y_unknown.txt
+Removed from poetry_platform_renamed: Galan, Jose Maria Gabriel y/125901_Mi Vaquerillo_Galan, Jose Maria Gabriel y_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132794_Viejo Estribillo_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Otta, Tilsa/154897_“La poesía es la gran aguafiestas”_Otta, Tilsa_unknown.txt
+Removed from poetry_platform_renamed: Pinero, Miguel/162307_La Gente Que No Se Quiere Pa' Na Con La Lengua_Pinero, Miguel_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112249_Las Voces Silenciosas_Silva, Jose Asuncion_unknown.txt
+Removed from poetry_platform_renamed: Vallejo, Cesar/65380_La Rueda Del Hambriento_Vallejo, Cesar_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131517_Poema De Vejez y De Amor_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Zamora, Javier/64438_[Immigration Headline]_Zamora, Javier_unknown.txt
+Removed from poetry_platform_renamed: Castro, Rosalia de/173527_Margarita_Castro, Rosalia de_unknown.txt
+Removed from poetry_platform_renamed: Hernandez, Miguel/169854_El Rayo que no Cesa_Hernandez, Miguel_unknown.txt
+Removed from poetry_platform_renamed: Najera, Manuel Gutierrez/150914_De Blanco (Whiteness)_Najera, Manuel Gutierrez_unknown.txt
+Removed from poetry_platform_renamed: Otta, Tilsa/154920_La hormona de la oscuridad_Otta, Tilsa_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112243_Luz De Luna_Silva, Jose Asuncion_unknown.txt
+Removed from poetry_platform_renamed: Valle, Rosamel del/105943_Inscripción En La Puerta Del Tiempo_Valle, Rosamel del_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131474_Para El Zenzontle Impavido_Velarde, Ramon Lopez_unknown.txt
+Removed from Gutenberg: Amor, amor./50095_Letra De Cristo Al Alma_Amor, amor._unknown.txt
+Removed from Gutenberg: Íñigo López de Mendoza/50066_Poem Xxv_Ffynida_unknown.txt
+Removed from poetry_platform_renamed: Ayala, Pedro Lopez de/82127_LAS SIETE OBRAS DE MISERICORDIA_Ayala, Pedro Lopez de_unknown.txt
+Removed from poetry_platform_renamed: Campoosorio, Ramon de Campoamor y/162377_El Gaitero de Gijón_Campoosorio, Ramon de Campoamor y_unknown.txt
+Removed from poetry_platform_renamed: Cervantes, Miguel de/161381_Al Túmulo Del Rey Felipe II En Sevilla_Cervantes, Miguel de_unknown.txt
+Removed from poetry_platform_renamed: Chocano, Jose Santos/73449_La Tristeza Del Inca_Chocano, Jose Santos_unknown.txt
+Removed from poetry_platform_renamed: Davila, Virgilio/185257_Nostalgia_Davila, Virgilio_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132773_Réquiem_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Urtecho, Jose Coronel/141674_No volvera el pasado_Urtecho, Jose Coronel_unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50080_Letrilla Que Llevaba Por Registro En Su Breviario_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Ford, J. D. M. (Jeremiah Denis Matthias)/50115_Las Dos Grandezas_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Que muero porque no muero?/50079_Visita De Amor_Que muero porque no muero?_unknown.txt
+Removed from poetry_platform_renamed: Bello, Andres/136387_To the Bio-Bio (Al Biobío)_Bello, Andres_unknown.txt
+Removed from poetry_platform_renamed: Burgos, Julia de/102688_Río Grande de Loíza_Burgos, Julia de_unknown.txt
+Removed from poetry_platform_renamed: Burgos, Julia de/102704_Poema Para Las Lágrimas_Burgos, Julia de_unknown.txt
+Removed from poetry_platform_renamed: Chocano, Jose Santos/73445_Nostalgia_Chocano, Jose Santos_unknown.txt
+Removed from poetry_platform_renamed: Davila, Virgilio/185264_La Palma Real_Davila, Virgilio_unknown.txt
+Removed from poetry_platform_renamed: Eguren, Jose Maria/171939_La Canción Del Regreso_Eguren, Jose Maria_unknown.txt
+Removed from poetry_platform_renamed: Lugones, Leopoldo/178800_De La Musa Al Académico_Lugones, Leopoldo_unknown.txt
+Removed from poetry_platform_renamed: Marti, Jose/128101_La perla de la mora_Marti, Jose_unknown.txt
+Removed from poetry_platform_renamed: Marti, Jose/128034_Hierro_Marti, Jose_unknown.txt
+Removed from poetry_platform_renamed: Najera, Manuel Gutierrez/150916_Non Omnis Moriar_Najera, Manuel Gutierrez_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132774_La Cancion De Flor De Mayo_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Otta, Tilsa/154911_[(( Cómo se sentirá la vida]_Otta, Tilsa_unknown.txt
+Removed from poetry_platform_renamed: Ruiz, Juan/183081_Enxienplo de La Propiedat Que'l Dinero Ha_Ruiz, Juan_unknown.txt
+Removed from poetry_platform_renamed: Ruiz, Juan/183083_De Las Propiedades Que Las Duenas Chicas Han_Ruiz, Juan_unknown.txt
+Removed from poetry_platform_renamed: Sarduy, Severo/106028_Ni la Voz Precedida Por el Eco_Sarduy, Severo_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131565_El Son Del Corazon_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131524_Jerezanas_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131522_A La Patrona De Mi Pueblo_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Zayas, Alfredo/162561_Al caer la nieve_Zayas, Alfredo_unknown.txt
+Removed from poetry_platform_renamed: Zuniga, Alonso de Ercilla y/81761_La Araucana - Canto I_Zuniga, Alonso de Ercilla y_unknown.txt
+Removed from Gutenberg: Dize el cuerpo:/50061_La Danza De La Muerte_Dize el cuerpo:_unknown.txt
+Removed from poetry_platform_renamed: Burgos, Julia de/102707_El Rival de Mi Río_Burgos, Julia de_unknown.txt
+Removed from poetry_platform_renamed: Burgos, Julia de/102687_Noche de Amor En Tres Cantos_Burgos, Julia de_unknown.txt
+Removed from poetry_platform_renamed: Cetina, Gutierre de/82299_¡Ay, sabrosa ilusión, sueño süave!_Cetina, Gutierre de_unknown.txt
+Removed from poetry_platform_renamed: Espina, Eduardo/137877_October 27, 2010_Espina, Eduardo_unknown.txt
+Removed from poetry_platform_renamed: Lorca, Federico Garcia/78757_Romance sonámbulo_Lorca, Federico Garcia_unknown.txt
+Removed from poetry_platform_renamed: Marti, Jose/128079_Por la tumba del cortijo (Verso XXVIII)_Marti, Jose_unknown.txt
+Removed from poetry_platform_renamed: Marti, Jose/128096_Astro Puro_Marti, Jose_unknown.txt
+Removed from poetry_platform_renamed: Martinez, Enrique Gonzalez/147758_Como Hermano y Hermana_Martinez, Enrique Gonzalez_unknown.txt
+Removed from poetry_platform_renamed: Miron, Salvador Diaz/92884_Ojos Verdes_Miron, Salvador Diaz_unknown.txt
+Removed from poetry_platform_renamed: Moral, Jose Zorrilla y/163378_A La Memoria Desgraciada Del Joven Literato D. Mariano José De Larra_Moral, Jose Zorrilla y_unknown.txt
+Removed from poetry_platform_renamed: Najera, Manuel Gutierrez/150917_Dead Waves (Ondas Muertas)_Najera, Manuel Gutierrez_unknown.txt
+Removed from poetry_platform_renamed: Najera, Manuel Gutierrez/150919_Ondas Muertas (Dead Waves)_Najera, Manuel Gutierrez_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132772_La Puerta_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132782_Pasas por el abismo de mis tristezas_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Nervo, Amado Ruiz de/132780_VI- Rindióme al fin el batallar continuo_Nervo, Amado Ruiz de_unknown.txt
+Removed from poetry_platform_renamed: Pinero, Miguel/162298_Spring Garden -- Philadelphia_Pinero, Miguel_unknown.txt
+Removed from poetry_platform_renamed: Silva, Jose Asuncion/112269_Los Maderos De San Juan_Silva, Jose Asuncion_unknown.txt
+Removed from poetry_platform_renamed: Soto, Luis Barahona de/175032_¿A quién me quejaré de mi enemiga_Soto, Luis Barahona de_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131544_Sauve Patria_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131547_La Niña Del Retrato_Velarde, Ramon Lopez_unknown.txt
+Removed from poetry_platform_renamed: Velarde, Ramon Lopez/131511_El Sueño De La Inocencia_Velarde, Ramon Lopez_unknown.txt
+Removed from Gutenberg: Cristóbal de Castillejo/50077_Al Silencio De Las Quejas_Ford, J. D. M._unknown.txt
+Removed from Gutenberg: Gustavo Adolfo Bécquer/50110_Poem Xxi_Ford, J. D. M._unknown.txt

@@ -1,0 +1,15 @@
+Sample 2: 62502_Word of Mouth_Rollins, Alison C_unknown.txt
+Author: Rollins, Alison C
+Original Title: Word of Mouth
+
+Split into 3 poems:
+
+1. Untitled 1
+   Lines 1-78 (78 lines)
+
+2. Untitled 2
+   Lines 79-169 (89 lines)
+
+3. Untitled 3
+   Lines 170-250 (79 lines)
+

@@ -1,0 +1,18 @@
+Sample 13: 62836_Bryan, Bryan, Bryan, Bryan_Lindsay, Vachel_unknown.txt
+Author: Lindsay, Vachel
+Original Title: Bryan, Bryan, Bryan, Bryan
+
+Split into 4 poems:
+
+1. Untitled 1
+   Lines 1-205 (205 lines)
+
+2. Untitled 2
+   Lines 206-283 (76 lines)
+
+3. Untitled 3
+   Lines 284-303 (18 lines)
+
+4. Untitled 4
+   Lines 304-324 (19 lines)
+

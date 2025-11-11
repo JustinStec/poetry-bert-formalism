@@ -1,0 +1,259 @@
+Redundant Title Detection Report
+================================================================================
+
+Total files with redundant titles: 150908
+
+
+Top 50 Examples:
+--------------------------------------------------------------------------------
+
+1. 1, King Charles/137104_On a Quiet Conscience_1, King Charles_unknown.txt
+   Title: On a Quiet Conscience
+   First Line: On a Quiet Conscience
+   Similarity: 100.00%
+
+2. 56D205E3Abb9F, Robert Thomas/151888_The Gift_56D205E3Abb9F, Robert Thomas_unknown.txt
+   Title: The Gift
+   First Line: The Gift
+   Similarity: 100.00%
+
+3. 56D205E3Abb9F, Robert Thomas/151887_Catchy Tunes_56D205E3Abb9F, Robert Thomas_unknown.txt
+   Title: Catchy Tunes
+   First Line: Catchy Tunes
+   Similarity: 100.00%
+
+4. 56D205F03Dc5A, Lee Upton/110940_Hysteria_56D205F03Dc5A, Lee Upton_unknown.txt
+   Title: Hysteria
+   First Line: Hysteria
+   Similarity: 100.00%
+
+5. 56D205F03Dc5A, Lee Upton/110939_Doing the Bills_56D205F03Dc5A, Lee Upton_unknown.txt
+   Title: Doing the Bills
+   First Line: Doing the Bills
+   Similarity: 100.00%
+
+6. 56D20616A9Bf3, David Hernandez/129047_We Would Never Sleep_56D20616A9Bf3, David Hernandez_unknown.txt
+   Title: We Would Never Sleep
+   First Line: We Would Never Sleep
+   Similarity: 100.00%
+
+7. 56D20616A9Bf3, David Hernandez/129043_Dear Proofreader_56D20616A9Bf3, David Hernandez_unknown.txt
+   Title: Dear Proofreader
+   First Line: Dear Proofreader
+   Similarity: 100.00%
+
+8. 56D20616A9Bf3, David Hernandez/129045_All-American_56D20616A9Bf3, David Hernandez_unknown.txt
+   Title: All-American
+   First Line: All-American
+   Similarity: 100.00%
+
+9. 56D20616A9Bf3, David Hernandez/129046_At the Post Office_56D20616A9Bf3, David Hernandez_unknown.txt
+   Title: At the Post Office
+   First Line: At the Post Office
+   Similarity: 100.00%
+
+10. 56D2070387548, Kit Robinson/133284_The Thin Man Goes Home_56D2070387548, Kit Robinson_unknown.txt
+   Title: The Thin Man Goes Home
+   First Line: The Thin Man Goes Home
+   Similarity: 100.00%
+
+11. 56D207070306A, Ko Un/108676_Loss_56D207070306A, Ko Un_unknown.txt
+   Title: Loss
+   First Line: Loss
+   Similarity: 100.00%
+
+12. 56D207070306A, Ko Un/108673_Around Unmun Temple at Ch'Eongdo_56D207070306A, Ko Un_unknown.txt
+   Title: Around Unmun Temple at Ch'Eongdo
+   First Line: Around Unmun Temple at Ch'Eongdo
+   Similarity: 100.00%
+
+13. 56D207070306A, Ko Un/108678_Rice-Field Road at Dusk_56D207070306A, Ko Un_unknown.txt
+   Title: Rice-Field Road at Dusk
+   First Line: Rice-Field Road at Dusk
+   Similarity: 100.00%
+
+14. 56D207070306A, Ko Un/108680_Fun and Games with a Sphere_56D207070306A, Ko Un_unknown.txt
+   Title: Fun and Games with a Sphere
+   First Line: Fun and Games with a Sphere
+   Similarity: 100.00%
+
+15. 56D20714Eb2Bc, Julia Shipley/173903_The Archaeologists_56D20714Eb2Bc, Julia Shipley_unknown.txt
+   Title: The Archaeologists
+   First Line: The Archaeologists
+   Similarity: 100.00%
+
+16. 5Aa950F8Df1C6, Elizabeth Acevedo/165671_Manhunt or Ode to First Kisses_5Aa950F8Df1C6, Elizabeth Acevedo_unknown.txt
+   Title: Manhunt or Ode to First Kisses
+   First Line: Manhunt or Ode to First Kisses
+   Similarity: 100.00%
+
+17. 5Aa950F8Df1C6, Elizabeth Acevedo/165675_Iron_5Aa950F8Df1C6, Elizabeth Acevedo_unknown.txt
+   Title: Iron
+   First Line: Iron
+   Similarity: 100.00%
+
+18. 5Aa950F8Df1C6, Elizabeth Acevedo/165670_A Daughter Named After Nina_5Aa950F8Df1C6, Elizabeth Acevedo_unknown.txt
+   Title: A Daughter Named After Nina
+   First Line: A Daughter Named After Nina
+   Similarity: 100.00%
+
+19. 5Aa950F8Df1C6, Elizabeth Acevedo/165673_Ode to the Head Nod_5Aa950F8Df1C6, Elizabeth Acevedo_unknown.txt
+   Title: Ode to the Head Nod
+   First Line: Ode to the Head Nod
+   Similarity: 100.00%
+
+20. 5Dfbc1B2D8A94, Destiny Hemphill/170131_how we got our blues-tongue_5Dfbc1B2D8A94, Destiny Hemphill_unknown.txt
+   Title: how we got our blues-tongue
+   First Line: how we got our blues-tongue
+   Similarity: 100.00%
+
+21. 5F4D733Cda5D3, Alvin Feinman/129494_November Sunday Morning_5F4D733Cda5D3, Alvin Feinman_unknown.txt
+   Title: November Sunday Morning
+   First Line: November Sunday Morning
+   Similarity: 100.00%
+
+22. 5F4D733Cda5D3, Alvin Feinman/129493_Summer, Afternoon_5F4D733Cda5D3, Alvin Feinman_unknown.txt
+   Title: Summer, Afternoon
+   First Line: Summer, Afternoon
+   Similarity: 100.00%
+
+23. 5Fb6D9928Fc9B, Lewis Macadams/145271_Live at the Church_5Fb6D9928Fc9B, Lewis Macadams_unknown.txt
+   Title: Live at the Church
+   First Line: Live at the Church
+   Similarity: 100.00%
+
+24. 5Fb6D9928Fc9B, Lewis Macadams/145270_Mother's Day_5Fb6D9928Fc9B, Lewis Macadams_unknown.txt
+   Title: Mother's Day
+   First Line: Mother's Day
+   Similarity: 100.00%
+
+25. 5Fb6D9928Fc9B, Lewis Macadams/145269_The Dearth of Communism_5Fb6D9928Fc9B, Lewis Macadams_unknown.txt
+   Title: The Dearth of Communism
+   First Line: The Dearth of Communism
+   Similarity: 100.00%
+
+26. 60E5Ea55108F4, Sasha Pimentel/101342_Cats_60E5Ea55108F4, Sasha Pimentel_unknown.txt
+   Title: Cats
+   First Line: Cats
+   Similarity: 100.00%
+
+27. 60E5Ea55108F4, Sasha Pimentel/101343_If I Die in Juárez_60E5Ea55108F4, Sasha Pimentel_unknown.txt
+   Title: If I Die in Juárez
+   First Line: If I Die in Juárez
+   Similarity: 100.00%
+
+28. 6161Ff74A720C, Isabel Duarte Gray/148128_Tennesse Valley Authority_6161Ff74A720C, Isabel Duarte Gray_unknown.txt
+   Title: Tennesse Valley Authority
+   First Line: Tennesse Valley Authority
+   Similarity: 100.00%
+
+29. 6161Ff74A720C, Isabel Duarte Gray/148129_Garden_6161Ff74A720C, Isabel Duarte Gray_unknown.txt
+   Title: Garden
+   First Line: Garden
+   Similarity: 100.00%
+
+30. 6161Ff74A720C, Isabel Duarte Gray/148127_Like As of Fire_6161Ff74A720C, Isabel Duarte Gray_unknown.txt
+   Title: Like As of Fire
+   First Line: Like As of Fire
+   Similarity: 100.00%
+
+31. 6161Ff74A720C, Isabel Duarte Gray/148130_Fallen Bridge_6161Ff74A720C, Isabel Duarte Gray_unknown.txt
+   Title: Fallen Bridge
+   First Line: Fallen Bridge
+   Similarity: 100.00%
+
+32. 6161Ff74A720C, Isabel Duarte Gray/148131_Like Hell You Are_6161Ff74A720C, Isabel Duarte Gray_unknown.txt
+   Title: Like Hell You Are
+   First Line: Like Hell You Are
+   Similarity: 100.00%
+
+33. 622Ab5536C412, Nick Carbo/69239_Little Brown Brother_622Ab5536C412, Nick Carbo_unknown.txt
+   Title: Little Brown Brother
+   First Line: Little Brown Brother
+   Similarity: 100.00%
+
+34. 622Ab5536C412, Nick Carbo/69238_Robo_622Ab5536C412, Nick Carbo_unknown.txt
+   Title: Robo
+   First Line: Robo
+   Similarity: 100.00%
+
+35. 622Ab5536C412, Nick Carbo/69243_Mal Agueros_622Ab5536C412, Nick Carbo_unknown.txt
+   Title: Mal Agueros
+   First Line: Mal Agueros
+   Similarity: 100.00%
+
+36. 622Ab5536C412, Nick Carbo/69242_The Bronze Dove_622Ab5536C412, Nick Carbo_unknown.txt
+   Title: The Bronze Dove
+   First Line: The Bronze Dove
+   Similarity: 100.00%
+
+37. 622Ab5536C412, Nick Carbo/69240_Directions to My Imaginary Childhood_622Ab5536C412, Nick Carbo_unknown.txt
+   Title: Directions to My Imaginary Childhood
+   First Line: Directions to My Imaginary Childhood
+   Similarity: 100.00%
+
+38. 628D10E0Af8Eb, Kathleen Tankersley Young/177037_Virgin_628D10E0Af8Eb, Kathleen Tankersley Young_unknown.txt
+   Title: Virgin
+   First Line: Virgin
+   Similarity: 100.00%
+
+39. 62Dea41Fc3959, Jorge Carrera Andrade/145735_Biography for the Use of Birds_62Dea41Fc3959, Jorge Carrera Andrade_unknown.txt
+   Title: Biography for the Use of Birds
+   First Line: Biography for the Use of Birds
+   Similarity: 100.00%
+
+40. 62E2Ad9C4B136, Rachel Long/162882_Communion_62E2Ad9C4B136, Rachel Long_unknown.txt
+   Title: Communion
+   First Line: Communion
+   Similarity: 100.00%
+
+41. 62E2Ad9C4B136, Rachel Long/162884_Portent_62E2Ad9C4B136, Rachel Long_unknown.txt
+   Title: Portent
+   First Line: Portent
+   Similarity: 100.00%
+
+42. 62E2Ad9C4B136, Rachel Long/162883_Black Princess! Black Princess!_62E2Ad9C4B136, Rachel Long_unknown.txt
+   Title: Black Princess! Black Princess!
+   First Line: Black Princess! Black Princess!
+   Similarity: 100.00%
+
+43. 62E2Ad9C4B136, Rachel Long/162881_Danielle's Dad_62E2Ad9C4B136, Rachel Long_unknown.txt
+   Title: Danielle's Dad
+   First Line: Danielle's Dad
+   Similarity: 100.00%
+
+44. 636566560Aef3, Norman Finkelstein/95170_Scribe_636566560Aef3, Norman Finkelstein_unknown.txt
+   Title: Scribe
+   First Line: Scribe
+   Similarity: 100.00%
+
+45. 636566560Aef3, Norman Finkelstein/95171_Tour_636566560Aef3, Norman Finkelstein_unknown.txt
+   Title: Tour
+   First Line: Tour
+   Similarity: 100.00%
+
+46. 636566560Aef3, Norman Finkelstein/95169_Excerpt from “Track”_636566560Aef3, Norman Finkelstein_unknown.txt
+   Title: Excerpt from “Track”
+   First Line: Excerpt from “Track”
+   Similarity: 100.00%
+
+47. 636566560Aef3, Norman Finkelstein/95168_Forevertron_636566560Aef3, Norman Finkelstein_unknown.txt
+   Title: Forevertron
+   First Line: Forevertron
+   Similarity: 100.00%
+
+48. 642454B3942Ad, Elizabeth Theriot/137588_Self-Portrait as Self-Care Mantra_642454B3942Ad, Elizabeth Theriot_unknown.txt
+   Title: Self-Portrait as Self-Care Mantra
+   First Line: Self-Portrait as Self-Care Mantra
+   Similarity: 100.00%
+
+49. 6442A0Fd2630E, Gabrielle Joy Lessans/119361_[ALIGHT]_6442A0Fd2630E, Gabrielle Joy Lessans_unknown.txt
+   Title: [ALIGHT]
+   First Line: [ALIGHT]
+   Similarity: 100.00%
+
+50. 6442A0Fd2630E, Gabrielle Joy Lessans/119360_[CARNAGE]_6442A0Fd2630E, Gabrielle Joy Lessans_unknown.txt
+   Title: [CARNAGE]
+   First Line: [CARNAGE]
+   Similarity: 100.00%
+

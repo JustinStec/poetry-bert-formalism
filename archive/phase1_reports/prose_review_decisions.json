@@ -1,0 +1,5245 @@
+{
+  "62563_Watershed and Shield Reminiscence_Howard, Liz_unknown.txt": "keep",
+  "62647_The Therapist Asks 3_Felix, Camonghne_unknown.txt": "keep",
+  "62784_from The Congo- Section 1_Lindsay, Vachel_unknown.txt": "keep",
+  "62991_Visual Poem 1 - 'Sissy Dat Walk'_Moore, Maurice_unknown.txt": "keep",
+  "63154_Seasonal Cycle - Chapter 04 - Pre Winter_Kalidasa_unknown.txt": "keep",
+  "63170_Seasonal Cycle - Chapter 05 - Winter_Kalidasa_unknown.txt": "keep",
+  "63171_Shakuntala Act VII (Final Act)_Kalidasa_unknown.txt": "keep",
+  "63254_A Sandal On The Head_Brew, Kwesi_unknown.txt": "discard",
+  "63291_Answer To The Winter Piece_Munford, Robert_unknown.txt": "discard",
+  "63458_In November (1)_Lampman, Archibald_unknown.txt": "discard",
+  "63495_Vortextique_Ernst, K S_unknown.txt": "discard",
+  "63498_A Terror is More Certain . . ._Kaufman, Bob_unknown.txt": "keep",
+  "63505_Girl Soup_Nakayasu, Sawako_unknown.txt": "keep",
+  "63550_The Links O' Forth - Or, A Parting Peep At The Carse O' Sterling_MacNeill, Hector_unknown.txt": "discard",
+  "63551_An Elegy_MacNeill, Hector_unknown.txt": "discard",
+  "63554_The Pastoral, Or Lyric Muse Of Scotland. Canto First_MacNeill, Hector_unknown.txt": "discard",
+  "63563_The Scottish Muse_MacNeill, Hector_unknown.txt": "discard",
+  "63571_To Miss Jean And Miss Isabella Monro, With Two Bottles Of The Otta Of Roses_MacNeill, Hector_unknown.txt": "discard",
+  "63580_To The Members Of The Sober Society; Sent To The Same With An Engraving_MacNeill, Hector_unknown.txt": "discard",
+  "63588_Scotland's Scaith, Or, The History O' Will And Jean. Owre True A Tale. In Two Pa_MacNeill, Hector_unknown.txt": "discard",
+  "63594_To J. W. On His Birth Day. A Dialogue Between Seventy Two and Twenty Seven_MacNeill, Hector_unknown.txt": "discard",
+  "63600_won't you celebrate with me_Clifton, Lucille_unknown.txt": "discard",
+  "63635_fromd e l e t e, Part 8_Moore, Richard O_unknown.txt": "keep",
+  "63927_Gilding the Lily_Ampleman, Lisa_unknown.txt": "keep",
+  "63988_Animal Time_Davis, Carol V_unknown.txt": "keep",
+  "64239_The Unlucky Dip_Herbert, A P_unknown.txt": "discard",
+  "64484_Idea 14- If he from heaven that filched that living fire_Drayton, Michael_unknown.txt": "keep",
+  "64496_Amour 30- Three sorts of serpents do resemble thee_Drayton, Michael_unknown.txt": "keep",
+  "64806_Arrochar Alps_Mccready, Marion_unknown.txt": "keep",
+  "65227_The White Room_Nurkse, D_unknown.txt": "keep",
+  "65230_Venus_Nurkse, D_unknown.txt": "keep",
+  "65328_The Plan_Landis, Joan Hutton_unknown.txt": "keep",
+  "66024_The Countess_Whittier, John Greenleaf_unknown.txt": "keep",
+  "66033_Funeral Tree of the Sokokis_Whittier, John Greenleaf_unknown.txt": "discard",
+  "66222_Among the Hills_Whittier, John Greenleaf_unknown.txt": "discard",
+  "66437_Bide On_Waugh, Edwin_unknown.txt": "discard",
+  "66439_A Bit Of A Sing_Waugh, Edwin_unknown.txt": "discard",
+  "66442_I've Worn My Bits o' Shoon Away_Waugh, Edwin_unknown.txt": "discard",
+  "66447_Neet Fo -- Night Fall_Waugh, Edwin_unknown.txt": "discard",
+  "66451_What Makes Your Leaves Fall Down_Waugh, Edwin_unknown.txt": "discard",
+  "66452_Todlin' Whoam_Waugh, Edwin_unknown.txt": "discard",
+  "66456_Cradle Song_Waugh, Edwin_unknown.txt": "discard",
+  "66459_When The Sun Goes Down_Waugh, Edwin_unknown.txt": "discard",
+  "66483_The Pipe_Mallarme, Stephane_unknown.txt": "keep",
+  "66490_Autumn Plaint_Mallarme, Stephane_unknown.txt": "keep",
+  "66661_The Champa Flower_Tagore, Rabindranath_unknown.txt": "keep",
+  "66730_I Cast My Net Into The Sea_Tagore, Rabindranath_unknown.txt": "keep",
+  "66739_Gitanjali_Tagore, Rabindranath_unknown.txt": "discard",
+  "66779_Crossing 16_Tagore, Rabindranath_unknown.txt": "keep",
+  "66863_I Found A Few Old Letters_Tagore, Rabindranath_unknown.txt": "keep",
+  "66882_Chicago- A Historical & Literary Review_Horton, Randall_unknown.txt": "keep",
+  "66907_Philip Seymour Hoffman_Flynn, Nick_unknown.txt": "keep",
+  "67296_The Rose Of The Wilderness (Gathered In Crossing A Portage On The River Winnipeg_Mountain, George Jehoshaphat_unknown.txt": "keep",
+  "67297_On The Rainbow At The Kakabeka Falls, Near The Mountain-Portage, Kamenistiquoia _Mountain, George Jehoshaphat_unknown.txt": "keep",
+  "67299_The Toils Of The Voyager_Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67303_To A Child Hung In An Indian Cradle, On The Church-Yard Fence At One Of The Red _Mountain, George Jehoshaphat_unknown.txt": "keep",
+  "67304_To A Child Hung In An Indian Cradle, On The Church-Yard Fence At One Of The Red _Mountain, George Jehoshaphat_unknown.txt": "keep",
+  "67305_Le Lac Des Morts_Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67307_Mosquitoes (Sonnet XV.)_Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67310_On The Rainbow At The Kakabeka Falls, Near The Mountain-Portage, Kamenistiquoia _Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67311_A Birth-Day Reflection (Sonnet IX.)_Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67314_Sunday Morning On Lake Superior (Sonnet X.)_Mountain, George Jehoshaphat_unknown.txt": "discard",
+  "67318_If only_Martin, Dawn Lundy_unknown.txt": "keep",
+  "67603_Shanghaied_Kemp, Harry_unknown.txt": "discard",
+  "67611_Ship's Glamour_Kemp, Harry_unknown.txt": "keep",
+  "67612_Going Down In Ships_Kemp, Harry_unknown.txt": "discard",
+  "67625_Good-Bye! (a chantey to be sung at the capstan)_Kemp, Harry_unknown.txt": "discard",
+  "67724_Liberty Lighting The World_OReilly, John Boyle_unknown.txt": "keep",
+  "67726_The Exile Of The Gael_OReilly, John Boyle_unknown.txt": "keep",
+  "67913_from Beachy Head_Smith, Charlotte_unknown.txt": "keep",
+  "68078_Explaining Villanelles to an Alien_Lawrence, Anthony_unknown.txt": "keep",
+  "68187_By Yonder Fountain In The Grove_Marcabrus_unknown.txt": "discard",
+  "68380_Polyhymnia_Peele, George_unknown.txt": "discard",
+  "68921_The Soul of the World_Crosby, Ernest Howard_unknown.txt": "keep",
+  "69309_Alone_\u0160alamun, Toma\u017e_unknown.txt": "keep",
+  "69620_The Lanawn Shee_Ledwidge, Francis_unknown.txt": "discard",
+  "69708_Ah! Where Are Hours Departed Fled (excerpt)_Vogelweide, Walther von der_unknown.txt": "discard",
+  "69795_The Artichoke_Mcmichael, James_unknown.txt": "keep",
+  "69830_Ch 02 The Morals Of Dervishes Story 47_Shirazi, Saadi_unknown.txt": "keep",
+  "69834_Ch 01 Manner Of Kings Story 29_Shirazi, Saadi_unknown.txt": "keep",
+  "69837_Ch 01 Manner Of Kings Story 35_Shirazi, Saadi_unknown.txt": "keep",
+  "69839_Ch 03 On The Excellence Of Contentment Story 20_Shirazi, Saadi_unknown.txt": "keep",
+  "69848_Ch 04 On The Advantages Of Silence Story 13_Shirazi, Saadi_unknown.txt": "keep",
+  "69850_Ch 03 On The Excellence Of Contentment Story 10_Shirazi, Saadi_unknown.txt": "keep",
+  "69853_Ch 07 On The Effects Of Education Story 12_Shirazi, Saadi_unknown.txt": "keep",
+  "69878_Ch 01 Manner Of Kings Story 34_Shirazi, Saadi_unknown.txt": "keep",
+  "69884_Ch 02 The Morals Of Dervishes Story 14_Shirazi, Saadi_unknown.txt": "keep",
+  "69885_Ch 04 On The Advantages Of Silence Story 10_Shirazi, Saadi_unknown.txt": "keep",
+  "69887_Ch 03 On The Excellence Of Contentment Story 13_Shirazi, Saadi_unknown.txt": "keep",
+  "69890_Introductory 03_Shirazi, Saadi_unknown.txt": "keep",
+  "69892_Ch 02 The Morals Of Dervishes Story 26_Shirazi, Saadi_unknown.txt": "keep",
+  "69895_Ch 05 On Love And Youth Story 02_Shirazi, Saadi_unknown.txt": "keep",
+  "69921_Ch 02 The Morals Of Dervishes Story 41_Shirazi, Saadi_unknown.txt": "keep",
+  "69934_Ch 01 Manner Of Kings Story 33_Shirazi, Saadi_unknown.txt": "keep",
+  "69943_Ch 05 On Love And Youth Story 06_Shirazi, Saadi_unknown.txt": "keep",
+  "69945_Ch 02 The Morals Of Dervishes Story 22_Shirazi, Saadi_unknown.txt": "keep",
+  "69948_Ch 01 Manner Of Kings Story 36_Shirazi, Saadi_unknown.txt": "keep",
+  "69953_Ch 02 The Morals Of Dervishes Story 16_Shirazi, Saadi_unknown.txt": "keep",
+  "69959_Ch 06 On Weakness And Old Age Story 04_Shirazi, Saadi_unknown.txt": "keep",
+  "69965_Ch 03 On The Excellence Of Contentment Story 02_Shirazi, Saadi_unknown.txt": "keep",
+  "69966_Ch 08 On Rules For Conduct In Life - Maxim 57_Shirazi, Saadi_unknown.txt": "keep",
+  "69967_Ch 08 On Rules For Conduct In Life - Maxim 19_Shirazi, Saadi_unknown.txt": "keep",
+  "69968_Ch 02 The Morals Of Dervishes Story 37_Shirazi, Saadi_unknown.txt": "keep",
+  "69971_Ch 07 On The Effects Of Education Story 19_Shirazi, Saadi_unknown.txt": "keep",
+  "69980_Ch 03 On The Excellence Of Contentment Story 07_Shirazi, Saadi_unknown.txt": "keep",
+  "69985_Ch 05 On Love And Youth Story 16_Shirazi, Saadi_unknown.txt": "keep",
+  "70000_Ch 05 On Love And Youth Story 12_Shirazi, Saadi_unknown.txt": "keep",
+  "70008_Ch 02 The Morals Of Dervishes Story 07_Shirazi, Saadi_unknown.txt": "keep",
+  "70019_Ch 02 The Morals Of Dervishes Story 29_Shirazi, Saadi_unknown.txt": "keep",
+  "70029_Ch 04 On The Advantages Of Silence Story 03_Shirazi, Saadi_unknown.txt": "keep",
+  "70030_Ch 01 Manner Of Kings Story 15_Shirazi, Saadi_unknown.txt": "keep",
+  "70039_Ch 05 On Love And Youth Story 08_Shirazi, Saadi_unknown.txt": "keep",
+  "70040_Ch 05 On Love And Youth Story 20_Shirazi, Saadi_unknown.txt": "keep",
+  "70041_Ch 02 The Morals Of Dervishes Story 04_Shirazi, Saadi_unknown.txt": "keep",
+  "70043_Ch 06 On Weakness And Old Age Story 03_Shirazi, Saadi_unknown.txt": "keep",
+  "70046_Ch 02 The Morals Of Dervishes Story 18_Shirazi, Saadi_unknown.txt": "keep",
+  "70048_Ch 08 On Rules For Conduct In Life - Maxim 36_Shirazi, Saadi_unknown.txt": "keep",
+  "70055_Ch 02 The Morals Of Dervishes Story 30_Shirazi, Saadi_unknown.txt": "keep",
+  "70056_Ch 08 On Rules For Conduct In Life - Maxim 50_Shirazi, Saadi_unknown.txt": "keep",
+  "70057_Ch 01 Manner Of Kings Story 38_Shirazi, Saadi_unknown.txt": "keep",
+  "70059_Ch 08 On Rules For Conduct In Life - Maxim 48_Shirazi, Saadi_unknown.txt": "keep",
+  "70063_Ch 08 On Rules For Conduct In Life - Maxim 60_Shirazi, Saadi_unknown.txt": "keep",
+  "70064_Ch 06 On Weakness And Old Age Story 07_Shirazi, Saadi_unknown.txt": "keep",
+  "70066_Ch 04 On The Advantages Of Silence Story 02_Shirazi, Saadi_unknown.txt": "keep",
+  "70069_Ch 01 Manner Of Kings Story 14_Shirazi, Saadi_unknown.txt": "keep",
+  "70072_Ch 08 On Rules For Conduct In Life - Maxim 54_Shirazi, Saadi_unknown.txt": "keep",
+  "70076_Ch 01 Manner Of Kings Story 25_Shirazi, Saadi_unknown.txt": "keep",
+  "70079_Ch 03 On The Excellence Of Contentment Story 18_Shirazi, Saadi_unknown.txt": "keep",
+  "70082_Ch 03 On The Excellence Of Contentment Story 04_Shirazi, Saadi_unknown.txt": "keep",
+  "70089_Ch 05 On Love And Youth Story 15_Shirazi, Saadi_unknown.txt": "keep",
+  "70092_Ch 01 Manner Of Kings Story 39_Shirazi, Saadi_unknown.txt": "keep",
+  "70200_Was It A Dream_Wilder, Amos N_unknown.txt": "keep",
+  "70302_The Colorful Rose_Iqbal, Muhammed_unknown.txt": "discard",
+  "70306_Pathos of love_Iqbal, Muhammed_unknown.txt": "discard",
+  "70324_A longing_Iqbal, Muhammed_unknown.txt": "discard",
+  "70332_Jawab-e-Shikwa [Response to The Complaint]_Iqbal, Muhammed_unknown.txt": "discard",
+  "70365_The Phenomenon_Nicholson, John_unknown.txt": "discard",
+  "70681_Yusuf and Zuleikha (Excerpt 2)_Jami2_unknown.txt": "discard",
+  "70683_Yusuf and Zuleikha (Excerpt 1)_Jami2_unknown.txt": "discard",
+  "70963_The Crossing At Fredericksburg_Boker, George Henry_unknown.txt": "discard",
+  "71057_Dirge For A Soldier_Boker, George Henry_unknown.txt": "discard",
+  "71173_Indian Dancers_Naidu, Sarojini_unknown.txt": "keep",
+  "71215_Woman's Trifling Needs_Warren, Mercy_unknown.txt": "keep",
+  "71216_John Adams Monarchical Ideas_Warren, Mercy_unknown.txt": "keep",
+  "71385_Karbala Part I_Anees, Mir Babar Ali_unknown.txt": "discard",
+  "71388_meta-variable_Hussaini, Hajar_unknown.txt": "keep",
+  "71392_Theme and Variations on Ai Weiwei\u2019s \u201cDropping a Han Dynasty Urn\u201d_Mao, Angelo_unknown.txt": "keep",
+  "71481_To His Son_Dyer, John_unknown.txt": "discard",
+  "71846_The Ballad Of The Landlord_Hughes, Langston_unknown.txt": "discard",
+  "71876_Bitter-Sweet_Worth, Patience_unknown.txt": "keep",
+  "72084_The Wicket Gate_Worth, Patience_unknown.txt": "keep",
+  "72167_Willy-Wag and Sparrow_Cato, Nancy_unknown.txt": "keep",
+  "72257_To My Maltese Brothers_Karm, Dun_unknown.txt": "discard",
+  "72800_Backwardness of the Present Spring Accounted For, May 5th, 1782_Mundy, Francis Noel Clarke_unknown.txt": "keep",
+  "72803_The Fall of Needwood_Mundy, Francis Noel Clarke_unknown.txt": "discard",
+  "72886_D\u00e9sir D'un Commencement_Jabes, Edmond_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "72889_After Dream._Shushiki, Ome_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 25
+  },
+  "72954_Trophies_Fernandez, Robert_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "72998_Tipping Over the Actuarial Tables_Martinez, Dionisio D_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "73080_Road-Side Dog_Milosz, Czeslaw_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "73097_Sarajevo_Milosz, Czeslaw_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "73503_King Canute_Thackeray, William Makepeace_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 122
+  },
+  "73743_Do-rag_Williams, Phillip B_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "73746_Homan and Chicago Ave._Williams, Phillip B_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "73751_Cicely Fox Smith_Poetry, Old_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 31
+  },
+  "74114_El Secreto_Valle, Adriano del_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "74674_The Shepheardes Calender- November_Spenser, Edmund_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "74739_The Shepheardes Calender- December_Spenser, Edmund_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "74900_The Witch Of Wokey_Harington, Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 88
+  },
+  "75269_All-Souls' Night_Shorter, Dora Sigerson_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75377_The War Of Caros_Macpherson, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75384_The War Of Inis-Thona_Macpherson, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75393_Temora - Book Vii_Macpherson, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75624_To Lady Firebrace_Johnson, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 21
+  },
+  "75720_from The Time That Is Flying by Venantius Fortunatus_Fortunatus, Venantius_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "75750_[Un Citadin - A City Dweller]_R\u00e9da, Jacques_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75986_The Name Is Nothing_Ligotti, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75988_No One Knows The Big News_Ligotti, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75990_You Do Not Own Your Head_Ligotti, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "75993_Welcome to the Unholy City_Ligotti, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76220_The Laughter of Women_Willis, Mary-Sherman_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76225_Sea Holly_Burnett, Elizabeth Jane_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76336_Some Boys are Born to Wander_Mcdonald, Walter_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76541_Le Tombeau des Lutteurs_Rooney, Kathleen_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76548_Why Being \u201cOn Fire\u201d Is for Everyone_Naca, Kristin_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76627_Butchers_Williams, C K_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76628_Zebra_Williams, C K_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76633_The Nail_Williams, C K_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76635_Shame_Williams, C K_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76713_Epistle (to the author of The Three Impostors)_Voltaire_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 131
+  },
+  "76719_Epistle (Upon his arrival at his estate in Geneva)_Voltaire_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "76730_Watermark_Mckimm, Michael_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76735_Reading The Classic Of Hills And Seas_Chien, Tao_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "76813_The Emperor's Dream_Herbert, Zbigniew_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "76832_From Mythology_Herbert, Zbigniew_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "77131_The Vacant Chair_Washburn, Henry Stevenson_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 44
+  },
+  "77384_Flannan Isle_Gibson, Wilfrid Wilson_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 128
+  },
+  "77615_fromWhat the Heart Longs For When It Only Knows Heat ['We spend the afternoon to_Lee, Sueyeun Juliette_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "77616_from What the Heart Longs For When It Only Knows Heat ['We spend the afternoon t_Lee, Sueyeun Juliette_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "77618_fromWhat the Heart Longs For When It Only Knows Heat ['We spend the afternoon to_Lee, Sueyeun Juliette_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "77622_from What the Heart Longs For When It Only Knows Heat ['We spend the afternoon t_Lee, Sueyeun Juliette_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "77717_The Windhover_Hopkins, Gerard Manley_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78020_The Book of Equality_Borzutzky, Daniel_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78023_The Book of Non-Writing \ufeff_Borzutzky, Daniel_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78092_The Woman Who Collects Noah's Arks_Mccann, Janet_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78166_Midsummer_Gl\u00fcck, Louise_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78237_Spring and All- Chapter XIII [Thus, weary of life]_Williams, William Carlos_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78275_Kora In Hell- Improvisations Vii_Williams, William Carlos_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78333_Kora In Hell- Improvisations I_Williams, William Carlos_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78457_Bath_Lowell, Amy_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78616_Towns in Colour_Lowell, Amy_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78721_Lament For Ignacio Sanchez Mejias_Lorca, Federico Garcia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "78790_When, with my mind devoutly press'd_Browne, Moses_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "79074_A Day of Dream_Kendall, Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 14
+  },
+  "79146_Bell Birds_Kendall, Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "79460_Untitled_Meserve, James Monroe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 102
+  },
+  "79632_Tired_Johnson, Fenton_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "80197_New Heaven, New War_SJ, Robert Southwell_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "80198_The Burning Babe_SJ, Robert Southwell_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "80517_Sonnet to Our Lord on the Cross_European, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "80686_I'Ve Come To Be One Who Cries_Torgersen, Eric_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "80967_The Lady of the Lake- Canto IV. - The Prophecy_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1109
+  },
+  "80974_MacKrimmon's Lament_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 28
+  },
+  "80986_The Lady of the Lake- Canto VI. - The Guardroom_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1125
+  },
+  "80993_Cadyow Castle_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 252
+  },
+  "81008_The Lady of the Lake- Canto III. - The Gathering_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 977
+  },
+  "81094_The Lady of the Lake- Canto V. - The Combat_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1160
+  },
+  "74680_The Shepheardes Calender- Februarie_Spenser, Edmund_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "81096_The Lady of the Lake- Canto I. - The Chase_Scott, Sir Walter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 951
+  },
+  "81245_\u201cSo many gods!\u201d_Campos, \u00c1lvaro de_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "81547_Emancipation Of The Slaves_Bell, James Madison_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 296
+  },
+  "81552_The Progress Of Liberty_Bell, James Madison_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 898
+  },
+  "81553_The Triumph Of Liberty_Bell, James Madison_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1009
+  },
+  "81556_The Day And The War_Bell, James Madison_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 844
+  },
+  "81666_Rules at the Juan Marcos Huelga School (Even the Unspoken Ones)_Mendez, Lupe_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "82081_What I Know_Dubost, Patrick_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "82888_To Alexander Berkman_Ridge, Lola_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "82991_Violin And A Little Nervous_Mayakovsky, Vladimir_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "83027_Translations Of Pindar - IV. To Psaumis Of Camarina_Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 52
+  },
+  "83028_Translations Of Pindar - II. To Theron Of Agragas, Victor In The Chariot Race_Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 206
+  },
+  "83030_Before A Collection Made For The Society For The Propagation Of The Gospel_Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "83031_Translations Of Pindar - The First Olympic Ode. To Hiero Of Syracuse, Victor In _Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 229
+  },
+  "83034_Translations Of Pindar - The First Olympic Ode. To Hiero Of Syracuse, Victor In _Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 230
+  },
+  "83043_The Passage Of The Red Sea_Heber, Reginald_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 179
+  },
+  "83046_Translations Of Pindar - VI. To Agesias Of Syracuse_Heber, Reginald_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "83135_The Deil's Stane_Anderson, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 218
+  },
+  "83224_Dead Flowers_Anderson, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 86
+  },
+  "83229_Lars Andersonicus_Anderson, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "83313_David Gray_Anderson, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "83354_A Walk To Pamphy Linns_Anderson, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 343
+  },
+  "84407_\u201cI used to love the run-up to a storm\u201d_Braverman, Melanie_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "84969_Sam Jackson_Davis, Frank Marshall_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "85091_\u201cPasaban murci\u00e9lagos\u201d_Giorgio, Marosa Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "85093_\u201cCuando ten\u00eda seis a\u00f1os\u201d_Giorgio, Marosa Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "85096_Advance Australia Fair_McCormick, Peter Dodds_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 55
+  },
+  "85359_High Wood_Purvis, John Stanley_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 42
+  },
+  "85576_The Thing about Feathers_Handal, Nathalie_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "85586_Love Letter_Handal, Nathalie_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "85591_alwaysendeavor_Dahlquist, Bob_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 3
+  },
+  "86571_The Beauteous Terrorist_Parkes, Sir Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 212
+  },
+  "86603_Brazilian Tragedy_Bandeira, Manuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "87034_Releasing the Sherpas_Mcgrath, Campbell_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "87154_The Campaign, A Poem, To His Grace The Duke Of Marlborough_Addison, Joseph_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 551
+  },
+  "87261_A Poet Of Provence_Miller, Jewell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 648
+  },
+  "87414_'This year again there is spring'_Poswiatowska, Halina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "87427_'To produce a poem'_Poswiatowska, Halina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "87451_The Member of Parliament_Bennett, Billy_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 104
+  },
+  "87515_Bound Away_Adams, Bill_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 37
+  },
+  "87639_The Adventures of a Turtle_Edson, Russell_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "87772_untitled (for Natalee and Jeremy)_Beaulieu, Derek_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "88019_Anadyomene_Teasdale, Sara_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89113_The Tree_Finch, Countess of Winchilsea Anne_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "89332_An Excellent Ballad Of A Prince Of England's Courtship To The King Of France's D_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89357_A Westminster Wedding, Or The Town Mouth; Alias, The Recorder Of London And His _British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89362_Epitaph of Madam Babington, 2_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 11
+  },
+  "89440_Inscription In St Cross Near Winchester, To John Newles, On A Brass Near The Wes_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89458_Everybody, Somebody, Anybody, and Nobody_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 13
+  },
+  "89469_Let us go to the woods_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89493_England's Alarm. or The Pious Christian's Speedy Call To Repentance_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 131
+  },
+  "89497_Epitaph of Robert Preston_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89508_An Elegy Upon the late Learned and Laborious Servant of Christ, John Owen_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 67
+  },
+  "89509_Leslie's March To Scotland_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89511_A Dialogue Betwixt An Exciseman And Death_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89537_A Chant of Army Cooks_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 45
+  },
+  "89551_Health to the Farmer!_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 10
+  },
+  "89582_Epitaph Of Madam Babington, 1_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 12
+  },
+  "89601_A Westminster Wedding, Or The Town Mouth; Alias, The Recorder Of London And His _British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89624_Green Sleeves_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 122
+  },
+  "89642_Rural Dance Around the May-pole_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 82
+  },
+  "89645_Montem Ode, June 9, 1829. -- From Eton College_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89685_Smoking Spiritualized_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 74
+  },
+  "89695_A Dialogue Between The Husbandman And The Servingman_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 99
+  },
+  "89697_An Excellent Ballad Of A Prince Of England's Courtship To The King Of France's D_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89698_Ring a Ring O' Roses_British, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "89895_from The Nerve Meter_Artaud, Antonin_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "90555_Astrophil and Stella 63- O Grammar rules, O now your virtues show_Sidney, Sir Philip_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "90621_Astrophil and Stella 101- Stella is sick, and in that sick-bed lies_Sidney, Sir Philip_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "90777_Rose Thorns_Mcquade, Molly_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "91309_The Fake Tears of Shirley Temple_Lockwood, Patricia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "91988_Lucy Gray [or Solitude]_Wordsworth, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 80
+  },
+  "92043_The Order In Which Things Are Broken_Alvarez, Desir\u00e9e_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "92060_from Ajax- Dirge_Shirley, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "92068_Deer's Cry or St. Patrick's Breastplate_Patrick, Saint_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "92173_Reading Saint John of the Cross_Kelly-DeWitt, Susan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "92886_The Place of Bones_Hosmer, William Henry Cuyler_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "93411_from Deaf Republic- 12. Sonya Speaks Slowly, As If Unaffected_Kaminsky, Ilya_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "93735_Gym Dance with the Doors Wide Open_Rosser, J Allyn_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94045_fromThe Sleepers_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94070_Song Of Myself, XLI_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94072_Song Of Myself, XXXVI_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94161_When I Heard at the Close of the Day_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94250_Song of Myself- 36_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94252_Song Of Myself, XXXVII_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94261_The World Below the Brine_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94276_Song Of Myself, XXXVIII_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94278_Kosmos_Whitman, Walt_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94306_Virginia--The West_Whitman, Walt_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "94374_One Shies at the Prospect of Raising Yet Another Defense of Cannibalism_Bell, Josh_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94447_Arcadia_Longenbach, James_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "94861_The Rosehead Nail_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94862_Actaeon_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94864_Two Violins_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94868_Failure_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94877_Written on the eve of my 20th high school reunion, which I was not able to atten_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "94878_Sestina- Like_Stallings, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95114_I WANT SKY_Bazeed_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 108
+  },
+  "95115_from \u201cOrigins of Poetry\u201d_Lipman, Joel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "95335_from Don't Let Me Be Lonely- \u201cThere is a button on the remote control called FAV_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95337_Don't Let Me Be Lonely- \u201cA father tells his son the thing he regrets most about _Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95340_Don't Let Me Be Lonely- \u201cThere is a button on the remote control called FAV...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95342_Don't Let Me Be Lonely- \u201cA father tells his son the thing he regrets most about _Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95343_from Don't Let Me Be Lonely- \u201cI don't usually talk to strangers...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95344_from Don't Let Me Be Lonely- \u201cAt the airport-security checkpoint...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95347_Don't Let Me Be Lonely- \u201cI don't usually talk to strangers...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95348_Citizen- \u201cSome years there exists a wanting to escape...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95349_Don't Let Me Be Lonely- \u201cAt the airport-security checkpoint...\u201d_Rankine, Claudia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95382_New Mutiny_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95385_Niggas in Raincoats Reprise_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95387_Coin Coin, Run_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95388_Crisis Actor_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95389_Eurydice, Run_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95393_Do any black children grow up casual_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95395_Industry_Holiday, Harmony_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95397_Two Traveling Together_Ito, Hiromi_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "95470_portrait of venice with a side of pasta_Jackson, Kara_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "96073_The Part About Fate or Counterpoint_Chan, Sylvia_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 91
+  },
+  "96563_Glotta_Arbuckle, James_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 442
+  },
+  "96827_Studies of an Ox\u2019s Heart, c. 1511\u201313_Legris, Sylvia_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "96834_Viola_Legris, Sylvia_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "96874_All Is Fair in Love and War_Mark, Sabrina Orah_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "96877_The Mustache_Mark, Sabrina Orah_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "97086_Gut und Lieb_Gernhardt, Robert_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "97285_The Shearers Wife_Buvelot, Thomas Louis_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "97316_Kumina_Brathwaite, Kamau_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "97666_Tourist_Willetts, Sam_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "97700_Welcome, bonny brid_Laycock, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "97727_Running Brush_Roderick, David_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "97752_Unknown Girl- Scabies_Wood, John Augustus_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 24
+  },
+  "97838_The Dirge Of Llywelyn_Palgrave, Francis Turner_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "98108_On Friday Nights_Trejo, Ernesto_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "98363_The Briny Grave_Lawson, Henry_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "98419_Said Grenfell to my Spirit_Lawson, Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "98531_[Harry Stephens]_Lawson, Henry_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "98564_'Possum' A Lay of New Chumland_Lawson, Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 139
+  },
+  "98681_Between The Griffon and Met Life_Katz, Vincent_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "99025_Polliciti Meliora {'having promised better things'}_Thompson, Frank_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "99295_In Search Of The Young Wizard_Crosby, Harry_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "99378_Oh my blacke Soule! now thou art summoned_Donne, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "99576_Let's Make the Water Turn Black_Simonds, Sandra_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100019_Miserimus_Menken, Adah Isaacs_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100043_From \u201cRomanticisms\u201d_Beachy-Quick, Dan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100106_Ode On A Nearer Prospect Of Summer Hill_Barham, Richard Harris_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 94
+  },
+  "100114_What did you learn here (Old Man House)_Sigo, Cedar_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100628_The Third Day Of The Third Month_Ji-Yong, Jeong_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "100796_Telegram_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100810_An Electric Sign Goes Dark_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100816_River Moons_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100820_Out Of White Lips_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100824_Mohammed Bek Hadjetlache_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100838_The Abracadabra Boys_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100840_Films_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100844_Real Estate News_Sandburg, Carl_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 9
+  },
+  "100854_The Mayor Of Gary_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100863_Crucible_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100868_Flash Crimson_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100871_'Boes_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100879_Chicago_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100882_Streets Too Old_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100891_Graceland_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100898_The Four Brothers_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100899_Timber Wings_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100902_Vaudeville Dancer_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100903_John Ericsson Day Memorial, 1918_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100931_Early Moon_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100938_Improved Farm Land_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100941_Flat Lands_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100951_In Tall Grass_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100960_Questionnaire_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100968_Balloon Faces_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100971_Boy and Father_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100972_Broken Tabernacles_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100978_They All Want To Play Hamlet_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100988_Clocks_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "100990_Two Items_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101001_Brass Keys_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101016_Yes , The Dead Speak To Us_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101018_Band Concert_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101023_Silver Wind_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101027_Lawyer_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101028_A Million Young Work Men_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101036_Three Balls_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101045_Red-Headed Restaurant Cashier_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101048_Just Before April Came_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101057_Galoots_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101059_The Skyscraper Loves Night_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101070_New Farm Tractor_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101097_House_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101098_Snow_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101103_Child Margaret_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101129_Legends_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101138_Garden Wireless_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101139_In The Shadow Of The Palace_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101147_Savoir Faire_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101149_Wind Song_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101163_Jug_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101169_Kreisler_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101184_Sandhill People_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101192_Still Life_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101212_High Conspiratorial Person_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101221_Crabapple Blossoms_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101237_Let Love Go On_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101253_Shenandoah_Sandburg, Carl_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101318_Temporary Matter_Koiso, Hiromitsu_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101327_On Reading Ballads_West, Arthur Graeme_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 62
+  },
+  "101335_My Father_Rittenhouse, Jessie B_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101337_The Battle Cry of Freedom- Union_Root, George Frederick_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 39
+  },
+  "101341_Tramp! Tramp! Tramp!_Root, George Frederick_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101508_Of All Things_Galleymore, Isabel_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "101661_Flying Kites_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "101665_Bill's Enemy_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 23
+  },
+  "101675_Ring O' Bells_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 23
+  },
+  "101688_Chips_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 29
+  },
+  "101691_Smith-With-A-Hi_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 40
+  },
+  "101698_Homeward_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 39
+  },
+  "101724_The Hunting Of The Witch_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 30
+  },
+  "101729_Doldrums- One Of Murphy's Yarns_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 57
+  },
+  "101734_The FightingT\u00e9m\u00e9raire- BonePrisonerModel_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 57
+  },
+  "101743_Sou\u2019 Spain_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 48
+  },
+  "101746_Mariquita_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 21
+  },
+  "101751_Hic(Ks) Jacet_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 31
+  },
+  "101752_John Company's Ships_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "101776_A Declaration Of War_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 50
+  },
+  "101780_Peaceable Mr. M'Gee_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 38
+  },
+  "101790_Lumber_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 59
+  },
+  "101802_The Good Intent_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 81
+  },
+  "101803_Dan's Epitaph_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 33
+  },
+  "101804_Eight Bells_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 26
+  },
+  "101807_Mother Carey_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 37
+  },
+  "101808_The China Sea_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "101816_Rosario_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 33
+  },
+  "101819_Salvage_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "101829_Bill The Dreamer_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "101844_Leave Her Johnnie_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "101849_The Conversation Book_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "101856_London River_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 17
+  },
+  "101857_The Charge Of The 21st Lancers_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 26
+  },
+  "101859_A Meeting_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "101872_TheCuttyComes Back [1926]_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 63
+  },
+  "101875_Dan (The Shantyman)_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "101902_Omdurman_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 31
+  },
+  "101905_Everybody\u2019s Doing It_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 44
+  },
+  "101908_In Memoriam- H.M.S. Warspite_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 25
+  },
+  "101913_Follow The Sea_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 41
+  },
+  "101922_Skipper_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 45
+  },
+  "101930_All Sorts_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 36
+  },
+  "101951_After Dark_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 21
+  },
+  "101962_Hastings Mill_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "101979_Lee Fore Brace_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 54
+  },
+  "101980_Derelict_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 37
+  },
+  "101993_Poor Old Ship (Regent's Canal Dock)_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "101996_Morgan Le Fay_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "102005_Granfer Scroodle_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "102006_Odyssey_Smith, Cicely Fox_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102009_The Implacable_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 36
+  },
+  "102011_Cook_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 19
+  },
+  "102012_News In Daly's Bar_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 123
+  },
+  "102033_TheCuttyComes Back [1924]_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "102048_Pacific Coast_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 28
+  },
+  "102054_The Half Loaf_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "102062_Padre_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 10
+  },
+  "102063_Sailor Town_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 26
+  },
+  "102065_Isandula_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 55
+  },
+  "102066_Racing Clippers (A Wool Fleet Memory)_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 64
+  },
+  "102068_Shanghai Passage_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 46
+  },
+  "102089_Caesar's Camp_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 44
+  },
+  "102093_The Casuarina Tree (Southern Rhodesia)_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 46
+  },
+  "102096_In Sailortown_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 65
+  },
+  "102107_South Sea Whaler. \u201cScrimshaw\u201d Model_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 52
+  },
+  "102120_Ex-Voto Breton Church Model_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 61
+  },
+  "102121_Departure_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 56
+  },
+  "102128_Royal Yacht (Restoration Period)_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 62
+  },
+  "102138_Rio Grande_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 30
+  },
+  "102146_A Coral Island_Smith, Cicely Fox_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "102294_The Beacon Fires_Aeschylus_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "102322_Squirrel Problem_Schomburg, Zachary_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102324_The One About the Robbers_Schomburg, Zachary_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102326_The Fire Cycle_Schomburg, Zachary_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102343_The Poet_Peacock, Molly_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 89
+  },
+  "102396_Green Light Go_P\u00e9rez, Emmy_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102443_My Symphony_Channing, William Ellery_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "102449_Below the Coast_Koethe, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102450_Ninety-Fifth Street_Koethe, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102459_Like Gods_Koethe, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102515_The Strangers_Hicks, Patrick_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102738_Alone Amongst Nature_Propertius, Sextus_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102743_Death and Transience_Propertius, Sextus_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102746_His Mistress\u2019s Harshness._Propertius, Sextus_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102747_Cynthia's Journey_Propertius, Sextus_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102836_Vagabonds_Price, Reynolds_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "102894_The Black Watch_Jenness, Burt Franklin_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 177
+  },
+  "102901_The Flare-Back_Jenness, Burt Franklin_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 157
+  },
+  "102967_Untitled #9, 1995_Chang, Victoria_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "103232_The White Horse of Westbury_Turner, Charles Tennyson_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "103263_The Blind, Obedient Dead_Keane, M C_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 37
+  },
+  "103865_Aeneid_Virgil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "104075_Elegy for an Old Boxer_Mckean, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104083_Therapy from the Garden_Morazzini, Glenn_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104335_The Mother Mourns._Hardy, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104554_Snow_Stuckenberg, Viggo_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104747_Dolphins at Seven Weeks_Webster, Rachel Jamison_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104748_La Porte_Webster, Rachel Jamison_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104798_Who Makes Love to Us After We Die_Delgado, Diana_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104804_\u201cHistory of Scanderbeg\u201d excerpt from Canto V_Frasheri, Naim_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "104810_Antigone_Braschi, Giannina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104902_From \u201cHome, Again\u201d_Mcauliffe, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "104905_Thunder Can Break_Okigbo, Christopher_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105019_The Little Match Girl_McG, Knight of the White Elephant of Bur_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105025_Descriptive Jottings of London_McG, Knight of the White Elephant of Bur_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105026_The Burial of the Rev. George Gilfillan_McG, Knight of the White Elephant of Bur_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105028_An Address to the Rev. George Gilfillan_McG, Knight of the White Elephant of Bur_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105073_Monstrance Man_Pau-Llosa, Ricardo_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105163_Juleaftenen (Christmas Eve )_Wergeland, Henrik Arnold_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "105215_Vimy. November 11_Ward, Burnett A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "105233_Spring In Labor Camp_Ward, Burnett A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 33
+  },
+  "105267_The Retired Cat_Cowper, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 139
+  },
+  "105312_Expostulation_Cowper, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 895
+  },
+  "105606_A Tale. June 1793_Cowper, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 101
+  },
+  "105706_From \u201cFictive ...\u201d_Duncan, Aja Couchois_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106043_The Destiny Of Nations. A Vision._Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 602
+  },
+  "106044_Songs of the Pixies_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106060_The Three Sorts of Friends (fragment)_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 8
+  },
+  "106091_Ode To The Departing Year_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 196
+  },
+  "106121_To A Friend, With An Unfinished Poem_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 94
+  },
+  "106153_Religious Musings - A Desultory Poem Written On The Christmas Eve Of 1794_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 521
+  },
+  "106171_A Mathematical Problem_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 222
+  },
+  "106197_The Three Graves. A Fragment Of A Sexton's Tale_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 432
+  },
+  "106211_The Keepsake_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "106229_The Blossoming Of The Solitary Date-Tree. A Lament_Coleridge, Samuel Taylor_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 80
+  },
+  "106284_Poem Of The Mountain_Tsvetaeva, Marina Ivanova_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 365
+  },
+  "106338_The Grammarians Funeral_Tompson, Benjamin_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 112
+  },
+  "106386_I Want to Read at the White House_Clover, Joshua_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106393_Galah\u2019s Skull_Holland-Batt, Sarah_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106554_Sleep Teases A Man_Kharms, Daniil Ivanovich_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106561_Foma Bobrov And His Spouse_Kharms, Daniil Ivanovich_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "106867_Verses Addressed To Hector MacNeill, Esq. Author Of Will An' Jean_Gall, Richard_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 69
+  },
+  "107017_She Who Wrote_Willis, Elizabeth_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107049_The Stedfast Shepherd_Wither, George_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "107107_Corporal Dick's Promotion_Doyle, Arthur Conan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107108_The Franklin's Maid (From 'The White Company')_Doyle, Arthur Conan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107123_A Rover Chanty_Doyle, Arthur Conan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107137_Pot Macabre_Davidson, Donald Grady_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107142_Censored_Davidson, Donald Grady_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107841_The Marriage of Heaven and Hell- [2] The Voice of the Devil_Blake, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 51
+  },
+  "107887_The Marriage of Heaven and Hell- [4] Proverbs of Hell_Blake, William_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "107922_A Song of Liberty_Blake, William_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "108480_Alice Ray- A Romance In Rhyme- Canto IV_Hale, Sarah Josepha Buell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 224
+  },
+  "108608_Tigress Hugs Manchurian Fir_Doshi, Tishani_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "108615_Saxon Grit_Collyer, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 117
+  },
+  "108878_Oh that I might capture_Chin-i, Hwang_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "108977_Ballad Of The Despairing Husband_Creeley, Robert_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "109136_Definition of the Frontiers_MacLeish, Archibald_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "109433_Search_Knibbe, Hester_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "109711_Bird, Therapy, Fish Tank_Berry, Emily_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "109969_The Ballad Of Joe Meek_Brown, Sterling A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 200
+  },
+  "110232_The Nightingale of Avarayr_Alishan, Leo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 60
+  },
+  "110300_Frequently Asked Questions- 10_Dungy, Camille T_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "110583_Boots_Kipling, Rudyard_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 39
+  },
+  "110665_Song of the Galley-Slaves_Kipling, Rudyard_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "111041_Mythic Beaver_Field, Catherine_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "111936_prayer is better than sleep_Mela, Momina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112038_Something in the Belly_Metzger, Deena_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112081_Names_Munro, Peter_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112083_Requiem_Munro, Peter_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 14
+  },
+  "112371_Sleeping with the Dictionary_Mullen, Harryette_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112441_The Sleeping Sentinel_Janvier, Francis De Haes_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112627_The travels of the bones_Wickersham, Joan_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112729_The Amber Whale- A Harpooneer\u2019s Story_Reilly, John Boyle O_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 328
+  },
+  "112773_The Exile Of The Gael_Reilly, John Boyle O_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "112793_Liberty Lighting The World_Reilly, John Boyle O_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113172_from For the Fighting Spirit of the Walnut_Hiraide, Takashi_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113188_A Sense of Belonging_Nuernberger, Kathryn_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113310_[IT'S BEEN TWO THOUSAND YEARS NOW]_Bancquart, Marie-Claire_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113659_Then_Shurin, Aaron_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113660_Plume_Shurin, Aaron_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113661_Cool Dust_Shurin, Aaron_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113709_A Horse Dies Once That Is a Lie_Ben-Oni, Rosebud_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113921_Girl, Your Body Has So Many Holes for Straws_Hyesoon, Kim_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "113977_Update on the Last Judgment_Hinsey, Ellen_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "114036_A Grave_Moore, Marianne_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "114041_A Graveyard_Moore, Marianne_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115126_Idem the Same- A Valentine to Sherwood Anderson_Stein, Gertrude_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115144_Hotel Fran\u00e7ois 1er_Stein, Gertrude_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115145_Tender Buttons [a Box]_Stein, Gertrude_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115155_A Little Called Pauline_Stein, Gertrude_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115166_Tender Buttons [a Chair]_Stein, Gertrude_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115303_The Mystery Man in the Black Hat Speaks_Troupe, Quincy_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115332_Italy - 11. Bergamo_Rogers, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 102
+  },
+  "115342_An Inscription in the Crimea_Rogers, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115349_The Voyage Of Columbus_Rogers, Samuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "115357_The Boy of Egremond_Rogers, Samuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "115386_Italy - 28. An Interview_Rogers, Samuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "115388_Italy - 32. National Prejudices_Rogers, Samuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "115390_Italy - 48. The Harper_Rogers, Samuel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "115419_Samson Agonistes_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 2186
+  },
+  "115426_Paradise Regain'd - Book I._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 634
+  },
+  "115438_Sonnet XIII. To Mr. H. Lawes On His Aires_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 16
+  },
+  "115444_Paradise Lost - Book III._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 874
+  },
+  "115447_Paradise Lost - Book II._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1359
+  },
+  "115454_Paradise Lost - Book VI._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1063
+  },
+  "115462_Sonnet VII- On His Being Arriv'd To The Age Of 23_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 19
+  },
+  "115464_Sonnet XVIII- On The Late Massacre In Piemont_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 20
+  },
+  "115477_Sonnet XXIII. On His Deceased Wife_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 19
+  },
+  "115496_Paradise Lost - Book V._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1113
+  },
+  "115510_Sonnet XI. On The Detraction Which Followed My Writing Certain Treatises_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "115511_Sonnet XVI- To The Lord General Cromwell_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 19
+  },
+  "115517_Paradise Lost - Book XII._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 744
+  },
+  "115520_Sonnet VIII. When The Assault Was Intended To The City_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "115537_Paradise Lost - Book X._Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1350
+  },
+  "115539_Sonnet X. To The Lady Margaret Ley_Milton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115583_Heredities (1) Etymology_Martinez, J Michael_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115584_Heredities (1)Etymology_Martinez, J Michael_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115617_Investigation of Past Shoes_Capildeo, Vahni_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "115644_Mardale Head_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115647_Hindoo Temples at Benares_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115679_Death-Bed of Alexander the Great_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 96
+  },
+  "115688_Jesuits in Procession\u2014Valetta, Malta_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 20
+  },
+  "115700_Prince Charles Edward_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115712_Lincoln Cathedral_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115718_Erinna - My hand is on the lyre_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115732_Dunold Mill-Hole_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115750_Gibraltar, From the Queen of Spain\u2019s Chair_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 39
+  },
+  "115757_A Dutch Interior_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115785_Cafes In Damascus_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115786_Cemetery of the Smolensko Church_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115796_Crossing the River Tonse by a Jhoola_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115808_Death of Louis of Bourbon. Bishop of Liege_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 17
+  },
+  "115818_Count Egmont, a Tragedy - Goethe - Scene II_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 321
+  },
+  "115824_Beverley Minster_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115846_Fowey Harbour and Polruan Castle, &c._Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115851_Gibraltar\u2014from the Sea_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 69
+  },
+  "115856_Lord and Lady Derby_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 82
+  },
+  "115859_A Birthday Tribute to Her Royal Highness the Princess Victoria_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115867_Carrick-a-Rede, Ireland_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 31
+  },
+  "115868_Liverpool_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115875_Lines Suggested on Visiting Newstead Abbey_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 73
+  },
+  "115921_Hurdwar\u2014The Gate of Vishnoo_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115922_Miller\u2019s Dale, Derbyshire_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 42
+  },
+  "115923_Antioch_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 68
+  },
+  "115949_Alexander on the Banks of the Hyphasis_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115956_Corinne at the Cape of Misena_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115962_Admiral Lord Collingwood_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "115965_Genius - Glory of earth, and light from heaven_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 86
+  },
+  "115977_Admiral Benbow_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 97
+  },
+  "115981_Dr. Morrison and his Chinese Attendants_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 19
+  },
+  "115992_Benares_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 21
+  },
+  "116000_Kalendria. A Port in Cilicia_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116018_Lines - Suggested by a Drawing of W. Daniel_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116060_Linmouth, or, The Country Retreat_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116062_Death of the Lion among the Ruins of Sbeitlah_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116066_Infanticide in Madagascar_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116067_Imitations of Servian Poetry_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116073_Manchester_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 72
+  },
+  "116077_Lancaster_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116085_Borro Boedoor_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116089_Boscastle Waterfall and Quarry_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 44
+  },
+  "116096_Corfu - Oh, Lovely isle! that, like a child_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116115_Hall i\u2019 th\u2019 Wood_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 46
+  },
+  "116127_Matlock_Landon, Letitia Elizabeth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116786_To Good Guys Dead_Hemingway, Ernest_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "116909_From 'Emancipation Of Women'_Norwid, Cyprian Kamil_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "117062_New Morality_Canning, George_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 651
+  },
+  "117306_The Labyrinth_Baird, Robert P_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "117760_from The Princess- O Swallow_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "117777_from The Princess- Our Enemies Have Fall'n_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "117787_In Memoriam A. H. H. 116_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": 21
+  },
+  "117799_The Lotos-eaters_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "117890_from Maud (Part II)_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": 10
+  },
+  "117927_In Memoriam A. H. H. OBIIT MDCCCXXXIII- 106_Tennyson, Alfred Lord_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "118251_Sir John Suckling's Campaigne_Mennis, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "118304_Lamia. Part I_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 466
+  },
+  "118312_To -------._Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 38
+  },
+  "118322_Song. Hush, Hush! Tread Softly!_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118325_I Stood Tip-Toe Upon A Little Hill_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118326_The Cap And Bells; Or, The Jealousies- A Faery Tale -- Unfinished_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1156
+  },
+  "118327_Endymion- Book I_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1227
+  },
+  "118332_Teignmouth- 'Some Doggerel,' Sent In A Letter To B. R. Haydon_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 65
+  },
+  "118336_Endymion- Book II_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1365
+  },
+  "118338_Hyperion. Book I_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 456
+  },
+  "118352_A Draught Of Sunshine_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 49
+  },
+  "118356_Sonnet. Written On A Blank Space At The End Of Chaucer's Tale Of 'The Floure And_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "118365_A Song About Myself_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 130
+  },
+  "118367_On Visiting The Tomb Of Burns_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "118371_Spenserian Stanzas On Charles Armitage Brown_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118385_Lines Written In The Highlands After A Visit To Burns's Country_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118387_Sleep And Poetry_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 539
+  },
+  "118389_Sonnet. Written Before Re-Read King Lear_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118392_Isabella; Or, The Pot Of Basil- A Story From Boccaccio_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 752
+  },
+  "118394_Sonnet. Written On A Blank Page In Shakespeare's Poems, Facing 'A Lover's Compla_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 17
+  },
+  "118403_Epistle To John Hamilton Reynolds_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 137
+  },
+  "118404_Staffa_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 66
+  },
+  "118408_Acrostic - Georgiana Augusta Keats_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118413_Imitation Of Spenser_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118415_What The Thrush Said. Lines From A Letter To John Hamilton Reynolds_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "118422_Sonnet. Written On A Blank Space At The End Of Chaucer's Tale Of 'The Floure And_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 17
+  },
+  "118423_Two Sonnets. To Haydon, With A Sonnet Written On Seeing The Elgin Marbles_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118424_Sonnet To George Keats- Written In Sickness_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118425_Sonnet- After Dark Vapors Have Oppress'd Our Plains_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118426_To Charles Cowden Clarke_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 160
+  },
+  "118429_Spenserian Stanza. Written At The Close Of Canto II, Book V, Of 'The Faerie Quee_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 12
+  },
+  "118442_Dedication To Leigh Hunt, Esq._Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "118449_On Receiving A Curious Shell_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118453_To Ailsa Rock_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 20
+  },
+  "118454_Sonnet To Homer_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "118457_Sharing Eve's Apple_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118459_A Prophecy- To George Keats In America_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 59
+  },
+  "118466_The Gadfly_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 102
+  },
+  "118468_Song. Written On A Blank Page In Beaumont And Fletcher's Works_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 26
+  },
+  "118469_Sonnet. Why Did I Laugh Tonight_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 24
+  },
+  "118472_Fragment Of An Ode To Maia. Written On May Day 1818_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 21
+  },
+  "118473_Hyperion. Book III_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118474_from Endymion_Keats, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "118479_Sonnet III. Written On The Day That Mr. Leigh Hunt Left Prison_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "118480_Lines On Seeing A Lock Of Milton's Hair_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 45
+  },
+  "118486_The Devon Maid- Stanzas Sent In A Letter To B. R. Haydon_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118488_Lines To Fanny_Keats, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 70
+  },
+  "118640_Fresh Air_Koch, Kenneth_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "118881_Mazeppa_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118898_Lara. A Tale_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1605
+  },
+  "118900_Lines Written Beneath An Elm In The Churchyard Of Harrow On The Hill, Sept. 2, 1_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "118906_The Island- Canto IV._Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 538
+  },
+  "116246_Grip_Brown, Jericho_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "118914_Childe Harold's Pilgrimage- A Romaunt. Canto II._Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1300
+  },
+  "118917_The Bride Of Abydos_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1495
+  },
+  "118931_English Bards and Scotch Reviewers- A Satire_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1309
+  },
+  "118945_Lachin Y Gair_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 51
+  },
+  "118954_Written After Swimming From Sestos To Abydos_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 25
+  },
+  "118977_The Lament Of Tasso_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 310
+  },
+  "118995_To The Duke Of Dorset_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 131
+  },
+  "118996_The Giaour- A Fragment Of A Turkish Tale_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1516
+  },
+  "119016_Childe Harold's Pilgrimage- A Romaunt. Canto I._Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1405
+  },
+  "119026_When I Roved A Young Highlander_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 59
+  },
+  "119028_Beppo, A Venetian Story_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1124
+  },
+  "119085_Elegy On Newstead Abbey_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 199
+  },
+  "119107_Parisina_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 710
+  },
+  "119127_The Siege Of Corinth_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1237
+  },
+  "119156_Thoughts Suggested By A College Examination_Byron, George Gordon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "119234_Liadain to Curithir_Fox, Moireen A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "119883_The Christening_Lamb, Charles_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 37
+  },
+  "120191_Douglass Dead_Coffin, Frank Barbour_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "120300_callas lover_Powell, D A_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "120399_Closing the Seaport_Trai, Nguyen_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "120406_A Cry From Andersonville Prison_Comfort, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "120421_A Memorable Fancy_Queyras, Sina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "120426_Elegy_Tichborne, Chidiock_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "120635_The Vision Of Sir Launfal_Lowell, James Russell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 397
+  },
+  "120878_The Hunter of the Uruguay to his Love_Costello, Louisa Stuart_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "120887_The Destroying Spirit_Costello, Louisa Stuart_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 57
+  },
+  "120888_The Indian Cupid_Costello, Louisa Stuart_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "121135_Sunflowers_Rodr\u00edguez, Jos\u00e9 Antonio_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121146_\u201cMolothrus ater\u201d_Chianese, Samantha_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "121156_My House is the Red Earth_Harjo, Joy_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "121160_Conflict Resolution for Holy Beings_Harjo, Joy_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "121326_There Is An Inn, A Merry Old Inn_Tolkien, J R R_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 79
+  },
+  "121415_Dancing in the Dark_Greathouse, Torrin A_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "121567_Montparnasse_Hemingway, Ernest M_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121593_Dreams_Szymborska, Wis\u0142awa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "121632_The Four Seasons_Reines, Ariana_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121742_The Labours Of Ferhad_Ganjavi, Nizami_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 83
+  },
+  "121754_Daughter_Lenfestey, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121806_La Llorona as Andrea Yates_Rocha, Iliana_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121812_Ours_Rocha, Iliana_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121813_Home Fire_Marion, Linda Parsons_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121814_Snapshot_Marion, Linda Parsons_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121859_Flowerpot_Shapiro, Alan R_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "121866_Sickbed_Shapiro, Alan R_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "122409_Tom's Ballad of Colleens_Maclaren, Hamish_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 16
+  },
+  "122410_Yangtse River Shanty_Maclaren, Hamish_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "122465_Who Steals My Good Name_Snodgrass, W D_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "122504_The Invisible Body_Rodr\u00edguez, Aleida_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": 144
+  },
+  "122903_Altar Boy_Menes, Orlando Ricardo_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "122904_El Patio de Mi Casa_Menes, Orlando Ricardo_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "122982_Eunomia_Solon_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "123087_Like Coins, November_Zerneck, Elizabeth Klise Von_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "123580_Ode to Herb Kent_Woods, Jamila_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "123601_The Tragic Condition of the Statue of Liberty_Mayer, Bernadette_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "123767_On Messrs Hussey and Coffin_Wheatley, Phillis_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 42
+  },
+  "123793_Singing_Berssenbrugge, Mei Mei_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "123842_I Am The Son Of King Gog Of Magog_Ady, Endre_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "123876_The Old Vicarage, Grantchester_Brooke, Rupert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 201
+  },
+  "124145_To a Little Invisible Being Who is Expected Soon to Become Visible_Barbauld, Anna L\u00e6titia_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "124863_A Legend of Bregenz_Procter, Adelaide Anne_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 121
+  },
+  "125419_reading_burns, joanne_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "125542_Poem_Rocco, Claudia La_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "125793_The Bend ( Extracts )_Thomas, R S_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "126079_The Master\u2019s House_Sharif, Solmaz_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "126104_[in the general conservative cast . . .]_Edwards, Kari_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "126127_On The Death Of Mr Aikman_Thomson, James_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 52
+  },
+  "126272_you make the fire_Basho, Matsuo_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "126815_I Move through London Like a Hotep_Antrobus, Raymond_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "126990_Daughters of the King_Savageau, Cheryl_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "127009_from The Testament of Love_Bridges, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "127460_From \u201cWeapon or Considering the Evidence Against Me\u201d_Monson, Justin Rovillos_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "127693_The Fury of Aerial Bombardment_Eberhart, Richard_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "128182_Sorrow Home_Walker, Margaret_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "128831_Cumnor Hall_Mickle, William Julius_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "128834_phabetical_Vassilakis, Nico_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "128857_Vagabonds_Rimbaud, Arthur_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "128966_Royalty_Rimbaud, Arthur_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "129089_Thomas At Chickamauga_Sherwood, Kate Brownlee_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "129097_haiku #62_Helmes, Scott_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "129200_untitled_Gallo, Philip_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "129313_He Posits Certain Mysteries_Lynch, Thomas P_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "129314_His Ambulations_Lynch, Thomas P_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "129317_He Considers Not the Lilies but Their Excellencies_Lynch, Thomas P_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "129323_Catchy Tunes_Thomas, Robert_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "129460_To Robert Hayden_Corral, Eduardo C_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "129992_Sassoon's Public Statement Of Defiance_Sassoon, Siegfried_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "130009_On Passing The New Menin Gate_Sassoon, Siegfried_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "130125_Two Nudes_Bang, Mary Jo_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "130263_The Loves of the Angels_Moore, Thomas_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "130837_When I Spoke_Pham, Alex-Quan_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "131197_Thinking_Wintle, Walter D_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "131275_Begin in Blue_Norton, Linda_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "132549_Eternity_Clark, Tom_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "132615_Spring - The First Pastoral ; or Damon_Pope, Alexander_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 159
+  },
+  "132677_The Hail-Storm (From The Norse)_Borrow, George_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "133158_Here War Is Simple_Auden, W H_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133297_Beatitudes Visuales Mexicanas_Ferlinghetti, Lawrence_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133414_Kadisha; Or, The First Jealousy_Blackmore, Richard Doddridge_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133416_Mount Arafa_Blackmore, Richard Doddridge_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "133666_From \u201cNineteen Ancient Poems\u201d_Yang, Jeffrey_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133668_Sidetracks IX_Yang, Jeffrey_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133759_I Ask My Mother to Sing_Lee, Li-Young_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133771_Little Ache_Lee, Li-Young_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133772_Secret Life_Lee, Li-Young_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133843_Theory of Mesh_Chen, Yongyu_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133868_Traveling Salesman_Dybek, Stuart_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "133901_A Concert-Impromptu_McIntyre, James_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "133928_Facts About Cheese_McIntyre, James_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 11
+  },
+  "134010_T.D Mkee_McIntyre, James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "134063_The Loss Of The Birkenhead_Doyle, Francis Hastings Charles_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "134078_To Independence_Smollett, Tobias_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 158
+  },
+  "134153_What I Know_Sampson, Fiona_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "134179_At Penshurst_Waller, Edmund_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "134272_If Such Her Purpose Last, I'll Send_Werbenwag, Hugh von_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "134281_The \u2018Sirius\u2019 Anchor_Byrnes, Robert Steel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "134323_gigantic mountains_Gorrell, Brandon Scott_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "134818_The History Of Joseph- A Poem In Ten Books. Book X._Rowe, Elizabeth Singer_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135758_Hear What Ma'am Goose Says!_Goose, Mother_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135958_Acknowledgments_Gray, Jan Henry_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135965_The Aeneid of Virgil- Book 2_Maro, Publius Vergilius_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135967_'The Aeneid of Virgil- Book 5_Maro, Publius Vergilius_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135978_'The Aeneid of Virgil- Book 3_Maro, Publius Vergilius_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135988_Descriptive Jottings of London_McGonagall, Knight of the White Elephant_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135991_An Address to the Rev. George Gilfillan_McGonagall, Knight of the White Elephant_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135996_The Burial of the Rev. George Gilfillan_McGonagall, Knight of the White Elephant_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "135998_The Little Match Girl_McGonagall, Knight of the White Elephant_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136199_Why do I hate Flarf so much_Gardner, Drew_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136201_Five Essays_Gardner, Drew_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136206_Let Me Count the Waves_Beasley, Sandra_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136356_Shine, Perishing Republic_Jeffers, Robinson_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136919_Advent - Christmas Night_Loriot_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136927_The Alpaca_Mistral, Gabriela_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "136997_Oklahoma_Alyan, Hala_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137118_Coal Deliveryman_Arnold, Craig_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137131_Caelica 29- The nurse-life wheat within his green husk growing_Greville, Baron Brooke Fulke_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137407_Royalty_Ashbery, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "137444_Homeless Heart_Ashbery, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "137554_mi'kmaq book of the dead_And, Miekal_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137851_from Poor Richard's Almanack_Franklin, Benjamin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137859_XII Mon. February [1746] hath xxviii days_Franklin, Benjamin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "137864_X Mon. December [1744] hath xxxi days._Franklin, Benjamin_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "137911_Justice In Masquerade, Or Scroggs Upon Scroggs_College, Stephen_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 33
+  },
+  "137912_Since Justice Scroggs Pepys And Dean Did Bail_College, Stephen_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 26
+  },
+  "137940_Home Again, Home Again_Taylor, Marilyn L_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "138060_One O'Clock in the Morning_Baudelaire, Charles_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "138198_Windows_Baudelaire, Charles_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "138357_Speech- Bottom's Dream_Shakespeare, William_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "138438_Sonnet 135- Whoever hath her wish, thou hast thy Will_Shakespeare, William_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "138542_Classic Toy_Brown, Mary M_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "138645_Ball's Bluff_Lander, Frederick West_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "138646_Karma_Canton, William_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "139431_The Pixy and the Grocer_Andersen, Hans Christian_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "139566_The Sinless Child Part 7_Smith, Elizabeth Oakes_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 181
+  },
+  "139598_Sunset at Agra_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 73
+  },
+  "139605_The Ganges_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 76
+  },
+  "139607_The Tomb of the Faithful_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 85
+  },
+  "139613_Indian Graves_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 138
+  },
+  "139616_Stanzas written in a pavilion of the Rambaugh_Roberts, Emma_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "139617_The Jaut at Agra_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 83
+  },
+  "139625_The Rakhi_Roberts, Emma_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 80
+  },
+  "139708_Jane Shore, A Tragedy (excerpt)_Rowe, Nicholas_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 16
+  },
+  "139806_The Last Days of Summer Before the First Frost_Bowling, Tim_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "139989_Street Music_Allen, Elizabeth Akers_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "140034_Ode On The Death Of Her Husband, King Francis II_Stuart, Mary_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 88
+  },
+  "140082_The Passionate Suburbanite To His Love_Guiterman, Arthur_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 50
+  },
+  "140125_A Caution against Mobbing_Claudero, James Wilson_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 64
+  },
+  "140369_Sissieretta Jones_Jess, Tyehimba_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "140444_Dedication_Carroll, Lewis_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "140489_Theme With Variations_Carroll, Lewis_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "140494_Tema Con Variazioni_Carroll, Lewis_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 20
+  },
+  "140595_I Stand Outside This Woman\u2019s Work_Mcglynn, Karyna_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "140812_Aunt Helen_Eliot, T S_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "140855_Hysteria_Eliot, T S_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "141063_The Hero Of The Drum_Bungay, George W_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "141090_From \u201cAnagrams\u201d [xxi]_Kennard, Luke_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141092_From \u201cAnagrams\u201d [xxii]_Kennard, Luke_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141093_From \u201cAnagrams\u201d [iii]_Kennard, Luke_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141095_From \u201cAnagrams\u201d [iv]_Kennard, Luke_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141105_nAdasudhArasa_Tyagaraja_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141106_bhUvini dAsuDanE_Tyagaraja_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141108_Enta bhAgyamu_Tyagaraja_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "141360_A Shropshire Lad 19- The time you won your town the race_Housman, A E_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "141501_The Mistress_Dacre, Charlotte_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "141789_The Purple Cow Parodies_Wells, Carolyn_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "141819_Bemidji Blues_Hill, Sean_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "142341_Footnote to Howl_Ginsberg, Allen_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142527_Introduction To A Pilgrim's Progress_Bunyan, John_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142834_Learning about Treaties in School_Skeets, Jake_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142844_Hypersensitive Emanation_Alexander, Will_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142854_On Anti-Biography_Alexander, Will_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142858_Towards the Primeval Lightning Field_Alexander, Will_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "142958_Sheltered Garden_D, H_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "142962_Sea Iris_D, H_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "142964_Eurydice_D, H_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "142973_Sea-Heroes_D, H_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "143065_The Charge Of The Mule Brigade_Americas, Anonymous_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 67
+  },
+  "143081_Prison Bars_Americas, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143131_The Vulture (Parody of Poe's 'Raven')_Americas, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143146_The Zouaves At Bethel_Americas, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143184_The Red Zouave_Americas, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143268_The Copperheads_Americas, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143456_My mother was fortune, my father generosity and bounty_Rumi, Mewlana Jalaluddin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143478_Bring Wine_Rumi, Mewlana Jalaluddin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "143538_Masnawi_Rumi, Mewlana Jalaluddin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144178_The Mystery_Glangel, Amergin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144208_from[From Une histoire de bleu - From A Story of Blue]_Cornelio, Dawn M_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144362_Corporal Schnapps_Work, Henry Clay_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 62
+  },
+  "144429_Mary_Darwish, Najwan_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144559_After after_Popsickle, Pinka_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144593_[A black God touched me today...]_Leon, Jon_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144617_Hearts Of Oak_Garrick, David_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "144627_Labile_Basinski, Michael_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "144783_Massacre Song Foundation_Plenty, Trevino L Brings_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "145346_Silver Roses_Wetzsteon, Rachel_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "145348_Algonquin Afterthoughts_Wetzsteon, Rachel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 10
+  },
+  "145651_Treaties and Monuments- The Whim of Ephemeral Contracts, or A War Department Map_Bridger, Kierstin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "145652_Treaties and Monuments- The Whim of Ephemeral Contracts, or A War Department Map_Bridger, Kierstin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "145653_Treaties and Monuments- The Whim of Ephemeral Contracts, or A War Department Map_Bridger, Kierstin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "146528_Macquarie Harbour_Ingamells, Rex_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 24
+  },
+  "146590_The Ghosts_Waller, John Stanier_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "146595_Dedication At Vicksburg_Battaile, J E_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 65
+  },
+  "146749_The Oil Of Mercy_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 145
+  },
+  "146753_Alexander At The Gates of Paradise. A Legend From The Talmud_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 135
+  },
+  "146754_Chidher's Well_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 83
+  },
+  "146760_The Pantheist; or, The Origin Of Evil_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "146772_Life Through Death_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 76
+  },
+  "146789_The Eastern Narcissus_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "146796_Orpheus And The Sirens_Trench, Richard Chenebix_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "146832_The Old Prison_Wright, Judith_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "146979_The Death Of Richard Wagner_Swinburne, Algernon Charles_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "147104_Imago_Wright, Franz_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147110_Postcard 2_Wright, Franz_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147120_Home for Christmas_Wright, Franz_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147122_Bees of Eleusis_Wright, Franz_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147129_Among Elks_Spece, Joseph_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147140_The Cab_Daubler, Theodor_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "147247_Kef 21_Dumas, Henry_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "147929_Triptych for the Disused Nonconformist Chapel, Wildhern_Rivas, Toby Martinez De Las_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "148061_Flu, 1962_Gould, Janice_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148197_A Day in Spring at Maidstone_A, D_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 11
+  },
+  "148201_The Effect of Momentary Gleams_A, D_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 10
+  },
+  "148202_Flitton_A, D_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 190
+  },
+  "148203_Elstow Church_A, D_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 111
+  },
+  "148355_The King's Tragedy James I. Of Scots.\u201420th February 1437_Rossetti, Dante Gabriel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1008
+  },
+  "148635_The Aungelys Song Within._Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148637_'What tyme \u00feat the pilgrymes had songyne in this wise, hire aungeles wiche \u00feat l_Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148643_The Angels' Song. Honour To Jesus._Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148645_The Aungeles Song On Pask Day._Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148646_'What tyme \u00feat the pilgrymes had songyne in this wise, hire aungeles wiche \u00feat l_Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148647_The Recordyng Of Aungeles Song Of The Natiuite Of Oure Lady._Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148648_The Aungeles Songe In The Feste Of The Epiphanie Of Oure lord._Hoccleve, Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "148815_Sukdu\u2019a_Wenstrup, Annie_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "148831_Mi Caballo_Guiraldes, Ricardo_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "148844_Ancestry_Hewitt, Se\u00e1n_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "149075_A Dialogue Between Peter Spinthreed, A Cotton Manufacturer, And Zekil Lithewetur_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "149106_O'Connor's Michaelmas Goose_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 93
+  },
+  "149107_Her Epitaph._Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "149113_The Prediction_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 29
+  },
+  "149134_The Slanderer_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "149147_La Lyonnaise,_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 238
+  },
+  "149149_The Red Rose And The White._Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 73
+  },
+  "149160_A Dialogue Between Peter Spinthreed, A Cotton Manufacturer, And Zekil Lithewetur_Bamford, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "149234_Kentucky Belle_Woolson, Constance Fenimore_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "149537_Sotto Voce_Mare, Walter de la_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "149580_The Scribe_Mare, Walter de la_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "150074_At the Bridal Shop_Legaspi, Joseph O_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "150196_Dabodi_Zedong, Mao_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "150290_The Earthly Paradise- Apology_Morris, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 51
+  },
+  "150435_Campin\u2019 Round Coonamble_Paterson, A B Banjo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "150489_A Bush Christening_Paterson, A B Banjo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 62
+  },
+  "150542_Hawker, the Standard Bearer_Paterson, A B Banjo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "150580_The Federal Bus Conductor and the Old Lady_Paterson, A B Banjo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 29
+  },
+  "150582_The Man from Snowy River_Paterson, A B Banjo_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "150697_Carpe Demon_Brock-Broido, Lucie_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "150716_Words_Harpur, Charles_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "150887_Wealth's Power._Ephelia_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 92
+  },
+  "151052_Memorials On The Slain At Chickamauga_Melville, Herman_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "151077_Ball's Bluff- A Reverie_Melville, Herman_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "151225_The Melbourne International Exhibition A. D. 1880_Foott, Mary Hannay_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 115
+  },
+  "151311_Suburban Monastery Death Poem_Levy, D A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1331
+  },
+  "151458_[accumulation of land]_Kim, Myung Mi_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151462_The Pathfinders_Palmer, Vance_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 32
+  },
+  "151473_Minnows 2_Amorosi, Ray_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151476_A Sound Box_Osullivan, Michelle_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "151477_Bespoke_Osullivan, Michelle_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151627_Afternoon_Reverdy, Pierre_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151788_Hymns to the Night - 1_Novalis_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151792_Hymns to the Night - 2_Novalis_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151795_Hymns to the Night - 3_Novalis_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151896_Oscar Grant_Smith, Crystal_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "151925_Nothing On Earth Permanent_Great, Alfred The_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 40
+  },
+  "152010_Fusion Series # 2570_Touchon, Cecil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152066_Wac-A-Mole Realism\u2122_Harvey, Matthea_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152097_Lusty Youth Should Us Ensue_England, Henry VIII King of_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "152324_Painting Biddle City_Chan, Marianne_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "152367_The Disremembered Glossolalist_Ciccariello, Peter_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152586_PSALM 138 - Hymn of a Grateful Heart_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152587_PSALM 42 - Longing for God's Presence in the Temple (A)_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152589_PSALM 19 - God's Glory in the Heavens and in the Law_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152593_PSALM 141 - Prayer for Deliverance from the Wicked_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152594_PSALM 29 - The Lord of Majesty Acclaimed as King of the World_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152595_PSALM 8 - Divine Majesty and Human Dignity_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152596_PSALM 52 - The Deceitful Tongue_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152605_PSALM 28 - Petition and Thanksgiving_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152608_PSALM 46 - God, the Protector of Zion_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152613_PSALM 137 - Sorrow and Hope in Exile_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152614_PSALM 62 - Trust in God Alone_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152617_PSALM 13 - Prayer in Time of Illness_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152624_PSALM 86 - Prayer in Time of Distress_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152625_PSALM 65 - Thanksgiving of God's Blessings_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152628_PSALM 58 - The Dethroning of Unjust Rulers_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152634_PSALM 79 - A Prayer for Jerusalem_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152651_PSALM 110 - God Appoints the King both King and Priest_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152652_PSALM 15 - The Righteous Israelite_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152653_PSALM 87 - Zion the True Birthplace of Diaspora Pilgrims_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152655_PSALM 16 - God the Supreme Good_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152656_PSALM 149 - Praise of God\u2019s People_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152658_PSALM 146 - Trust in God the Creator and Redeemer_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152659_PSALM 142 - Prayer for Deliverance from Persecutors_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152663_PSALM 112 - The Blessings of the Just_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152664_PSALM 11 - Confidence in the Presence of God_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152665_PSALM 12 - Prayer against Evil Tongues_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152677_PSALM 5 - Prayer for Divine Help_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152678_PSALM 128 - The Happy Home of the Just_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152685_PSALM 111 - Praise of God for Goodness to Israel_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152686_PSALM 1 - True Happiness in God's Law_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152688_PSALM 64 - Treacherous Conspirators Punished by God_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152689_PSALM 43 - Longing for God's Presence in the Temple (B)_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152690_PSALM 53 - A Lament over Widespread Corruption_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152691_PSALM 150 - Final Doxology_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152695_PSALM 6 - Prayer in Distress_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152698_PSALM 4 - Trust in God_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152702_PSALM 23 - The Lord, Shepherd and Host_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152706_PSALM 14 - A Lament over Widespread Corruption_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152709_PSALM 101 - Norm of Life for Rulers_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152712_PSALM 99 - The Holy King_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152713_PSALM 24 - The Glory of God in Procession to Zion_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152716_PSALM 32 - Remission of Sin_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152717_PSALM 127 - The Need of God's Blessing_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152720_PSALM 96 - God of the Universe_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152721_PSALM 98 - The Coming of God_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "152726_PSALM 125 - Israel's Protector_Psalms_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "153708_To The Recluse, Wei Pa_Fu, Du_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "153839_The Idler_Dunbar-Nelson, Alice Moore_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "153914_The Interpretation of Nature and_Bacon, Francis_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154279_In Flanders Now_Jaques, Edna_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "154338_On Cooking a Symbol at 400 Degrees_Seyburn, Patty_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154348_On a Picture by C\u00e9zanne_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154350_The Green Man_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154352_New Endymion_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154360_Moving Things_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154361_So It Goes_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154366_Two Girls_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154367_What\u2019s Left_Piero, W S Di_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154409_Booranga Wire Songs_Watson, Samuel Wagan_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154608_The Night of the Snowfall_Saidi, Mo H_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "154760_Psalm LXVIII_Alexander, Archbishop William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "155017_Raz el Hanout_Janzen, Rhoda_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "155102_Little Jim (The Collier's Dying Child)_Farmer, Edward_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "155108_that snip_Oquendo, Tate_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "155301_Introduction to \u201cRuslan and Lyudmila\u201d_Pushkin, Alexander Sergeyevich_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 65
+  },
+  "155368_Man's Short Life and Foolish Ambition_Cavendish, Duchess of Newcastle Margaret_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "155369_An Apology For Her Poetry_Cavendish, Duchess of Newcastle Margaret_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "155370_Nano_Robley, Christopher_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "155425_The Life That I Have_Marks, Leopold_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "156135_The Scripture Of The Golden Eternity_Kerouac, Jack_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "156236_Dialogues_Aretino, Pietro_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "156424_Husbands_Hansel, Pauletta_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "157399_To Mr. John Gunby, On his resplendent Glass Vase_Luckcock, James_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "157460_De Progress ob Progresshun!_Henderson, Elliott Blaine_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 1
+  },
+  "157536_toon tune_Morin, Gustave_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157539_Pois preyatz me, senhor_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157541_Per mels cobrir lo mal pes (Anne)_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157542_En cossirer e en esmai_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157544_Amics Bernart de Ventadorn_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157546_Lo gens temps de pascor_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157548_Era.m conseillatz_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157550_Can vei la lauzeta_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157552_Bel m'es can eu vei la brolha_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157553_Lancan vei per mei la landa_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157556_Quan l'herba fresqu'el.h folha_Ventadorn, Bernard De_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157756_upon viewing the death of basquiat_Browne, Mahogany L_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "157817_The Haunting Spring_Lover, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "157822_The Chain of Gold_Lover, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "157827_The Blacksmith_Lover, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "157828_Father Roach_Lover, Samuel_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 258
+  },
+  "157927_A Future History_Garcia, Suzi_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158535_I Didn't See It_Sharma, Prageeta_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158538_On Immigration_Sharma, Prageeta_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158540_We Have Trees Now_Sharma, Prageeta_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158543_On Rebellion_Sharma, Prageeta_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158597_At the Repast_Jarrett, TJ_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158624_In the famous American art gallery_Neilson, Shane_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158718_Nouns That Have a Religious Quality_Hahn, Kimiko_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158928_Pernambuco in May_Roberts, Theodore Goodridge_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "158941_The Wreckers\u2019 Prayer_Roberts, Theodore Goodridge_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "158945_Mermaids_Roberts, Theodore Goodridge_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 38
+  },
+  "158953_Margaret's Ghost_Mallet, David_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 88
+  },
+  "158954_Of Verbal Criticism_Mallet, David_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 280
+  },
+  "159129_The Canterbury Tales; EPILOGUE_Chaucer, Geoffrey_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "159155_from Troilus and Criseyde- Book V_Chaucer, Geoffrey_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "159171_The Canterbury Tales; PROLOGUE_Chaucer, Geoffrey_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "159212_The cars_Fraser, Kathleen_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "159501_The Tollund Man_Heaney, Seamus_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 56
+  },
+  "159527_By The Seaside - Sir Humphrey Gilbert_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 56
+  },
+  "159547_By The Seaside - The Fire Of Driftwood_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 59
+  },
+  "159608_The Belfry Of Bruges_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 60
+  },
+  "159642_Aftermath. (Birds Of Passage. Flight The Third)_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 18
+  },
+  "159700_Morituri Salutamus- Poem For The 50th Anniversary Of The Class Of 1825 In Bowdoi_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 350
+  },
+  "159726_The Elected Knight. From The Danish._Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "159832_Voices Of The Night - A Psalm Of Life_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 44
+  },
+  "159888_Hermes Trismegistus_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "159911_Jeckoyva_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 45
+  },
+  "159950_The Blind Girl Of Castel-Cuille. (From The Gascon of Jasmin)_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "159970_Morituri Salutamus- Poem For The 50th Anniversary Of The Class Of 1825 In Bowdoi_Longfellow, Henry Wadsworth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 350
+  },
+  "160084_Mad_Chatti, Leila_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160144_Drawing for Absolute Beginners_Youn, Monica_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160225_The Graves of Gallipoli_Oceania, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160260_A Convict's Lament on the Death of Captain Logan_Oceania, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160273_The Old Bullock Dray_Oceania, Anonymous_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160804_The Anabasis of Godspeed_Hutchinson, Ishion_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "160872_The Farmer's Fireside_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160874_Yanko, The Noble Negro_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160899_Sonnet XXIV. Sorrow For Sin_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160902_The Old House_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160915_Thanksgiving Day_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160923_Death of Colonel Hayne_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160935_The Cottage Revisited_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160947_The Home In The Mountains_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160953_Sonnet XXIX. Light In Goshen_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160961_The Winter Evening_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 370
+  },
+  "160963_The Widow And Her Children_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "160964_Sonnet XXXVIII. Constancy_Upham, Thomas Cogswell_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "161072_A Contemplation_Finch, Anne Kingsmill_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 101
+  },
+  "161280_The Problem of Fiction_Ponsot, Marie_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "161304_13 December_Greenstreet, Kate_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "161312_The Harbor Bell_Yates, John Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "161434_Two Traveling Together_Angles, Jeffrey_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "161450_After The Marne, Joffre Visited The Front By Car_Marinetti, Filippo Tommaso_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 7
+  },
+  "161762_Cutting Off The Buttons_Brock, Sallie A_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "161932_Shrapnel_Skeyhill, Tom_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 168
+  },
+  "161944_Plaint in a Major Key_S\u00e1nchez, Jorge_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162091_Darby An' Joan_Ratcliffe, Dorothy Una_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162352_West of Silicon Valley_Cotler, T Zachary_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162714_FromDart- sewage worker ['It's a rush']_Oswald, Alice_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162914_Miracle Fish_Limon, Ada_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162969_An Address to the Rev. George Gilfillan_W, Knight of the White Elephant of Burma_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162973_The Little Match Girl_W, Knight of the White Elephant of Burma_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162975_Descriptive Jottings of London_W, Knight of the White Elephant of Burma_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "162976_The Burial of the Rev. George Gilfillan_W, Knight of the White Elephant of Burma_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163016_Three from \u201cEtymologies\u201d_Ancarrow, Walter_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163038_Seance_Roditi, Edouard_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163039_Aurora Borealis_Roditi, Edouard_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163040_Hand_Roditi, Edouard_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163105_A Poem Beginning With A Line From Pindar_Duncan, Robert_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "163125_from[From Une histoire de bleu - From A Story of Blue]_Maulpoix, Jean Michel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163135_King Lear's Wife_Bottomley, Gordon_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163321_Spell for a hole_Chen, Ching In_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163364_The Domicile Erected By John_Blanchard, E L_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "163466_Rudiger - A Ballad_Southey, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "163512_An Elegie on Henry, fourth Erle of Northumberlande_Skelton, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 275
+  },
+  "164019_[Coda de l'itin\u00e9rant fig\u00e9 - Coda of the Fixed Itinerant]_Brock, Geoffrey_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "164138_To the Choirmaster_Hoover, Paul_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "164141_The Dry Bones_Hoover, Paul_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "164328_Song II - Phoebus Arise_Drummond, William_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "164383_Final Section from 'Eleven Eyes'_Hejinian, Lyn_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "164658_In the Month of Cleaning Family Plots_Hoawah, Sy_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "164753_Averted Violence_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 39
+  },
+  "164874_Dad's Philanthropic Plan_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "164926_Asking Too Much_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "164982_Hundreds And Thousands_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "165004_The Battle Of The Wazzir_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 209
+  },
+  "165022_Guardian Angels_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 143
+  },
+  "165076_The Austral-Aise_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 99
+  },
+  "165179_Cooked_Dennis, C J_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "165340_Teaching XVIII_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165344_Reason And Passion XV_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165348_The House Of Fortune III_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165355_Work Chapter VII_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165361_Vision X_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165365_Joy And Sorrow Chapter VIII_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165370_Clothes Chapter X_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165371_Chapter 9 - The Seven Selves_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165373_The Palace And The Hut XXIX_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165375_Time XXI_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165380_Pain XVI_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165393_Buying And Selling Chapter XI_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165396_Giving Chapter V_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165412_The Creation I_Gibran, Khalil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165448_A Political Litany_Freneau, Philip Morin_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165560_Good Friday_Kelson, Maria Melendez_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165656_The Poor Unhappy Transported Felon_Revel, James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165952_Envelope Artifact_Young, Mark_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165957_from Field Notes_Copeland, Brooklyn_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "165984_Prayer for a Bamboo-Flowering Famine_Lee, Karen An-hwei_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166050_ETA_Tolson, Melvin B_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166086_Information_Ignatow, David_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166179_To Laura_Yavorov, Peyo Kracholov_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166185_Gulf Road_McLennan, Lex_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166201_Shallow Estuary_Cooke, Stuart_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "166338_Miserrimus_Adams, Oscar Fay_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "166364_Wheal Emma Leat_Lopez, Tony_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166365_Sea Holly_Lopez, Tony_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166393_Epitaph On a Nephew, In Catworth Church, Huntingdonshire_Dryden, John Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "166488_The Beautiful Lady Of The May_Dryden, John Henry_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "166520_The Dying Comrade_Allen, Charles R_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "166647_Quiz_Dinh, Linh_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 248
+  },
+  "166871_Advice To Hear, And To Read, The Word Of God_Prichard, Rees_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "166925_Ch 03 On The Excellence Of Contentment Story 07_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166941_Ch 01 Manner Of Kings Story 14_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166962_Ch 03 On The Excellence Of Contentment Story 20_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "166980_Ch 02 The Morals Of Dervishes Story 37_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167135_Ch 02 The Morals Of Dervishes Story 14_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167168_Introductory 03_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167169_Ch 03 On The Excellence Of Contentment Story 04_di, Sa_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167222_The Bridge of Change_Logan, John_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167261_Train to Agra_Khanna, Vandana_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167329_The Hasty Pudding_Barlow, Joel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "167606_Holy Willie's Prayer_Burns, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 115
+  },
+  "167639_To Miss Jessie Lewars_Burns, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "167750_The Muckin' O' Geordie's Byre_Burns, Robert_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "167930_The Australian Sunrise_Cuthbertson, James Lister_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "168177_Columbus_Nash, Ogden_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "168207_While God He Leaves Me Reason, God He Will Leave Me Jim_Booth, Mary_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "168813_Sea-Fever_Masefield, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "168838_The World Keeps Ending, and the World Goes On_Choi, Franny_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "168841_We Used Our Words We Used What Words We Had_Choi, Franny_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "168870_The Traveller; or, A Prospect of Society_Goldsmith, Oliver_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 515
+  },
+  "169012_Naxos_Sakkis, John_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "169110_from The Spring Flowers Own- \u201cThe morning after - my death\u201d_Adnan, Etel_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "169283_Terrarium_Bergman, Denise_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "169300_The Sermon of the Birds_Robinson, Roland_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "169303_Bees_Robinson, Roland_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "169758_Birds on Statues_Swensen, Cole_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "169989_Madhushala (The Tavern)_Bachchan, Harivansh Rai_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 204
+  },
+  "171319_The Tradition of the Golden Spurs_Ingelow, Jean_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 463
+  },
+  "171422_Always Stand On The Union Side_Bisbee, M C_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 41
+  },
+  "172469_To Summarize a Galaxy_Ozer, Beyza_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "172803_A Second Review Of The Grand Army_Harte, Francis Bret_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 84
+  },
+  "172899_Clegg Ho'._Baron, William_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "173144_King Kobbena Eljen_Temple, George Hannibal_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 56
+  },
+  "173147_Samoa's Storm_Temple, George Hannibal_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 47
+  },
+  "173159_Epic Of Columbus' Bell_Temple, George Hannibal_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 547
+  },
+  "173186_Sudden Things_Hall, Donald_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "173338_rosa do povo_Andrade, Carlos Drummond de_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173382_Furfurcar (Roaring Cliff)_Damadian, Mihran_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "173385_The Lament Of Martyred Sumpad's Mother_Damadian, Mihran_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "173471_When My Sorrow Was Born_Gibran, Kahlil_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "173479_The Seven Selves_Gibran, Kahlil_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "173481_God_Gibran, Kahlil_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "173484_Ambition_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173489_The Three Ants_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173492_Said a Blade of Grass_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173498_The Sleep-Walkers_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173503_The Pomegranate_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173507_The Wise King_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173509_The Blessed City_Gibran, Kahlil_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173720_stop bath_Knowlton, Kirby_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173815_Some Fragments_Xenophanes_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "173866_Order_Kunhardt, Linda_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "174014_The Bait_Chock, Eric_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "174015_The Witch Has Told You a Story_Haymon, Ava Leavell_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "174046_To Eliza- Much Ado about Nothing_Chalmers, Margaret_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 124
+  },
+  "174056_Verses- In Humble Imitation of Burns_Chalmers, Margaret_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 164
+  },
+  "174316_The Bestiary- or Orpheus\u2019s Procession_Apollinaire, Guillaume_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "174417_Girl, Your Body Has So Many Holes for Straws_Choi, Don Mee_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "174599_A Word With The West_Thompson, John Reuben_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "174601_The Burial Of Latane_Thompson, John Reuben_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "174873_alleyway_Barnes, Aziza_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "174897_Colyumist's Prayer_Marquis, Donald_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "175062_Futility in Key West_Strand, Mark_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "175353_Pigeons_Colum, Padraic_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "175510_Perseid meteor shower_Pennington, Seth_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "175685_The Pipe_Mallarm\u00e9, St\u00e9phane_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "175694_Harbor Porpoise_Dodds, Jeramy_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "175802_The Virginia Cadets_Clarke, Joseph Ignatius Constantine_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 186
+  },
+  "175824_The Soul of Nippon- A Mediaeval Legend of Japan_Clarke, Joseph Ignatius Constantine_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "175865_Apparition of the Exile_Weigl, Bruce_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "176116_Love (III)_Herbert, George_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 24
+  },
+  "176283_Book 1, Epigram 34- Ad. Thomam Freake armig. de veris adventu. \ufeff_Bastard, Thomas_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "176327_Thoughts on Imputed Righteousness - Occasioned by Reading Theron and Aspasio - P_Byrom, John_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "176660_I Shall Not Return_Jimenez, Juan Ramon_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "176778_Vortextique_Murphy, Sheila E_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "177497_Love Train_Mor\u00edn, Tom\u00e1s Q_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "177540_You Can\u2019t Warm Your Hands in Front of a Book but You Can Warm Your Hopes There_Howe, Fanny_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "177615_25 days after I am born_Risher, Remica Bingham_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "177636_Rosalind and Helen- a Modern Eclogue_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1664
+  },
+  "177679_Peter Bell The Third_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1029
+  },
+  "177783_Fragments Of An Unfinished Drama_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 378
+  },
+  "177912_The Witch Of Atlas_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 951
+  },
+  "177918_To Jane- The Keen Stars Were Twinkling_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "177962_Julian and Maddalo - A Conversation_Shelley, Percy Bysshe_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 853
+  },
+  "178079_Apprehension_Gould, Hannah F_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "178105_Cantata for Lynette Roberts_Mlinko, Ange_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "178147_Night Watch_Smith-Soto, Mark_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "178148_Sirenum Scopuli_Phi, Bao_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "178335_Twenty-One Love Poems II_Rich, Adrienne_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "178503_Mix a Pancake_Rossetti, Christina_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178744_To Joseph Jefferson_Dyke, Henry Van_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "178921_And Wilt thou Leave me Thus_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178922_Unstable Dream_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178927_Avising the Bright Beams_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178929_The Long Love that in my Thought doth Harbour_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178930_Farewell Love and all thy Laws for ever_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178940_I Find no Peace_Wyatt, Sir Thomas_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "178948_The Drake Equation_Kenney, Richard_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "179696_BEAM 30-The Garden_Johnson, Ronald_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "179725_Photo of a Man on Sunset Drive- 1914, 2008_Blanco, Richard_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "179742_Guide to Avian Architecture_Snyder-Camp, Megan_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "179857_In Memoriam_Senghor, L\u00e9opold S\u00e9dar_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180006_Green Light Go_Perez, Emmy_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180212_'A Prayer'_Ehrmann, Max_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180235_The Rebel Scot_Cleveland, John_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180260_Sonnet_Schoolcraft, Jane Johnston_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180265_Self-Portrait as So Much Potential_Chen, Chen_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "180896_Glencoe_Stewart, Douglas Alexander_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181036_The Hiram Brown_Brady, Edwin James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181043_Nets Below The Gangway_Brady, Edwin James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181055_Laying On The Screw_Brady, Edwin James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181056_Lost And Given Over_Brady, Edwin James_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181079_You That I Loved_Moritz, A F_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181085_BETTER DAYS_Moritz, A F_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181087_What Way_Moritz, A F_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181101_W. C. Wentworth_Mudie, Ian_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181516_Decalogue_Bierce, Ambrose_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 36
+  },
+  "181610_The Mummery_Bierce, Ambrose_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181702_Freedom_Bierce, Ambrose_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 22
+  },
+  "181786_General B.F. Butler_Bierce, Ambrose_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "181873_The Imperfect Enjoyment_Rochester, John Wilmot Earl of_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "181875_Upon Nothing_Rochester, John Wilmot Earl of_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "181901_Sheridan_Berryhill, Samuel Newton_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 87
+  },
+  "181902_To Major General B.F. Butler, U.S.A._Berryhill, Samuel Newton_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "182205_\u201cFind Work\u201d_Espaillat, Rhina P_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "182560_from Pamphilia to Amphilanthus- Song 5_Wroth, Lady Mary_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "182687_Adam's Prayer_Jernigan, Amanda_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "182733_John P. Altgeld_Cleyre, Voltairine de_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "182865_(Untitled) g111_Potter, Marc Isaac_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "182941_Snowdrops_Slessor, Kenneth_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "182983_Sidetracks IX_Dao, Bei_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "183328_The New Self_Gehrke, Steve_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "183330_The Ships of Theseus_Gehrke, Steve_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "183373_While Bleeding_Ghr\u00edofa, Doireann N\u00ed_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "183385_Flatirons_Yezzi, David_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "183833_A Song of Delos_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183851_K\u00f6rner And His Sister_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183873_Caswallon's Triumph_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183884_Song of The Battle of Morgarten_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 121
+  },
+  "183893_Indian Woman's Death-Song_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 70
+  },
+  "183914_Grufydd's Feast_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183920_Arabella Stuart_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 376
+  },
+  "183927_The Cavern Of The Three Tells_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183928_Howel's Song_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183984_Bernardo del Carpio_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "183985_The Fair Isle_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 27
+  },
+  "184006_A Tale of the Secret Tribunal - Part I_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 842
+  },
+  "184016_The Burial of William the Conqueror_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 65
+  },
+  "184031_Prisoner's Evening Service_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 275
+  },
+  "184039_A Tale of the Secret Tribunal - Part II_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 960
+  },
+  "184076_Rhine Song of the German Soldiers after Victory_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "184120_Casabianca_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "184145_The Cross of the South_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 43
+  },
+  "184165_Marius Amongst the Ruins of Carthage_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "184174_Owen Glyndwr's War-Song_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 53
+  },
+  "184235_Eryri Wen_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 34
+  },
+  "184327_Dartmoor. A prize Poem_Hemans, Felicia Dorothea_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 448
+  },
+  "184363_On Sharing A Husband_Huong, Ho Xuan_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": null
+  },
+  "184390_Forby Sutherland_McCrae, George Gordon_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "184607_Florio - A Tale, For Fine Gentleman And Fine Ladies. In Two Parts_More, Hannah_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 1170
+  },
+  "184649_The Veils- Book The Sixth- The Restoration_Franklin, Eleanor Anne Porden_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": 1297
+  },
+  "184992_The Song of Tigilau_Clarke, Marcus_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 81
+  },
+  "185010_Dolphins at Seven Weeks_Webster, Rachel_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "185019_The Love Sonnets of a Car Conductor_Irwin, Wallace_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "185291_A Monumental Column - A Funeral Elegy_Webster, John_unknown.txt": {
+    "decision": "discard",
+    "custom_boundary": 398
+  },
+  "185316_X Minus X_Fearing, Kenneth_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  },
+  "185350_The Celestial Lover_Beardsley, Aubrey Vincent_unknown.txt": {
+    "decision": "keep",
+    "custom_boundary": null
+  },
+  "185358_Carney, The Brave Standard Bearer_Bush-Banks, Olivia Ward_unknown.txt": {
+    "decision": "delete_file",
+    "custom_boundary": null
+  }
+}

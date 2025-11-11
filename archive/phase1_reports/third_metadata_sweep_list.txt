@@ -1,0 +1,21 @@
+Third Metadata Sweep - FINAL (3 files)
+====================================================================================================
+
+1. 86749_Explanation Of An Ancient Woodcut_Goethe, Johann Wolfgang von_unknown.txt
+   Title: Explanation Of An Ancient Woodcut
+   Author: Goethe, Johann Wolfgang von
+   Lines removed: 1
+   Categories: explicit_editorial
+
+2. 159384_The Misanthrope Reclaimed - Act II_Sands, George W_unknown.txt
+   Title: The Misanthrope Reclaimed - Act II
+   Author: Sands, George W
+   Lines removed: 1
+   Categories: stage_directions_bracketed
+
+3. 160724_Idyll XV. The Festival of Adonis_Theocritus_unknown.txt
+   Title: Idyll XV.  The Festival of Adonis
+   Author: Theocritus
+   Lines removed: 1
+   Categories: stage_directions_bracketed
+

@@ -1,0 +1,1365 @@
+Verse Drama Files (227 files)
+====================================================================================================
+
+1. 169735_The Forced Marriage, A Tragedy_Armstrong, John_unknown.txt
+   Title: The Forced Marriage, A Tragedy
+   Author: Armstrong, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (37)
+
+2. 166175_Vortigern and Rowena_Ireland, Samuel William Henry_unknown.txt
+   Title: Vortigern and Rowena
+   Author: Ireland, Samuel William Henry
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (36); Character dialogue (523) + stage directions (43); Exit/Enter commands (66)
+
+3. 97791_Tarquin The Proud; Or, The Downfall Of Tyranny. A_Hill, Samuel Prout_unknown.txt
+   Title: Tarquin The Proud; Or, The Downfall Of Tyranny. A
+   Author: Hill, Samuel Prout
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (33); Character dialogue (10) + stage directions (73); Exit/Enter commands (68); Dialogue exchange (4 consecutive character names)
+
+4. 111927_The Wonder-Working Magician - Act III_MacCarthy, Denis Florence_unknown.txt
+   Title: The Wonder-Working Magician  -  Act III
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (27); Character dialogue (300) + stage directions (17)
+
+5. 84246_Within and Without- Part IV- A Dramatic Poem_MacDonald, George_unknown.txt
+   Title: Within and Without: Part IV: A Dramatic Poem
+   Author: MacDonald, George
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (25)
+
+6. 177635_The Cenci - A Tragedy In Five Acts_Shelley, Percy Bysshe_unknown.txt
+   Title: The Cenci : A Tragedy In Five Acts
+   Author: Shelley, Percy Bysshe
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (20); Exit/Enter commands (57)
+
+7. 84015_Within and Without- Part II- A Dramatic Poem_MacDonald, George_unknown.txt
+   Title: Within and Without: Part II: A Dramatic Poem
+   Author: MacDonald, George
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (19); Character dialogue (23) + stage directions (3); Exit/Enter commands (4)
+
+8. 111850_The Purgatory Of St. Patrick - Act II_MacCarthy, Denis Florence_unknown.txt
+   Title: The Purgatory Of St. Patrick  -  Act II
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (19); Character dialogue (136) + stage directions (19); Exit/Enter commands (3); Dialogue exchange (4 consecutive character names)
+
+9. 111907_Life Is A Dream - Act II_MacCarthy, Denis Florence_unknown.txt
+   Title: Life Is A Dream  -  Act II
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (18); Character dialogue (215) + stage directions (21); Exit/Enter commands (3)
+
+10. 111929_The Wonder-Working Magician - Act II_MacCarthy, Denis Florence_unknown.txt
+   Title: The Wonder-Working Magician  -  Act II
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (18); Character dialogue (269) + stage directions (18); Exit/Enter commands (6)
+
+11. 111843_The Wonder-Working Magician - Act I_MacCarthy, Denis Florence_unknown.txt
+   Title: The Wonder-Working Magician  -  Act I
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (16); Character dialogue (186) + stage directions (17); Exit/Enter commands (9)
+
+12. 111859_Life Is A Dream - Act III_MacCarthy, Denis Florence_unknown.txt
+   Title: Life Is A Dream  -  Act III
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (14); Character dialogue (159) + stage directions (15)
+
+13. 84100_Within and Without- Part III- A Dramatic Poem_MacDonald, George_unknown.txt
+   Title: Within and Without: Part III: A Dramatic Poem
+   Author: MacDonald, George
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (11); Exit/Enter commands (4)
+
+14. 117004_Killing Him- A Radio Play_Seelig, Adam_unknown.txt
+   Title: Killing Him: A Radio Play
+   Author: Seelig, Adam
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (11); Dialogue exchange (6 consecutive character names)
+
+15. 167255_Runnamede, A Tragedy. Acts I.-II._Logan, John_unknown.txt
+   Title: Runnamede, A Tragedy. Acts I.-II.
+   Author: Logan, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (11)
+
+16. 172078_Killing Him- A Radio Play_Amichai, Yehuda_unknown.txt
+   Title: Killing Him: A Radio Play
+   Author: Amichai, Yehuda
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (11); Dialogue exchange (6 consecutive character names)
+
+17. 111911_The Purgatory Of St. Patrick - Act III_MacCarthy, Denis Florence_unknown.txt
+   Title: The Purgatory Of St. Patrick  -  Act III
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (10); Character dialogue (122) + stage directions (12)
+
+18. 111918_The Purgatory Of St. Patrick - Act I_MacCarthy, Denis Florence_unknown.txt
+   Title: The Purgatory Of St. Patrick  -  Act I
+   Author: MacCarthy, Denis Florence
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (10); Character dialogue (145) + stage directions (15); Dialogue exchange (7 consecutive character names)
+
+19. 118976_Manfred- A Dramatic Poem. Act II._Byron, George Gordon_unknown.txt
+   Title: Manfred: A Dramatic Poem.  Act II.
+   Author: Byron, George Gordon
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (10); Exit/Enter commands (6)
+
+20. 105539_Adam- A Sacred Drama. Act 3._Cowper, William_unknown.txt
+   Title: Adam: A Sacred Drama. Act 3.
+   Author: Cowper, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (9)
+
+21. 105604_Adam- A Sacred Drama. Act 5._Cowper, William_unknown.txt
+   Title: Adam: A Sacred Drama. Act 5.
+   Author: Cowper, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (9)
+
+22. 139157_The Roman- A Dramatic Poem_Dobell, Sydney Thompson_unknown.txt
+   Title: The Roman: A Dramatic Poem
+   Author: Dobell, Sydney Thompson
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (9); Character dialogue (10) + stage directions (24); Exit/Enter commands (6)
+
+23. 84073_Within and Without- Part I- A Dramatic Poem_MacDonald, George_unknown.txt
+   Title: Within and Without: Part I: A Dramatic Poem
+   Author: MacDonald, George
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (8)
+
+24. 127687_Agamemnon Act IV_Alfieri, Vittorio_unknown.txt
+   Title: Agamemnon  Act IV
+   Author: Alfieri, Vittorio
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (8)
+
+25. 82230_The Spagnoletto. Act IV_Lazarus, Emma_unknown.txt
+   Title: The Spagnoletto. Act IV
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (7); Character dialogue (93) + stage directions (10); Exit/Enter commands (12)
+
+26. 103651_The Little Left Hand - Act III_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Little Left Hand - Act III
+   Author: Blunt, Wilfrid Scawen
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (7)
+
+27. 103811_The Little Left Hand - Act I_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Little Left Hand - Act I
+   Author: Blunt, Wilfrid Scawen
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (7); DRAMATIS PERSONAE; Exit/Enter commands (4)
+
+28. 105328_Adam- A Sacred Drama. Act 4._Cowper, William_unknown.txt
+   Title: Adam: A Sacred Drama. Act 4.
+   Author: Cowper, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (7)
+
+29. 105448_Adam- A Sacred Drama. Act 1._Cowper, William_unknown.txt
+   Title: Adam: A Sacred Drama. Act 1.
+   Author: Cowper, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (7)
+
+30. 103847_The Little Left Hand - Act II_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Little Left Hand - Act II
+   Author: Blunt, Wilfrid Scawen
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (6)
+
+31. 105360_Adam- A Sacred Drama. Act 2._Cowper, William_unknown.txt
+   Title: Adam: A Sacred Drama. Act 2.
+   Author: Cowper, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (6)
+
+32. 119068_Manfred- A Dramatic Poem. Act III._Byron, George Gordon_unknown.txt
+   Title: Manfred: A Dramatic Poem.  Act III.
+   Author: Byron, George Gordon
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (6); Exit/Enter commands (5)
+
+33. 132157_Antonio Melidori_Hayne, Paul Hamilton_unknown.txt
+   Title: Antonio Melidori
+   Author: Hayne, Paul Hamilton
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (6); Character dialogue (108) + stage directions (5); Exit/Enter commands (4)
+
+34. 74061_Fragmentary Scenes From The Road To Avernus_Gordon, Adam Lindsay_unknown.txt
+   Title: Fragmentary Scenes From The Road To Avernus
+   Author: Gordon, Adam Lindsay
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5)
+
+35. 74098_Ashtaroth- A Dramatic Lyric_Gordon, Adam Lindsay_unknown.txt
+   Title: Ashtaroth: A Dramatic Lyric
+   Author: Gordon, Adam Lindsay
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); DRAMATIS PERSONAE; Character dialogue (6) + stage directions (8); Exit/Enter commands (10)
+
+36. 82130_The Dance To Death. Act I_Lazarus, Emma_unknown.txt
+   Title: The Dance To Death. Act I
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Character dialogue (79) + stage directions (5); Exit/Enter commands (4)
+
+37. 82136_The Dance To Death. Act V_Lazarus, Emma_unknown.txt
+   Title: The Dance To Death. Act V
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Character dialogue (72) + stage directions (8); Exit/Enter commands (7)
+
+38. 82232_The Spagnoletto. Act III_Lazarus, Emma_unknown.txt
+   Title: The Spagnoletto. Act III
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Character dialogue (94) + stage directions (8); Exit/Enter commands (11)
+
+39. 85394_The Lover_Bartley, James Avis_unknown.txt
+   Title: The Lover
+   Author: Bartley, James Avis
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5)
+
+40. 100094_Some Account Of A New Play_Barham, Richard Harris_unknown.txt
+   Title: Some Account Of A New Play
+   Author: Barham, Richard Harris
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5)
+
+41. 114509_Evening Stroll_Marx, Karl Heinrich_unknown.txt
+   Title: Evening Stroll
+   Author: Marx, Karl Heinrich
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5)
+
+42. 118439_King Stephen_Keats, John_unknown.txt
+   Title: King Stephen
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Character dialogue (5) + stage directions (3); Exit/Enter commands (8)
+
+43. 118483_Otho The Great - Act V_Keats, John_unknown.txt
+   Title: Otho The Great - Act V
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Character dialogue (6) + stage directions (8); Exit/Enter commands (15)
+
+44. 122569_Laura Secord- The Heroine of The War Of 1812 - Act I_Curzon, Sarah Anne_unknown.txt
+   Title: Laura Secord: The Heroine of The War Of 1812  -  Act I
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); DRAMATIS PERSONAE; Character dialogue (6) + stage directions (10); Exit/Enter commands (10)
+
+45. 148964_Ælla, A Tragical Interlude - Act III_Chatterton, Thomas_unknown.txt
+   Title: Ælla, A Tragical Interlude - Act III
+   Author: Chatterton, Thomas
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5)
+
+46. 148977_Goddwyn; A Tragedie_Chatterton, Thomas_unknown.txt
+   Title: Goddwyn; A Tragedie
+   Author: Chatterton, Thomas
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); Dialogue exchange (4 consecutive character names)
+
+47. 177856_Charles The First_Shelley, Percy Bysshe_unknown.txt
+   Title: Charles The First
+   Author: Shelley, Percy Bysshe
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (5); DRAMATIS PERSONAE; Exit/Enter commands (7)
+
+48. 82171_The Dance To Death. Act II_Lazarus, Emma_unknown.txt
+   Title: The Dance To Death. Act II
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4); Character dialogue (79) + stage directions (5); Exit/Enter commands (3)
+
+49. 82207_The Spagnoletto. Act V_Lazarus, Emma_unknown.txt
+   Title: The Spagnoletto. Act V
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4)
+
+50. 82234_The Spagnoletto. Act II_Lazarus, Emma_unknown.txt
+   Title: The Spagnoletto. Act II
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4); Character dialogue (56) + stage directions (9); Exit/Enter commands (4)
+
+51. 122578_Laura Secord- The Heroine of The War Of 1812 - Act II_Curzon, Sarah Anne_unknown.txt
+   Title: Laura Secord: The Heroine of The War Of 1812  -  Act II
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4); Character dialogue (8) + stage directions (18); Exit/Enter commands (17)
+
+52. 133272_The Gentle Shepherd- Act II_Ramsay, Allan_unknown.txt
+   Title: The Gentle Shepherd: Act II
+   Author: Ramsay, Allan
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4); Character dialogue (75) + stage directions (4)
+
+53. 133273_The Gentle Shepherd- Act III_Ramsay, Allan_unknown.txt
+   Title: The Gentle Shepherd: Act III
+   Author: Ramsay, Allan
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4); Character dialogue (93) + stage directions (6)
+
+54. 142836_Emerging_Skeets, Jake_unknown.txt
+   Title: Emerging
+   Author: Skeets, Jake
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4)
+
+55. 148955_Ælla, A Tragical Interlude - Act II_Chatterton, Thomas_unknown.txt
+   Title: Ælla, A Tragical Interlude - Act II
+   Author: Chatterton, Thomas
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4)
+
+56. 159391_The Misanthrope Reclaimed - Act IV_Sands, George W_unknown.txt
+   Title: The Misanthrope Reclaimed - Act IV
+   Author: Sands, George W
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4)
+
+57. 184020_Scenes form Manzoni's Tragedy 'In Conte de Carmagnola'_Hemans, Felicia Dorothea_unknown.txt
+   Title: Scenes form Manzoni's Tragedy 'In Conte de Carmagnola'
+   Author: Hemans, Felicia Dorothea
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (4)
+
+58. 64760_Brude_Rice, Cale Young_unknown.txt
+   Title: Brude
+   Author: Rice, Cale Young
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+59. 70497_Mabel, A Sketch_Cassels, Walter Richard_unknown.txt
+   Title: Mabel, A Sketch
+   Author: Cassels, Walter Richard
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); DRAMATIS PERSONAE; Character dialogue (49) + stage directions (2)
+
+60. 82132_The Dance To Death. Act III_Lazarus, Emma_unknown.txt
+   Title: The Dance To Death. Act III
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (63) + stage directions (4); Exit/Enter commands (5)
+
+61. 84196_Within and Without- Part V- A Dramatic Poem_MacDonald, George_unknown.txt
+   Title: Within and Without: Part V: A Dramatic Poem
+   Author: MacDonald, George
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+62. 103533_The Bride Of The Nile - Act I_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Bride Of The Nile - Act I
+   Author: Blunt, Wilfrid Scawen
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); DRAMATIS PERSONAE; Exit/Enter commands (4)
+
+63. 115669_Castruccio Castrucani - Act V_Landon, Letitia Elizabeth_unknown.txt
+   Title: Castruccio Castrucani - Act V
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Exit/Enter commands (5)
+
+64. 116086_Castruccio Castrucani - Act III_Landon, Letitia Elizabeth_unknown.txt
+   Title: Castruccio Castrucani - Act III
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+65. 118363_Otho The Great - Act I_Keats, John_unknown.txt
+   Title: Otho The Great - Act I
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (6) + stage directions (4); Exit/Enter commands (11)
+
+66. 118959_Manfred- A Dramatic Poem. Act I._Byron, George Gordon_unknown.txt
+   Title: Manfred: A Dramatic Poem.  Act I.
+   Author: Byron, George Gordon
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); DRAMATIS PERSONAE
+
+67. 122580_The Sweet Girl Graduate - Act I_Curzon, Sarah Anne_unknown.txt
+   Title: The Sweet Girl Graduate  -  Act I
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Exit/Enter commands (4)
+
+68. 122601_Laura Secord- The Heroine of The War Of 1812 - Act III_Curzon, Sarah Anne_unknown.txt
+   Title: Laura Secord: The Heroine of The War Of 1812  -  Act III
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (12) + stage directions (14); Exit/Enter commands (14)
+
+69. 133267_The Gentle Shepherd- Act V_Ramsay, Allan_unknown.txt
+   Title: The Gentle Shepherd: Act V
+   Author: Ramsay, Allan
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (87) + stage directions (5)
+
+70. 133418_Pausias And Glycera; Or, The First Flower-Painter_Blackmore, Richard Doddridge_unknown.txt
+   Title: Pausias And Glycera; Or, The First Flower-Painter
+   Author: Blackmore, Richard Doddridge
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+71. 139599_The Florentines_Roberts, Emma_unknown.txt
+   Title: The Florentines
+   Author: Roberts, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Exit/Enter commands (3)
+
+72. 139601_Geraldi Sforza_Roberts, Emma_unknown.txt
+   Title: Geraldi Sforza
+   Author: Roberts, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Exit/Enter commands (4)
+
+73. 148973_Ælla, A Tragical Interlude - Act I_Chatterton, Thomas_unknown.txt
+   Title: Ælla, A Tragical Interlude - Act I
+   Author: Chatterton, Thomas
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+74. 150590_Shakespeare On The Turf_Paterson, A B Banjo_unknown.txt
+   Title: Shakespeare On The Turf
+   Author: Paterson, A B Banjo
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Exit/Enter commands (4)
+
+75. 151742_Pygmallion, Prince Of Cyprus- A Dramatic Poem_Allan, Peter John_unknown.txt
+   Title: Pygmallion, Prince Of Cyprus: A Dramatic Poem
+   Author: Allan, Peter John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (7) + stage directions (8); Exit/Enter commands (6)
+
+76. 164494_The Cup Of Youth_Mitchell, Silas Weir_unknown.txt
+   Title: The Cup Of Youth
+   Author: Mitchell, Silas Weir
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Character dialogue (129) + stage directions (11); Exit/Enter commands (8)
+
+77. 167238_Runnamede, A Tragedy. Acts III.-V._Logan, John_unknown.txt
+   Title: Runnamede, A Tragedy. Acts III.-V.
+   Author: Logan, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3)
+
+78. 168859_The Captivity_Goldsmith, Oliver_unknown.txt
+   Title: The Captivity
+   Author: Goldsmith, Oliver
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (3); Dialogue exchange (8 consecutive character names)
+
+79. 77690_St. Winefred's Well_Hopkins, Gerard Manley_unknown.txt
+   Title: St. Winefred's Well
+   Author: Hopkins, Gerard Manley
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (3)
+
+80. 82163_The Dance To Death. Act IV_Lazarus, Emma_unknown.txt
+   Title: The Dance To Death. Act IV
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (30) + stage directions (4); Exit/Enter commands (3)
+
+81. 82194_The Spagnoletto. Act I_Lazarus, Emma_unknown.txt
+   Title: The Spagnoletto. Act I
+   Author: Lazarus, Emma
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); DRAMATIS PERSONAE; Character dialogue (101) + stage directions (5); Exit/Enter commands (5)
+
+82. 84687_Contrasted Scenes From Real Life_Hamilton, Janet_unknown.txt
+   Title: Contrasted Scenes From Real Life
+   Author: Hamilton, Janet
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+83. 86976_From Iphigenia In Tauris_Goethe, Johann Wolfgang von_unknown.txt
+   Title: From Iphigenia In Tauris
+   Author: Goethe, Johann Wolfgang von
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+84. 87007_From Egmont_Goethe, Johann Wolfgang von_unknown.txt
+   Title: From Egmont
+   Author: Goethe, Johann Wolfgang von
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+85. 115653_Castruccio Castrucani - Act IV_Landon, Letitia Elizabeth_unknown.txt
+   Title: Castruccio Castrucani - Act IV
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+86. 115753_Castruccio Castrucani - Act II_Landon, Letitia Elizabeth_unknown.txt
+   Title: Castruccio Castrucani - Act II
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (3)
+
+87. 115766_Castruccio Castrucani - Act I_Landon, Letitia Elizabeth_unknown.txt
+   Title: Castruccio Castrucani - Act I
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+88. 118368_Otho The Great - Act III_Keats, John_unknown.txt
+   Title: Otho The Great - Act III
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (9)
+
+89. 118395_Otho The Great - Act II_Keats, John_unknown.txt
+   Title: Otho The Great - Act II
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (12)
+
+90. 118444_Otho The Great - Act IV_Keats, John_unknown.txt
+   Title: Otho The Great - Act IV
+   Author: Keats, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (6)
+
+91. 120616_Two Scenes From The Life Of Blondel_Lowell, James Russell_unknown.txt
+   Title: Two Scenes From The Life Of Blondel
+   Author: Lowell, James Russell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+92. 122612_The Sweet Girl Graduate - Act IV_Curzon, Sarah Anne_unknown.txt
+   Title: The Sweet Girl Graduate  -  Act IV
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+93. 131953_Allan Herbert_Hayne, Paul Hamilton_unknown.txt
+   Title: Allan Herbert
+   Author: Hayne, Paul Hamilton
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+94. 133266_The Gentle Shepherd- Act I_Ramsay, Allan_unknown.txt
+   Title: The Gentle Shepherd: Act I
+   Author: Ramsay, Allan
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (61) + stage directions (2)
+
+95. 133271_The Gentle Shepherd- Act IV_Ramsay, Allan_unknown.txt
+   Title: The Gentle Shepherd: Act IV
+   Author: Ramsay, Allan
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (75) + stage directions (4)
+
+96. 140133_Dornock's Distress. A Tragical Dialogue_Claudero, James Wilson_unknown.txt
+   Title: Dornock's Distress. A Tragical Dialogue
+   Author: Claudero, James Wilson
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Exit/Enter commands (4)
+
+97. 150422_Macbreath_Paterson, A B Banjo_unknown.txt
+   Title: Macbreath
+   Author: Paterson, A B Banjo
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Dialogue exchange (4 consecutive character names)
+
+98. 154027_The Wynnes Of Wynhavod. Act III_Pfeiffer, Emily_unknown.txt
+   Title: The Wynnes Of Wynhavod.  Act III
+   Author: Pfeiffer, Emily
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (198) + stage directions (25); Exit/Enter commands (19)
+
+99. 154069_The Wynnes Of Wynhavod. Act IV_Pfeiffer, Emily_unknown.txt
+   Title: The Wynnes Of Wynhavod.  Act IV
+   Author: Pfeiffer, Emily
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (212) + stage directions (31); Exit/Enter commands (11)
+
+100. 164482_Wind And Sea_Mitchell, Silas Weir_unknown.txt
+   Title: Wind And Sea
+   Author: Mitchell, Silas Weir
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+101. 177865_Scenes From The Faust Of Goethe_Shelley, Percy Bysshe_unknown.txt
+   Title: Scenes From The Faust Of Goethe
+   Author: Shelley, Percy Bysshe
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2); Character dialogue (85) + stage directions (3)
+
+102. 184136_The English Martyrs_Hemans, Felicia Dorothea_unknown.txt
+   Title: The English Martyrs
+   Author: Hemans, Felicia Dorothea
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (2)
+
+103. 63153_Shakuntala Act IV_Kalidasa_unknown.txt
+   Title: Shakuntala Act IV
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+104. 63155_Shakuntala Act II_Kalidasa_unknown.txt
+   Title: Shakuntala Act II
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+105. 63160_Shakuntala Act V_Kalidasa_unknown.txt
+   Title: Shakuntala Act V
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+106. 63165_Shakuntala Act VI_Kalidasa_unknown.txt
+   Title: Shakuntala Act VI
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+107. 63171_Shakuntala Act VII (Final Act)_Kalidasa_unknown.txt
+   Title: Shakuntala Act VII (Final Act)
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+108. 63172_Shakuntala Act III_Kalidasa_unknown.txt
+   Title: Shakuntala Act III
+   Author: Kalidasa
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+109. 68164_History of the Twentieth Century (A Roadshow)_Brodsky, Joseph_unknown.txt
+   Title: History of the Twentieth Century (A Roadshow)
+   Author: Brodsky, Joseph
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+110. 70509_Thespis- Act I_Gilbert, William Schwenck_unknown.txt
+   Title: Thespis: Act I
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (122) + stage directions (11); Exit/Enter commands (5)
+
+111. 70518_HMS Pinafore- Act II_Gilbert, William Schwenck_unknown.txt
+   Title: HMS Pinafore: Act II
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (125) + stage directions (13); Exit/Enter commands (7)
+
+112. 70540_The Sorcerer- Act II_Gilbert, William Schwenck_unknown.txt
+   Title: The Sorcerer: Act II
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (89) + stage directions (7); Exit/Enter commands (9)
+
+113. 70588_HMS Pinafore- Act I_Gilbert, William Schwenck_unknown.txt
+   Title: HMS Pinafore: Act I
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (134) + stage directions (10); Exit/Enter commands (16)
+
+114. 70623_The Sorcerer- Act I_Gilbert, William Schwenck_unknown.txt
+   Title: The Sorcerer: Act I
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (88) + stage directions (23); Exit/Enter commands (13)
+
+115. 70650_Thespis- Act II_Gilbert, William Schwenck_unknown.txt
+   Title: Thespis: Act II
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); DRAMATIS PERSONAE; Character dialogue (169) + stage directions (22); Exit/Enter commands (8)
+
+116. 73720_The Ring And The Book - Chapter I - The Ring And The Book_Browning, Robert_unknown.txt
+   Title: The Ring And The Book - Chapter I - The Ring And The Book
+   Author: Browning, Robert
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+117. 74039_Scene 1. A Castle In Normandy_Gordon, Adam Lindsay_unknown.txt
+   Title: Scene 1. A Castle In Normandy
+   Author: Gordon, Adam Lindsay
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+118. 74086_Scene 3. A Cliff On The Breton Coast, Overhanging The Sea_Gordon, Adam Lindsay_unknown.txt
+   Title: Scene 3. A Cliff On The Breton Coast, Overhanging The Sea
+   Author: Gordon, Adam Lindsay
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+119. 74146_The Sun Wields Mercy_Bukowski, Charles_unknown.txt
+   Title: The Sun Wields Mercy
+   Author: Bukowski, Charles
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+120. 76544_Act I_Shieh, Simon_unknown.txt
+   Title: Act I
+   Author: Shieh, Simon
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+121. 84637_A True Story- To Young Abstainers_Hamilton, Janet_unknown.txt
+   Title: A True Story: To Young Abstainers
+   Author: Hamilton, Janet
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+122. 86727_From Gotz Von Berlichingen_Goethe, Johann Wolfgang von_unknown.txt
+   Title: From Gotz Von Berlichingen
+   Author: Goethe, Johann Wolfgang von
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+123. 102596_I Have Wasted My Life_Reed, Justin Phillip_unknown.txt
+   Title: I Have Wasted My Life
+   Author: Reed, Justin Phillip
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+124. 106940_Father and Son_Schwartz, Delmore_unknown.txt
+   Title: Father and Son
+   Author: Schwartz, Delmore
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+125. 107177_Paragraph_Armantrout, Rae_unknown.txt
+   Title: Paragraph
+   Author: Armantrout, Rae
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+126. 107831_Proverbs of Hell (Excerpt from The Marriage of Heaven and H_Blake, William_unknown.txt
+   Title: Proverbs of Hell (Excerpt from The Marriage of Heaven and H
+   Author: Blake, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+127. 107858_The Marriage of Heaven and Hell (excerpt)_Blake, William_unknown.txt
+   Title: The Marriage of Heaven and Hell (excerpt)
+   Author: Blake, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+128. 114617_Nathan The Wise - Act III_Lessing, Gotthold Ephraim_unknown.txt
+   Title: Nathan The Wise  -  Act III
+   Author: Lessing, Gotthold Ephraim
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+129. 115442_Paradise Lost - Book XI._Milton, John_unknown.txt
+   Title: Paradise Lost : Book XI.
+   Author: Milton, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+130. 115467_Song. On May Morning_Milton, John_unknown.txt
+   Title: Song. On May Morning
+   Author: Milton, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+131. 115528_Paradise Lost - Book IX._Milton, John_unknown.txt
+   Title: Paradise Lost : Book IX.
+   Author: Milton, John
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+132. 115930_Count Egmont, a Tragedy - Goethe - Scene I_Landon, Letitia Elizabeth_unknown.txt
+   Title: Count Egmont, a Tragedy - Goethe - Scene I
+   Author: Landon, Letitia Elizabeth
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+133. 122591_The Sweet Girl Graduate - Act III_Curzon, Sarah Anne_unknown.txt
+   Title: The Sweet Girl Graduate  -  Act III
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+134. 122599_The Sweet Girl Graduate - Act II_Curzon, Sarah Anne_unknown.txt
+   Title: The Sweet Girl Graduate  -  Act II
+   Author: Curzon, Sarah Anne
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+135. 131983_Scene In A Country Hospital_Hayne, Paul Hamilton_unknown.txt
+   Title: Scene In A Country Hospital
+   Author: Hayne, Paul Hamilton
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+136. 135901_Sketches In The Exhibition_Bowles, William Lisle_unknown.txt
+   Title: Sketches In The Exhibition
+   Author: Bowles, William Lisle
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+137. 138448_Now The Hungry Lion Roars_Shakespeare, William_unknown.txt
+   Title: Now The Hungry Lion Roars
+   Author: Shakespeare, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+138. 138461_Twelve O'Clock - Fairy time_Shakespeare, William_unknown.txt
+   Title: Twelve O'Clock - Fairy time
+   Author: Shakespeare, William
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+139. 139657_Act III, Sc. 2_Graham, Jorie_unknown.txt
+   Title: Act III, Sc. 2
+   Author: Graham, Jorie
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+140. 148969_Ælla, A Tragical Interlude - Act IV_Chatterton, Thomas_unknown.txt
+   Title: Ælla, A Tragical Interlude - Act IV
+   Author: Chatterton, Thomas
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+141. 152542_Act V_Aldrich, Thomas Bailey_unknown.txt
+   Title: Act V
+   Author: Aldrich, Thomas Bailey
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+142. 154014_The Wynnes Of Wynhavod. Act V_Pfeiffer, Emily_unknown.txt
+   Title: The Wynnes Of Wynhavod.  Act V
+   Author: Pfeiffer, Emily
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (108) + stage directions (4); Exit/Enter commands (3)
+
+143. 154051_The Wynnes Of Wynhavod. Act I_Pfeiffer, Emily_unknown.txt
+   Title: The Wynnes Of Wynhavod.  Act I
+   Author: Pfeiffer, Emily
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (173) + stage directions (20); Exit/Enter commands (6)
+
+144. 154129_The Wynnes Of Wynhavod. Act II_Pfeiffer, Emily_unknown.txt
+   Title: The Wynnes Of Wynhavod.  Act II
+   Author: Pfeiffer, Emily
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (167) + stage directions (24); Exit/Enter commands (13)
+
+145. 157669_'A glass is good . . .'_Keefe, John O_unknown.txt
+   Title: "A glass is good . . ."
+   Author: Keefe, John O
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+146. 157903_Banana Palace_Levin, Dana_unknown.txt
+   Title: Banana Palace
+   Author: Levin, Dana
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+147. 158521_From The Theatre Of Illusion_Corneille, Pierre_unknown.txt
+   Title: From The Theatre Of Illusion
+   Author: Corneille, Pierre
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+148. 158528_from From the Theatre of Illusion_Corneille, Pierre_unknown.txt
+   Title: from From the Theatre of Illusion
+   Author: Corneille, Pierre
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+149. 159402_The Misanthrope Reclaimed - Act III_Sands, George W_unknown.txt
+   Title: The Misanthrope Reclaimed - Act III
+   Author: Sands, George W
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+150. 161284_Pathetic Fallacies Are Bad Science But_Ponsot, Marie_unknown.txt
+   Title: Pathetic Fallacies Are Bad Science But
+   Author: Ponsot, Marie
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+151. 163450_Wat Tyler - Act I_Southey, Robert_unknown.txt
+   Title: Wat Tyler - Act I
+   Author: Southey, Robert
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (40) + stage directions (3); Exit/Enter commands (3)
+
+152. 163454_Wat Tyler - Act II_Southey, Robert_unknown.txt
+   Title: Wat Tyler - Act II
+   Author: Southey, Robert
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (56) + stage directions (3); Exit/Enter commands (5)
+
+153. 163473_Wat Tyler - Act III_Southey, Robert_unknown.txt
+   Title: Wat Tyler - Act III
+   Author: Southey, Robert
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1); Character dialogue (56) + stage directions (2); Exit/Enter commands (7)
+
+154. 168568_Song 1 from Rayner. Act 3_Baillie, Joanna_unknown.txt
+   Title: Song 1 from Rayner. Act 3
+   Author: Baillie, Joanna
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+155. 168575_Song from The Election_Baillie, Joanna_unknown.txt
+   Title: Song from The Election
+   Author: Baillie, Joanna
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+156. 179567_A Ho! A Ho! (Song )_Beddoes, Thomas Lovell_unknown.txt
+   Title: A Ho! A Ho! (Song )
+   Author: Beddoes, Thomas Lovell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+157. 179579_Poor Old Pilgrim Misery ( Song )_Beddoes, Thomas Lovell_unknown.txt
+   Title: Poor Old Pilgrim Misery ( Song )
+   Author: Beddoes, Thomas Lovell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+158. 179582_A Cypress-Bough, And A Rose-Wreath Sweet (Song)_Beddoes, Thomas Lovell_unknown.txt
+   Title: A Cypress-Bough, And A Rose-Wreath Sweet (Song)
+   Author: Beddoes, Thomas Lovell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+159. 179583_Wolfram's Dirge_Beddoes, Thomas Lovell_unknown.txt
+   Title: Wolfram's Dirge
+   Author: Beddoes, Thomas Lovell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+160. 179584_Song From The Waters_Beddoes, Thomas Lovell_unknown.txt
+   Title: Song From The Waters
+   Author: Beddoes, Thomas Lovell
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+161. 183237_Scene In Gethsemane_Willis, Nathaniel Parker_unknown.txt
+   Title: Scene In Gethsemane
+   Author: Willis, Nathaniel Parker
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+162. 183924_Sebastian of Portugal - Scene 1_Hemans, Felicia Dorothea_unknown.txt
+   Title: Sebastian of Portugal - Scene 1
+   Author: Hemans, Felicia Dorothea
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+163. 184011_Scene in a Dalecarlian Mine_Hemans, Felicia Dorothea_unknown.txt
+   Title: Scene in a Dalecarlian Mine
+   Author: Hemans, Felicia Dorothea
+   Confidence: very_high
+   Reasons: ACT/SCENE markers (1)
+
+164. 64479_Ode to the Cambro-Britons and their Harp, His Ballad of Agi_Drayton, Michael_unknown.txt
+   Title: Ode to the Cambro-Britons and their Harp, His Ballad of Agi
+   Author: Drayton, Michael
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+165. 70640_Trial by Jury_Gilbert, William Schwenck_unknown.txt
+   Title: Trial by Jury
+   Author: Gilbert, William Schwenck
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Exit/Enter commands (5)
+
+166. 71241_From Tancred_Rudulph, Tobias_unknown.txt
+   Title: From Tancred
+   Author: Rudulph, Tobias
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+167. 80588_Sarabande On Attaining The Age Of Seventy-Seven_Hecht, Anthony_unknown.txt
+   Title: Sarabande On Attaining The Age Of Seventy-Seven
+   Author: Hecht, Anthony
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+168. 96393_Supernatural Songs_Yeats, William Butler_unknown.txt
+   Title: Supernatural Songs
+   Author: Yeats, William Butler
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+169. 103548_Fand, A Feerie Act I_Blunt, Wilfrid Scawen_unknown.txt
+   Title: Fand, A Feerie  Act I
+   Author: Blunt, Wilfrid Scawen
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Exit/Enter commands (6)
+
+170. 111699_Rhodon And Iris. Prologue_Knevet, Ralph_unknown.txt
+   Title: Rhodon And Iris.  Prologue
+   Author: Knevet, Ralph
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+171. 114615_Nathan The Wise - Act I_Lessing, Gotthold Ephraim_unknown.txt
+   Title: Nathan The Wise  -  Act I
+   Author: Lessing, Gotthold Ephraim
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+172. 119303_The New Bath Guide- Part I, Letter I_Anstey, Christopher_unknown.txt
+   Title: The New Bath Guide: Part I, Letter I
+   Author: Anstey, Christopher
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+173. 141135_Rafe royster doyster_Udall, Nicholas_unknown.txt
+   Title: Rafe royster doyster
+   Author: Udall, Nicholas
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+174. 150560_Frying Pan's Theology_Paterson, A B Banjo_unknown.txt
+   Title: Frying Pan's Theology
+   Author: Paterson, A B Banjo
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+175. 155286_Boris Godunov_Pushkin, Alexander Sergeyevich_unknown.txt
+   Title: Boris Godunov
+   Author: Pushkin, Alexander Sergeyevich
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (460) + stage directions (43); Exit/Enter commands (9)
+
+176. 157510_Grafik_Herrera, Juan Felipe_unknown.txt
+   Title: Grafik
+   Author: Herrera, Juan Felipe
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+177. 159404_The Misanthrope Reclaimed - Act I_Sands, George W_unknown.txt
+   Title: The Misanthrope Reclaimed - Act I
+   Author: Sands, George W
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+178. 164507_Barabbas_Mitchell, Silas Weir_unknown.txt
+   Title: Barabbas
+   Author: Mitchell, Silas Weir
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (97) + stage directions (7); Dialogue exchange (6 consecutive character names)
+
+179. 172757_An Idyl Of The Road_Harte, Francis Bret_unknown.txt
+   Title: An Idyl Of The Road
+   Author: Harte, Francis Bret
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+180. 172822_Artemis In Sierra_Harte, Francis Bret_unknown.txt
+   Title: Artemis In Sierra
+   Author: Harte, Francis Bret
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+181. 177916_Hellas- A Lyrical Drama_Shelley, Percy Bysshe_unknown.txt
+   Title: Hellas: A Lyrical Drama
+   Author: Shelley, Percy Bysshe
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Exit/Enter commands (6)
+
+182. 181454_The Birth Of The Rail_Bierce, Ambrose_unknown.txt
+   Title: The Birth Of The Rail
+   Author: Bierce, Ambrose
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (8) + stage directions (2)
+
+183. 181543_Aspirants Three_Bierce, Ambrose_unknown.txt
+   Title: Aspirants Three
+   Author: Bierce, Ambrose
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (27) + stage directions (7); Exit/Enter commands (5); Dialogue exchange (7 consecutive character names)
+
+184. 181557_'Peaceable Expulsion'_Bierce, Ambrose_unknown.txt
+   Title: 'Peaceable Expulsion'
+   Author: Bierce, Ambrose
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (15) + stage directions (3)
+
+185. 181658_A Bad Night_Bierce, Ambrose_unknown.txt
+   Title: A Bad Night
+   Author: Bierce, Ambrose
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (16) + stage directions (6); Exit/Enter commands (5)
+
+186. 181767_Slickens_Bierce, Ambrose_unknown.txt
+   Title: Slickens
+   Author: Bierce, Ambrose
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE; Character dialogue (30) + stage directions (2)
+
+187. 185323_St. Agnes' Eve_Fearing, Kenneth_unknown.txt
+   Title: St. Agnes' Eve
+   Author: Fearing, Kenneth
+   Confidence: very_high
+   Reasons: DRAMATIS PERSONAE
+
+188. 62887_The Booker Washington Trilogy_Lindsay, Vachel_unknown.txt
+   Title: The Booker Washington Trilogy
+   Author: Lindsay, Vachel
+   Confidence: high
+   Reasons: Character dialogue (29) + stage directions (2)
+
+189. 103472_Fand, A Feerie Act III_Blunt, Wilfrid Scawen_unknown.txt
+   Title: Fand, A Feerie  Act III
+   Author: Blunt, Wilfrid Scawen
+   Confidence: high
+   Reasons: Exit/Enter commands (4)
+
+190. 103674_The Bride Of The Nile - Act II_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Bride Of The Nile - Act II
+   Author: Blunt, Wilfrid Scawen
+   Confidence: high
+   Reasons: Exit/Enter commands (3)
+
+191. 103745_The Bride Of The Nile - Act III_Blunt, Wilfrid Scawen_unknown.txt
+   Title: The Bride Of The Nile - Act III
+   Author: Blunt, Wilfrid Scawen
+   Confidence: high
+   Reasons: Exit/Enter commands (3)
+
+192. 104896_The Minstrel_Adams, Arthur Henry_unknown.txt
+   Title: The Minstrel
+   Author: Adams, Arthur Henry
+   Confidence: high
+   Reasons: Character dialogue (80) + stage directions (5)
+
+193. 110062_Ariel And Caliban_Cranch, Christopher Pearse_unknown.txt
+   Title: Ariel And Caliban
+   Author: Cranch, Christopher Pearse
+   Confidence: high
+   Reasons: Character dialogue (40) + stage directions (4); Exit/Enter commands (3)
+
+194. 111624_Rhodon And Iris. Act III_Knevet, Ralph_unknown.txt
+   Title: Rhodon And Iris.  Act III
+   Author: Knevet, Ralph
+   Confidence: high
+   Reasons: Character dialogue (5) + stage directions (2)
+
+195. 111632_Rhodon And Iris. Act IV_Knevet, Ralph_unknown.txt
+   Title: Rhodon And Iris.  Act IV
+   Author: Knevet, Ralph
+   Confidence: high
+   Reasons: Exit/Enter commands (5)
+
+196. 111648_Rhodon And Iris. Act I_Knevet, Ralph_unknown.txt
+   Title: Rhodon And Iris.  Act I
+   Author: Knevet, Ralph
+   Confidence: high
+   Reasons: Exit/Enter commands (6)
+
+197. 111656_Rhodon And Iris. Act V_Knevet, Ralph_unknown.txt
+   Title: Rhodon And Iris.  Act V
+   Author: Knevet, Ralph
+   Confidence: high
+   Reasons: Exit/Enter commands (9)
+
+198. 114613_Nathan The Wise - Act V_Lessing, Gotthold Ephraim_unknown.txt
+   Title: Nathan The Wise  -  Act V
+   Author: Lessing, Gotthold Ephraim
+   Confidence: high
+   Reasons: Character dialogue (257) + stage directions (2)
+
+199. 117465_Undivine Comedy_Krasinski, Zygmunt_unknown.txt
+   Title: Undivine Comedy
+   Author: Krasinski, Zygmunt
+   Confidence: high
+   Reasons: Character dialogue (25) + stage directions (2)
+
+200. 119294_Appendix- Containing The Author’s Conversation With His Bookseller, &c._Anstey, Christopher_unknown.txt
+   Title: Appendix: Containing The Author’s Conversation With His Bookseller, &c.
+   Author: Anstey, Christopher
+   Confidence: high
+   Reasons: Character dialogue (34) + stage directions (4); Exit/Enter commands (3)
+
+201. 122667_The Wild Knight_Chesterton, Gilbert Keith_unknown.txt
+   Title: The Wild Knight
+   Author: Chesterton, Gilbert Keith
+   Confidence: high
+   Reasons: Character dialogue (66) + stage directions (2)
+
+202. 163524_Magnificence_Skelton, John_unknown.txt
+   Title: Magnificence
+   Author: Skelton, John
+   Confidence: high
+   Reasons: Exit/Enter commands (13)
+
+203. 164436_The Miser_Mitchell, Silas Weir_unknown.txt
+   Title: The Miser
+   Author: Mitchell, Silas Weir
+   Confidence: high
+   Reasons: Character dialogue (54) + stage directions (6); Exit/Enter commands (3)
+
+204. 164442_Francis Drake_Mitchell, Silas Weir_unknown.txt
+   Title: Francis Drake
+   Author: Mitchell, Silas Weir
+   Confidence: high
+   Reasons: Character dialogue (294) + stage directions (41); Exit/Enter commands (19); Dialogue exchange (4 consecutive character names)
+
+205. 166494_The Secular Masque_Dryden, John Henry_unknown.txt
+   Title: The Secular Masque
+   Author: Dryden, John Henry
+   Confidence: high
+   Reasons: Exit/Enter commands (6)
+
+206. 168661_Mac Duff's Cross_Baillie, Joanna_unknown.txt
+   Title: Mac Duff's Cross
+   Author: Baillie, Joanna
+   Confidence: high
+   Reasons: Exit/Enter commands (3)
+
+207. 174637_The Quest Of Merlin- A Prelude_Hovey, Richard_unknown.txt
+   Title: The Quest Of Merlin: A Prelude
+   Author: Hovey, Richard
+   Confidence: high
+   Reasons: Character dialogue (117) + stage directions (6); Exit/Enter commands (9)
+
+208. 184598_Belshazzar. A Sacred Drama_More, Hannah_unknown.txt
+   Title: Belshazzar.  A Sacred Drama
+   Author: More, Hannah
+   Confidence: high
+   Reasons: Exit/Enter commands (7)
+
+209. 184608_Moses In The Bulrushes. A Sacred Drama_More, Hannah_unknown.txt
+   Title: Moses In The Bulrushes. A Sacred Drama
+   Author: More, Hannah
+   Confidence: high
+   Reasons: Exit/Enter commands (4)
+
+210. 184613_David And Goliath. A Sacred Drama_More, Hannah_unknown.txt
+   Title: David And Goliath. A Sacred Drama
+   Author: More, Hannah
+   Confidence: high
+   Reasons: Character dialogue (5) + stage directions (3); Exit/Enter commands (3)
+
+211. 184616_Daniel. A Sacred Drama_More, Hannah_unknown.txt
+   Title: Daniel.  A Sacred Drama
+   Author: More, Hannah
+   Confidence: high
+   Reasons: Exit/Enter commands (3)
+
+212. 184622_The Search After Happiness. A Pastoral Drama_More, Hannah_unknown.txt
+   Title: The Search After Happiness. A Pastoral Drama
+   Author: More, Hannah
+   Confidence: high
+   Reasons: Exit/Enter commands (3)
+
+213. 62954_The Firemen's Ball_Lindsay, Vachel_unknown.txt
+   Title: The Firemen's Ball
+   Author: Lindsay, Vachel
+   Confidence: medium
+   Reasons: Dialogue exchange (5 consecutive character names)
+
+214. 83051_Europe - Lines On The Present War_Heber, Reginald_unknown.txt
+   Title: Europe : Lines On The Present War
+   Author: Heber, Reginald
+   Confidence: medium
+   Reasons: Dialogue exchange (5 consecutive character names)
+
+215. 99871_Rhymed Plea For Tolerance - Dialogue II._Kenyon, John_unknown.txt
+   Title: Rhymed Plea For Tolerance - Dialogue II.
+   Author: Kenyon, John
+   Confidence: medium
+   Reasons: Dialogue exchange (11 consecutive character names)
+
+216. 99880_Rhymed Plea For Tolerance - Prefatory Dialogue_Kenyon, John_unknown.txt
+   Title: Rhymed Plea For Tolerance - Prefatory Dialogue
+   Author: Kenyon, John
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+217. 102642_Voices from the Other World_Merrill, James_unknown.txt
+   Title: Voices from the Other World
+   Author: Merrill, James
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+218. 106553_The Hunters_Kharms, Daniil Ivanovich_unknown.txt
+   Title: The Hunters
+   Author: Kharms, Daniil Ivanovich
+   Confidence: medium
+   Reasons: Dialogue exchange (15 consecutive character names)
+
+219. 132659_Epistles to Several Persons- Epistle to Dr. Arbuthnot_Pope, Alexander_unknown.txt
+   Title: Epistles to Several Persons: Epistle to Dr. Arbuthnot
+   Author: Pope, Alexander
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+220. 139632_The Witch's Ordeal_Roberts, Emma_unknown.txt
+   Title: The Witch's Ordeal
+   Author: Roberts, Emma
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+221. 141327_Fragment of a Greek Tragedy_Housman, A E_unknown.txt
+   Title: Fragment of a Greek Tragedy
+   Author: Housman, A E
+   Confidence: medium
+   Reasons: Dialogue exchange (10 consecutive character names)
+
+222. 145592_The Lover Of The Queen Of Sheba_Symons, Arthur_unknown.txt
+   Title: The Lover Of The Queen Of Sheba
+   Author: Symons, Arthur
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+223. 145626_Mary in Bethlehem- A Nativity_Symons, Arthur_unknown.txt
+   Title: Mary in Bethlehem: A Nativity
+   Author: Symons, Arthur
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+224. 145640_The Fool Of The World- A Morality_Symons, Arthur_unknown.txt
+   Title: The Fool Of The World: A Morality
+   Author: Symons, Arthur
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+225. 160758_Idyll IX. Pastorals_Theocritus_unknown.txt
+   Title: Idyll IX.  Pastorals
+   Author: Theocritus
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+226. 160785_Idyll V. The Battle of the Bards_Theocritus_unknown.txt
+   Title: Idyll V.  The Battle of the Bards
+   Author: Theocritus
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
+227. 172745_The Waste Land_Beer, John_unknown.txt
+   Title: The Waste Land
+   Author: Beer, John
+   Confidence: medium
+   Reasons: Dialogue exchange (4 consecutive character names)
+
