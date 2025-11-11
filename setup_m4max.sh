@@ -192,9 +192,64 @@ echo "  Use: ${YELLOW}poetry-env${NC} to activate environment"
 echo ""
 
 ################################################################################
-# 9. Security setup
+# 9. Setup coverletter_tagger
 ################################################################################
-echo "Step 9: Configuring security..."
+echo "Step 9: Setting up coverletter_tagger..."
+cd ~/
+
+if [ ! -d "coverletter_tagger" ]; then
+    git clone git@github.com:JustinStec/coverletter_tagger.git
+    cd coverletter_tagger
+    echo -e "${GREEN}✓ Repository cloned${NC}"
+else
+    echo "Repository already exists"
+    cd coverletter_tagger
+    git pull
+    echo -e "${GREEN}✓ Repository updated${NC}"
+fi
+
+# Create backend virtual environment
+echo "  Setting up backend environment..."
+cd backend
+python3.11 -m venv venv
+source venv/bin/activate
+
+# Install backend dependencies
+pip install --upgrade pip
+pip install fastapi uvicorn openai pyyaml pypdf2 sentence-transformers python-multipart python-dotenv
+
+# Prompt for OpenAI API key
+echo ""
+echo -e "${YELLOW}Please enter your OpenAI API key:${NC}"
+read -r OPENAI_KEY
+
+# Create .env file
+cat > .env << EOF
+OPENAI_API_KEY=$OPENAI_KEY
+EOF
+
+echo -e "${GREEN}✓ Backend setup complete${NC}"
+deactivate
+
+# Setup frontend
+cd ../frontend
+if command -v node &> /dev/null; then
+    echo "  Installing frontend dependencies..."
+    npm install
+    echo -e "${GREEN}✓ Frontend setup complete${NC}"
+else
+    echo -e "${YELLOW}! Node.js not installed, skipping frontend setup${NC}"
+    echo "  Install Node.js with: brew install node"
+fi
+
+cd ~/
+echo -e "${GREEN}✓ coverletter_tagger ready${NC}"
+echo ""
+
+################################################################################
+# 10. Security setup
+################################################################################
+echo "Step 10: Configuring security..."
 
 # Disable password authentication for SSH (keys only)
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.backup
@@ -212,7 +267,7 @@ echo -e "${GREEN}✓ Security configured${NC}"
 echo ""
 
 ################################################################################
-# 10. Display info
+# 11. Display info
 ################################################################################
 echo ""
 echo "=================================="
@@ -228,7 +283,7 @@ echo ""
 echo "  2. ${YELLOW}Test SSH from Air:${NC}"
 echo "     ssh m4max"
 echo ""
-echo "  3. ${YELLOW}Activate environment:${NC}"
+echo "  3. ${YELLOW}Activate Poetry BERT environment:${NC}"
 echo "     poetry-env"
 echo ""
 echo "  4. ${YELLOW}Start Jupyter (optional):${NC}"
@@ -237,6 +292,15 @@ echo "     (Access from Air: http://localhost:8888)"
 echo ""
 echo "  5. ${YELLOW}Test MLX:${NC}"
 echo "     python -c 'import mlx.core as mx; print(mx.array([1, 2, 3]))'"
+echo ""
+echo "  6. ${YELLOW}Run coverletter_tagger backend:${NC}"
+echo "     cd ~/coverletter_tagger/backend"
+echo "     source venv/bin/activate"
+echo "     uvicorn api.main:app --host 0.0.0.0 --port 8000"
+echo ""
+echo "Projects installed:"
+echo "  ${GREEN}✓${NC} ~/poetry-bert-formalism"
+echo "  ${GREEN}✓${NC} ~/coverletter_tagger"
 echo ""
 echo "Useful commands:"
 echo "  ${YELLOW}tmux new -s training${NC}  - Start persistent session"
