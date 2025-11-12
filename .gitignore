@@ -24,7 +24,19 @@ models/*.pt
 models/*.pth
 models/*.bin
 
-# Data (large files)
+# Data - New structure for HEPC (Historical English Poetry Corpus)
+# Large corpus data (only on M4 Max - 116K poems, 551MB)
+Data/corpus/texts/
+Data/corpus/metadata.csv
+Data/corpus/statistics.txt
+
+# Datasets (Shakespeare etc - only on M4 Max)
+Data/datasets/
+
+# Archive (old files, not needed in git)
+Data/archive/
+
+# Legacy data structure (deprecated)
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
