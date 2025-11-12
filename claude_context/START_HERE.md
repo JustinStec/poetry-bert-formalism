@@ -216,7 +216,24 @@ The key facts:
 - Username: jts3et (NOT justinstec)
 - Status: ✅ Logged in with Claude-specific token
 - Token: ~/.cache/claude_hf/token
-- Models: 0 uploaded (EEBO-BERT not uploaded yet)
+- Models: 1 uploaded
+  - ✅ EEBO-BERT: https://huggingface.co/jts3et/eebo-bert (418MB)
+
+### Google Drive API Access
+- Service account: poetry-bert-service@poetry-bert-training.iam.gserviceaccount.com
+- Credentials: `.credentials/poetry-bert-service-account.json`
+- Scopes: drive.readonly
+- Use for: Downloading models from Google Drive when Drive for Desktop has sync issues
+- Example:
+  ```python
+  from google.oauth2 import service_account
+  from googleapiclient.discovery import build
+
+  credentials = service_account.Credentials.from_service_account_file(
+      '.credentials/poetry-bert-service-account.json',
+      scopes=['https://www.googleapis.com/auth/drive.readonly'])
+  service = build('drive', 'v3', credentials=credentials)
+  ```
 
 ---
 
