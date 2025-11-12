@@ -3,8 +3,21 @@
 **ONE Integrated Layered Model: Historical BERTs → Poetry Specialization → Prosodic Conditioning → Classification**
 
 > 📖 **For Claude**: Read `claude_context/START_HERE.md` first - complete architecture overview
+> 🎯 **Current Work**: See `claude_context/PRAGMATIC_WORKFLOW.md` - two-track approach
 > 📐 **Full Details**: See `claude_context/ARCHITECTURE_CORRECT.md`
 > ⚠️ **AVOID**: `docs/COMPLETE_MODEL_PLAN.md` is outdated and incorrect
+
+## Current Status (November 12, 2025)
+
+**Track 1 - Get Metadata NOW (In Progress)**:
+- Fine-tune simple LLM (Llama-3/Mistral) on 397 poems → Classify 116K HEPC corpus
+- Status: Ready to start formatting instruction dataset
+- Timeline: ~1 week to complete
+
+**Track 2 - Build Full Layered Model (Long-term)**:
+- Need HathiTrust corpora for Layers 1-3
+- EEBO-BERT (Layer 1, 1595-1700) complete
+- Blocked on corpus acquisition
 
 ---
 

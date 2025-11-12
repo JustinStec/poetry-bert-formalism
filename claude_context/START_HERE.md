@@ -213,9 +213,10 @@ The key facts:
 - Status: ✅ Synced (Phase 3 work committed Nov 12)
 
 ### HuggingFace
-- Username: justinstec
-- Status: Not logged in (need token)
-- Models: Unknown if EEBO-BERT uploaded
+- Username: jts3et (NOT justinstec)
+- Status: ✅ Logged in with Claude-specific token
+- Token: ~/.cache/claude_hf/token
+- Models: 0 uploaded (EEBO-BERT not uploaded yet)
 
 ---
 
@@ -242,11 +243,22 @@ The key facts:
 
 ## Timeline & Next Steps
 
-### Immediate (This Week)
+### TWO-TRACK APPROACH (See claude_context/PRAGMATIC_WORKFLOW.md)
+
+**Track 1: Get Metadata NOW (Priority)**
 1. ✅ System reorganization - COMPLETE
-2. Decide on workaround: Train Layer 2 on EEBO-BERT only? Or pursue HathiTrust?
-3. If EEBO-only: Collect Shakespeare + subset of poetry corpus
-4. If HathiTrust: Begin access request process
+2. ✅ 397 training poems prepared - COMPLETE
+3. ✅ HuggingFace login - COMPLETE
+4. ➡️ Format instruction-tuning dataset (NEXT)
+5. ➡️ Fine-tune Llama-3/Mistral on M4 Max (1-2 hours)
+6. ➡️ Run inference on 116K corpus (12-24 hours)
+7. ➡️ Get rich metadata for entire HEPC corpus
+
+**Track 2: Build Full Model (Long-term)**
+1. Pursue HathiTrust access (18th-20th century corpora)
+2. Collect 17.7M poetry lines
+3. Train complete Layers 1+2+3
+4. Use richly-annotated corpus for deep analysis
 
 ### Short-Term (December 2025)
 1. Acquire 18th-20th century HathiTrust corpora
