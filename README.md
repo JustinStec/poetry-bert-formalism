@@ -1,6 +1,10 @@
 # Layered BERT Architecture for Poetry Analysis
 
-**Three-Layer Model for Semantic Complexity in Early Modern Poetry**
+**ONE Integrated Layered Model: Historical BERTs → Poetry Specialization → Prosodic Conditioning → Classification**
+
+> 📖 **For Claude**: Read `claude_context/START_HERE.md` first - complete architecture overview
+> 📐 **Full Details**: See `claude_context/ARCHITECTURE_CORRECT.md`
+> ⚠️ **AVOID**: `docs/COMPLETE_MODEL_PLAN.md` is outdated and incorrect
 
 ---
 

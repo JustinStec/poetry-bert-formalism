@@ -1,12 +1,22 @@
-# Complete Model Development Plan
-## Poetry BERT Formalism Project
+# ⚠️ OUTDATED - DO NOT USE
 
-**Last Updated**: November 12, 2025
-**Status**: Phase 3B in progress
+**This document is INCORRECT and should not be used.**
+
+**Use instead**: `claude_context/START_HERE.md` or `claude_context/ARCHITECTURE_CORRECT.md`
+
+**Why this is wrong**: This document incorrectly describes the project as "two parallel model systems" (System A and System B). The actual architecture is ONE integrated layered system where everything builds on historical BERTs.
 
 ---
 
-## Overview: Two Parallel Model Systems
+# ~~Complete Model Development Plan~~ (OUTDATED)
+## ~~Poetry BERT Formalism Project~~ (INCORRECT)
+
+**Last Updated**: November 12, 2025
+**Status**: DEPRECATED - Replaced by claude_context/ARCHITECTURE_CORRECT.md
+
+---
+
+## ~~Overview: Two Parallel Model Systems~~ (WRONG - IT'S ONE INTEGRATED SYSTEM)
 
 This project develops **two distinct model systems** for poetry analysis:
 
