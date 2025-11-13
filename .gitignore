@@ -19,16 +19,25 @@ build/
 .coverage
 htmlcov/
 
-# Model checkpoints
+# Model checkpoints and downloads
 models/*.pt
 models/*.pth
 models/*.bin
+models/
+
+# Downloaded NLP data (gensim, nltk, prosodic)
+gensim-data/
+nltk_data/
+prosodic_data/
 
 # Data - New structure for HEPC (Historical English Poetry Corpus)
 # Large corpus data (only on M4 Max - 116K poems, 551MB)
 Data/corpus/texts/
 Data/corpus/metadata.csv
 Data/corpus/statistics.txt
+
+# Classification output (on HuggingFace, too large for git - 34MB)
+Data/classified_poems_complete.csv
 
 # Datasets (Shakespeare etc - only on M4 Max)
 Data/datasets/

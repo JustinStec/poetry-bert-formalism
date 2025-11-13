@@ -232,15 +232,21 @@ The key facts:
 ### HuggingFace
 - Username: jts3et (NOT justinstec)
 - Status: ✅ Logged in with Claude-specific token
-- Token: ~/.cache/claude_hf/token
+- Token: ~/.cache/claude_hf/token (38 bytes, last verified Nov 12, 2025 7:21 PM)
 - Models: 1 uploaded
   - ✅ EEBO-BERT: https://huggingface.co/jts3et/eebo-bert (418MB)
+- Datasets: 1 uploaded
+  - ✅ HEPC Classifications: https://huggingface.co/datasets/jts3et/hepc-classified-poems (36MB, uploaded Nov 12, 2025)
 
-### Google Drive API Access
-- Service account: poetry-bert-service@poetry-bert-training.iam.gserviceaccount.com
-- Credentials: `.credentials/poetry-bert-service-account.json`
-- Scopes: drive.readonly
-- Use for: Downloading models from Google Drive when Drive for Desktop has sync issues
+### Google Drive
+- **Desktop Client**: `/Users/justin/Library/CloudStorage/GoogleDrive-stecj2700@gmail.com/My Drive`
+  - Phase 3B Backup: `AI_Project_Phase3B_Backup/` (created Nov 12, 2025)
+  - Contains: `classified_poems_complete.csv`, `PHASE3B_COMPLETION_SUMMARY.md`, `merge_classifications.py`
+- **API Access** (alternative when Desktop has sync issues):
+  - Service account: poetry-bert-service@poetry-bert-training.iam.gserviceaccount.com
+  - Credentials: `.credentials/poetry-bert-service-account.json` (2.3KB, Nov 4, 2025)
+  - Scopes: drive.readonly
+  - Use for: Downloading models programmatically
 - Example:
   ```python
   from google.oauth2 import service_account
@@ -286,15 +292,15 @@ The key facts:
 4. ✅ Format instruction-tuning dataset - COMPLETE (357 train, 40 val)
 5. ✅ Fine-tune Mistral-7B - COMPLETE but FAILED (model didn't learn)
    - Only generated "structure" repeatedly - insufficient training
-6. 🔄 **Fine-tune Llama-3-8B** - IN PROGRESS (10k iter, batch 3)
-   - Started: 3:06 PM EST
-   - ETA: 8-9 PM EST (5-6 hours)
-   - Process: M4 Max with caffeinate (PID 48729)
-   - SSL issue FIXED (urllib3 downgraded)
-   - Monitor: `ssh justin@100.65.21.63 "tail -50 ~/poetry-bert-formalism/training_llama3_10k.log"`
-7. ⏸️ Validate on 40 hold-out poems - Awaiting training
-8. ⏸️ Run inference on 116K corpus (12-24 hours) - Awaiting validation
-9. ⏸️ Get rich metadata for entire HEPC corpus - Awaiting inference
+6. ✅ **Phase 3B: Direct Claude Code Classification** - COMPLETE (Nov 12, 2025)
+   - Method: Pattern-based heuristics instead of LLM fine-tuning
+   - Classified all 116,674 HEPC poems across 28 dimensions
+   - Parallel processing: 5 sessions, ~200-400 poems/min
+   - Output: `data/classified_poems_complete.csv` (34 MB)
+   - Uploaded to: https://huggingface.co/datasets/jts3et/hepc-classified-poems
+   - Backed up to: Google Drive, GitHub, M4 Max
+   - Documentation: `scripts/phase3/PHASE3B_COMPLETION_SUMMARY.md`
+   - Note: Interim solution using heuristics, not model-based classification
 
 **Track 2: Build Full Model (Long-term)**
 1. Pursue HathiTrust access (18th-20th century corpora)
@@ -339,8 +345,11 @@ The key facts:
 
 ---
 
-**Last Updated**: November 12, 2025, 3:10 PM EST
-**Current Status**: Llama-3-8B training IN PROGRESS (10k iter, batch 3)
-**Training Started**: 3:06 PM EST, ETA 8-9 PM EST
-**Previous Attempt**: Mistral-7B failed (model didn't learn, only generated "structure")
-**MacBook Air**: Can be closed - training running on M4 Max with caffeinate
+**Last Updated**: November 12, 2025, 7:21 PM EST
+**Current Status**: Phase 3B Classification COMPLETE
+**Track 1 Status**: ✅ All 116,674 HEPC poems classified (pattern-based heuristics)
+**Outputs**:
+  - CSV: `data/classified_poems_complete.csv` (34 MB)
+  - HuggingFace: https://huggingface.co/datasets/jts3et/hepc-classified-poems
+  - Backups: Google Drive, GitHub, M4 Max
+**Next Steps**: Begin Track 2 (full layered model) or use classified data for analysis
