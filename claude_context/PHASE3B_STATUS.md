@@ -1,7 +1,11 @@
 # Phase 3B Status - LLM Classification Training
 
 **Date**: November 12, 2025
-**Status**: Dataset formatted, ready for training
+**Status**: ✅ Training COMPLETE (Mistral-7B with MLX LoRA)
+**Duration**: 49.7 minutes (12:35 PM - 1:25 PM EST)
+**Final Loss**: Train 6.486, Val 6.505
+**Memory**: 28.419 GB peak (batch size 1)
+**Model**: `/Users/justin/poetry-bert-formalism/models/poetry-classifier-mistral7b/`
 
 ---
 
@@ -110,9 +114,49 @@ rhyme: [value]
 
 ---
 
-## Next Steps
+---
 
-### 1. Choose Base Model
+## Validation Script (NEW)
+
+**Script**: `scripts/phase3/validate_classifier.py`
+
+**Purpose**: Test fine-tuned model on 40 hold-out poems and calculate accuracy metrics
+
+**Features**:
+- Loads fine-tuned Mistral-7B with MLX
+- Runs inference on 40 validation poems
+- Parses structured output (28 fields)
+- Calculates per-field accuracy
+- Exact match accuracy (all fields correct)
+- Saves detailed results to JSON
+
+**Usage**:
+```bash
+# Run validation on final model (iteration 1000)
+ssh justin@100.65.21.63
+cd ~/poetry-bert-formalism
+python3 scripts/phase3/validate_classifier.py
+
+# Or test best checkpoint (iteration 800)
+python3 scripts/phase3/validate_classifier.py --checkpoint 800
+```
+
+**Expected Time**: 5-10 minutes for 40 poems
+
+**Output**:
+- Console: Per-field accuracy breakdown by category
+- File: `results/validation_results.json` with detailed metrics
+
+**Success Criteria**:
+- ✅ Average accuracy >= 80% → Ready for corpus inference
+- ⚠️ Average accuracy 70-80% → Review low-accuracy fields
+- ✗ Average accuracy < 70% → Consider additional training
+
+---
+
+## Next Steps After Validation
+
+### 1. Choose Base Model (COMPLETED - Mistral-7B)
 
 **Option A: Llama-3-8B** (Recommended)
 - Model: `meta-llama/Meta-Llama-3-8B-Instruct`

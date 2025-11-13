@@ -10,9 +10,11 @@
 ## Current Status (November 12, 2025)
 
 **Track 1 - Get Metadata NOW (In Progress)**:
-- Fine-tune simple LLM (Llama-3/Mistral) on 397 poems → Classify 116K HEPC corpus
-- Status: Ready to start formatting instruction dataset
-- Timeline: ~1 week to complete
+- ✅ Formatted instruction dataset (357 train, 40 val)
+- ✅ **Training COMPLETE** - Mistral-7B (49.7 min, losses 6.486/6.505)
+- 📋 Next: Validate on 40 poems → Run inference on 116K HEPC corpus
+- Model: `/Users/justin/poetry-bert-formalism/models/poetry-classifier-mistral7b/`
+- Timeline: ~2-3 days remaining
 
 **Track 2 - Build Full Layered Model (Long-term)**:
 - Need HathiTrust corpora for Layers 1-3

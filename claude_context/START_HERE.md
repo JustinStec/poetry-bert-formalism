@@ -177,9 +177,26 @@ HEPC CORPUS: 116,674 Historical English Poetry (Medieval-20th Century)
 
 ---
 
-## What You Should Tell Me
+## Working With This Project (Instructions for Claude)
 
-When I get confused again, point me to this file and tell me:
+### When User Asks to "Document Progress" or "Update Documentation"
+
+**ALWAYS UPDATE existing documentation, DO NOT create new files.**
+
+Files to update:
+- `claude_context/START_HERE.md` - Overall project status
+- `claude_context/PHASE3B_STATUS.md` - Phase 3B specific status
+- `claude_context/PHASE3B_TRAINING_LOG.md` - Training progress and details
+- `README.md` - User-facing project overview
+
+**Exception**: Only create NEW documentation when:
+1. Starting a completely new phase/track
+2. User explicitly asks for a new document
+3. Creating initial documentation for a new component
+
+### When I Get Confused
+
+Point me to this file and tell me:
 
 **"Read claude_context/START_HERE.md - this is ONE integrated layered architecture, not two separate systems."**
 
@@ -266,10 +283,18 @@ The key facts:
 1. ✅ System reorganization - COMPLETE
 2. ✅ 397 training poems prepared - COMPLETE
 3. ✅ HuggingFace login - COMPLETE
-4. ➡️ Format instruction-tuning dataset (NEXT)
-5. ➡️ Fine-tune Llama-3/Mistral on M4 Max (1-2 hours)
-6. ➡️ Run inference on 116K corpus (12-24 hours)
-7. ➡️ Get rich metadata for entire HEPC corpus
+4. ✅ Format instruction-tuning dataset - COMPLETE (357 train, 40 val)
+5. ✅ Fine-tune Mistral-7B - COMPLETE but FAILED (model didn't learn)
+   - Only generated "structure" repeatedly - insufficient training
+6. 🔄 **Fine-tune Llama-3-8B** - IN PROGRESS (10k iter, batch 3)
+   - Started: 3:06 PM EST
+   - ETA: 8-9 PM EST (5-6 hours)
+   - Process: M4 Max with caffeinate (PID 48729)
+   - SSL issue FIXED (urllib3 downgraded)
+   - Monitor: `ssh justin@100.65.21.63 "tail -50 ~/poetry-bert-formalism/training_llama3_10k.log"`
+7. ⏸️ Validate on 40 hold-out poems - Awaiting training
+8. ⏸️ Run inference on 116K corpus (12-24 hours) - Awaiting validation
+9. ⏸️ Get rich metadata for entire HEPC corpus - Awaiting inference
 
 **Track 2: Build Full Model (Long-term)**
 1. Pursue HathiTrust access (18th-20th century corpora)
@@ -314,5 +339,8 @@ The key facts:
 
 ---
 
-**Last Updated**: November 12, 2025
-**Next Update**: When we decide EEBO-only vs HathiTrust path
+**Last Updated**: November 12, 2025, 3:10 PM EST
+**Current Status**: Llama-3-8B training IN PROGRESS (10k iter, batch 3)
+**Training Started**: 3:06 PM EST, ETA 8-9 PM EST
+**Previous Attempt**: Mistral-7B failed (model didn't learn, only generated "structure")
+**MacBook Air**: Can be closed - training running on M4 Max with caffeinate
